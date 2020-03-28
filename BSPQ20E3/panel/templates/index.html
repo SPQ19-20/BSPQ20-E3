@@ -1,0 +1,75 @@
+{% extends 'basewithbar.html'%}
+{% block content %}
+<div id="layoutSidenav_content">
+	<main>
+		<div class="container-fluid">
+			<div class="row mt-4">
+				<div class="col-xl-6">
+					<div class="card mb-4">
+						<div class="card-header"><i class="fas fa-chart-area mr-1"></i>Gr1</div>
+						<div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="card mb-4">
+						<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Gr2</div>
+						<div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-4">
+				<div class="card-header"><i class="fas fa-table mr-1"></i>Tabla</div>
+				<div class="card-body">
+					<div class="table-responsive">
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<thead>
+								<tr>
+									<th>c1</th>
+									<th>c2</th>
+									<th>c3</th>
+									<th>c4</th>
+									<th>c5</th>
+									<th>c6</th>
+									<th>c7</th>
+									<th>c8</th>
+									<th>c9</th>
+									<th>c10</th>
+									<th>c11</th>
+									<th>c12</th>
+									<th>c13</th>
+								</tr>
+							</thead>
+							<tbody>
+								{% for a in data %}
+									<tr>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+								{% endfor %}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="py-4 bg-light mt-auto">
+		<div class="container-fluid">
+			<div class="d-flex align-items-center justify-content-between small">
+				<div class="text-muted">Copyright &copy; BSPQ20-E3 2020</div>
+			</div>
+		</div>
+	</footer>
+</div>
+{% endblock%}

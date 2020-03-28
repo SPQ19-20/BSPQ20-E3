@@ -1,0 +1,31 @@
+{% extends 'base.html'%}
+{% load bootstrap3 %}
+
+{% block base %}
+<div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading">Main</div>
+                    <a class="nav-link" href="/">
+                        <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
+                        <div class="sb-nav-link-icon"><i class="fas fa-circle-notch fa-spin"></i></div>
+                    Dashboard</a>
+                    <a class="nav-link" href="/">
+                        <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
+                        <div class="sb-nav-link-icon"><i class="fas fa-bars"></i></div>
+                    Live Log</a>
+                    <div class="sb-sidenav-menu-heading">Configuration</div>
+                    <a class="nav-link" href="/">
+                        <div class="sb-nav-link-icon"><i class="fas fa-cogs"></i></div>
+                    Settings</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    {% block content %}
+
+    {% endblock %}
+</div>
+{% endblock %}
