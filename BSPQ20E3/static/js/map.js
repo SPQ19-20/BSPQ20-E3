@@ -24,19 +24,21 @@ d3.queue()
   .await(ready);
 
  
+  var offsetL = document.getElementById('map').offsetLeft+10;
+  var offsetT = document.getElementById('map').offsetTop+10;
+
+  var path = d3.geo.path()
+      .projection(projection);
+
+  var tooltip = d3.select("#map")
+       .append("div")
+       .attr("class", "tooltip hidden");
 
 
 
 function ready(error, topo) {
 
-  let mouseMove = function(d) {
-    label = d.properties.name ;
-    var mouse = d3.mouse(svg.node())
-      .map( function(d) { return parseInt(d); } );
-    tooltip.classed("hidden", false)
-      .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-      .html(label);
-  }
+
 
 
   let mouseOver = function(d) {
@@ -49,6 +51,7 @@ function ready(error, topo) {
       .duration(200)
       .style("opacity", 1)
       .style("stroke", "transparent")
+  
   }
 
   let mouseLeave = function(d) {
@@ -82,5 +85,12 @@ function ready(error, topo) {
       .style("opacity", .8)
       .on("mouseover", mouseOver )
       .on("mouseleave", mouseLeave )
-      .on("mousemove", mouseMove)
+      .on("mousemove",   function (d) {
+        label = `${d.properties.name}:${data.get(d.properties.name)} confirmed cases`;
+        var mouse = d3.mouse(svg.node())
+          .map( function(d) { return parseInt(d); } );
+        tooltip.classed("hidden", false)
+          .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
+          .html(label);
+      })
     }
