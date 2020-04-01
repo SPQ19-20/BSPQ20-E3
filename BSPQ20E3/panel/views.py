@@ -1,9 +1,23 @@
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.http import HttpResponse
+from django.template import RequestContext
+from django.http import HttpResponse
+from .models import Entry
+import os
+import time
+import datetime
+
+
+
+
 
 # Create your views here.
 def index(req):
-	return render(req, 'index.html', {})
+	#Test para ver si inserta bien los datos
+	#entry = Entry(CCAA="ComPrueba",Confirmados=999, Fecha= "1-1-1991")
+	#entry.save()
+	prueba = Entry.objects()
+	return render(req, 'index.html', {'data' : prueba})
 
 def settings(req):
 	return render(req, 'settings.html', {
