@@ -11,11 +11,11 @@ def get_csv_from_github(url=None, date=None):
 
         default value: see https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 
-    date -> dd-mm-yyyy
+    date: dd-mm-yyyy
 
         default value: today's date
 
-    return -> leaves a "file.csv" with updated data from the date given
+    return: leaves a "file.csv" with updated data from the date given
     """
 
     # default values for "url" and "date" parameters
@@ -53,7 +53,7 @@ def get_updated_csvs(seconds=3600, url=None, date=None):
 
         default value: see https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 
-    date -> dd-mm-yyyy
+    date: dd-mm-yyyy
 
         default value: today's date
     """
