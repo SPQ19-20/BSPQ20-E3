@@ -7,10 +7,6 @@ import os
 import time
 import datetime
 
-
-
-
-
 # Create your views here.
 def index(req):
 	#Test para ver si inserta bien los datos
@@ -23,5 +19,11 @@ def index(req):
 	return render(req, 'index.html', {'data' : prueba})
 
 def settings(req):
-	return render(req, 'settings.html', {
-    })
+	return render(req, 'settings.html', { })
+
+def livelog(req):
+	prueba = Data.objects()
+	return render(req, 'livelogtest.html', { 'data' : prueba })
+
+def accounts(req):
+	return render(req, 'login.html', { })

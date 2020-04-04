@@ -9,13 +9,13 @@
                 <div class="nav">
                     <div class="sb-sidenav-menu-heading">Main</div>
                     <a class="nav-link" href="/">
-                        <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
-                        <div class="sb-nav-link-icon"><i class="fas fa-circle-notch fa-spin"></i></div>
+                        <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div> fa-spin-->
+                        <div class="sb-nav-link-icon"><i class="fas fa-circle-notch "></i></div>
                     Dashboard</a>
-                    <a class="nav-link" href="/">
+                    <a class="nav-link" href="/livelog">
                         <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
                         <div class="sb-nav-link-icon"><i class="fas fa-bars"></i></div>
-                    Live Log</a>
+                    Live Log <i class="ml-3 fas fa-exclamation-triangle"></i></a>
                     <div class="sb-sidenav-menu-heading">Configuration</div>
                     <a class="nav-link" href="/">
                         <div class="sb-nav-link-icon"><i class="fas fa-cogs"></i></div>
@@ -24,8 +24,10 @@
             </div>
         </nav>
     </div>
+
     {% block content %}
 
     {% endblock %}
+
 </div>
 {% endblock %}
