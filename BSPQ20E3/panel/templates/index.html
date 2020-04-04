@@ -24,11 +24,11 @@
 						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 							<thead>
 								<tr>
-									<th>CCAA</th>
-									<th>Conf</th>
-									<th>Fecha</th>
-									<th>c4</th>
-									<th>c5</th>
+									<th>Country_Region</th>
+									<th>Confirmed</th>
+									<th>Deaths</th>
+									<th>Recovered</th>
+									<th>Last_Update</th>
 									<th>c6</th>
 									<th>c7</th>
 									<th>c8</th>
@@ -42,11 +42,11 @@
 							<tbody>
 								{% for a in data %}
 									<tr>
-										<td>{{a.CCAA}}</td>
-										<td>{{a.Confirmados}}</td>
-										<td>{{a.Fecha}}</td>
-										<td></td>
-										<td></td>
+										<td>{{a.Country_Region}}</td>
+										<td>{{a.Confirmed}}</td>
+										<td>{{a.Deaths}}</td>
+										<td>{{a.Recovered}}</td>
+										<td>{{a.Last_Update}}</td>
 										<td></td>
 										<td></td>
 										<td></td>
