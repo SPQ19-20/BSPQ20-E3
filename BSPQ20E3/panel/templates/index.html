@@ -10,9 +10,9 @@
 	<div class="panel with-nav-tabs panel-default">
 		<div class="panel-heading">
 			<div class="nav-scroller bg-white shadow-sm">
-				<nav class="nav nav-underline">
-					<a class="nav-link active" href="#tab1default" data-toggle="tab">Dashboard</a>
-					<a class="nav-link" href="#tab2default" data-toggle="tab"> With number <span class="badge badge-pill bg-light align-text-bottom">27</span> </a>
+				<nav class="nav nav-underline justify-content-center">
+					<a class="nav-link active" href="#tab1default" data-toggle="tab">Overall</a>
+					<a class="nav-link" href="#tab2default" data-toggle="tab">Countries<span class="badge badge-pill bg-light align-text-bottom">27</span> </a>
 					<a class="nav-link" href="#tab3default" data-toggle="tab">Evolution</a>
 					<a class="nav-link" href="#tab4default" data-toggle="tab">Social media</a>
 					<a class="nav-link" href="#tab5default" data-toggle="tab">Recommendations</a>
@@ -27,15 +27,27 @@
 
 					<div class="container-fluid">
 						<div class="row mt-4">
-							<div class="col-xl-6">
-								<div class="card mb-4">
-									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Heatmap</div>
+							<div class="col ">
+								<div class="card mb-4 center-block ">
+									<div class="card-header">
+										<i class="fas fa-chart-bar mr-1"></i>Heatmap
+									</div>
 									<div id="map"></div>
 									<svg id="my_dataviz" width="400" height="300"></svg>
 								</div>
 							</div>
+						</div>
+
+
+						<div class="row mt-1">
 							<div class="col-xl-6">
-								<div class="card mb-4">
+								<div class="card mb-2">
+									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Gr1</div>
+									<div id="aa"></div>
+								</div>
+							</div>
+							<div class="col-xl-6">
+								<div class="card mb-2">
 									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Gr2</div>
 									<div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
 								</div>

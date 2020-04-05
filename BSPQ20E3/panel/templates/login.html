@@ -1,37 +1,119 @@
 {% extends 'basewithbar.html'%}
+{% load static %}
 
 {% block title %}
 <title>Live log</title>
 {% endblock%}
 
-{% block content %}
-	<div id="layoutSidenav_content" class="mx-auto mt-5">
-		<main>
-			<div class="container-fluid text-center">
-				<form class="form-signin">
-					<img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-					<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-					<label for="inputEmail" class="sr-only">Email address</label>
-					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-					<label for="inputPassword" class="sr-only">Password</label>
-					<input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-					<div class="checkbox mb-3">
-						<label>
-							<input type="checkbox" value="remember-me"> Remember me
-						</label>
-					</div>
-					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-					<p class="mt-5 mb-3 text-muted">© 2017-2018</p>
-				</form>
+{% block css %}
+<link href="{% static 'css/login.css' %}" rel="stylesheet" />
+{% endblock%}
 
+{% block content %}
+<div id="layoutSidenav_content">
+
+	<div class="panel with-nav-tabs panel-default">
+		<div class="panel-heading">
+			<div class="nav-scroller bg-white shadow-sm">
+				<nav class="nav nav-underline justify-content-center">
+					<a class="nav-link active" href="#tab1default" data-toggle="tab">Login</a>
+					<a class="nav-link" href="#tab2default" data-toggle="tab">Register</a>
+				</nav>
 			</div>
-		</main>
-		<footer class="py-4 bg-light mt-auto">
-			<div class="container-fluid">
-				<div class="d-flex align-items-center justify-content-between small">
-					<div class="text-muted">Copyright &copy; BSPQ20-E3 2020</div>
+		</div>
+		<div class="panel-body">
+			<div class="tab-content">
+				<!--TAB 1-->
+				<div class="tab-pane fade show active" id="tab1default">
+
+					<div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+						<div class="card card-signin my-5">
+							<div class="card-body">
+								<h5 class="card-title text-center">Sign In</h5>
+								<form class="form-signin">
+									<div class="form-label-group">
+										<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+										<label for="inputEmail">Email address</label>
+									</div>
+
+									<div class="form-label-group">
+										<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+										<label for="inputPassword">Password</label>
+									</div>
+
+									<div class="custom-control custom-checkbox mb-3">
+										<input type="checkbox" class="custom-control-input" id="customCheck1">
+										<label class="custom-control-label" for="customCheck1">Remember password</label>
+									</div>
+									<button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+									<a class="d-block text-center mt-2 small" href="#tab2default">Sign Up</a>
+
+									<hr class="my-4">
+									<button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+									<button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--FINAL TAB 1-->
+
+				<div class="tab-pane fade" id="tab2default">
+					<div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card card-signin flex-row my-5">
+          <div class="card-img-left d-none d-md-flex">
+             <!-- Background image for card set in CSS! -->
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Register</h5>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+                <label for="inputUserame">Username</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                <label for="inputEmail">Email address</label>
+              </div>
+              
+              <hr>
+
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">Password</label>
+              </div>
+              
+              <div class="form-label-group">
+                <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                <label for="inputConfirmPassword">Confirm password</label>
+              </div>
+
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
+              <a class="d-block text-center mt-2 small" href="#tab1default">Sign In</a>
+              <hr class="my-4">
+              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
 				</div>
 			</div>
-		</footer>
+		</div>
 	</div>
+	<main>
+		
+
+		
+	</main>
+	<footer class="py-4 bg-light mt-auto">
+		<div class="container-fluid">
+			<div class="d-flex align-items-center justify-content-between small">
+				<div class="text-muted">Copyright &copy; BSPQ20-E3 2020</div>
+			</div>
+		</div>
+	</footer>
+</div>
 {% endblock%}
