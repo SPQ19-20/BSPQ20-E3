@@ -4459,6 +4459,7 @@ input[type=button].btn-block {
 }
 
 .card-header {
+  text-align: center;
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
@@ -10148,7 +10149,7 @@ body {
 }
 .sb-nav-fixed #layoutSidenav #layoutSidenav_content {
   padding-left: 225px;
-  top: 56px;
+  top: 0px;
 }
 
 #layoutError {
