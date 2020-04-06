@@ -1,21 +1,24 @@
+var margin = {top: 50, right: 30, bottom: 30, left: 60},
+    width = 1150 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
 
 // The svg
-var svg = d3.select("svg"),
-  width = +svg.attr("width"),
-  height = +svg.attr("height");
+var svg = d3.select("svg")
+.attr("width", width + margin.left + margin.right)
+.attr("height", height + margin.top + margin.bottom)
 
 // Map and projection
 var path = d3.geoPath();
 var projection = d3.geoMercator()
-  .scale(90)
-  .center([0,20])
+  .scale(125)
+  .center([0,40])
   .translate([width / 2-50, height / 2]);
 
 // Data and color scale
 var data = d3.map();
 var colorScale = d3.scaleThreshold()
-  .domain([0, 1000, 1000, 10000, 30000, 100000])
-  .range(d3.schemeReds[7]);
+  .domain([0,5, 10, 100, 1000, 10000, 30000, 100000,200000])
+  .range(d3.schemeReds[9]);
 
 // Load external data and boot
 d3.queue()
