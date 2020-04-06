@@ -1,4 +1,5 @@
 {% extends 'basewithbar.html'%}
+{% load i18n %}
 
 {% block title %}
 <title>Index</title>
@@ -11,11 +12,11 @@
 		<div class="panel-heading">
 			<div class="nav-scroller bg-white shadow-sm">
 				<nav class="nav nav-underline justify-content-center">
-					<a class="nav-link active" href="#tab1default" data-toggle="tab">Overall</a>
-					<a class="nav-link" href="#tab2default" data-toggle="tab">Countries<span class="badge badge-pill bg-light align-text-bottom">27</span> </a>
-					<a class="nav-link" href="#tab3default" data-toggle="tab">Evolution</a>
-					<a class="nav-link" href="#tab4default" data-toggle="tab">Social media</a>
-					<a class="nav-link" href="#tab5default" data-toggle="tab">Recommendations</a>
+					<a class="nav-link active" href="#tab1default" data-toggle="tab">{% trans 'Overall' %}</a>
+					<a class="nav-link" href="#tab2default" data-toggle="tab">{% trans "Countries" %}<span class="badge badge-pill bg-light align-text-bottom">27</span> </a>
+					<a class="nav-link" href="#tab3default" data-toggle="tab">{% trans "Evolution" %}</a>
+					<a class="nav-link" href="#tab4default" data-toggle="tab">{% trans "Social media" %}</a>
+					<a class="nav-link" href="#tab5default" data-toggle="tab">{% trans "Recommendations" %}</a>
 
 				</nav>
 			</div>
@@ -30,7 +31,7 @@
 							<div class="col ">
 								<div class="card mb-4 center-block ">
 									<div class="card-header">
-										<i class="fas fa-chart-bar mr-1"></i>Heatmap
+										<i class="fas fa-chart-bar mr-1"></i>{% trans "Heatmap" %}
 									</div>
 									<div id="map"></div>
 									<svg id="my_dataviz" width="400" height="300"></svg>

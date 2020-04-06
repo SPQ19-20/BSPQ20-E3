@@ -1,5 +1,6 @@
 {% extends 'base.html'%}
 {% load bootstrap3 %}
+{% load i18n %}
 
 {% block base %}
 <div id="layoutSidenav">
@@ -7,27 +8,27 @@
         <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
             <div class="sb-sidenav-menu">
                 <div class="nav">
-                    <div class="sb-sidenav-menu-heading">Main</div>
+                    <div class="sb-sidenav-menu-heading">{% trans "Main" %}</div>
                     <a class="nav-link" href="/">
                         <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div> fa-spin-->
                         <div class="sb-nav-link-icon"><i class="fas fa-bars "></i></div>
-                    Dashboard</a>
+                    {% trans "Dashboard" %}</a>
                     <a class="nav-link" href="/livelog">
                         <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
                         <div class="sb-nav-link-icon"><i class="fas fa-circle-notch fa-spin "></i></div>
-                    Live Log <i class="ml-3 fas fa-exclamation-triangle"></i></a>
+                    {% trans "Live log" %}<i class="ml-3 fas fa-exclamation-triangle"></i></a>
 
-                    <div class="sb-sidenav-menu-heading">User conf</div>
+                    <div class="sb-sidenav-menu-heading">{% trans "User" %}</div>
                     <a class="nav-link" href="/accounts">
                         <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
                         <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
-                    My account</a>
+                    {% trans "My account" %}</a>
 
 
-                    <div class="sb-sidenav-menu-heading">Configuration</div>
+                    <div class="sb-sidenav-menu-heading">{% trans "Configuration" %}</div>
                     <a class="nav-link" href="/settings">
                         <div class="sb-nav-link-icon"><i class="fas fa-cogs"></i></div>
-                    Settings</a>
+                    {% trans "Settings" %}</a>
 
 
                 </div>
