@@ -6,4 +6,7 @@ $(document).ready(function() {
   	'iDisplayLength': 25
   }
   	);
+  $('.languageSelector').selectpicker({
+    style: "btn-default btn-sm"
+});
 });

@@ -7,7 +7,7 @@
     <div id="layoutSidenav_nav">
         <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
             <div class="sb-sidenav-menu">
-                
+
                 <div class="nav">
                     <div class="sb-sidenav-menu-heading">{% trans "Main" %}</div>
                     <a class="nav-link" href="/">
@@ -31,15 +31,45 @@
                         <div class="sb-nav-link-icon"><i class="fas fa-cogs"></i></div>
                     {% trans "Settings" %}</a>
 
-                    
-                </div>
-            </div>
-        </nav>
+                    <div class="sb-sidenav-menu-heading">{% trans "Configuration" %}</div>
+                    <form action="{% url 'set_language' %}" method="post">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="{{ redirect_to }}">
+
+                        <div class="row">
+                            <div class="col">
+                              <select class="selectpicker" id="languageSelector" name="language" data-live-search="true" > 
+                                {% get_current_language as LANGUAGE_CODE %} {% get_available_languages as LANGUAGES %} {% get_language_info_list for LANGUAGES as languages %}
+
+                                {% for language in languages %}
+                                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
+                                selected{% endif %}> {{ language.name_local }} ({{ language.code }})
+                                </option>
+                                {% endfor %}
+
+                                </select>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+            </form>
+
+
+
+        </div>
     </div>
+</nav>
+</div>
 
-    {% block content %}
+{% block content %}
 
-    {% endblock %}
+{% endblock %}
 
 </div>
 {% endblock %}
