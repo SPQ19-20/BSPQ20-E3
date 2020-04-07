@@ -11,6 +11,14 @@ from django.utils import translation
 
 # Create your views here.
 def index(req):
+	'''Loads the Main Page
+
+        :param req: The Http Request
+        :type amount: Http Request
+
+        :returns: Http Response
+        :rtype: Http
+    '''
 	if translation.LANGUAGE_SESSION_KEY in req.session: 
 		del req.session[translation.LANGUAGE_SESSION_KEY]
 	#Test para ver si inserta bien los datos
@@ -29,6 +37,14 @@ def settings(req):
 	return render(req, 'settings.html', { })
 
 def livelog(req):
+	'''Loads the Livelog
+
+        :param req: The Http Request
+        :type amount: Http Request
+
+        :returns: Http Response
+        :rtype: Http
+    ''' 
 	if translation.LANGUAGE_SESSION_KEY in req.session: 
 		del req.session[translation.LANGUAGE_SESSION_KEY]
 
