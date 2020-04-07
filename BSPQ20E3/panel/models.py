@@ -19,9 +19,9 @@ class Entry(Document):
     Fecha : str
         a formatted string to store the Date
     """
-	CCAA = StringField()
-	Confirmados = IntField()
-	Fecha = StringField() #Lo cambiaré a DataTimeField una vez tengamos los datos
+    CCAA = StringField()
+    Confirmados = IntField()
+    Fecha = StringField() #Lo cambiaré a DataTimeField una vez tengamos los datos
 
 class Data(Document):
 	"""
