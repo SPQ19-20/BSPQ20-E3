@@ -9,10 +9,11 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 To run the server, you will need to install:
-Python
-MongoDB
-Django
-Also, some python libs will be required to run the server correctly. For that, execute
+   -   Python
+   -   MongoDB
+   -   Django
+   
+Also, some python libs will be required to run the server correctly. For that, execute:
 ```
 python setup.py install
 ```
