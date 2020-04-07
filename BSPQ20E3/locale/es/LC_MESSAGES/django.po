@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-06 11:01+0200\n"
+"POT-Creation-Date: 2020-04-07 18:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,99 +17,96 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: panel/templates/base.html:13
+#: BSPQ20E3/panel/templates/base.html:13
 msgid "Title"
 msgstr "Título"
 
-#: panel/templates/base.html:46
+#: BSPQ20E3/panel/templates/base.html:46
 msgid "Search for"
 msgstr "Buscar"
 
-#: panel/templates/base.html:57
+#: BSPQ20E3/panel/templates/base.html:57
 msgid "Log in / Register"
-msgstr "Login / Registro"
+msgstr "Iniciar sesión / Registro"
 
-#: panel/templates/basewithbar.html:10
+#: BSPQ20E3/panel/templates/basewithbar.html:12
 msgid "Main"
-msgstr "Principal"
+msgstr "General"
 
-#: panel/templates/basewithbar.html:14
+#: BSPQ20E3/panel/templates/basewithbar.html:16
 msgid "Dashboard"
 msgstr "Tablero"
 
-#: panel/templates/basewithbar.html:18
+#: BSPQ20E3/panel/templates/basewithbar.html:20
 msgid "Live log"
 msgstr "Log en vivo"
 
-#: panel/templates/basewithbar.html:20
+#: BSPQ20E3/panel/templates/basewithbar.html:22
 msgid "User"
 msgstr "Usuario"
 
-#: panel/templates/basewithbar.html:24
+#: BSPQ20E3/panel/templates/basewithbar.html:26
 msgid "My account"
 msgstr "Mi cuenta"
 
-#: panel/templates/basewithbar.html:27
+#: BSPQ20E3/panel/templates/basewithbar.html:29
 msgid "Configuration"
 msgstr "Configuración"
 
-#: panel/templates/basewithbar.html:30
+#: BSPQ20E3/panel/templates/basewithbar.html:32
 msgid "Settings"
 msgstr "Ajustes"
 
-#: panel/templates/index.html:14
+#: BSPQ20E3/panel/templates/index.html:15
 msgid "Overall"
 msgstr "Resumen"
 
-#: panel/templates/index.html:15
+#: BSPQ20E3/panel/templates/index.html:16
 msgid "Countries"
 msgstr "Países"
 
-#: panel/templates/index.html:16
+#: BSPQ20E3/panel/templates/index.html:17
 msgid "Evolution"
 msgstr "Evolución"
 
-#: panel/templates/index.html:17
+#: BSPQ20E3/panel/templates/index.html:18
 msgid "Social media"
-msgstr "Redes sociales"
+msgstr "Noticias"
 
-#: panel/templates/index.html:18
+#: BSPQ20E3/panel/templates/index.html:19
 msgid "Recommendations"
 msgstr "Recomendaciones"
 
-#: panel/templates/index.html:33
-msgid "Heatmap"
-msgstr "Mapa"
-
-#: panel/templates/login.html:19
+#: BSPQ20E3/panel/templates/login.html:20
 msgid "Login"
-msgstr "Login"
+msgstr "Iniciar sesión"
 
-#: panel/templates/login.html:20
+#: BSPQ20E3/panel/templates/login.html:21
 msgid "Register"
 msgstr "Registro"
 
-#: panel/templates/login.html:32 panel/templates/login.html:48
+#: BSPQ20E3/panel/templates/login.html:33
+#: BSPQ20E3/panel/templates/login.html:49
 msgid "Sign in"
 msgstr "Iniciar sesión"
 
-#: panel/templates/login.html:36
+#: BSPQ20E3/panel/templates/login.html:37
 msgid "Email address"
 msgstr "Correo electrónico"
 
-#: panel/templates/login.html:41
+#: BSPQ20E3/panel/templates/login.html:42
 msgid "Password"
 msgstr "Contraseña"
 
-#: panel/templates/login.html:46
+#: BSPQ20E3/panel/templates/login.html:47
 msgid "Remember password"
 msgstr "Recordar contraseña"
 
-#: panel/templates/login.html:49
+#: BSPQ20E3/panel/templates/login.html:50
 msgid "Sign up"
 msgstr "Registrarse"
 
-#: panel/templates/login.html:52 panel/templates/login.html:53
+#: BSPQ20E3/panel/templates/login.html:53
+#: BSPQ20E3/panel/templates/login.html:54
 msgid "Sign in with"
 msgstr "Iniciar sesión con"

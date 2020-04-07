@@ -48,7 +48,7 @@ def livelog(req):
 	if translation.LANGUAGE_SESSION_KEY in req.session: 
 		del req.session[translation.LANGUAGE_SESSION_KEY]
 
-	prueba = Data.objects()[:10000]
+	prueba = Data.objects()
 	return render(req, 'livelogtest.html', { 'data' : prueba })
 
 def accounts(req):
