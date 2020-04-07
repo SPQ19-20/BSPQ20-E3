@@ -41,7 +41,7 @@ python manage.py runserver --noreload
 
 ## Built With
 * [Django](https://www.djangoproject.com/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [SetupTools](https://setuptools.readthedocs.io/en/latest/) - Dependency Management
 * [Python Libraries](https://pypi.org/):
    
    -   asgiref
