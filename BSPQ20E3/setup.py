@@ -7,7 +7,7 @@ setup(
    author='Team 05',
    #author_email='foomail@foo.com',
    packages=find_packages(), 
-   scripts= ['manage.py'], #same as name
+   #scripts= ['manage.py'], #same as name
    install_requires=[
    	'asgiref==3.2.5',
 	'beautifulsoup4==4.8.2',
