@@ -15,20 +15,31 @@ var svg2 = d3.select("#my_data")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-//Read the data
+//Loading the data
 d3.csv("https://raw.githubusercontent.com/datasets/covid-19/master/data/countries-aggregated.csv", function(data) {
 
+//filter the countries we have chosen (the most infected ones)
   data = data.filter(function(row) {
     return (row['Country'] == 'Spain' || row['Country'] == 'Italy'|| row['Country'] == 'China'|| row['Country'] == 'US'
     || row['Country'] == 'France'|| row['Country'] == 'United Kingdom') 
    ;
 })
+
   // group the data: I want to draw one line per group
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
     .key(function(d) { return d.Country;})
     .entries(data);
 
-  // Add X axis --> it is a date format
+    // title
+    svg2.append("text")
+    .attr("x", (width / 2))             
+    .attr("y", 0 - (margin.top / 2))
+    .attr("text-anchor", "middle")  
+    .style("font-size", "16px") 
+    .style("text-decoration", "underline")  
+    .text("CONFIRMED CASES THROUGH TIME");
+
+  //X axis ( the date)
   var x = d3.scaleLinear()
     .domain(d3.extent(data, function(d) { return Date.parse(d.Date); }))
     .range([ 0, width ]);
@@ -36,16 +47,9 @@ d3.csv("https://raw.githubusercontent.com/datasets/covid-19/master/data/countrie
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x).ticks(6));
 
-    
-svg2.append("text")
-.attr("x", (width / 2))             
-.attr("y", 0 - (margin.top / 2))
-.attr("text-anchor", "middle")  
-.style("font-size", "16px") 
-.style("text-decoration", "underline")  
-.text("CONFIRMED CASES THROUGH TIME");
 
-  // Add Y axis
+
+  //Y axis
   var y = d3.scaleLinear()
     .domain([0, d3.max(data, function(d) { return +d.Confirmed; })])
     .range([ height, 0 ]);
@@ -58,6 +62,7 @@ svg2.append("text")
     .domain(res)
     .range(['#e41a1c','#377eb8','#4daf4a','#f781bf','#ff7f00','#ffff33'])
 
+    //legend circles, and names of the countries
     svg2.append("rect").attr("x", -20).attr("y",315).attr("height",20).attr("width",500).style("fill", '#FFF');
     svg2.append("circle").attr("cx",10).attr("cy",30).attr("r", 6).style("fill", "#e41a1c")
     svg2.append("circle").attr("cx",10).attr("cy",60).attr("r", 6).style("fill", "#377eb8")
@@ -71,12 +76,34 @@ svg2.append("text")
     svg2.append("text").attr("x", 30).attr("y", 120).text("Spain").style("font-size", "15px").attr("alignment-baseline","middle")
     svg2.append("text").attr("x", 30).attr("y", 150).text("US").style("font-size", "15px").attr("alignment-baseline","middle")
     svg2.append("text").attr("x", 30).attr("y", 180).text("Unite Kingdom").style("font-size", "15px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", -7).attr("y", 325).text("22/01/2020").style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 55).attr("y", 325).text("04/02/2020").style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 117).attr("y", 325).text("17/02/2020").style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 180).attr("y", 325).text("31/02/2020").style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 240).attr("y", 325).text("13/03/2020").style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 304).attr("y", 325).text("26/03/2020").style("font-size", "10px").attr("alignment-baseline","middle")
+
+
+    // as i couldn't figure how to put the dates in the graph in a legible way, i created this method,
+    // that calculates the time that has passed since the first data is registred till now, and writes
+    // 6 dates in the bottom of the graph
+    let date1 = new Date('2020/01/22');
+    let date2 = new Date()
+    let resta = date2.getTime() - date1.getTime()
+    var days = Math.round(resta/6)
+    
+     function setdays(date, days){
+      let suma = date.getTime()+days
+      var date3 = new Date(suma);
+      var dd = String(date3.getDate()).padStart(2, '0');
+      var mm = String(date3.getMonth() + 1).padStart(2, '0'); //January is 0
+      var yyyy = date3.getFullYear();
+
+      var sfecha = dd + '/' + mm + '/' + yyyy;
+      
+      return sfecha;
+    }
+    
+    svg2.append("text").attr("x", -7).attr("y", 325).text(setdays(date1,0)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 55).attr("y", 325).text(setdays(date1,days)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 117).attr("y", 325).text(setdays(date1,2*days)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 180).attr("y", 325).text(setdays(date1,3*days)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 240).attr("y", 325).text(setdays(date1,4*days)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 304).attr("y", 325).text(setdays(date1,5*days)).style("font-size", "10px").attr("alignment-baseline","middle")
     svg2.append("text").attr("x", 380).attr("y", 325).text("now").style("font-size", "10px").attr("alignment-baseline","middle")
 
   // Draw the line

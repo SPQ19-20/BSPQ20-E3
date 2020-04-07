@@ -3,7 +3,7 @@ var margin = {top: 50, right: 30, bottom: 90, left: 40},
 width = 460 - margin.left - margin.right,
 height = 450 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
+//append the svg object to the body of the page
 var svg3= d3.select("#my_data2")
 .append("svg")
 .attr("width", width + margin.left + margin.right)
@@ -12,12 +12,42 @@ var svg3= d3.select("#my_data2")
 .attr("transform",
       "translate(" + margin.left + "," + margin.top + ")");
 
-// Parse the Data
+// Load the data from github
 d3.csv("https://raw.githubusercontent.com/datasets/covid-19/master/data/countries-aggregated.csv", function(data) {
 
+//create a variable today -2 days beacause the github does not have instantaneous results.
+var today = new Date();
+if(today.getDate()>2){
+var dd = String(today.getDate()-2).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0
+var yyyy = today.getFullYear();
+}else if(today.getDate()<=2 && today.getMonth()!=0){
+var dd = String(30);
+var mm = String(today.getMonth()).padStart(2, '0');
+var yyyy = today.getFullYear();
+}else{
+  var dd = String(30);
+  var mm = String(12);
+  var yyyy = today.getFullYear()-1;
+}
+
+
+//filter rows of the csv so we only get the most recent cases 
+today = yyyy + '-' + mm + '-' + dd;
+
   data = data.filter(function(row) {
-    return row['Deaths'] > 300 && row['Date'] == '2020-04-04' ;
+    return row['Deaths'] > 300 && row['Date'] == today ;
 })
+
+// title
+svg3.append("text")
+        .attr("x", (width / 2))             
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .style("text-decoration", "underline")  
+        .text("DEATH NUMBER COMPARATIVE ");
+
 // X axis
 var x = d3.scaleBand()
 .range([ 0, width ])
@@ -30,15 +60,8 @@ svg3.append("g")
 .attr("transform", "translate(-10,0)rotate(-45)")
 .style("text-anchor", "end");
 
-svg3.append("text")
-        .attr("x", (width / 2))             
-        .attr("y", 0 - (margin.top / 2))
-        .attr("text-anchor", "middle")  
-        .style("font-size", "16px") 
-        .style("text-decoration", "underline")  
-        .text("DEATH NUMBER COMPARATIVE");
 
-// Add Y axis
+// Y axis
 var y = d3.scaleLinear()
 .domain([0, 20000])
 .range([ height, 0]);

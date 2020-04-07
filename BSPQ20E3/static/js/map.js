@@ -1,13 +1,14 @@
+
 var margin = {top: 50, right: 30, bottom: 30, left: 60},
     width = 1150 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
-// The svg
+// svg stands for Scalable Vector Graphics, the svg is going to be what we draw 
 var svg = d3.select("svg")
 .attr("width", width + margin.left + margin.right)
 .attr("height", height + margin.top + margin.bottom)
 
-// Map and projection
+// Here we set the scale, center and position of the map.
 var path = d3.geoPath();
 var projection = d3.geoMercator()
   .scale(125)
@@ -20,19 +21,16 @@ var colorScale = d3.scaleThreshold()
   .domain([0,5, 10, 100, 1000, 10000, 30000, 100000,200000])
   .range(d3.schemeReds[9]);
 
-// Load external data and boot
+// Loading of the data form the repositories
 d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
   .defer(d3.csv, "https://raw.githubusercontent.com/martademadariaga/softare-quality/master/valores.csv",  function(d){ data.set(d.Country, +d.Confirmed); })
   .await(ready);
 
  
+  //This variables are for the tooltip (when you pass through a country will show the name and confirmed cases.)
   var offsetL = document.getElementById('map').offsetLeft+10;
   var offsetT = document.getElementById('map').offsetTop+10;
-
-  var path = d3.geo.path()
-      .projection(projection);
-
   var tooltip = d3.select("#map")
        .append("div")
        .attr("class", "tooltip hidden");
@@ -41,9 +39,7 @@ d3.queue()
 
 function ready(error, topo) {
 
-
-
-
+  // when the mouse is over a country the rest will fade alittle bit
   let mouseOver = function(d) {
     d3.selectAll(".Country")
       .transition()
@@ -56,7 +52,7 @@ function ready(error, topo) {
       .style("stroke", "transparent")
   
   }
-
+// when the mouse leaves a country all of them will be in the same level of opacity
   let mouseLeave = function(d) {
     d3.selectAll(".Country")
       .transition()
@@ -86,14 +82,21 @@ function ready(error, topo) {
       .style("stroke", "transparent")
       .attr("class", function(d){ return "Country" } )
       .style("opacity", .8)
-      .on("mouseover", mouseOver )
+      // Add the functions
+      .on("mouseover", mouseOver )  
       .on("mouseleave", mouseLeave )
+      // add the tooltip
       .on("mousemove",   function (d) {
         label = `${d.properties.name}:${data.get(d.properties.name)} confirmed cases`;
         var mouse = d3.mouse(svg.node())
           .map( function(d) { return parseInt(d); } );
         tooltip.classed("hidden", false)
           .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-          .html(label);
-      })
+          .html(label);}
+      // hide the tooltip
+      ).on("mouseout", function(d) {   
+        tooltip.transition()    
+        .duration(0)    
+        .style("opacity", 0); 
+      });
     }
