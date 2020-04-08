@@ -17,13 +17,13 @@ def get_csv_from_github(url=None, date=None):
 
     return: leaves a "file.csv" with updated data from the date given
     """
-    date = "03-04-2020"
+
     # default values for "url" and "date" parameters
 
     if url is None:
         url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/"
     if date is None:
-        date = datetime.datetime.now().strftime("%d-%m-%Y")
+        date = (datetime.datetime.now() - datetime.timedelta(days=1.0)).strftime("%d-%m-%Y") # adjust for US time...
 
     # formatting of "date" to match file url
 
@@ -34,10 +34,9 @@ def get_csv_from_github(url=None, date=None):
 
     try:
         csv_file_from_url = pd.read_csv(url_to_file)
-        csv_file_from_url.to_csv("file.csv", index=False)    
-        print(f"get_csv_from_github -> Successfully downloaded data...")
+        csv_file_from_url.to_csv("file.csv", index=False)
+        print(f"get_csv_from_github -> Successfully downloaded data for {date}...")
         os.system("mongoimport -d SoftwareP -c data --type csv --file file.csv --headerline")
-
     except urllib.error.HTTPError as csv_not_found:
         print(f"get_csv_from_github -> File not found for this date yet {date} -> {csv_not_found}")
     except Exception as error:
