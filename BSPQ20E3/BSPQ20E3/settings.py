@@ -116,13 +116,14 @@ AUTH_PASSWORD_VALIDATORS = [
 LOCALE_PATHS = [ os.path.join(BASE_DIR, 'locale'), ]
 
 # LANGUAGE_CODE = 'en-us' 
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'es'
 TIME_ZONE = 'Europe/Madrid'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-LANGUAGES = [ ('en', 'English'), ('es', 'Spanish'), ('fr', 'French')]
+LANGUAGES = [ ('en', 'English'), ('es', 'Spanish'), ('fr', 'French'), ('eu', 'Euskera'), 
+                ('de', 'German')]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/

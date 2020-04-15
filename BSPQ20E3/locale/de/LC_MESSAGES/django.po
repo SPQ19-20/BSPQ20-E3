@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-15 19:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: panel/templates/base.html:13
+msgid "Title"
+msgstr "Titel"
+
+#: panel/templates/base.html:34
+msgid "Search for"
+msgstr "Suchen nach"
+
+#: panel/templates/base.html:45
+msgid "Log in / Register"
+msgstr "Anmeldung / Registrieren"
+
+#: panel/templates/basewithbar.html:12
+msgid "Main"
+msgstr "Main"
+
+#: panel/templates/basewithbar.html:16
+msgid "Dashboard"
+msgstr "Das Armaturenbrett"
+
+#: panel/templates/basewithbar.html:20
+msgid "Live log"
+msgstr "Live log"
+
+#: panel/templates/basewithbar.html:22
+msgid "User"
+msgstr "Nutzer"
+
+#: panel/templates/basewithbar.html:26
+msgid "My account"
+msgstr "Mein Konto"
+
+#: panel/templates/basewithbar.html:29 panel/templates/basewithbar.html:34
+msgid "Configuration"
+msgstr "Aufbau"
+
+#: panel/templates/basewithbar.html:32
+msgid "Settings"
+msgstr "Die Einstellungen"
+
+#: panel/templates/index.html:15
+msgid "Overall"
+msgstr "Insgesamt"
+
+#: panel/templates/index.html:16
+msgid "Countries"
+msgstr "Länder"
+
+#: panel/templates/index.html:17
+msgid "Evolution"
+msgstr "Evolution"
+
+#: panel/templates/index.html:18
+msgid "Social media"
+msgstr "Sozialen Medien"
+
+#: panel/templates/index.html:19
+msgid "Recommendations"
+msgstr "Empfehlungen"
+
+#: panel/templates/login.html:20
+msgid "Login"
+msgstr "Anmeldung"
+
+#: panel/templates/login.html:21
+msgid "Register"
+msgstr "Registrieren"
+
+#: panel/templates/login.html:33 panel/templates/login.html:49
+msgid "Sign in"
+msgstr "Einloggen"
+
+#: panel/templates/login.html:37
+msgid "Email address"
+msgstr "E-Mail-Addresse"
+
+#: panel/templates/login.html:42
+msgid "Password"
+msgstr "Passwort"
+
+#: panel/templates/login.html:47
+msgid "Remember password"
+msgstr "Passwort merken"
+
+#: panel/templates/login.html:50
+msgid "Sign up"
+msgstr "Anmelden"
+
+#: panel/templates/login.html:53 panel/templates/login.html:54
+msgid "Sign in with"
+msgstr "Melden Sie sich mit an"

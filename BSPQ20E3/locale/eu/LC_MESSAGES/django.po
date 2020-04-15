@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-15 14:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: BSPQ20E3/panel/templates/base.html:13
+msgid "Title"
+msgstr "Titulua"
+
+#: BSPQ20E3/panel/templates/base.html:34
+msgid "Search for"
+msgstr "Bilatu"
+
+#: BSPQ20E3/panel/templates/base.html:45
+msgid "Log in / Register"
+msgstr "Saioa hasi / Erregistro"
+
+#: BSPQ20E3/panel/templates/basewithbar.html:12
+msgid "Main"
+msgstr "Orokorra"
+
+#: BSPQ20E3/panel/templates/basewithbar.html:16
+msgid "Dashboard"
+msgstr "Taula"
+
+#: BSPQ20E3/panel/templates/basewithbar.html:20
+msgid "Live log"
+msgstr "Zuzeneko log"
+
+#: BSPQ20E3/panel/templates/basewithbar.html:22
+msgid "User"
+msgstr "Erabiltzaile"
+
+#: BSPQ20E3/panel/templates/basewithbar.html:26
+msgid "My account"
+msgstr "Nire kontua"
+
+#: BSPQ20E3/panel/templates/basewithbar.html:29
+#: BSPQ20E3/panel/templates/basewithbar.html:34
+msgid "Configuration"
+msgstr "Konfigurazioa"
+
+#: BSPQ20E3/panel/templates/basewithbar.html:32
+msgid "Settings"
+msgstr "Doikuntzak"
+
+#: BSPQ20E3/panel/templates/index.html:15
+msgid "Overall"
+msgstr "Laburpena"
+
+#: BSPQ20E3/panel/templates/index.html:16
+msgid "Countries"
+msgstr "Herrialdeak"
+
+#: BSPQ20E3/panel/templates/index.html:17
+msgid "Evolution"
+msgstr "Eboluzioa"
+
+#: BSPQ20E3/panel/templates/index.html:18
+msgid "Social media"
+msgstr "Berriak"
+
+#: BSPQ20E3/panel/templates/index.html:19
+msgid "Recommendations"
+msgstr "Gomendioak"
+
+#: BSPQ20E3/panel/templates/login.html:20
+msgid "Login"
+msgstr "Saioa hasi"
+
+#: BSPQ20E3/panel/templates/login.html:21
+msgid "Register"
+msgstr "Erregistro"
+
+#: BSPQ20E3/panel/templates/login.html:33
+#: BSPQ20E3/panel/templates/login.html:49
+msgid "Sign in"
+msgstr "Saioa hasi"
+
+#: BSPQ20E3/panel/templates/login.html:37
+msgid "Email address"
+msgstr "Posta elektronikoa"
+
+#: BSPQ20E3/panel/templates/login.html:42
+msgid "Password"
+msgstr "Pasahitza"
+
+#: BSPQ20E3/panel/templates/login.html:47
+msgid "Remember password"
+msgstr "Pasahitza gogoratu"
+
+#: BSPQ20E3/panel/templates/login.html:50
+msgid "Sign up"
+msgstr "Erregistratu"
+
+#: BSPQ20E3/panel/templates/login.html:53
+#: BSPQ20E3/panel/templates/login.html:54
+msgid "Sign in with"
+msgstr "Saioa hasteko modua"
