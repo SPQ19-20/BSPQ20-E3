@@ -35,7 +35,9 @@ setup(
 	'soupsieve==2.0',
 	'sqlparse==0.2.4',
 	'tweepy==3.8.0',
-	'urllib3==1.25.8'
+	'urllib3==1.25.8',
+	'social-auth-app-django==3.1.0',
+	'social-auth-core==3.3.3'
 
 
 
