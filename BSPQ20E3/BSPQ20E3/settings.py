@@ -44,7 +44,26 @@ INSTALLED_APPS = [
     'bootstrap3',
     'crispy_forms',
     'panel',
+    'social_django',
 ]
+
+# social auth configuration
+
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.google.GoogleOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+LOGIN_URL = '/auth/login/google-oauth2/'
+
+LOGIN_REDIRECT_URL = '/manage/'
+LOGOUT_REDIRECT_URL = '/'
+SOCIAL_AUTH_URL_NAMESPACE = 'social'
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
 
 #CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
