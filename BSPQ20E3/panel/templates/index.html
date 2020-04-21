@@ -17,7 +17,7 @@
 					<a class="nav-link" href="#tab3default" data-toggle="tab">{% trans "Evolution" %}</a>
 					<a class="nav-link" href="#tab4default" data-toggle="tab">{% trans "Social media" %}</a>
 					<a class="nav-link" href="#tab5default" data-toggle="tab">{% trans "Recommendations" %}</a>
-
+					<a class="nav-link" href="#tab6default" data-toggle="tab">{% trans "Economy" %}</a>
 				</nav>
 			</div>
 		</div>
@@ -44,6 +44,7 @@
 								<div class="card mb-4">
 									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Title 2</div>
 									<div id="my_data2" width="460" height="400"></div>
+								</div>
 							</div>
 							
 						</div>
@@ -57,6 +58,41 @@
 				<div class="tab-pane fade" id="tab3default">Default 3</div>
 				<div class="tab-pane fade" id="tab4default">Default 4</div>
 				<div class="tab-pane fade" id="tab5default">Default 5</div>
+				<div class="tab-pane fade" id="tab6default">
+					<div class="container-fluid">
+							<br>
+							<br>
+							<!-- TradingView Widget BEGIN -->
+							<div class="tradingview-widget-container">
+							  <div id="tradingview_69f15"></div>
+							  <div class="tradingview-widget-copyright"><a rel="noopener" target="_blank"><span class="blue-text">Dynamic Chart</span></a> by TradingView</div>
+							  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+							  <script type="text/javascript">
+								  new TradingView.widget(
+								  {
+								  "width": 980,
+								  "height": 610,
+								  "symbol": "NASDAQ:AAPL",
+								  "interval": "D",
+								  "timezone": "Etc/UTC",
+								  "theme": "light",
+								  "style": "7",
+								  "locale": "en",
+								  "toolbar_bg": "#f1f3f6",
+								  "enable_publishing": false,
+								  "withdateranges": true,
+								  "allow_symbol_change": true,
+								  "details": true,
+								  "container_id": "tradingview_69f15"
+								}
+								  );
+							  </script>
+							</div>
+							<!-- TradingView Widget END -->
+					</div>					
+
+
+				</div>
 			</div>
 		</div>
 	</div>

@@ -2,13 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
    name='BSPQ20E3',
-   version='1.0',
+   version='2.0',
    description='Software Proccess Project',
    author='Team 05',
    #author_email='foomail@foo.com',
    packages=find_packages(), 
    #scripts= ['manage.py'], #same as name
    install_requires=[
+   	'coverage==5.1',
+   	'Sphinx==3.0.2',
    	'asgiref==3.2.5',
 	'beautifulsoup4==4.8.2',
 	'bson==0.5.8',

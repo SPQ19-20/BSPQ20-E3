@@ -1,6 +1,7 @@
 setup.py
 BSPQ20E3/__init__.py
 BSPQ20E3/asgi.py
+BSPQ20E3/local_settings.py
 BSPQ20E3/settings.py
 BSPQ20E3/urls.py
 BSPQ20E3/wsgi.py

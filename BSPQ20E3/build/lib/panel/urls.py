@@ -8,4 +8,7 @@ urlpatterns = [
     path('settings', views.settings),
     path('livelog', views.livelog),
     path('accounts', views.accounts),
+    
+    #USER LOGIN TEST
+    path('manage/', views.manage, name='manage'),
 ]
