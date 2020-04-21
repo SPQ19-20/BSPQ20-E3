@@ -37,7 +37,7 @@ d3.csv("https://raw.githubusercontent.com/datasets/covid-19/master/data/countrie
     .attr("text-anchor", "middle")  
     .style("font-size", "16px") 
     .style("text-decoration", "underline")  
-    .text("CONFIRMED CASES THROUGH TIME");
+  //  .text("CONFIRMED CASES THROUGH TIME");
 
   //X axis ( the date)
   var x = d3.scaleLinear()
@@ -45,7 +45,7 @@ d3.csv("https://raw.githubusercontent.com/datasets/covid-19/master/data/countrie
     .range([ 0, width ]);
   svg2.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).ticks(6));
+    .call(d3.axisBottom(x).ticks(5));
 
 
 
@@ -63,7 +63,7 @@ d3.csv("https://raw.githubusercontent.com/datasets/covid-19/master/data/countrie
     .range(['#e41a1c','#377eb8','#4daf4a','#f781bf','#ff7f00','#ffff33'])
 
     //legend circles, and names of the countries
-    svg2.append("rect").attr("x", -20).attr("y",315).attr("height",20).attr("width",500).style("fill", '#FFF');
+    svg2.append("rect").attr("x", -30).attr("y",height+5).attr("height",20).attr("width",500).style("fill", '#FFF');
     svg2.append("circle").attr("cx",10).attr("cy",30).attr("r", 6).style("fill", "#e41a1c")
     svg2.append("circle").attr("cx",10).attr("cy",60).attr("r", 6).style("fill", "#377eb8")
     svg2.append("circle").attr("cx",10).attr("cy",90).attr("r", 6).style("fill", "#4daf4a")
@@ -84,7 +84,7 @@ d3.csv("https://raw.githubusercontent.com/datasets/covid-19/master/data/countrie
     let date1 = new Date('2020/01/22');
     let date2 = new Date()
     let resta = date2.getTime() - date1.getTime()
-    var days = Math.round(resta/6)
+    var days = Math.round(resta/4)
     
      function setdays(date, days){
       let suma = date.getTime()+days
@@ -98,13 +98,11 @@ d3.csv("https://raw.githubusercontent.com/datasets/covid-19/master/data/countrie
       return sfecha;
     }
     
-    svg2.append("text").attr("x", -7).attr("y", 325).text(setdays(date1,0)).style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 55).attr("y", 325).text(setdays(date1,days)).style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 117).attr("y", 325).text(setdays(date1,2*days)).style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 180).attr("y", 325).text(setdays(date1,3*days)).style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 240).attr("y", 325).text(setdays(date1,4*days)).style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 304).attr("y", 325).text(setdays(date1,5*days)).style("font-size", "10px").attr("alignment-baseline","middle")
-    svg2.append("text").attr("x", 380).attr("y", 325).text("now").style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 0).attr("y", height+15).text(setdays(date1,0)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 90).attr("y", height+15).text(setdays(date1,days)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 190).attr("y", height+15).text(setdays(date1,2*days)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 285).attr("y", height+15).text(setdays(date1,3*days)).style("font-size", "10px").attr("alignment-baseline","middle")
+    svg2.append("text").attr("x", 360).attr("y", height+15).text("now").style("font-size", "10px").attr("alignment-baseline","middle")
 
   // Draw the line
   svg2.selectAll(".line")

@@ -24,7 +24,8 @@ var colorScale = d3.scaleThreshold()
 // Loading of the data form the repositories
 d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
-  .defer(d3.csv, "https://raw.githubusercontent.com/martademadariaga/softare-quality/master/valores.csv",  function(d){ data.set(d.Country, +d.Confirmed); })
+  .defer(d3.csv, "https://raw.githubusercontent.com/datasets/covid-19/master/data/countries-aggregated.csv",  function(d){
+     data.set(d.Country, +d.Confirmed); })
   .await(ready);
 
  
@@ -76,7 +77,24 @@ function ready(error, topo) {
       )
       // set the color of each country
       .attr("fill", function (d) {
-        d.total = data.get(d.properties.name) || 0;
+       
+        if(d.properties.name == "England"){
+          d.total = "United Kingdom"
+        }else if(d.properties.name == "USA"){
+          d.total = data.get("US") || 0;
+        }else if(d.properties.name == "Democratic Republic of the Congo"){
+          d.total = data.get("Congo (Kinshasa)") || 0;
+        }else if(d.properties.name == "Republic of the Congo"){
+          d.total = data.get("Congo (Brazzaville)") || 0;
+        }else if(d.properties.name == "United Republic of Tanzania"){
+          d.total = data.get("Tanzania") || 0;
+        }else if(d.properties.name == "Greenland"){
+          d.total = 11 || 0;
+        }else {
+          d.total = data.get(d.properties.name) || 0;
+        }
+        
+        
         return colorScale(d.total)
       })
       .style("stroke", "transparent")
@@ -87,7 +105,22 @@ function ready(error, topo) {
       .on("mouseleave", mouseLeave )
       // add the tooltip
       .on("mousemove",   function (d) {
-        label = `${d.properties.name}:${data.get(d.properties.name)} confirmed cases`;
+        if(d.properties.name == "England"){
+          d.total = "United Kingdom"
+        }else if(d.properties.name == "USA"){
+          d.total = data.get("US") || 0;
+        }else if(d.properties.name == "Democratic Republic of the Congo"){
+          d.total = data.get("Congo (Kinshasa)") || 0;
+        }else if(d.properties.name == "Republic of the Congo"){
+          d.total = data.get("Congo (Brazzaville)") || 0;
+        }else if(d.properties.name == "United Republic of Tanzania"){
+          d.total = data.get("Tanzania") || 0;
+        }else if(d.properties.name == "Greenland"){
+          d.total = 11 || 0;
+        }else {
+          d.total = data.get(d.properties.name) || 0;
+        }
+        label = d.properties.name+ ": "+d.total+ " confirmed cases";
         var mouse = d3.mouse(svg.node())
           .map( function(d) { return parseInt(d); } );
         tooltip.classed("hidden", false)
