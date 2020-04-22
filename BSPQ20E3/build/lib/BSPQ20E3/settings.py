@@ -44,7 +44,26 @@ INSTALLED_APPS = [
     'bootstrap3',
     'crispy_forms',
     'panel',
+    'social_django',
 ]
+
+# social auth configuration
+
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.google.GoogleOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+LOGIN_URL = '/auth/login/google-oauth2/'
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+SOCIAL_AUTH_URL_NAMESPACE = 'social'
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
 
 #CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -116,13 +135,15 @@ AUTH_PASSWORD_VALIDATORS = [
 LOCALE_PATHS = [ os.path.join(BASE_DIR, 'locale'), ]
 
 # LANGUAGE_CODE = 'en-us' 
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'es'
 TIME_ZONE = 'Europe/Madrid'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
+USE_THOUSAND_SEPARATOR = True
 
-LANGUAGES = [ ('en', 'English'), ('es', 'Spanish'), ('fr', 'French'), ('eus', 'Euskera')]
+LANGUAGES = [ ('en', 'English'), ('es', 'Spanish'), ('fr', 'French'), ('eu', 'Euskera'), 
+                ('de', 'German')]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/

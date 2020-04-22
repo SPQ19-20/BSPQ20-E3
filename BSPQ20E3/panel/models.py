@@ -20,7 +20,7 @@ class Entry(Document):
         a formatted string to store the Date
     """
     CCAA = StringField()
-    Confirmados = IntField()
+    Confirmados = IntField(localize=True)
     Fecha = StringField() #Lo cambiaré a DataTimeField una vez tengamos los datos
 
 class Data(Document):
@@ -56,15 +56,15 @@ class Data(Document):
     Combined_Key: str
     	a formatted string that helps grouping the information
     """
-	FIPS = IntField()
+	FIPS = IntField(localize=True)
 	Admin2 = StringField()
 	Province_State = StringField()
 	Country_Region = StringField()
 	Last_Update = StringField()
-	Lat = FloatField()
-	Long_ = FloatField()
-	Confirmed = IntField()
-	Deaths = IntField()
-	Recovered = IntField()
-	Active = IntField()
+	Lat = FloatField(localize=True)
+	Long_ = FloatField(localize=True)
+	Confirmed = IntField(localize=True)
+	Deaths = IntField(localize=True)
+	Recovered = IntField(localize=True)
+	Active = IntField(localize=True)
 	Combined_Key = StringField()
