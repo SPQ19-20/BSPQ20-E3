@@ -33,3 +33,125 @@ DEBUG - 2020-04-24 18:50:40,642 - <module> - Csv-getter thread started.
 DEBUG - 2020-04-24 18:50:40,642 - get_csv_from_github - Default date to be used for csv extraction
 DEBUG - 2020-04-24 18:50:40,644 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
 DEBUG - 2020-04-24 18:50:41,536 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 19:02:53,455 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:02:53,455 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:02:53,455 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:02:53,514 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 19:02:56,382 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 19:03:05,616 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:03:05,616 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:03:05,617 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:03:05,620 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 19:03:06,053 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+INFO - 2020-04-24 19:03:06,237 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-04-24 19:03:33,741 - _new_conn - Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG - 2020-04-24 19:03:33,903 - _make_request - https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG - 2020-04-24 19:03:33,908 - _new_conn - Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG - 2020-04-24 19:03:34,167 - _make_request - https://www.googleapis.com:443 "GET /oauth2/v3/userinfo HTTP/1.1" 200 None
+WARNING - 2020-04-24 19:05:12,737 - log_response - Not Found: /favicon.ico
+INFO - 2020-04-24 19:17:01,661 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/local_settings.py changed, reloading.
+DEBUG - 2020-04-24 19:17:02,663 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:17:02,663 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:17:02,663 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:17:02,667 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 19:17:03,149 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 19:21:38,407 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:21:38,407 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:21:38,407 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:21:38,410 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 19:21:38,842 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 19:22:54,359 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:22:54,360 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:22:54,360 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:22:54,363 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 19:22:55,290 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 19:22:55,402 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:22:55,403 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:22:55,403 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:22:55,406 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 19:22:55,785 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+INFO - 2020-04-24 19:22:56,017 - run_with_reloader - Watching for file changes with StatReloader
+ERROR - 2020-04-24 19:23:03,191 - log_response - Internal Server Error: /login/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_core/backends/utils.py", line 50, in get_backend
+    return BACKENDSCACHE[name]
+KeyError: 'google-oauth2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_django/utils.py", line 46, in wrapper
+    backend, uri)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_django/utils.py", line 27, in load_backend
+    Backend = get_backend(BACKENDS, name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_core/backends/utils.py", line 53, in get_backend
+    load_backends(backends, force_load=True)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_core/backends/utils.py", line 35, in load_backends
+    backend = module_member(auth_backend)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_core/utils.py", line 63, in module_member
+    return getattr(module, member)
+AttributeError: module 'social_core.backends.facebook' has no attribute 'TwitterOAuth2'
+INFO - 2020-04-24 19:24:47,966 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/settings.py changed, reloading.
+DEBUG - 2020-04-24 19:24:48,879 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:24:48,879 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:24:48,880 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:24:48,883 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 19:24:49,532 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+INFO - 2020-04-24 19:24:49,772 - run_with_reloader - Watching for file changes with StatReloader
+ERROR - 2020-04-24 19:24:58,624 - log_response - Internal Server Error: /login/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_core/backends/utils.py", line 50, in get_backend
+    return BACKENDSCACHE[name]
+KeyError: 'google-oauth2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_django/utils.py", line 46, in wrapper
+    backend, uri)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_django/utils.py", line 27, in load_backend
+    Backend = get_backend(BACKENDS, name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_core/backends/utils.py", line 53, in get_backend
+    load_backends(backends, force_load=True)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_core/backends/utils.py", line 35, in load_backends
+    backend = module_member(auth_backend)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/social_core/utils.py", line 63, in module_member
+    return getattr(module, member)
+AttributeError: module 'social_core.backends.twitter' has no attribute 'TwitterOAuth2'
+INFO - 2020-04-24 19:25:34,959 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/settings.py changed, reloading.
+DEBUG - 2020-04-24 19:25:35,598 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:25:35,598 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:25:35,598 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:25:35,601 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 19:25:36,005 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+INFO - 2020-04-24 19:25:36,252 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-04-24 19:25:43,156 - _new_conn - Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG - 2020-04-24 19:25:43,323 - _make_request - https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG - 2020-04-24 19:25:43,328 - _new_conn - Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG - 2020-04-24 19:25:43,661 - _make_request - https://www.googleapis.com:443 "GET /oauth2/v3/userinfo HTTP/1.1" 200 None
+INFO - 2020-04-24 19:42:53,495 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/local_settings.py changed, reloading.
+DEBUG - 2020-04-24 19:42:54,551 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 19:42:54,551 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 19:42:54,551 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 19:42:54,556 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+INFO - 2020-04-24 19:42:55,186 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-04-24 19:42:55,397 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+WARNING - 2020-04-24 19:44:47,888 - log_response - Not Found: /favicon.ico
+WARNING - 2020-04-24 19:44:51,294 - log_response - Not Found: /favicon.ico
+WARNING - 2020-04-24 19:45:04,203 - log_response - Not Found: /favicon.ico
