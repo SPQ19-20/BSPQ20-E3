@@ -81,12 +81,55 @@ class GithubRepoCSVFuncs(TestCase):
 
     def setUp(self):
         change_logger(nlevel=50)
-        # change_logger(nformat="%(message)s")
 
     def test_get_csv_from_github(self):
-        self.assertRaises(ValueError, get_csv_from_github, None, 1)
-        self.assertRaises(ValueError, get_csv_from_github, None, "hola")
-        self.assertRaises(ValueError, get_csv_from_github, None, "31-02-20")
+        self.assertRaises(ValueError, get_csv_from_github, date=1)
+        self.assertRaises(ValueError, get_csv_from_github, date=-1)
+        self.assertRaises(ValueError, get_csv_from_github, date=0)
+        self.assertRaises(ValueError, get_csv_from_github, date="")
+        self.assertRaises(ValueError, get_csv_from_github, date="hola")
+        self.assertRaises(ValueError, get_csv_from_github, date="31-02-20")
+        self.assertRaises(ValueError, get_csv_from_github, date=[""])
+        self.assertRaises(ValueError, get_csv_from_github, date=(""))
+        self.assertRaises(ValueError, get_csv_from_github, url=1)
+        self.assertRaises(ValueError, get_csv_from_github, url=-1)
+        self.assertRaises(ValueError, get_csv_from_github, url=0)
+        self.assertRaises(ValueError, get_csv_from_github, url="")
+        self.assertRaises(ValueError, get_csv_from_github, url=[""])
+        self.assertRaises(ValueError, get_csv_from_github, url=(""))
 
     def tes_get_updated_csvs(self):
-        self.assertRaises(ValueError, get_updated_csvs, -1, None, None)
+        self.assertRaises(ValueError, get_updated_csvs, seconds=1)
+        self.assertRaises(ValueError, get_updated_csvs, seconds=-1)
+        self.assertRaises(ValueError, get_updated_csvs, seconds=0)
+        self.assertRaises(ValueError, get_updated_csvs, seconds="hola")
+        self.assertRaises(ValueError, get_updated_csvs, seconds=None)
+        self.assertRaises(ValueError, get_updated_csvs, seconds=[""])
+        self.assertRaises(ValueError, get_updated_csvs, seconds=(""))
+        self.assertRaises(ValueError, get_updated_csvs, url=1)
+        self.assertRaises(ValueError, get_updated_csvs, url=-1)
+        self.assertRaises(ValueError, get_updated_csvs, url=0)
+        self.assertRaises(ValueError, get_updated_csvs, url="")
+        self.assertRaises(ValueError, get_updated_csvs, url=[""])
+        self.assertRaises(ValueError, get_updated_csvs, url=(""))
+
+
+class LoggerFuncs(TestCase):
+
+    def setUp(self):
+        change_logger(nlevel=50)
+
+    def test_change_logger(self):
+        self.assertRaises(ValueError, change_logger, nlevel=1)
+        self.assertRaises(ValueError, change_logger, nlevel=-1)
+        self.assertRaises(ValueError, change_logger, nlevel="")
+        self.assertRaises(ValueError, change_logger, nlevel=None)
+        self.assertRaises(ValueError, change_logger, nlevel="hola")
+        self.assertRaises(ValueError, change_logger, nlevel=[""])
+        self.assertRaises(ValueError, change_logger, nlevel=(""))
+        self.assertRaises(ValueError, change_logger, nfileformat=1)
+        self.assertRaises(ValueError, change_logger, nfileformat=-1)
+        self.assertRaises(ValueError, change_logger, nfileformat=0)
+        self.assertRaises(ValueError, change_logger, nfileformat="")
+        self.assertRaises(ValueError, change_logger, nfileformat=[""])
+        self.assertRaises(ValueError, change_logger, nfileformat=(""))

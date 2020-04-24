@@ -4,9 +4,11 @@ import logging, sys
 
 
 logger = None
-logger_handler = None
 logger_level = None
-log_format = None
+logger_console_format = None
+logger_file_format = None
+logger_handler_file = None
+logger_handler_console = None
 
 
 def startup_logger():
@@ -18,27 +20,36 @@ def startup_logger():
 
     """
 
-    global logger, log_format
+    global logger, logger_handler_file, logger_handler_console, logger_level, logger_console_format, logger_file_format
 
-    log_format = "%(levelname)s - %(asctime)s - %(funcName)s - %(message)s"
-
-    # setup logger AND allow it to print to console if needed
-    logging.basicConfig(
-        filename = f"logs/log_file.log",
-        level = logging.INFO,
-        format = log_format
-    )
-    logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
-
-    # assign root logger
+    # assign to root logger
     logger = logging.getLogger()
 
-def change_logger(nlevel=logging.INFO, nformat="%(levelname)s - %(asctime)s - %(funcName)s - %(message)s"):
+    # constants for logger for all handlers
+    logger_level = logging.INFO
+    logger_console_format = "%(levelname)s - %(message)s"
+    logger_file_format = "%(levelname)s - %(asctime)s - %(funcName)s - %(message)s"
+
+    # default level of messages to be displayed at INFO
+    logger.setLevel(logger_level)
+
+    # create and add stdout handler
+    logger_handler_console = logging.StreamHandler(sys.stdout)
+    logger_handler_console.setFormatter(logging.Formatter(logger_console_format))
+    logger.addHandler(logger_handler_console)
+
+    # create and add file handler
+    logger_handler_file = logging.FileHandler("logs/log_file.log")
+    logger_handler_file.setFormatter(logging.Formatter(logger_file_format))
+    logger.addHandler(logger_handler_file)
+
+
+def change_logger(nlevel=logging.INFO, nfileformat="%(levelname)s - %(asctime)s - %(funcName)s - %(message)s", nconsoleformat="%(levelname)s - %(message)s"):
 
     """
     Description
     -----------
-    Function to setup the logger's level and format to one's content.
+    Function to setup the logger's level and format to one's content. Raises "ValueErrors" for shady parameter-passing...
 
     Attributes
     ----------
@@ -55,26 +66,72 @@ def change_logger(nlevel=logging.INFO, nformat="%(levelname)s - %(asctime)s - %(
 
       default value: logging.INFO
 
-    nformat: str
-      format for the new messages to follow
+    nfileformat: str
+      format for the new messages in file to follow
       default value: %(levelname)s - %(asctime)s - %(funcName)s - %(message)s
+
+    nconsoleformat: str
+      format for the new messages in stdout to follow
+      default value: %(levelname)s - %(message)s
 
     """
 
-    global logger, log_format
+    global logger, logger_level, logger_file_format, logger_console_format, logger_handler_console, logger_handler_file
 
-    log_format = nformat
+    if type(nlevel) is not int:
+
+        get_logger().error(f"Type of supposed nlevel \"{nlevel}\" introduced (\"{type(nlevel)}\") not valid")
+        raise ValueError(f"Type of supposed nlevel \"{nlevel}\" introduced (\"{type(nlevel)}\") not valid")
+
+
+    if nlevel not in [0, 10, 20, 30, 40, 50]:
+
+        get_logger().error(f"Invalid {nlevel} for the logger")
+        raise ValueError(f"Invalid {nlevel} for the logger")
+
+
+    if type(nfileformat) is not str:
+
+        get_logger().error(f"Type of supposed nfileformat \"{nfileformat}\" introduced (\"{type(nfileformat)}\") not valid")
+        raise ValueError(f"Type of supposed nfileformat \"{nfileformat}\" introduced (\"{type(nfileformat)}\") not valid")
+
+
+    if not nfileformat:
+        get_logger().error(f"nfileformat \"{nfileformat}\" cannot be empty")
+        raise ValueError(f"nfileformat \"{nfileformat}\" cannot be empty")
+
+
+    if type(nconsoleformat) is not str:
+
+        get_logger().error(f"Type of supposed nconsoleformat \"{nconsoleformat}\" introduced (\"{type(nconsoleformat)}\") not valid")
+        raise ValueError(f"Type of supposed nconsoleformat \"{nconsoleformat}\" introduced (\"{type(nconsoleformat)}\") not valid")
+
+
+    if not nconsoleformat:
+        get_logger().error(f"nconsoleformat \"{nconsoleformat}\" cannot be empty")
+        raise ValueError(f"nconsoleformat \"{nconsoleformat}\" cannot be empty")
+
 
     if logger is None:
         startup_logger()
 
-    # logger_handler = logging.StreamHandler()
-    # logger.addHandler(logger_handler)
+    if logger_level != nlevel:
+        logger_level = nlevel
+        logger.setLevel(logger_level)
 
-    # # First, generic formatter:
-    # logger_handler.setFormatter(logging.Formatter('%(message)s'))
+    if logger_console_format != nconsoleformat:
+        logger.removeHandler(logger_handler_console)
+        logger_console_format = nconsoleformat
+        logger_handler_console = logging.StreamHandler(sys.stdout)
+        logger_handler_console.setFormatter(logging.Formatter(logger_console_format))
+        logger.addHandler(logger_handler_console)
 
-    logger.setLevel(nlevel)
+    if logger_file_format != nfileformat:
+        logger.removeHandler(logger_handler_file)
+        logger_file_format = nfileformat
+        logger_handler_file = logging.FileHandler("logs/log_file.log")
+        logger_handler_file.setFormatter(logging.Formatter(logger_file_format))
+        logger.addHandler(logger_handler_file)
 
 
 def get_logger():

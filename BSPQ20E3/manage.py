@@ -27,9 +27,8 @@ if __name__ == "__main__":
         # logger set up to display even debug messages
         change_logger(nlevel=10)
 
-        get_logger().debug("Csv-getter-thread started.")
-        timerThread = threading.Thread(target=get_updated_csvs)
-        timerThread.daemon = True
+        timerThread = threading.Thread(target=get_updated_csvs, daemon=True)
         timerThread.start()
+        get_logger().debug("Csv-getter thread started.")
 
     main()
