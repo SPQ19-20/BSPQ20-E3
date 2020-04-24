@@ -79,38 +79,28 @@ def change_logger(nlevel=logging.INFO, nfileformat="%(levelname)s - %(asctime)s 
     global logger, logger_level, logger_file_format, logger_console_format, logger_handler_console, logger_handler_file
 
     if type(nlevel) is not int:
-
         get_logger().error(f"Type of supposed nlevel \"{nlevel}\" introduced (\"{type(nlevel)}\") not valid")
         raise ValueError(f"Type of supposed nlevel \"{nlevel}\" introduced (\"{type(nlevel)}\") not valid")
 
-
     if nlevel not in [0, 10, 20, 30, 40, 50]:
-
         get_logger().error(f"Invalid {nlevel} for the logger")
         raise ValueError(f"Invalid {nlevel} for the logger")
 
-
     if type(nfileformat) is not str:
-
         get_logger().error(f"Type of supposed nfileformat \"{nfileformat}\" introduced (\"{type(nfileformat)}\") not valid")
         raise ValueError(f"Type of supposed nfileformat \"{nfileformat}\" introduced (\"{type(nfileformat)}\") not valid")
-
 
     if not nfileformat:
         get_logger().error(f"nfileformat \"{nfileformat}\" cannot be empty")
         raise ValueError(f"nfileformat \"{nfileformat}\" cannot be empty")
 
-
     if type(nconsoleformat) is not str:
-
         get_logger().error(f"Type of supposed nconsoleformat \"{nconsoleformat}\" introduced (\"{type(nconsoleformat)}\") not valid")
         raise ValueError(f"Type of supposed nconsoleformat \"{nconsoleformat}\" introduced (\"{type(nconsoleformat)}\") not valid")
-
 
     if not nconsoleformat:
         get_logger().error(f"nconsoleformat \"{nconsoleformat}\" cannot be empty")
         raise ValueError(f"nconsoleformat \"{nconsoleformat}\" cannot be empty")
-
 
     if logger is None:
         startup_logger()
@@ -125,6 +115,7 @@ def change_logger(nlevel=logging.INFO, nfileformat="%(levelname)s - %(asctime)s 
         logger_handler_console = logging.StreamHandler(sys.stdout)
         logger_handler_console.setFormatter(logging.Formatter(logger_console_format))
         logger.addHandler(logger_handler_console)
+        logger.info("Console handler changed")
 
     if logger_file_format != nfileformat:
         logger.removeHandler(logger_handler_file)
@@ -132,6 +123,7 @@ def change_logger(nlevel=logging.INFO, nfileformat="%(levelname)s - %(asctime)s 
         logger_handler_file = logging.FileHandler("logs/log_file.log")
         logger_handler_file.setFormatter(logging.Formatter(logger_file_format))
         logger.addHandler(logger_handler_file)
+        logger.info("File handler changed")
 
 
 def get_logger():

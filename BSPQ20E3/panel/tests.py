@@ -4,8 +4,7 @@ from django.urls import reverse
 from .models import Data
 from .githubcsv import get_csv_from_github, get_updated_csvs
 from .logs import change_logger
-# Create your tests here.
-# Create your UnitTest here.
+
 class DataTestCase(TestCase):
     def setUp(self):
         dummy = Data(FIPS=0,Admin2="Test")
@@ -88,9 +87,25 @@ class GithubRepoCSVFuncs(TestCase):
         self.assertRaises(ValueError, get_csv_from_github, date=0)
         self.assertRaises(ValueError, get_csv_from_github, date="")
         self.assertRaises(ValueError, get_csv_from_github, date="hola")
-        self.assertRaises(ValueError, get_csv_from_github, date="31-02-20")
+        self.assertRaises(ValueError, get_csv_from_github, date="31-02-2020")
+        self.assertRaises(ValueError, get_csv_from_github, date="01-02-20")
         self.assertRaises(ValueError, get_csv_from_github, date=[""])
         self.assertRaises(ValueError, get_csv_from_github, date=(""))
+
+        date_string = "29-05-2020"
+        with self.assertLogs(level='INFO') as contextmanager:
+            get_csv_from_github(date=date_string)
+        self.assertEqual(contextmanager.output, [f"INFO:root:CSV file not found for this date yet: {date_string} -> HTTP Error 404: Not Found"])
+
+        with self.assertLogs(level='DEBUG') as contextmanager:
+            get_csv_from_github()
+        self.assertEqual(contextmanager.output[1], "DEBUG:root:Default date to be used for csv extraction")
+
+        date_string = "29-03-2020"
+        with self.assertLogs(level='DEBUG') as contextmanager:
+            get_csv_from_github(date=date_string)
+        self.assertEqual(contextmanager.output[3], f"DEBUG:root:Successfully downloaded data for {date_string}")
+
         self.assertRaises(ValueError, get_csv_from_github, url=1)
         self.assertRaises(ValueError, get_csv_from_github, url=-1)
         self.assertRaises(ValueError, get_csv_from_github, url=0)
@@ -98,8 +113,7 @@ class GithubRepoCSVFuncs(TestCase):
         self.assertRaises(ValueError, get_csv_from_github, url=[""])
         self.assertRaises(ValueError, get_csv_from_github, url=(""))
 
-    def tes_get_updated_csvs(self):
-        self.assertRaises(ValueError, get_updated_csvs, seconds=1)
+    def test_get_updated_csvs(self):
         self.assertRaises(ValueError, get_updated_csvs, seconds=-1)
         self.assertRaises(ValueError, get_updated_csvs, seconds=0)
         self.assertRaises(ValueError, get_updated_csvs, seconds="hola")
@@ -133,3 +147,18 @@ class LoggerFuncs(TestCase):
         self.assertRaises(ValueError, change_logger, nfileformat="")
         self.assertRaises(ValueError, change_logger, nfileformat=[""])
         self.assertRaises(ValueError, change_logger, nfileformat=(""))
+        self.assertRaises(ValueError, change_logger, nconsoleformat=1)
+        self.assertRaises(ValueError, change_logger, nconsoleformat=-1)
+        self.assertRaises(ValueError, change_logger, nconsoleformat=0)
+        self.assertRaises(ValueError, change_logger, nconsoleformat="")
+        self.assertRaises(ValueError, change_logger, nconsoleformat=[""])
+        self.assertRaises(ValueError, change_logger, nconsoleformat=(""))
+
+        with self.assertLogs(level='INFO') as contextmanager:
+            change_logger(nlevel=50, nfileformat="%(message)s", nconsoleformat="%(message)s")
+        self.assertEqual(contextmanager.output,
+            [
+                "INFO:root:Console handler changed",
+                "INFO:root:File handler changed"
+            ]
+        )
