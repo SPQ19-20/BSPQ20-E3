@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-15 14:40+0200\n"
+"POT-Creation-Date: 2020-04-24 18:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,97 +17,142 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: BSPQ20E3/panel/templates/base.html:13
+#: panel/templates/base.html:13
 msgid "Title"
 msgstr "Titulua"
 
-#: BSPQ20E3/panel/templates/base.html:34
+#: panel/templates/base.html:34
 msgid "Search for"
 msgstr "Bilatu"
 
-#: BSPQ20E3/panel/templates/base.html:45
-msgid "Log in / Register"
-msgstr "Saioa hasi / Erregistro"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:12
-msgid "Main"
-msgstr "Orokorra"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:16
-msgid "Dashboard"
-msgstr "Taula"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:20
-msgid "Live log"
-msgstr "Zuzeneko log"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:22
-msgid "User"
-msgstr "Erabiltzaile"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:26
+#: panel/templates/base.html:49 panel/templates/basewithbar.html:56
 msgid "My account"
 msgstr "Nire kontua"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:29
-#: BSPQ20E3/panel/templates/basewithbar.html:34
-msgid "Configuration"
-msgstr "Konfigurazioa"
+#: panel/templates/base.html:50
+msgid "Log out"
+msgstr "Saioa amaitu"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:32
-msgid "Settings"
-msgstr "Doikuntzak"
-
-#: BSPQ20E3/panel/templates/index.html:15
-msgid "Overall"
-msgstr "Laburpena"
-
-#: BSPQ20E3/panel/templates/index.html:16
-msgid "Countries"
-msgstr "Herrialdeak"
-
-#: BSPQ20E3/panel/templates/index.html:17
-msgid "Evolution"
-msgstr "Eboluzioa"
-
-#: BSPQ20E3/panel/templates/index.html:18
-msgid "Social media"
-msgstr "Berriak"
-
-#: BSPQ20E3/panel/templates/index.html:19
-msgid "Recommendations"
-msgstr "Gomendioak"
-
-#: BSPQ20E3/panel/templates/login.html:20
-msgid "Login"
-msgstr "Saioa hasi"
-
-#: BSPQ20E3/panel/templates/login.html:21
-msgid "Register"
-msgstr "Erregistro"
-
-#: BSPQ20E3/panel/templates/login.html:33
-#: BSPQ20E3/panel/templates/login.html:49
+#: panel/templates/base.html:55 panel/templates/basewithbar.html:62
+#: panel/templates/login.html:23
 msgid "Sign in"
 msgstr "Saioa hasi"
 
-#: BSPQ20E3/panel/templates/login.html:37
-msgid "Email address"
-msgstr "Posta elektronikoa"
+#: panel/templates/basewithbar.html:11
+#, fuzzy
+#| msgid "Social media"
+msgid "Social login"
+msgstr "Berriak"
 
-#: BSPQ20E3/panel/templates/login.html:42
-msgid "Password"
-msgstr "Pasahitza"
+#: panel/templates/basewithbar.html:17
+msgid "We only allow social login due to security and simplicity reasons"
+msgstr "Segurtasun eta sinpletasun arrazoiengatik onartzen dugu social logina."
 
-#: BSPQ20E3/panel/templates/login.html:47
-msgid "Remember password"
-msgstr "Pasahitza gogoratu"
+#: panel/templates/basewithbar.html:40
+msgid "Main"
+msgstr "Orokorra"
 
-#: BSPQ20E3/panel/templates/login.html:50
-msgid "Sign up"
-msgstr "Erregistratu"
+#: panel/templates/basewithbar.html:44
+msgid "Dashboard"
+msgstr "Taula"
 
-#: BSPQ20E3/panel/templates/login.html:53
-#: BSPQ20E3/panel/templates/login.html:54
+#: panel/templates/basewithbar.html:48
+msgid "Live log"
+msgstr "Zuzeneko log"
+
+#: panel/templates/basewithbar.html:50
+msgid "User"
+msgstr "Erabiltzaile"
+
+#: panel/templates/basewithbar.html:70
+msgid "Configuration"
+msgstr "Konfigurazioa"
+
+#: panel/templates/basewithbar.html:73
+msgid "Settings"
+msgstr "Doikuntzak"
+
+#: panel/templates/basewithbar.html:75
+msgid "Language"
+msgstr "Hizkuntza"
+
+#: panel/templates/index.html:16
+msgid "Overall"
+msgstr "Laburpena"
+
+#: panel/templates/index.html:17
+msgid "Countries"
+msgstr "Herrialdeak"
+
+#: panel/templates/index.html:18
+msgid "Evolution"
+msgstr "Eboluzioa"
+
+#: panel/templates/index.html:19
+msgid "Social media"
+msgstr "Berriak"
+
+#: panel/templates/index.html:20
+msgid "Recommendations"
+msgstr "Gomendioak"
+
+#: panel/templates/index.html:21
+msgid "Economy"
+msgstr "Ekonomia"
+
+#: panel/templates/index.html:39
+msgid "COVID-19 cases in each country"
+msgstr "COVID-19 kasu herrialde bakoitzean"
+
+#: panel/templates/index.html:46
+msgid "Number of deaths in each country"
+msgstr "Herrialde bakoitzean hildako kopurua"
+
+#: panel/templates/livelogtest.html:18
+#, fuzzy
+#| msgid "Countries"
+msgid "Country_Region"
+msgstr "Herrialdeak"
+
+#: panel/templates/livelogtest.html:19
+msgid "Confirmed"
+msgstr "Konfirmatuak"
+
+#: panel/templates/livelogtest.html:20
+msgid "Deaths"
+msgstr "Hildak"
+
+#: panel/templates/livelogtest.html:21
+msgid "Recovered"
+msgstr "Zainduak"
+
+#: panel/templates/livelogtest.html:22
+#, fuzzy
+#| msgid "Last_Update"
+msgid "Last update"
+msgstr "Azken aktualizaioa"
+
+#: panel/templates/login.html:25 panel/templates/login.html:26
 msgid "Sign in with"
 msgstr "Saioa hasteko modua"
+
+#~ msgid "Log in / Register"
+#~ msgstr "Saioa hasi / Erregistro"
+
+#~ msgid "Login"
+#~ msgstr "Saioa hasi"
+
+#~ msgid "Register"
+#~ msgstr "Erregistro"
+
+#~ msgid "Email address"
+#~ msgstr "Posta elektronikoa"
+
+#~ msgid "Password"
+#~ msgstr "Pasahitza"
+
+#~ msgid "Remember password"
+#~ msgstr "Pasahitza gogoratu"
+
+#~ msgid "Sign up"
+#~ msgstr "Erregistratu"

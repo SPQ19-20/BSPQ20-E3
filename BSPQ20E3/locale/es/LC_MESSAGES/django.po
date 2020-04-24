@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-07 18:07+0200\n"
+"POT-Creation-Date: 2020-04-24 18:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,96 +17,143 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: BSPQ20E3/panel/templates/base.html:13
+
+#: panel/templates/base.html:13
 msgid "Title"
 msgstr "Título"
 
-#: BSPQ20E3/panel/templates/base.html:46
+#: panel/templates/base.html:34
 msgid "Search for"
 msgstr "Buscar"
 
-#: BSPQ20E3/panel/templates/base.html:57
-msgid "Log in / Register"
-msgstr "Iniciar sesión / Registro"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:12
-msgid "Main"
-msgstr "General"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:16
-msgid "Dashboard"
-msgstr "Tablero"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:20
-msgid "Live log"
-msgstr "Log en vivo"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:22
-msgid "User"
-msgstr "Usuario"
-
-#: BSPQ20E3/panel/templates/basewithbar.html:26
+#: panel/templates/base.html:49 panel/templates/basewithbar.html:56
 msgid "My account"
 msgstr "Mi cuenta"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:29
-msgid "Configuration"
-msgstr "Configuración"
+#: panel/templates/base.html:50
+msgid "Log out"
+msgstr "Cerrar sesión"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:32
-msgid "Settings"
-msgstr "Ajustes"
-
-#: BSPQ20E3/panel/templates/index.html:15
-msgid "Overall"
-msgstr "Resumen"
-
-#: BSPQ20E3/panel/templates/index.html:16
-msgid "Countries"
-msgstr "Países"
-
-#: BSPQ20E3/panel/templates/index.html:17
-msgid "Evolution"
-msgstr "Evolución"
-
-#: BSPQ20E3/panel/templates/index.html:18
-msgid "Social media"
-msgstr "Noticias"
-
-#: BSPQ20E3/panel/templates/index.html:19
-msgid "Recommendations"
-msgstr "Recomendaciones"
-
-#: BSPQ20E3/panel/templates/login.html:20
-msgid "Login"
-msgstr "Iniciar sesión"
-
-#: BSPQ20E3/panel/templates/login.html:21
-msgid "Register"
-msgstr "Registro"
-
-#: BSPQ20E3/panel/templates/login.html:33
-#: BSPQ20E3/panel/templates/login.html:49
+#: panel/templates/base.html:55 panel/templates/basewithbar.html:62
+#: panel/templates/login.html:23
 msgid "Sign in"
 msgstr "Iniciar sesión"
 
-#: BSPQ20E3/panel/templates/login.html:37
-msgid "Email address"
-msgstr "Correo electrónico"
+#: panel/templates/basewithbar.html:11
+#, fuzzy
+#| msgid "Social media"
+msgid "Social login"
+msgstr "Noticias"
 
-#: BSPQ20E3/panel/templates/login.html:42
-msgid "Password"
-msgstr "Contraseña"
+#: panel/templates/basewithbar.html:17
+msgid "We only allow social login due to security and simplicity reasons"
+msgstr "Permitimos el inicio de sesión social por razones de seguridad y simplicidad"
 
-#: BSPQ20E3/panel/templates/login.html:47
-msgid "Remember password"
-msgstr "Recordar contraseña"
+#: panel/templates/basewithbar.html:40
+msgid "Main"
+msgstr "General"
 
-#: BSPQ20E3/panel/templates/login.html:50
-msgid "Sign up"
-msgstr "Registrarse"
+#: panel/templates/basewithbar.html:44
+msgid "Dashboard"
+msgstr "Tablero"
 
-#: BSPQ20E3/panel/templates/login.html:53
-#: BSPQ20E3/panel/templates/login.html:54
+#: panel/templates/basewithbar.html:48
+msgid "Live log"
+msgstr "Log en vivo"
+
+#: panel/templates/basewithbar.html:50
+msgid "User"
+msgstr "Usuario"
+
+#: panel/templates/basewithbar.html:70
+msgid "Configuration"
+msgstr "Configuración"
+
+#: panel/templates/basewithbar.html:73
+msgid "Settings"
+msgstr "Ajustes"
+
+#: panel/templates/basewithbar.html:75
+msgid "Language"
+msgstr "Idioma"
+
+#: panel/templates/index.html:16
+msgid "Overall"
+msgstr "Resumen"
+
+#: panel/templates/index.html:17
+msgid "Countries"
+msgstr "Países"
+
+#: panel/templates/index.html:18
+msgid "Evolution"
+msgstr "Evolución"
+
+#: panel/templates/index.html:19
+msgid "Social media"
+msgstr "Noticias"
+
+#: panel/templates/index.html:20
+msgid "Recommendations"
+msgstr "Recomendaciones"
+
+#: panel/templates/index.html:21
+msgid "Economy"
+msgstr "Economía"
+
+#: panel/templates/index.html:39
+msgid "COVID-19 cases in each country"
+msgstr "Casos de COVID-19 en cada país"
+
+#: panel/templates/index.html:46
+msgid "Number of deaths in each country"
+msgstr "Número de muertos en cada país"
+
+#: panel/templates/livelogtest.html:18
+#, fuzzy
+#| msgid "Countries"
+msgid "Country_Region"
+msgstr "Países"
+
+#: panel/templates/livelogtest.html:19
+msgid "Confirmed"
+msgstr "Confirmados"
+
+#: panel/templates/livelogtest.html:20
+msgid "Deaths"
+msgstr "Muertos"
+
+#: panel/templates/livelogtest.html:21
+msgid "Recovered"
+msgstr "Recuperados"
+
+#: panel/templates/livelogtest.html:22
+#, fuzzy
+#| msgid "Last_Update"
+msgid "Last update"
+msgstr "Ult.Actualización"
+
+#: panel/templates/login.html:25 panel/templates/login.html:26
 msgid "Sign in with"
 msgstr "Iniciar sesión con"
+
+#~ msgid "Log in / Register"
+#~ msgstr "Iniciar sesión / Registro"
+
+#~ msgid "Login"
+#~ msgstr "Iniciar sesión"
+
+#~ msgid "Register"
+#~ msgstr "Registro"
+
+#~ msgid "Email address"
+#~ msgstr "Correo electrónico"
+
+#~ msgid "Password"
+#~ msgstr "Contraseña"
+
+#~ msgid "Remember password"
+#~ msgstr "Recordar contraseña"
+
+#~ msgid "Sign up"
+#~ msgstr "Registrarse"

@@ -1,0 +1,35 @@
+DEBUG - 2020-04-24 18:08:01,517 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 18:08:01,517 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 18:08:01,518 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 18:08:01,535 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 18:08:02,803 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 18:32:39,840 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 18:32:39,840 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 18:32:39,841 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 18:32:39,843 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 18:32:40,838 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 18:37:49,993 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 18:37:49,993 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 18:37:49,993 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 18:37:49,996 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 18:37:50,722 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 18:40:43,845 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 18:40:43,845 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 18:40:43,846 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 18:40:43,850 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 18:40:44,781 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 18:41:36,166 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 18:41:36,166 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 18:41:36,167 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 18:41:36,168 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 18:41:36,693 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 18:49:18,383 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 18:49:18,383 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 18:49:18,383 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 18:49:18,385 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 18:49:19,178 - get_csv_from_github - Successfully downloaded data for 23-04-2020
+DEBUG - 2020-04-24 18:50:40,642 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-24 18:50:40,642 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-24 18:50:40,642 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-24 18:50:40,644 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv
+DEBUG - 2020-04-24 18:50:41,536 - get_csv_from_github - Successfully downloaded data for 23-04-2020
