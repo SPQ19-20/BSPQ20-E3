@@ -155,3 +155,5 @@ DEBUG - 2020-04-24 19:42:55,397 - get_csv_from_github - Successfully downloaded 
 WARNING - 2020-04-24 19:44:47,888 - log_response - Not Found: /favicon.ico
 WARNING - 2020-04-24 19:44:51,294 - log_response - Not Found: /favicon.ico
 WARNING - 2020-04-24 19:45:04,203 - log_response - Not Found: /favicon.ico
+File handler changed
+File handler changed
