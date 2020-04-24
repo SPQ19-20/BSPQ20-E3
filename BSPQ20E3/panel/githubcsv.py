@@ -5,7 +5,7 @@ import pandas as pd
 from .logs import get_logger
 
 
-def get_csv_from_github(url=None, date=None):
+def get_csv_from_github(url="default", date=None):
 
     """
     Description
@@ -29,7 +29,7 @@ def get_csv_from_github(url=None, date=None):
 
     # default values for "url" and "date" parameters
 
-    if url is None:
+    if url == "default":
 
         get_logger().debug("Default url to be used for csv extraction")
         url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/"
@@ -100,7 +100,7 @@ def get_csv_from_github(url=None, date=None):
         get_logger().warning(f"Something happened trying to input data into BD -> {questionable_error}")
 
 
-def get_updated_csvs(seconds=3600, url=None):
+def get_updated_csvs(seconds=3600, url="default"):
 
     """
     Description
