@@ -45,7 +45,7 @@ def get_csv_from_github(url="default", date=None):
 
 
     if date is None:
-        date = (datetime.datetime.now() - datetime.timedelta(days=0.0)).strftime("%d-%m-%Y") # adjust for US time...
+        date = (datetime.datetime.now() - datetime.timedelta(days=1.0)).strftime("%d-%m-%Y") # adjust for US time...
         get_logger().debug("Default date to be used for csv extraction")
 
     else:

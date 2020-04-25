@@ -1,0 +1,1013 @@
+         37066 function calls (36352 primitive calls) in 1.293 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.293    1.293 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\BSPQ20E3\panel\githubcsv.py:8(get_csv_from_github)
+        1    0.866    0.866    0.866    0.866 {built-in method nt.system}
+        1    0.000    0.000    0.355    0.355 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:530(parser_f)
+        1    0.000    0.000    0.355    0.355 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:416(_read)
+        2    0.000    0.000    0.309    0.154 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:144(get_filepath_or_buffer)
+        1    0.000    0.000    0.229    0.229 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:134(urlopen)
+        1    0.000    0.000    0.148    0.148 C:\Python 3.7.3\lib\urllib\request.py:139(urlopen)
+        1    0.000    0.000    0.145    0.145 C:\Python 3.7.3\lib\urllib\request.py:507(open)
+        1    0.000    0.000    0.144    0.144 C:\Python 3.7.3\lib\urllib\request.py:535(_open)
+        2    0.000    0.000    0.144    0.072 C:\Python 3.7.3\lib\urllib\request.py:496(_call_chain)
+        1    0.000    0.000    0.144    0.144 C:\Python 3.7.3\lib\urllib\request.py:1358(https_open)
+        1    0.000    0.000    0.144    0.144 C:\Python 3.7.3\lib\urllib\request.py:1275(do_open)
+        1    0.000    0.000    0.106    0.106 C:\Python 3.7.3\lib\http\client.py:1226(request)
+        1    0.000    0.000    0.106    0.106 C:\Python 3.7.3\lib\http\client.py:1231(_send_request)
+        1    0.000    0.000    0.106    0.106 C:\Python 3.7.3\lib\http\client.py:1213(endheaders)
+        1    0.000    0.000    0.106    0.106 C:\Python 3.7.3\lib\http\client.py:1007(_send_output)
+        1    0.000    0.000    0.106    0.106 C:\Python 3.7.3\lib\http\client.py:948(send)
+        1    0.000    0.000    0.105    0.105 C:\Python 3.7.3\lib\http\client.py:1381(connect)
+      168    0.001    0.000    0.098    0.001 C:\Python 3.7.3\lib\socket.py:575(readinto)
+      168    0.001    0.000    0.096    0.001 C:\Python 3.7.3\lib\ssl.py:1041(recv_into)
+     34/5    0.001    0.000    0.095    0.019 <frozen importlib._bootstrap>:978(_find_and_load)
+     34/5    0.000    0.000    0.095    0.019 <frozen importlib._bootstrap>:948(_find_and_load_unlocked)
+      168    0.001    0.000    0.095    0.001 C:\Python 3.7.3\lib\ssl.py:902(read)
+      168    0.094    0.001    0.094    0.001 {method 'read' of '_ssl._SSLSocket' objects}
+     33/4    0.000    0.000    0.092    0.023 <frozen importlib._bootstrap>:663(_load_unlocked)
+     30/4    0.000    0.000    0.091    0.023 <frozen importlib._bootstrap_external>:722(exec_module)
+     40/4    0.000    0.000    0.085    0.021 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+     33/4    0.001    0.000    0.085    0.021 {built-in method builtins.exec}
+        1    0.000    0.000    0.079    0.079 C:\Python 3.7.3\lib\http\client.py:436(read)
+        1    0.000    0.000    0.079    0.079 C:\Python 3.7.3\lib\urllib\request.py:68(<module>)
+        1    0.000    0.000    0.078    0.078 C:\Python 3.7.3\lib\http\client.py:594(_safe_read)
+        1    0.001    0.001    0.078    0.078 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.065    0.065 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:3042(to_csv)
+        1    0.000    0.000    0.063    0.063 C:\Python 3.7.3\lib\http\client.py:925(connect)
+        1    0.000    0.000    0.063    0.063 C:\Python 3.7.3\lib\socket.py:691(create_connection)
+        1    0.000    0.000    0.063    0.063 C:\Python 3.7.3\lib\http\client.py:69(<module>)
+        1    0.000    0.000    0.061    0.061 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\formats\csvs.py:157(save)
+        1    0.000    0.000    0.058    0.058 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\formats\csvs.py:308(_save)
+        1    0.000    0.000    0.058    0.058 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\formats\csvs.py:325(_save_chunk)
+        1    0.000    0.000    0.046    0.046 C:\Python 3.7.3\lib\socket.py:731(getaddrinfo)
+        1    0.040    0.040    0.046    0.046 {built-in method _socket.getaddrinfo}
+        1    0.000    0.000    0.042    0.042 C:\Python 3.7.3\lib\ssl.py:399(wrap_socket)
+        1    0.000    0.000    0.042    0.042 C:\Python 3.7.3\lib\ssl.py:796(_create)
+        1    0.000    0.000    0.042    0.042 C:\Python 3.7.3\lib\ssl.py:1110(do_handshake)
+        1    0.042    0.042    0.042    0.042 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.040    0.040 C:\Python 3.7.3\lib\email\parser.py:5(<module>)
+        1    0.000    0.000    0.038    0.038 C:\Python 3.7.3\lib\email\feedparser.py:20(<module>)
+        1    0.000    0.000    0.033    0.033 C:\Python 3.7.3\lib\email\_policybase.py:4(<module>)
+        1    0.000    0.000    0.032    0.032 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1131(read)
+       30    0.001    0.000    0.031    0.001 <frozen importlib._bootstrap_external>:793(get_code)
+        1    0.028    0.028    0.028    0.028 {pandas._libs.writers.write_csv_rows}
+        2    0.027    0.013    0.027    0.013 {method 'astype' of 'numpy.ndarray' objects}
+      5/4    0.000    0.000    0.024    0.006 {built-in method builtins.__import__}
+        1    0.000    0.000    0.022    0.022 C:\Python 3.7.3\lib\http\client.py:1277(getresponse)
+        1    0.000    0.000    0.022    0.022 C:\Python 3.7.3\lib\http\client.py:289(begin)
+        1    0.000    0.000    0.021    0.021 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:2045(to_native_types)
+        1    0.000    0.000    0.020    0.020 C:\Python 3.7.3\lib\http\client.py:256(_read_status)
+       26    0.000    0.000    0.020    0.001 {method 'readline' of '_io.BufferedReader' objects}
+       30    0.017    0.001    0.019    0.001 <frozen importlib._bootstrap_external>:914(get_data)
+        1    0.000    0.000    0.019    0.019 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:2035(read)
+        1    0.000    0.000    0.019    0.019 C:\Python 3.7.3\lib\email\utils.py:5(<module>)
+        1    0.017    0.017    0.019    0.019 {method 'read' of 'pandas._libs.parsers.TextReader' objects}
+        1    0.017    0.017    0.017    0.017 {method 'connect' of '_socket.socket' objects}
+       34    0.001    0.000    0.016    0.000 <frozen importlib._bootstrap>:882(_find_spec)
+        1    0.000    0.000    0.016    0.016 C:\Python 3.7.3\lib\http\client.py:1352(__init__)
+        1    0.000    0.000    0.016    0.016 C:\Python 3.7.3\lib\ssl.py:551(create_default_context)
+       34    0.000    0.000    0.015    0.000 <frozen importlib._bootstrap_external>:1272(find_spec)
+       34    0.000    0.000    0.015    0.000 <frozen importlib._bootstrap_external>:1240(_get_spec)
+  136/125    0.000    0.000    0.015    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+       62    0.001    0.000    0.014    0.000 <frozen importlib._bootstrap_external>:1356(find_spec)
+        1    0.000    0.000    0.014    0.014 C:\Python 3.7.3\lib\ssl.py:474(load_default_certs)
+        2    0.000    0.000    0.014    0.007 C:\Python 3.7.3\lib\ssl.py:460(_load_windows_store_certs)
+        1    0.000    0.000    0.014    0.014 C:\Python 3.7.3\lib\socket.py:47(<module>)
+        1    0.000    0.000    0.014    0.014 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:792(__init__)
+        1    0.000    0.000    0.013    0.013 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1112(_make_engine)
+        1    0.013    0.013    0.013    0.013 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1864(__init__)
+        1    0.000    0.000    0.013    0.013 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\frame.py:414(__init__)
+        1    0.000    0.000    0.013    0.013 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\construction.py:213(init_dict)
+       29    0.000    0.000    0.013    0.000 C:\Python 3.7.3\lib\re.py:232(compile)
+       29    0.000    0.000    0.013    0.000 C:\Python 3.7.3\lib\re.py:271(_compile)
+      131    0.000    0.000    0.013    0.000 <frozen importlib._bootstrap_external>:74(_path_stat)
+      131    0.013    0.000    0.013    0.000 {built-in method nt.stat}
+       20    0.000    0.000    0.012    0.001 C:\Python 3.7.3\lib\sre_compile.py:759(compile)
+      122    0.004    0.000    0.012    0.000 {built-in method builtins.__build_class__}
+        1    0.000    0.000    0.011    0.011 C:\Python 3.7.3\lib\ssl.py:91(<module>)
+        1    0.000    0.000    0.010    0.010 C:\Python 3.7.3\lib\email\header.py:5(<module>)
+       33    0.000    0.000    0.010    0.000 <frozen importlib._bootstrap>:576(module_from_spec)
+       10    0.000    0.000    0.009    0.001 C:\Python 3.7.3\lib\enum.py:633(_convert)
+        2    0.008    0.004    0.008    0.004 {built-in method _ssl.enum_certificates}
+        1    0.000    0.000    0.008    0.008 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\construction.py:56(arrays_to_mgr)
+       30    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:523(_compile_bytecode)
+        2    0.000    0.000    0.007    0.004 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:993(to_native_types)
+        3    0.000    0.000    0.007    0.002 <frozen importlib._bootstrap_external>:1040(create_module)
+       30    0.007    0.000    0.007    0.000 {built-in method marshal.loads}
+       13    0.003    0.000    0.007    0.001 C:\Python 3.7.3\lib\enum.py:135(__new__)
+        3    0.007    0.002    0.007    0.002 {built-in method _imp.create_dynamic}
+        2    0.000    0.000    0.007    0.004 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:1024(_format_native_types)
+       58    0.000    0.000    0.006    0.000 C:\Python 3.7.3\lib\enum.py:284(__call__)
+       10    0.000    0.000    0.006    0.001 C:\Python 3.7.3\lib\enum.py:389(_create_)
+       20    0.000    0.000    0.006    0.000 C:\Python 3.7.3\lib\sre_parse.py:919(parse)
+        1    0.000    0.000    0.006    0.006 C:\Python 3.7.3\lib\encodings\__init__.py:71(search_function)
+    43/20    0.000    0.000    0.006    0.000 C:\Python 3.7.3\lib\sre_parse.py:417(_parse_sub)
+       20    0.000    0.000    0.006    0.000 C:\Python 3.7.3\lib\sre_compile.py:598(_code)
+    58/23    0.002    0.000    0.005    0.000 C:\Python 3.7.3\lib\sre_parse.py:475(_parse)
+        2    0.005    0.003    0.005    0.003 {method 'load_verify_locations' of '_ssl._SSLContext' objects}
+        2    0.000    0.000    0.005    0.003 {built-in method strptime}
+        1    0.000    0.000    0.005    0.005 C:\Python 3.7.3\lib\email\message.py:5(<module>)
+      3/2    0.000    0.000    0.004    0.002 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:183(__init__)
+4555/4553    0.003    0.000    0.004    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.004    0.004 C:\Python 3.7.3\lib\encodings\idna.py:3(<module>)
+       14    0.000    0.000    0.004    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\construction.py:388(sanitize_array)
+        1    0.000    0.000    0.004    0.004 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\construction.py:300(_homogenize)
+       39    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:84(_path_is_mode_type)
+        6    0.000    0.000    0.004    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\missing.py:49(isna)
+        6    0.000    0.000    0.004    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\missing.py:132(_isna_new)
+        1    0.000    0.000    0.003    0.003 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1667(create_block_manager_from_arrays)
+       37    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:93(_path_isfile)
+    87/20    0.001    0.000    0.003    0.000 C:\Python 3.7.3\lib\sre_compile.py:71(_compile)
+        1    0.000    0.000    0.003    0.003 C:\Python 3.7.3\lib\email\charset.py:6(<module>)
+        6    0.000    0.000    0.003    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\missing.py:225(_isna_ndarraylike)
+        1    0.000    0.000    0.003    0.003 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1700(form_blocks)
+        9    0.000    0.000    0.003    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:5293(ensure_index)
+        1    0.000    0.000    0.003    0.003 C:\Python 3.7.3\lib\http\__init__.py:1(<module>)
+       30    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:951(path_stats)
+       46    0.002    0.000    0.003    0.000 C:\Python 3.7.3\lib\sre_compile.py:276(_optimize_charset)
+        2    0.000    0.000    0.003    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:673(to_native_types)
+      197    0.003    0.000    0.003    0.000 {built-in method __new__ of type object at 0x6BFD1320}
+      7/3    0.000    0.000    0.003    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:276(__new__)
+        1    0.000    0.000    0.002    0.002 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:314(get_handle)
+        1    0.000    0.000    0.002    0.002 C:\Python 3.7.3\lib\urllib\request.py:575(build_opener)
+       10    0.001    0.000    0.002    0.000 C:\Python 3.7.3\lib\enum.py:654(<listcomp>)
+        1    0.000    0.000    0.002    0.002 C:\Python 3.7.3\lib\selectors.py:5(<module>)
+       30    0.002    0.000    0.002    0.000 {method 'read' of '_io.FileIO' objects}
+        1    0.000    0.000    0.002    0.002 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:313(_init_dict)
+      191    0.001    0.000    0.002    0.000 C:\Python 3.7.3\lib\enum.py:70(__setitem__)
+       20    0.000    0.000    0.002    0.000 C:\Python 3.7.3\lib\sre_compile.py:536(_compile_info)
+       33    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:504(_init_module_attrs)
+      181    0.000    0.000    0.002    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\base.py:247(is_dtype)
+        1    0.000    0.000    0.002    0.002 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\construction.py:590(create_series_with_explicit_dtype)
+        3    0.002    0.001    0.002    0.001 {built-in method pandas._libs.missing.isnaobj}
+        1    0.000    0.000    0.002    0.002 C:\Python 3.7.3\lib\email\encoders.py:5(<module>)
+      303    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:56(_path_join)
+        2    0.000    0.000    0.002    0.001 C:\Python 3.7.3\lib\_strptime.py:574(_strptime_datetime)
+        2    0.000    0.000    0.002    0.001 C:\Python 3.7.3\lib\_strptime.py:318(_strptime)
+        1    0.000    0.000    0.002    0.002 C:\Python 3.7.3\lib\urllib\error.py:12(<module>)
+       17    0.000    0.000    0.002    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:2981(get_block_type)
+        1    0.000    0.000    0.002    0.002 C:\Python 3.7.3\lib\ssl.py:387(__new__)
+        1    0.000    0.000    0.002    0.002 C:\Python 3.7.3\lib\http\client.py:193(parse_headers)
+       14    0.000    0.000    0.002    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\construction.py:506(_try_cast)
+        1    0.000    0.000    0.002    0.002 C:\Python 3.7.3\lib\_strptime.py:270(compile)
+       60    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:271(cache_from_source)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\_strptime.py:12(<module>)
+        8    0.001    0.000    0.001    0.000 {pandas._libs.lib.infer_dtype}
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\email\parser.py:60(parsestr)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\_strptime.py:182(__init__)
+       10    0.001    0.000    0.001    0.000 C:\Python 3.7.3\lib\urllib\request.py:445(add_handler)
+     1558    0.001    0.000    0.001    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\email\parser.py:42(parse)
+      140    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1565(is_extension_array_dtype)
+      769    0.001    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\generic.py:10(_check)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\http\client.py:398(_close_conn)
+       63    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:403(cached)
+        2    0.001    0.001    0.001    0.001 {built-in method io.open}
+        1    0.000    0.000    0.001    0.001 {method 'close' of '_io.BufferedReader' objects}
+       13    0.001    0.000    0.001    0.000 C:\Python 3.7.3\lib\enum.py:177(<setcomp>)
+       34    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        1    0.001    0.001    0.001    0.001 C:\Python 3.7.3\lib\socket.py:652(close)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\request.py:325(__init__)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\email\message.py:105(Message)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\request.py:940(AbstractBasicAuthHandler)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\request.py:349(full_url)
+       84    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:542(is_categorical_dtype)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\request.py:380(_parse)
+       33    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:369(_get_cached)
+      583    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\sre_parse.py:254(get)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\email\feedparser.py:173(feed)
+       39    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\abc.py:137(__instancecheck__)
+   107/20    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\abc.py:141(__subclasscheck__)
+        2    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\email\feedparser.py:178(_call_parse)
+       39    0.000    0.000    0.001    0.000 {built-in method _abc._abc_instancecheck}
+   107/20    0.001    0.000    0.001    0.000 {built-in method _abc._abc_subclasscheck}
+        2    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\email\feedparser.py:218(_parsegen)
+      169    0.001    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1708(_is_dtype_type)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\request.py:797(__init__)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\request.py:2662(getproxies)
+      248    0.001    0.000    0.001    0.000 C:\Python 3.7.3\lib\enum.py:376(__setattr__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\formats\csvs.py:3(<module>)
+1939/1824    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        3    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\collections\__init__.py:316(namedtuple)
+        5    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:3027(make_block)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\_strptime.py:49(__init__)
+     1065    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+    55/53    0.001    0.000    0.001    0.000 {built-in method numpy.array}
+       34    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\request.py:2456(getproxies_environment)
+       11    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\cast.py:1209(maybe_cast_to_datetime)
+        2    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1811(_multi_blockify)
+      738    0.001    0.000    0.001    0.000 C:\Python 3.7.3\lib\sre_parse.py:233(__next)
+      192    0.000    0.000    0.001    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.001    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\formats\csvs.py:33(CSVFormatter)
+      303    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:58(<listcomp>)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\email\errors.py:5(<module>)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\http\__init__.py:5(HTTPStatus)
+     1664    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
+    16/15    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\typing.py:245(inner)
+        1    0.000    0.000    0.001    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\formats\csvs.py:34(__init__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:4400(isna)
+       21    0.000    0.000    0.001    0.000 {pandas._libs.lib.is_list_like}
+        1    0.000    0.000    0.001    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:7264(isna)
+        3    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1828(_stack_arrays)
+      104    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\_collections_abc.py:742(__iter__)
+        4    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\BSPQ20E3\panel\logs.py:129(get_logger)
+       76    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1203(_path_importer_cache)
+        1    0.000    0.000    0.001    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\BSPQ20E3\panel\logs.py:14(startup_logger)
+   105/40    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\sre_parse.py:174(getwidth)
+      141    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\dtypes.py:75(find)
+      5/4    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\typing.py:337(__getitem__)
+      423    0.000    0.000    0.001    0.000 C:\Python 3.7.3\lib\sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:882(close)
+        1    0.000    0.000    0.001    0.001 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1969(close)
+        1    0.001    0.001    0.001    0.001 {method 'close' of 'pandas._libs.parsers.TextReader' objects}
+       39    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:472(is_period_dtype)
+     1897    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\parse.py:980(splithost)
+       33    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1351(_get_spec)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1404(_fill_cache)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\urllib\parse.py:967(splittype)
+       60    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:62(_path_split)
+        1    0.000    0.000    0.001    0.001 C:\Python 3.7.3\lib\logging\__init__.py:1074(__init__)
+       36    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:506(is_interval_dtype)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1190(_path_hooks)
+       52    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:222(is_object_dtype)
+      168    0.000    0.000    0.001    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+      399    0.000    0.000    0.001    0.000 {method 'join' of 'str' objects}
+       35    0.000    0.000    0.001    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\dtypes.py:917(is_dtype)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1797(_simple_blockify)
+        9    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\cast.py:1102(maybe_infer_to_datetimelike)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:471(_parse_headers)
+       39    0.000    0.000    0.000    0.000 {method 'strftime' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:122(__init__)
+      103    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\os.py:673(__getitem__)
+       32    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\dtypes.py:1124(is_dtype)
+       34    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:403(is_datetime64tz_dtype)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:11341(logical_func)
+        9    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\abc.py:125(__new__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_encoded_words.py:6(<module>)
+       60    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:3857(_reduce)
+      616    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\quoprimime.py:27(<module>)
+       26    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_dtype.py:333(_name_get)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1116(_open)
+       43    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:775(is_integer_dtype)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:4046(equals)
+       18    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1435(is_bool_dtype)
+       20    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:96(closegroup)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:406(_decref_socketios)
+       13    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\cast.py:1088(maybe_castable)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1467(__init__)
+        8    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:575(is_string_dtype)
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:318(__exit__)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:416(close)
+       69    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:97(__calc_month)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:438(_classify_pyc)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:1106(_real_close)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:4027(reindex)
+       11    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1647(_is_dtype)
+       23    0.000    0.000    0.000    0.000 {pandas._libs.lib.is_scalar}
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:574(spec_from_file_location)
+       13    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:125(__prepare__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:4299(reindex)
+      158    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:18(_is_descriptor)
+      191    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:26(_is_dunder)
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:118(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+       14    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:987(is_datetime64_any_dtype)
+        2    0.000    0.000    0.000    0.000 {pandas._libs.lib.clean_index_list}
+      9/8    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+       26    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\calendar.py:58(__getitem__)
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.dir}
+       17    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:339(is_categorical)
+      334    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+       36    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:442(_get_mixins_)
+      191    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:34(_is_sunder)
+       11    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:600(__init__)
+      252    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:249(match)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:1004(sendall)
+       10    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:411(_mk_bitmap)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:89(__calc_weekday)
+       13    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:474(_find_new_)
+        8    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:605(condition)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:4530(<genexpr>)
+       20    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:836(__and__)
+       12    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(concatenate)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\nanops.py:396(nanany)
+      173    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:76(<lambda>)
+      175    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:86(<lambda>)
+      174    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:81(<lambda>)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:608(is_excluded_dtype)
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:228(__seqToRE)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1445(path_hook_for_FileFinder)
+      176    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:91(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:4076(identical)
+       13    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+      103    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\os.py:743(encodekey)
+      698    0.000    0.000    0.000    0.000 {method 'isupper' of 'str' objects}
+      690    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:977(send)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+    28/27    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_asarray.py:16(asarray)
+       15    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:372(is_datetime64_dtype)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\missing.py:402(array_equivalent)
+      169    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:614(readable)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        9    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:462(get)
+       14    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\calendar.py:77(__getitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:212(_rebuild_blknos_and_blklocs)
+        7    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\common.py:219(asarray_tuplesafe)
+       90    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:51(_r_long)
+       15    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:613(<genexpr>)
+      178    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:471(_validate_timestamp_pyc)
+       24    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:293(header_source_parse)
+        5    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:361(urlparse)
+        1    0.000    0.000    0.000    0.000 {method 'set_default_verify_paths' of '_ssl._SSLContext' objects}
+      168    0.000    0.000    0.000    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:412(_real_close)
+       46    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:249(_compile_charset)
+       26    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1401(is_float_dtype)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:98(_path_isdir)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:99(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {function socket.close at 0x0D0D0E40}
+        1    0.000    0.000    0.000    0.000 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+       17    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:252(is_sparse)
+      164    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:160(__len__)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:247(pattern)
+      357    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:564(get_content_type)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\quoprimime.py:55(<listcomp>)
+       17    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:441(is_timedelta64_dtype)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:100(<listcomp>)
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:251(mgr_locs)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+       58    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\__init__.py:20(__new__)
+       10    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:413(<listcomp>)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:5463(_maybe_cast_data_without_dtype)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\response.py:7(<module>)
+       50    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:243(<genexpr>)
+       32    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:701(__setattr__)
+       36    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:453(_find_data_type)
+        2    0.000    0.000    0.000    0.000 {method 'close' of '_io.TextIOWrapper' objects}
+      248    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+      279    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+    27/20    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:461(_get_literal_prefix)
+      129    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:172(append)
+      114    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:208(<lambda>)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:226(get_compression_method)
+      120    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:286(tell)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\stringprep.py:6(<module>)
+       14    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\construction.py:337(extract_array)
+      215    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+      208    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       26    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_dtype.py:319(_name_includes_bit_suffix)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:655(_consolidate_check)
+      338    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:890(_checkClosed)
+       40    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1844(pandas_dtype)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1282(needs_i8_conversion)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:707(__instancecheck__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:40(is_url)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:92(<listcomp>)
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:859(__exit__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:656(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\nanops.py:234(_get_values)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:116(__calc_date_time)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:710(__subclasscheck__)
+       13    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:5393(maybe_extract_name)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:2361(ftpwrapper)
+       23    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:423(_simple)
+       20    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:224(__init__)
+       11    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:110(_type_check)
+       27    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:128(__next__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:343(ftype)
+       14    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:348(<genexpr>)
+       44    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\re.py:252(escape)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:2617(getproxies_registry)
+        7    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:3638(values)
+        2    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.ndarray' objects}
+       15    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:492(_get_charset_prefix)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:2591(__init__)
+       20    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:84(opengroup)
+        5    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:409(urlsplit)
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\construction.py:570(is_empty_data)
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:855(__enter__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:226(__init__)
+       22    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:295(_class_escape)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:356(__new__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:83(__new__)
+       30    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:343(_escape)
+       29    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1672(_get_dtype)
+        3    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:588(get_content_maintype)
+    32/19    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:661(__hash__)
+      123    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:149(<lambda>)
+       55    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:216(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:184(close)
+      123    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:124(<lambda>)
+      123    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:129(<lambda>)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_methods.py:44(_any)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_parseaddr.py:7(<module>)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:719(find_spec)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:158(TLSVersion)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:93(<listcomp>)
+       10    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+       40    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+       31    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:408(_uniq)
+       66    0.000    0.000    0.000    0.000 {method 'rsplit' of 'str' objects}
+      123    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:134(<lambda>)
+      123    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:139(<lambda>)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_asarray.py:223(require)
+      275    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\os.py:40(_get_exports_list)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:99(_extend_docstrings)
+      123    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:144(<lambda>)
+       13    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       88    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:111(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:5276(__setattr__)
+       12    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:3911(__getitem__)
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BytesIO' objects}
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\cast.py:1458(construct_1d_object_array_from_listlike)
+      103    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\os.py:737(check_str)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1345(__init__)
+       48    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:526(__new__)
+        5    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+        9    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\numerictypes.py:365(issubdtype)
+       12    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1831(_asarray_compat)
+       90    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:401(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:221(makefile)
+        4    0.000    0.000    0.000    0.000 {built-in method _ssl.txt2obj}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:139(__init__)
+        9    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1185(putheader)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\formats\csvs.py:228(_save_header)
+       27    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:78(readline)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:209(_remove_dups_flatten)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_dtype.py:46(__str__)
+      114    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:206(classes)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:376(_set_axis)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:26(_getlang)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:101(push)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:155(_data)
+      171    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:369(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:885(_get_options_with_defaults)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:792(find_spec)
+        8    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:267(getuntil)
+       32    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:587(_is_dunder)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:88(stringify_path)
+       30    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+      104    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\os.py:696(__iter__)
+       65    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       82    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:81(groups)
+      102    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        9    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method winreg.OpenKey}
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\locale.py:571(getlocale)
+       14    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:939(_clean_options)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:5409(_maybe_cast_with_dtype)
+      171    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+    25/24    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ntpath.py:523(abspath)
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:311(header_fetch_parse)
+       13    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:152(<dictcomp>)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:97(_intenum_converter)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:329(_verify_integrity)
+       44    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:131(_simple_new)
+       20    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       13    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:335(__getattr__)
+       39    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       62    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:36(_relax_case)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1000(__init__)
+       37    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1517(_maybe_dedup_names)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\uu.py:31(<module>)
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:311(__enter__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\base.py:1026(__iter__)
+    66/55    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:391(_encode_hostname)
+      132    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:321(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:58(_expand_user)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_ufunc_config.py:39(seterr)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1061(putrequest)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:813(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:139(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ntpath.py:450(normpath)
+        5    0.000    0.000    0.000    0.000 {pandas._libs.lib.infer_datetimelike_array}
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:259(infer_compression)
+      158    0.000    0.000    0.000    0.000 {method 'items' of 'collections.OrderedDict' objects}
+       40    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:595(isstring)
+        8    0.000    0.000    0.000    0.000 {built-in method time.strftime}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:372(Purpose)
+       24    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:479(set_raw)
+       20    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:903(fix_flags)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\encodings\idna.py:147(encode)
+        9    0.000    0.000    0.000    0.000 {built-in method _bisect.insort_right}
+        1    0.000    0.000    0.000    0.000 {method 'writerow' of '_csv.writer' objects}
+       18    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\numerictypes.py:293(issubclass_)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:472(_simple_new)
+       75    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1108(is_datetime_or_timedelta_dtype)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:162(_collect_type_vars)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:884(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1174(_is_potential_multi_index)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:1737(is_all_dates)
+        6    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:830(is_signed_integer_dtype)
+        5    0.000    0.000    0.000    0.000 {pandas._libs.lib.values_from_object}
+       13    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:64(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:163(shape)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+      164    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+       44    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(putmask)
+       11    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_internal.py:830(npy_ctypes_check)
+       30    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+       68    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       55    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:211(classes_and_not_datetimelike)
+       10    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:72(_check_methods)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1319(__init__)
+       42    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_ufunc_config.py:441(__enter__)
+       18    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\inference.py:358(is_hashable)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:685(__getitem__)
+       34    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:281(_sanitize_header)
+        6    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:887(is_unsigned_integer_dtype)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:307(request_host)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:255(_validate_dtype)
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:190(__init__)
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(__init__)
+       91    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:659(<lambda>)
+        5    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:252(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:379(SSLContext)
+       72    0.000    0.000    0.000    0.000 {method 'items' of 'mappingproxy' objects}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:538(verify_mode)
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:428(name)
+       31    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:65(_combine_flags)
+       20    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:76(__init__)
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ntpath.py:287(expanduser)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\os.py:44(<listcomp>)
+      107    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+      120    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+       26    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_dtype.py:36(_kind_name)
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:416(_bytes_to_codes)
+       46    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:480(_values)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:258(getwhile)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:225(get_values)
+        2    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:432(family)
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:94(_append_doc)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\locale.py:467(_parse_localename)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\inference.py:299(is_dict_like)
+       12    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\common.py:151(cast_scalar_indexer)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:1186(name)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\charset.py:211(__init__)
+       16    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:675(__len__)
+       39    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:392(__subclasshook__)
+       41    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:198(<genexpr>)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1361(debug)
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:1679(is_object)
+        2    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:29(_splitparam)
+        4    0.000    0.000    0.000    0.000 {built-in method _locale.setlocale}
+       10    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:109(_coerce_args)
+       16    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:319(__hash__)
+        9    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:165(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\common.py:275(maybe_iterable_to_list)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:403(close)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1354(setLevel)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1979(_set_noconvert_columns)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:104(__calc_am_pm)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1433(<setcomp>)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:367(_validate_integer)
+        9    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\cast.py:1483(construct_1d_ndarray_preserving_na)
+       16    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:621(__lt__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:323(Request)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\nanops.py:189(_maybe_get_mask)
+        2    0.000    0.000    0.000    0.000 {function SocketIO.close at 0x0D0D9390}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1048(exec_module)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1237(do_request_)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:120(is_s3_url)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_ufunc_config.py:446(__exit__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\quopri.py:3(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\base64mime.py:25(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:784(SSLSocket)
+        1    0.000    0.000    0.000    0.000 {built-in method winreg.QueryValueEx}
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1369(is_string_like_dtype)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:5341(_consolidate_inplace)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1545(_maybe_make_multi_index_columns)
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:3700(_internal_get_values)
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:432(name)
+        7    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\types.py:164(__get__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:414(dtype)
+        1    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\locale.py:384(normalize)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:133(socket)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:827(__init__)
+       43    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       33    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       25    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+       13    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:360(__members__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:127(is_gcs_url)
+        7    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:70(close)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1321(_validate_parse_dates_arg)
+        5    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_compile.py:432(_generate_overlap_table)
+        8    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\re.py:307(_subx)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:5235(__finalize__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1551(_make_index)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:563(__init__)
+       11    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:615(__len__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_ufunc_config.py:139(geterr)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:842(createLock)
+       28    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1565(internal_values)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1619(isEnabledFor)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:369(_check_close)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:5331(_protect_consolidate)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_bootlocale.py:11(getpreferredencoding)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:794(_addHandlerRef)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1309(_clear_cache)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:830(__or__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:106(<dictcomp>)
+       10    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\inference.py:96(is_iterator)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:631(SSLObject)
+        7    0.000    0.000    0.000    0.000 {method 'view' of 'numpy.ndarray' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1837(_shape_compat)
+       33    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\utils.py:51(_has_surrogates)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:120(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:53(__init__)
+       12    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:652(__eq__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1548(dtype)
+        2    0.000    0.000    0.000    0.000 {pandas._libs.lib.array_equivalent_object}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\encodings\__init__.py:43(normalize_encoding)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:621(__array__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:422(detach)
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:424(has_location)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:161(__calc_timezone)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\encodings\idna.py:300(getregentry)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:779(HTTPConnection)
+        2    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:212(_acquireLock)
+       10    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:314(__eq__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1842(_do_date_conversions)
+        1    0.000    0.000    0.000    0.000 {built-in method _csv.writer}
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:5257(__getattr__)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:909(get_filename)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1663(URLopener)
+       23    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:415(flush)
+        7    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+       25    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:923(_check_file_or_buffer)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1531(addHandler)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:422(_get_axis)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:197(_new_message)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:112(Policy)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method pandas._libs.lib.is_datetime_array}
+        4    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+       13    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:934(close)
+        7    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\inference.py:325(<genexpr>)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_asarray.py:300(<setcomp>)
+       18    0.000    0.000    0.000    0.000 {method 'mro' of 'type' objects}
+       22    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:945(MIMEPart)
+       10    0.000    0.000    0.000    0.000 {pandas._libs.algos.ensure_object}
+       17    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\collections\__init__.py:388(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:5344(f)
+       14    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:247(mgr_locs)
+       25    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:122(pushlines)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\iterators.py:5(<module>)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\threading.py:75(RLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:356(_construct_axes_from_arguments)
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\formats\csvs.py:135(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1302(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ntpath.py:122(splitdrive)
+       25    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+       10    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:104(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\selectors.py:80(BaseSelector)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:217(HTTPResponse)
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:129(_check_ndim)
+       16    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:610(<genexpr>)
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.vars}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:664(__contains__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:438(type)
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:331(<genexpr>)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:719(create_module)
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:592(_reset_identity)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:513(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method nt._getfullpathname}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:386(_splitnetloc)
+        1    0.000    0.000    0.000    0.000 {built-in method _locale._getdefaultlocale}
+        9    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:614(add_parent)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1050(AbstractDigestAuthHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\error.py:35(HTTPError)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:871(_get_hostport)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\common.py:183(all_none)
+       16    0.000    0.000    0.000    0.000 {method 'index' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:943(_consolidate_inplace)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:411(add_unredirected_header)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:42(_make_class_unpicklable)
+        6    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1191(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:221(_releaseLock)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:210(_pop_message)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:438(values)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\inference.py:130(is_file_like)
+        3    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:187(_checkLevel)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:403(_set_subtyp)
+       17    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:4091(<genexpr>)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:179(ensure_python_int)
+        6    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:271(__subclasshook__)
+       10    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:302(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:396(_get_axis_number)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:958(unwrap)
+       12    0.000    0.000    0.000    0.000 {pandas._libs.lib.is_float}
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1325(<genexpr>)
+        7    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1520(_block)
+        2    0.000    0.000    0.000    0.000 {built-in method pandas._libs.writers.word_len}
+        6    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:335(shape)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:128(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:2108(FancyURLopener)
+        4    0.000    0.000    0.000    0.000 <string>:1(__new__)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.seterrobj}
+       15    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:676(items)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:434(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:986(_output)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:2110(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:546(verify_mode)
+        7    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1815(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\_ufunc_config.py:437(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:409(_get_axis_name)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:634(http_response)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1366(HTTPCookieProcessor)
+        3    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:367(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 {method 'Close' of 'PyHKEY' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\codecs.py:94(__new__)
+       12    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\multiarray.py:145(concatenate)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:316(dtype)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:546(SocketIO)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:3258(_process_date_conversion)
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:573(is_)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        2    0.000    0.000    0.000    0.000 {method 'tolist' of 'memoryview' objects}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\codecs.py:186(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1562(external_values)
+        4    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:388(get_method)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_encoded_words.py:73(_QByteMap)
+        5    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:339(dtype)
+       12    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        9    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\abc.py:7(abstractmethod)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\charset.py:167(Charset)
+        2    0.000    0.000    0.000    0.000 {method 'groupdict' of 're.Match' objects}
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1233(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\header.py:541(_Accumulator)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1353(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:349(__subclasshook__)
+        7    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\enum.py:628(value)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:394(_checknetloc)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\common.py:78(validate_header_arg)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1345(HTTPSConnection)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:136(FeedParser)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\selectors.py:290(SelectSelector)
+        4    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+        6    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:2108(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:393(get_full_url)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\header.py:413(_ValueFormatter)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:873(_find_spec_legacy)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_parseaddr.py:203(AddrlistClass)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:271(Compat32)
+        4    0.000    0.000    0.000    0.000 {built-in method numpy.geterrobj}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1029(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:303(set_payload)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\missing.py:601(clean_reindex_fill_method)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:167(ndim)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1432(_has_complex_date_col)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:18(_PolicyBase)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\header.py:179(Header)
+        2    0.000    0.000    0.000    0.000 {method 'fill' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:381(<dictcomp>)
+        4    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:3346(_clean_na_values)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:433(OpenerDirector)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:45(BufferedSubFile)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\selectors.py:206(_BaseSelectorImpl)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:351(_ASN1Object)
+       10    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:98(_noop)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\selectors.py:341(_PollLikeSelector)
+        3    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\nanops.py:329(_na_ok_dtype)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:30(LocaleTime)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\parser.py:18(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 {method '__getitem__' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\__init__.py:5(<module>)
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\dtypes\common.py:1398(<lambda>)
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:638(dtype)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:927(consolidate)
+        3    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:415(has_header)
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        2    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1170(_is_index_col)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\response.py:14(addbase)
+        3    0.000    0.000    0.000    0.000 {method 'capitalize' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:1182(name)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:727(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:429(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_parseaddr.py:495(AddressList)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:137(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:179(TimeRE)
+        3    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:343(full_url)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:1042(splittag)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:651(HTTPRedirectHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\selectors.py:60(_SelectorMapping)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:153(<dictcomp>)
+        4    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:213(internal_values)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:426(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_strptime.py:219(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1224(AbstractHTTPHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:909(HTTPPasswordMgrWithPriorAuth)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1557(CacheFTPHandler)
+        3    0.000    0.000    0.000    0.000 {method 'title' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\_collections_abc.py:698(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1226(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:795(_get_content_length)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\parser.py:17(Parser)
+        2    0.000    0.000    0.000    0.000 {pandas._libs.lib.is_integer}
+        3    0.000    0.000    0.000    0.000 {built-in method sys.intern}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:835(HTTPPasswordMgr)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1418(IncompleteRead)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\response.py:57(addinfo)
+        2    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1342(HTTPHandler)
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:98(checkgroup)
+        4    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\typing.py:173(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:3213(_make_date_converter)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:404(has_proxy)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\parser.py:80(BytesParser)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:630(HTTPErrorProcessor)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\response.py:37(addclosehook)
+        6    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\ssl.py:894(_check_connected)
+        2    0.000    0.000    0.000    0.000 {method 'deleter' of 'property' objects}
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\common.py:187(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:210(start)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1271(_validate_usecols_arg)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:611(BaseHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:793(ProxyHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\_policybase.py:41(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:232(items)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1351(HTTPSHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1442(FileHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\response.py:68(addinfourl)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\nturl2path.py:5(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1194(HTTPDigestAuthHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1289(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1499(FTPHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:93(NonPrintableDefect)
+        2    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:448(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\six.py:184(find_module)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\generic.py:238(attrs)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:233(stop)
+        3    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:362(data)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1020(HTTPBasicAuthHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:33(MessageDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\error.py:19(URLError)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\encodings\idna.py:146(Codec)
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        4    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\parse.py:616(unquote)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:163(HTTPMessage)
+        1    0.000    0.000    0.000    0.000 {built-in method sys.getfilesystemencoding}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1031(ProxyBasicAuthHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1445(BadStatusLine)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:81(HeaderDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:891(set_debuglevel)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:532(BytesFeedParser)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:8(MessageError)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\numpy\core\multiarray.py:1078(putmask)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\compat\numpy\function.py:42(__call__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\missing.py:73(clean_fill_method)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1605(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1212(ProxyDigestAuthHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:16(HeaderParseError)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\message.py:1159(EmailMessage)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\encodings\idna.py:218(IncrementalEncoder)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:647(is_consolidated)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:396(_validate_names)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:910(setFormatter)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:737(info)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1407(UnknownProtocol)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\parser.py:127(BytesHeaderParser)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\feedparser.py:125(__iter__)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\error.py:73(ContentTooShortError)
+        1    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x0D1574B0}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\range.py:256(step)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\blocks.py:202(external_values)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\io\parsers.py:1156(_create_index)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1384(UnknownHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1452(LineTooLong)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\parser.py:72(HeaderParser)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:41(NoBoundaryInMultipartDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:70(InvalidBase64PaddingDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\socket.py:130(_GiveupOnSendfile)
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x0D0D0E88}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\numeric.py:83(_validate_dtype)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:1930(getLogger)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:647(HTTPDefaultErrorHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:1610(DataHandler)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\uu.py:39(Error)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\encodings\idna.py:253(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 {pandas._libs.lib.is_bool}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\calendar.py:53(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\internals\managers.py:1576(is_consolidated)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\series.py:359(_constructor)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:366(data)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\urllib\request.py:899(HTTPPasswordMgrWithDefaultRealm)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\encodings\idna.py:292(StreamWriter)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\encodings\idna.py:295(StreamReader)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\codecs.py:214(setstate)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\sre_parse.py:101(checklookbehindgroup)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\nanops.py:166(_get_fill_value)
+        1    0.000    0.000    0.000    0.000 C:\Users\Asier\Documents\PyCosas\SPQ\BSPQ20-E3 - Copy\venv\lib\site-packages\pandas\core\indexes\base.py:1383(nlevels)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1396(HTTPException)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1404(InvalidURL)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1439(CannotSendHeader)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1457(RemoteDisconnected)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:12(MessageParseError)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:20(BoundaryError)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:44(StartBoundaryNotFoundDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:73(InvalidBase64CharactersDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:76(InvalidBase64LengthDefect)
+        2    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\logging\__init__.py:232(_register_at_fork_acquire_release)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1401(NotConnected)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1415(UnimplementedFileMode)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1442(ResponseNotReady)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:24(MultipartConversionError)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:28(CharsetError)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:47(CloseBoundaryNotFoundDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:50(FirstHeaderLineIsContinuationDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:53(MisplacedEnvelopeHeaderDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:56(MissingHeaderBodySeparatorDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:61(MultipartInvariantViolationDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:64(InvalidMultipartContentTransferEncodingDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:67(UndecodableBytesDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:87(InvalidHeaderDefect)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:90(HeaderMissingRequiredValue)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:104(ObsoleteHeaderDefect)
+        2    0.000    0.000    0.000    0.000 {method 'weekday' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1412(UnknownTransferEncoding)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1433(ImproperConnectionState)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\http\client.py:1436(CannotSendRequest)
+        1    0.000    0.000    0.000    0.000 C:\Python 3.7.3\lib\email\errors.py:107(NonASCIILocalPartDefect)
+        1    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+
+

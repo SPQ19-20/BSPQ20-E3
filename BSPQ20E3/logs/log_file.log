@@ -157,3 +157,135 @@ WARNING - 2020-04-24 19:44:51,294 - log_response - Not Found: /favicon.ico
 WARNING - 2020-04-24 19:45:04,203 - log_response - Not Found: /favicon.ico
 File handler changed
 File handler changed
+File handler changed
+DEBUG - 2020-04-25 23:50:39,924 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-25 23:50:39,924 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-25 23:50:39,925 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-25 23:50:39,929 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-25-2020.csv
+INFO - 2020-04-25 23:50:40,257 - get_csv_from_github - CSV file not found for this date yet: 25-04-2020 -> HTTP Error 404: Not Found
+DEBUG - 2020-04-25 23:51:27,938 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-25 23:51:27,938 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-25 23:51:27,939 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-25 23:51:27,982 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-25-2020.csv
+INFO - 2020-04-25 23:51:28,170 - get_csv_from_github - CSV file not found for this date yet: 25-04-2020 -> HTTP Error 404: Not Found
+WARNING - 2020-04-25 23:51:33,973 - log_response - Not Found: /favicon.ico
+WARNING - 2020-04-25 23:56:53,363 - log_response - Not Found: //
+WARNING - 2020-04-25 23:56:54,364 - log_response - Not Found: //
+WARNING - 2020-04-25 23:56:55,383 - log_response - Not Found: //
+WARNING - 2020-04-25 23:56:56,367 - log_response - Not Found: //
+WARNING - 2020-04-25 23:56:57,367 - log_response - Not Found: //
+WARNING - 2020-04-25 23:56:58,366 - log_response - Not Found: //
+WARNING - 2020-04-25 23:56:59,370 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:00,052 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:00,372 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:01,372 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:02,114 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:02,382 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:02,510 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:02,891 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:03,122 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:05,885 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:06,143 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:07,640 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:08,044 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:08,387 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:08,470 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:10,268 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:10,311 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:10,519 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:11,581 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:13,174 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:13,703 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:14,401 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:14,616 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:15,042 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:15,748 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:17,229 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:18,694 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:18,702 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:19,950 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:20,024 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:20,203 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:20,717 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:20,932 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:20,938 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:23,715 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:24,295 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:25,509 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:25,610 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:25,768 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:26,134 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:26,285 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:26,421 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:26,876 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:28,320 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:30,288 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:31,469 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:31,836 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:32,090 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:32,317 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:33,289 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:34,640 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:34,717 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:34,723 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:35,062 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:36,152 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:37,754 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:37,897 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:39,600 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:39,829 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:40,341 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:40,372 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:40,723 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:41,174 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:43,357 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:43,499 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:44,555 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:45,256 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:46,496 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:46,780 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:46,927 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:47,464 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:47,538 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:49,707 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:49,892 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:51,731 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:51,739 - log_response - Not Found: //
+WARNING - 2020-04-25 23:57:52,020 - log_response - Not Found: //
+WARNING - 2020-04-25 23:59:03,389 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:04,388 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:05,409 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:06,397 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:07,397 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:08,394 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:08,629 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:09,394 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:10,396 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:11,370 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:11,405 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:12,415 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:12,514 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:13,158 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:13,550 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:14,468 - log_response - Not Found: //livelog
+WARNING - 2020-04-25 23:59:15,323 - log_response - Not Found: //livelog
+DEBUG - 2020-04-26 00:21:03,609 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-26 00:21:03,609 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-26 00:21:03,609 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-26 00:21:03,613 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+INFO - 2020-04-26 00:21:03,920 - get_csv_from_github - CSV file not found for this date yet: 26-04-2020 -> HTTP Error 404: Not Found
+DEBUG - 2020-04-26 00:22:47,806 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-26 00:22:47,806 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-26 00:22:47,806 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-26 00:22:47,810 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-25-2020.csv
+INFO - 2020-04-26 00:22:48,089 - get_csv_from_github - CSV file not found for this date yet: 25-04-2020 -> HTTP Error 404: Not Found
+DEBUG - 2020-04-26 00:23:06,913 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-26 00:23:06,913 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-26 00:23:06,913 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-26 00:23:06,917 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-24-2020.csv
+DEBUG - 2020-04-26 00:23:08,302 - get_csv_from_github - Successfully downloaded data for 24-04-2020
+DEBUG - 2020-04-26 00:50:19,937 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-26 00:50:19,937 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-26 00:50:19,937 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-26 00:50:19,941 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-25-2020.csv
+INFO - 2020-04-26 00:50:20,212 - get_csv_from_github - CSV file not found for this date yet: 25-04-2020 -> HTTP Error 404: Not Found
