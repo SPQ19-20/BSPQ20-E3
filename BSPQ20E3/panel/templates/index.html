@@ -27,29 +27,66 @@
 				<!--TAB 1-->
 				<div class="tab-pane fade show active" id="tab1default">
 
+					
 					<div class="container-fluid">
 						<div class="row mt-4">
 							<div class="card mb-4">
+							<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>HEAT MAP OF CONFIRMED CASES</div>
 							<div id="map"></div>
 							<svg id="my_dataviz" width="1150" height="400"></svg>
 							</div>
-							<div class="col-xl-6">
-								
-								<div class="card mb-4">
-									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>{% trans "COVID-19 cases in each country" %}</div>
-									<div id="my_data" width="460" height="400"></div>
-									
-								</div>
-							</div>
-							<div class="col-xl-6">
-								<div class="card mb-4">
-									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>{% trans "Number of deaths in each country" %}</div>
-									<div id="my_data2" width="460" height="400"></div>
-								</div>
-							</div>
 							
 						</div>
+							<div class="row mt-4">	
+								<div class="col-xl-6">
+								<div class="card mb-4">
+									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>CONFIRMED CASES THROUGH TIME</div>
+									<div id="my_data"></div>
+									
+								</div>
+								</div>
+								<div class="col-xl-6">
+								<div class="card mb-4">
+									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i><button onclick="update('Deaths')">DEATH NUMBER</button>
+									<button onclick="update('Confirmed')">CONFIRMED CASES</button></div>
+									
+									<div id="my_data2"></div>
+								</div>
+								</div>
+
+								
+							
+							</div>
+
+							<div class="row mt-4">	
+								<div class="col-xl-6">
+								<div class="card mb-4">
+									
+									<div class="card mb-4" width="460" height="400">
+										<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>NEW CONFIRMED CASES</div>
+										<div id="my_data3"></div>
+										
+									</div>
+								</div>
+								</div>
+								<div class="col-xl-6">
+								<div class="card mb-4">
+									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i></i><button onclick="update2('Spain')">SPAIN</button>
+										<button onclick="update2('France')">FRANCE</button><button onclick="update2('US')">USA</button>
+										<button onclick="update2('Italy')">ITALY</button><button onclick="update2('United Kingdom')">UK</button>
+										<button onclick="update2('China')">CHINA</button></div>
+									<div id="my_data4"></div>
+								</div>
+								</div>
+
+								
+							
+							</div>
+						
+						
 					</div>
+					</div>
+					
 
 
 				</div>
