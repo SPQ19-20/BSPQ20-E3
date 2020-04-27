@@ -9,6 +9,8 @@ setup(
    packages=find_packages(), 
    #scripts= ['manage.py'], #same as name
    install_requires=[
+   	'locust==0.0',
+   	'locustio==0.14.5',
    	'coverage==5.1',
    	'Sphinx==3.0.2',
    	'asgiref==3.2.5',

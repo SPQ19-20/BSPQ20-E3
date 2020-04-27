@@ -289,3 +289,9 @@ DEBUG - 2020-04-26 00:50:19,937 - <module> - Csv-getter thread started.
 DEBUG - 2020-04-26 00:50:19,937 - get_csv_from_github - Default date to be used for csv extraction
 DEBUG - 2020-04-26 00:50:19,941 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-25-2020.csv
 INFO - 2020-04-26 00:50:20,212 - get_csv_from_github - CSV file not found for this date yet: 25-04-2020 -> HTTP Error 404: Not Found
+DEBUG - 2020-04-27 12:53:03,923 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 12:53:03,923 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 12:53:03,923 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 12:53:03,925 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 12:53:05,709 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+WARNING - 2020-04-27 12:55:03,617 - log_response - Not Found: /favicon.ico

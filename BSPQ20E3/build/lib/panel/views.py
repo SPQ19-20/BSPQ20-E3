@@ -51,14 +51,4 @@ def livelog(req):
 	prueba = Data.objects()[:10000]
 	return render(req, 'livelogtest.html', { 'data' : prueba })
 
-#USER STUFF
-
-def manage(request):
-    return render(request, 'manage.html')
-
-def accounts(req):
-	if translation.LANGUAGE_SESSION_KEY in req.session: 
-		del req.session[translation.LANGUAGE_SESSION_KEY]
-	return render(req, 'login.html', { })
-
 
