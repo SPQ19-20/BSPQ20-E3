@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-15 19:05+0200\n"
+"POT-Creation-Date: 2020-04-24 18:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,86 +26,134 @@ msgstr "Titel"
 msgid "Search for"
 msgstr "Suchen nach"
 
-#: panel/templates/base.html:45
-msgid "Log in / Register"
-msgstr "Anmeldung / Registrieren"
-
-#: panel/templates/basewithbar.html:12
-msgid "Main"
-msgstr "Main"
-
-#: panel/templates/basewithbar.html:16
-msgid "Dashboard"
-msgstr "Das Armaturenbrett"
-
-#: panel/templates/basewithbar.html:20
-msgid "Live log"
-msgstr "Live log"
-
-#: panel/templates/basewithbar.html:22
-msgid "User"
-msgstr "Nutzer"
-
-#: panel/templates/basewithbar.html:26
+#: panel/templates/base.html:49 panel/templates/basewithbar.html:56
 msgid "My account"
 msgstr "Mein Konto"
 
-#: panel/templates/basewithbar.html:29 panel/templates/basewithbar.html:34
-msgid "Configuration"
-msgstr "Aufbau"
+#: panel/templates/base.html:50
+msgid "Log out"
+msgstr "Ausloggen"
 
-#: panel/templates/basewithbar.html:32
-msgid "Settings"
-msgstr "Die Einstellungen"
-
-#: panel/templates/index.html:15
-msgid "Overall"
-msgstr "Insgesamt"
-
-#: panel/templates/index.html:16
-msgid "Countries"
-msgstr "Länder"
-
-#: panel/templates/index.html:17
-msgid "Evolution"
-msgstr "Evolution"
-
-#: panel/templates/index.html:18
-msgid "Social media"
-msgstr "Sozialen Medien"
-
-#: panel/templates/index.html:19
-msgid "Recommendations"
-msgstr "Empfehlungen"
-
-#: panel/templates/login.html:20
-msgid "Login"
-msgstr "Anmeldung"
-
-#: panel/templates/login.html:21
-msgid "Register"
-msgstr "Registrieren"
-
-#: panel/templates/login.html:33 panel/templates/login.html:49
+#: panel/templates/base.html:55 panel/templates/basewithbar.html:62
+#: panel/templates/login.html:23
 msgid "Sign in"
 msgstr "Einloggen"
 
-#: panel/templates/login.html:37
-msgid "Email address"
-msgstr "E-Mail-Addresse"
+#: panel/templates/basewithbar.html:11
+#, fuzzy
+#| msgid "Social media"
+msgid "Social login"
+msgstr "Sozialen Medien"
 
-#: panel/templates/login.html:42
-msgid "Password"
-msgstr "Passwort"
+#: panel/templates/basewithbar.html:17
+msgid "We only allow social login due to security and simplicity reasons"
+msgstr "Wir erlauben nur soziale Anmeldungen aus Sicherheits- und Einfachheitsgründen"
 
-#: panel/templates/login.html:47
-msgid "Remember password"
-msgstr "Passwort merken"
+#: panel/templates/basewithbar.html:40
+msgid "Main"
+msgstr "Main"
 
-#: panel/templates/login.html:50
-msgid "Sign up"
-msgstr "Anmelden"
+#: panel/templates/basewithbar.html:44
+msgid "Dashboard"
+msgstr "Das Armaturenbrett"
 
-#: panel/templates/login.html:53 panel/templates/login.html:54
+#: panel/templates/basewithbar.html:48
+msgid "Live log"
+msgstr "Live log"
+
+#: panel/templates/basewithbar.html:50
+msgid "User"
+msgstr "Nutzer"
+
+#: panel/templates/basewithbar.html:70
+msgid "Configuration"
+msgstr "Aufbau"
+
+#: panel/templates/basewithbar.html:73
+msgid "Settings"
+msgstr "Die Einstellungen"
+
+#: panel/templates/basewithbar.html:75
+msgid "Language"
+msgstr "Sprache"
+
+#: panel/templates/index.html:16
+msgid "Overall"
+msgstr "Insgesamt"
+
+#: panel/templates/index.html:17
+msgid "Countries"
+msgstr "Länder"
+
+#: panel/templates/index.html:18
+msgid "Evolution"
+msgstr "Evolution"
+
+#: panel/templates/index.html:19
+msgid "Social media"
+msgstr "Sozialen Medien"
+
+#: panel/templates/index.html:20
+msgid "Recommendations"
+msgstr "Empfehlungen"
+
+#: panel/templates/index.html:21
+msgid "Economy"
+msgstr "Wirtschaft"
+
+#: panel/templates/index.html:39
+msgid "COVID-19 cases in each country"
+msgstr "COVID-19-Fälle in jedem Land"
+
+#: panel/templates/index.html:46
+msgid "Number of deaths in each country"
+msgstr "Anzahl der Todesfälle in jedem Land"
+
+#: panel/templates/livelogtest.html:18
+#, fuzzy
+#| msgid "Countries"
+msgid "Country_Region"
+msgstr "Länder"
+
+#: panel/templates/livelogtest.html:19
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: panel/templates/livelogtest.html:20
+msgid "Deaths"
+msgstr "Tot"
+
+#: panel/templates/livelogtest.html:21
+msgid "Recovered"
+msgstr "Erholt"
+
+#: panel/templates/livelogtest.html:22
+#, fuzzy
+#| msgid "Last_Update"
+msgid "Last update"
+msgstr "Letztes update"
+
+#: panel/templates/login.html:25 panel/templates/login.html:26
 msgid "Sign in with"
 msgstr "Melden Sie sich mit an"
+
+#~ msgid "Log in / Register"
+#~ msgstr "Anmeldung / Registrieren"
+
+#~ msgid "Login"
+#~ msgstr "Anmeldung"
+
+#~ msgid "Register"
+#~ msgstr "Registrieren"
+
+#~ msgid "Email address"
+#~ msgstr "E-Mail-Addresse"
+
+#~ msgid "Password"
+#~ msgstr "Passwort"
+
+#~ msgid "Remember password"
+#~ msgstr "Passwort merken"
+
+#~ msgid "Sign up"
+#~ msgstr "Anmelden"
