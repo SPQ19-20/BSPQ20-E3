@@ -41,9 +41,8 @@ setup(
 	'tweepy==3.8.0',
 	'urllib3==1.25.8',
 	'social-auth-app-django==3.1.0',
-	'social-auth-core==3.3.3'
-
-
+	'social-auth-core==3.3.3',
+	'django-mongoengine-filter==0.3.5'
 
    ], #external packages as dependencies
 )
