@@ -4,6 +4,7 @@ from django.template import RequestContext
 from django.http import HttpResponse
 from .models import Entry, Data
 from django.core.paginator import Paginator
+from .filters import DataFilter
 import os
 import time
 import datetime
@@ -39,7 +40,9 @@ def settings(req):
 
 def livelog(req):
 	data = Data.objects()[:10000]
-	paginator = Paginator(data, 10)
+	paginator = Paginator(data, 25)
+	dataFilter = DataFilter(req.GET, queryset=data)
+	#dataFilter = ""
 	
 	'''Loads the Livelog
 
@@ -63,6 +66,6 @@ def livelog(req):
 	except EmptyPage: 
 		data = paginator.page(paginator.num_pages)
 
-	return render(req, 'livelogtest.html', { 'data' : data, 'page_range': page_range})
+	return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range})
 
 

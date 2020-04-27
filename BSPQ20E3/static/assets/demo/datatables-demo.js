@@ -4,6 +4,8 @@ $(document).ready(function() {
   $('#dataTable').DataTable(
   {
   	"bPaginate": false,
+  	"paging": false,
+	"info": false
   }
   	);
   $('.languageSelector').selectpicker({

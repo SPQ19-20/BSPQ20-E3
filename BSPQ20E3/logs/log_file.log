@@ -1508,3 +1508,545 @@ WARNING - 2020-04-27 20:29:19,236 - log_response - Not Found: /assets/img/client
 WARNING - 2020-04-27 20:29:19,248 - log_response - Not Found: /assets/img/testimonial-3.jpg
 WARNING - 2020-04-27 20:29:19,253 - log_response - Not Found: /assets/img/testimonial-5.jpg
 WARNING - 2020-04-27 20:29:19,255 - log_response - Not Found: /assets/img/testimonial-4.jpg
+DEBUG - 2020-04-27 20:39:00,676 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 20:39:00,676 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 20:39:00,676 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 20:39:00,679 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 20:39:01,249 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+DEBUG - 2020-04-27 20:39:01,823 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 20:39:01,823 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 20:39:01,823 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 20:39:01,826 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+INFO - 2020-04-27 20:39:02,464 - run_with_reloader - Watching for file changes with StatReloader
+WARNING - 2020-04-27 20:39:02,999 - log_response - Not Found: /assets/img/about-img.jpg
+WARNING - 2020-04-27 20:39:03,017 - log_response - Not Found: /assets/img/clients/client-2.png
+WARNING - 2020-04-27 20:39:03,019 - log_response - Not Found: /assets/img/clients/client-1.png
+WARNING - 2020-04-27 20:39:03,025 - log_response - Not Found: /assets/img/clients/client-3.png
+WARNING - 2020-04-27 20:39:03,030 - log_response - Not Found: /assets/img/clients/client-5.png
+WARNING - 2020-04-27 20:39:03,037 - log_response - Not Found: /assets/img/clients/client-4.png
+WARNING - 2020-04-27 20:39:03,045 - log_response - Not Found: /assets/img/clients/client-6.png
+WARNING - 2020-04-27 20:39:03,050 - log_response - Not Found: /assets/img/portfolio/1.jpg
+WARNING - 2020-04-27 20:39:03,052 - log_response - Not Found: /assets/img/clients/client-8.png
+WARNING - 2020-04-27 20:39:03,054 - log_response - Not Found: /assets/img/clients/client-7.png
+WARNING - 2020-04-27 20:39:03,062 - log_response - Not Found: /assets/img/portfolio/2.jpg
+WARNING - 2020-04-27 20:39:03,069 - log_response - Not Found: /assets/img/portfolio/3.jpg
+WARNING - 2020-04-27 20:39:03,083 - log_response - Not Found: /assets/img/portfolio/4.jpg
+WARNING - 2020-04-27 20:39:03,086 - log_response - Not Found: /assets/img/portfolio/7.jpg
+WARNING - 2020-04-27 20:39:03,088 - log_response - Not Found: /assets/img/portfolio/6.jpg
+WARNING - 2020-04-27 20:39:03,092 - log_response - Not Found: /assets/img/portfolio/8.jpg
+WARNING - 2020-04-27 20:39:03,097 - log_response - Not Found: /assets/img/portfolio/5.jpg
+WARNING - 2020-04-27 20:39:03,105 - log_response - Not Found: /assets/img/quote-sign-left.png
+WARNING - 2020-04-27 20:39:03,111 - log_response - Not Found: /assets/img/testimonial-1.jpg
+WARNING - 2020-04-27 20:39:03,116 - log_response - Not Found: /assets/img/quote-sign-right.png
+WARNING - 2020-04-27 20:39:03,119 - log_response - Not Found: /assets/img/testimonial-2.jpg
+WARNING - 2020-04-27 20:39:03,121 - log_response - Not Found: /assets/img/testimonial-3.jpg
+WARNING - 2020-04-27 20:39:03,124 - log_response - Not Found: /assets/img/testimonial-4.jpg
+WARNING - 2020-04-27 20:39:03,127 - log_response - Not Found: /assets/img/testimonial-5.jpg
+DEBUG - 2020-04-27 20:39:03,259 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+WARNING - 2020-04-27 20:40:36,003 - log_response - Not Found: /assets/img/about-img.jpg
+WARNING - 2020-04-27 20:40:36,030 - log_response - Not Found: /assets/img/clients/client-4.png
+WARNING - 2020-04-27 20:40:36,032 - log_response - Not Found: /assets/img/clients/client-2.png
+WARNING - 2020-04-27 20:40:36,035 - log_response - Not Found: /assets/img/clients/client-1.png
+WARNING - 2020-04-27 20:40:36,038 - log_response - Not Found: /assets/img/clients/client-5.png
+WARNING - 2020-04-27 20:40:36,040 - log_response - Not Found: /assets/img/clients/client-3.png
+WARNING - 2020-04-27 20:40:36,046 - log_response - Not Found: /assets/img/clients/client-6.png
+WARNING - 2020-04-27 20:40:36,060 - log_response - Not Found: /assets/img/portfolio/3.jpg
+WARNING - 2020-04-27 20:40:36,064 - log_response - Not Found: /assets/img/clients/client-7.png
+WARNING - 2020-04-27 20:40:36,067 - log_response - Not Found: /assets/img/portfolio/1.jpg
+WARNING - 2020-04-27 20:40:36,073 - log_response - Not Found: /assets/img/portfolio/2.jpg
+WARNING - 2020-04-27 20:40:36,083 - log_response - Not Found: /assets/img/portfolio/4.jpg
+WARNING - 2020-04-27 20:40:36,085 - log_response - Not Found: /assets/img/clients/client-8.png
+WARNING - 2020-04-27 20:40:36,091 - log_response - Not Found: /assets/img/portfolio/5.jpg
+WARNING - 2020-04-27 20:40:36,098 - log_response - Not Found: /assets/img/portfolio/6.jpg
+WARNING - 2020-04-27 20:40:36,105 - log_response - Not Found: /assets/img/portfolio/7.jpg
+WARNING - 2020-04-27 20:40:36,111 - log_response - Not Found: /assets/img/portfolio/8.jpg
+WARNING - 2020-04-27 20:40:36,114 - log_response - Not Found: /assets/img/quote-sign-left.png
+WARNING - 2020-04-27 20:40:36,116 - log_response - Not Found: /assets/img/quote-sign-right.png
+WARNING - 2020-04-27 20:40:36,120 - log_response - Not Found: /assets/img/testimonial-2.jpg
+WARNING - 2020-04-27 20:40:36,124 - log_response - Not Found: /assets/img/testimonial-1.jpg
+WARNING - 2020-04-27 20:40:36,130 - log_response - Not Found: /assets/img/testimonial-3.jpg
+WARNING - 2020-04-27 20:40:36,137 - log_response - Not Found: /assets/img/testimonial-5.jpg
+WARNING - 2020-04-27 20:40:36,139 - log_response - Not Found: /assets/img/testimonial-4.jpg
+INFO - 2020-04-27 20:42:43,062 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-04-27 20:42:44,033 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 20:42:44,033 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 20:42:44,033 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 20:42:44,037 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 20:42:44,563 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+INFO - 2020-04-27 20:42:44,727 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-04-27 20:44:42,660 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-04-27 20:44:43,351 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 20:44:43,351 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 20:44:43,351 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 20:44:43,354 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 20:44:43,860 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+INFO - 2020-04-27 20:44:44,005 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-04-27 20:48:24,438 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-04-27 20:48:25,461 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 20:48:25,461 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 20:48:25,461 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 20:48:25,464 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 20:48:25,915 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+INFO - 2020-04-27 20:48:26,131 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-04-27 20:48:27,687 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-04-27 20:48:28,329 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 20:48:28,329 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 20:48:28,329 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 20:48:28,332 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 20:48:28,845 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+INFO - 2020-04-27 20:48:29,136 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-04-27 20:48:55,639 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-04-27 20:48:56,559 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 20:48:56,559 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 20:48:56,559 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 20:48:56,566 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 20:48:56,935 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+INFO - 2020-04-27 20:48:57,244 - run_with_reloader - Watching for file changes with StatReloader
+WARNING - 2020-04-27 20:50:54,946 - log_response - Not Found: /assets/img/about-img.jpg
+WARNING - 2020-04-27 20:50:54,971 - log_response - Not Found: /assets/img/clients/client-2.png
+WARNING - 2020-04-27 20:50:54,990 - log_response - Not Found: /assets/img/clients/client-1.png
+WARNING - 2020-04-27 20:50:54,993 - log_response - Not Found: /assets/img/clients/client-3.png
+WARNING - 2020-04-27 20:50:54,999 - log_response - Not Found: /assets/img/clients/client-4.png
+WARNING - 2020-04-27 20:50:55,002 - log_response - Not Found: /assets/img/clients/client-5.png
+WARNING - 2020-04-27 20:50:55,004 - log_response - Not Found: /assets/img/clients/client-7.png
+WARNING - 2020-04-27 20:50:55,005 - log_response - Not Found: /assets/img/clients/client-6.png
+WARNING - 2020-04-27 20:50:55,029 - log_response - Not Found: /assets/img/portfolio/3.jpg
+WARNING - 2020-04-27 20:50:55,032 - log_response - Not Found: /assets/img/portfolio/1.jpg
+WARNING - 2020-04-27 20:50:55,036 - log_response - Not Found: /assets/img/portfolio/2.jpg
+WARNING - 2020-04-27 20:50:55,038 - log_response - Not Found: /assets/img/clients/client-8.png
+WARNING - 2020-04-27 20:50:55,041 - log_response - Not Found: /assets/img/portfolio/4.jpg
+WARNING - 2020-04-27 20:50:55,048 - log_response - Not Found: /assets/img/portfolio/5.jpg
+WARNING - 2020-04-27 20:50:55,066 - log_response - Not Found: /assets/img/portfolio/6.jpg
+WARNING - 2020-04-27 20:50:55,069 - log_response - Not Found: /assets/img/portfolio/7.jpg
+WARNING - 2020-04-27 20:50:55,077 - log_response - Not Found: /assets/img/portfolio/8.jpg
+WARNING - 2020-04-27 20:50:55,083 - log_response - Not Found: /assets/img/quote-sign-right.png
+WARNING - 2020-04-27 20:50:55,085 - log_response - Not Found: /assets/img/quote-sign-left.png
+WARNING - 2020-04-27 20:50:55,095 - log_response - Not Found: /assets/img/testimonial-2.jpg
+WARNING - 2020-04-27 20:50:55,099 - log_response - Not Found: /assets/img/testimonial-1.jpg
+WARNING - 2020-04-27 20:50:55,105 - log_response - Not Found: /assets/img/testimonial-3.jpg
+WARNING - 2020-04-27 20:50:55,108 - log_response - Not Found: /assets/img/testimonial-4.jpg
+WARNING - 2020-04-27 20:50:55,115 - log_response - Not Found: /assets/img/testimonial-5.jpg
+ERROR - 2020-04-27 21:06:54,995 - log_response - Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 33, in index
+    return render(req, 'index.html', {'data' : prueba})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static', expected 'endblock'. Did you forget to register or load this tag?
+WARNING - 2020-04-27 21:07:30,055 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:07:30,194 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:07:30,214 - log_response - Not Found: /assets/img/clients/client-2.png
+WARNING - 2020-04-27 21:07:30,218 - log_response - Not Found: /assets/img/clients/client-1.png
+WARNING - 2020-04-27 21:07:30,235 - log_response - Not Found: /assets/img/clients/client-4.png
+WARNING - 2020-04-27 21:07:30,244 - log_response - Not Found: /assets/img/about-img.jpg
+WARNING - 2020-04-27 21:07:30,252 - log_response - Not Found: /assets/img/clients/client-3.png
+WARNING - 2020-04-27 21:07:30,255 - log_response - Not Found: /assets/img/clients/client-5.png
+WARNING - 2020-04-27 21:07:30,266 - log_response - Not Found: /assets/img/clients/client-6.png
+WARNING - 2020-04-27 21:07:30,271 - log_response - Not Found: /assets/img/clients/client-7.png
+WARNING - 2020-04-27 21:07:30,281 - log_response - Not Found: /assets/img/portfolio/1.jpg
+WARNING - 2020-04-27 21:07:30,286 - log_response - Not Found: /assets/img/clients/client-8.png
+WARNING - 2020-04-27 21:07:30,295 - log_response - Not Found: /assets/img/portfolio/2.jpg
+WARNING - 2020-04-27 21:07:30,298 - log_response - Not Found: /assets/img/portfolio/3.jpg
+WARNING - 2020-04-27 21:07:30,302 - log_response - Not Found: /assets/img/portfolio/4.jpg
+WARNING - 2020-04-27 21:07:30,312 - log_response - Not Found: /assets/img/portfolio/6.jpg
+WARNING - 2020-04-27 21:07:30,316 - log_response - Not Found: /assets/img/portfolio/5.jpg
+WARNING - 2020-04-27 21:07:30,320 - log_response - Not Found: /assets/img/portfolio/7.jpg
+WARNING - 2020-04-27 21:07:30,324 - log_response - Not Found: /assets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:07:30,326 - log_response - Not Found: /assets/img/portfolio/8.jpg
+WARNING - 2020-04-27 21:07:30,331 - log_response - Not Found: /assets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:07:30,343 - log_response - Not Found: /assets/img/testimonial-1.jpg
+WARNING - 2020-04-27 21:07:30,347 - log_response - Not Found: /assets/img/testimonial-3.jpg
+WARNING - 2020-04-27 21:07:30,349 - log_response - Not Found: /assets/img/testimonial-2.jpg
+WARNING - 2020-04-27 21:07:30,351 - log_response - Not Found: /assets/img/testimonial-4.jpg
+WARNING - 2020-04-27 21:07:30,355 - log_response - Not Found: /assets/img/testimonial-5.jpg
+WARNING - 2020-04-27 21:09:48,178 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:09:48,222 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:09:48,225 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:09:48,227 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:09:48,231 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:09:48,248 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:09:48,253 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:09:48,257 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:09:48,260 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:09:48,262 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:09:48,311 - log_response - Not Found: /{% static 'recAssets/quote-sign-left.png
+WARNING - 2020-04-27 21:09:48,314 - log_response - Not Found: /{% static 'recAssets/quote-sign-right.png
+WARNING - 2020-04-27 21:11:34,084 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:11:34,126 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:11:34,129 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:11:34,132 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:11:34,138 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:11:34,140 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:11:34,151 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:11:34,153 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:11:34,154 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:11:34,158 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:11:34,176 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:11:34,192 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:12:42,409 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:12:42,439 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:12:42,442 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:12:42,444 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:12:42,447 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:12:42,449 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:12:42,468 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:12:42,471 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:12:42,473 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:12:42,475 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:12:42,478 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:12:42,485 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:13:06,778 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:13:06,807 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:13:06,809 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:13:06,811 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:13:06,813 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:13:06,816 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:13:06,820 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:13:06,836 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:13:06,837 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:13:06,839 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:13:06,843 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:13:06,847 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:13:26,278 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:13:26,301 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:13:26,303 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:13:26,306 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:13:26,309 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:13:26,315 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:13:26,329 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:13:26,337 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:13:26,343 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:13:26,346 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:13:26,351 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:13:26,436 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:14:06,634 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:14:06,657 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:14:06,677 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:14:06,679 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:14:06,683 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:14:06,687 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:14:06,692 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:14:06,698 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:14:06,704 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:14:06,970 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:14:06,973 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:14:06,978 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:14:17,925 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:14:17,944 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:14:17,951 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:14:17,954 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:14:17,962 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:14:17,964 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:14:17,978 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:14:17,980 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:14:17,984 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:14:17,990 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:14:17,993 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:14:17,998 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:14:35,550 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:14:35,555 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:14:35,559 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:14:35,565 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:14:35,569 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:14:35,579 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:14:35,604 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:14:35,608 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:14:35,616 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:14:35,619 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:14:35,623 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:17:12,445 - log_response - Not Found: /favicon.ico
+WARNING - 2020-04-27 21:18:23,953 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:18:24,000 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:18:24,003 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:18:24,005 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:18:24,007 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:18:24,010 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:18:24,013 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:18:24,025 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:18:24,042 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:18:24,045 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:18:24,048 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:18:24,055 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:19:58,829 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:19:58,857 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:19:58,860 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:19:58,863 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:19:58,866 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:19:58,868 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:19:58,873 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:19:58,884 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:19:58,890 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:19:58,892 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:19:58,895 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:19:58,899 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:20:54,661 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:20:54,678 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:20:54,692 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:20:54,699 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:20:54,704 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:20:54,707 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:20:54,713 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:20:54,715 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:20:54,724 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:20:54,728 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:20:54,733 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:20:54,738 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:22:29,052 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:22:29,095 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:22:29,098 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:22:29,100 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:22:29,102 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:22:29,107 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:22:29,109 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:22:29,125 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:22:29,128 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:22:29,130 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:22:29,132 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:22:29,135 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:22:55,894 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:22:55,923 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:22:55,925 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:22:55,928 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:22:55,930 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:22:55,932 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:22:55,934 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:22:55,953 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:22:55,955 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:22:55,957 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:22:55,960 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:22:55,962 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:23:10,440 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:23:10,464 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:23:10,470 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:23:10,473 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:23:10,477 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:23:10,482 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:23:10,484 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:23:10,486 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:23:10,497 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:23:10,501 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:23:10,504 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:23:10,508 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:23:35,040 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:23:35,066 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:23:35,069 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:23:35,071 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:23:35,073 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:23:35,074 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:23:35,079 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:23:35,089 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:23:35,096 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:23:35,099 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:23:35,103 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:23:35,107 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:24:27,824 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:24:27,853 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:24:27,855 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:24:27,858 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:24:27,859 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:24:27,861 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:24:27,863 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:24:27,882 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:24:27,884 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:24:27,886 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:24:27,888 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:24:27,893 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:26:35,276 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:26:35,339 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:26:35,343 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:26:35,345 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:26:35,348 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:26:35,349 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:26:35,351 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:26:35,370 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:26:35,374 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:26:35,377 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:26:35,380 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:26:35,382 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:27:23,155 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:27:23,197 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:27:23,201 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:27:23,205 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:27:23,209 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:27:23,217 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:27:23,224 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:27:23,239 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:27:23,245 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:27:23,247 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:27:23,252 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:27:23,255 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:28:16,457 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:28:16,496 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:28:16,523 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:28:16,526 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:28:16,530 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:28:16,533 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:28:16,536 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:28:16,540 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:28:16,552 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:28:16,555 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:28:16,567 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:28:16,570 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:28:46,025 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:28:46,029 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:28:46,031 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:28:46,033 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:28:46,092 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:28:46,100 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:28:46,105 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:28:46,109 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:28:46,112 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:28:46,116 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:28:46,132 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:28:46,460 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:29:26,191 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:29:27,054 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:29:27,058 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:29:27,066 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:29:27,068 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:29:27,080 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:29:27,082 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:29:27,089 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:29:27,094 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:29:27,110 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:29:27,115 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:29:27,120 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:31:39,525 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:31:39,566 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:31:39,574 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:31:39,597 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:31:39,598 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:31:39,602 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:31:39,604 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:31:39,606 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:31:39,610 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:31:39,624 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:31:39,627 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:31:39,633 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:37:02,052 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:37:02,104 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:37:02,106 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:37:02,109 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:37:02,111 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:37:02,123 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:37:02,128 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:37:02,131 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:37:02,136 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:37:02,137 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:37:02,141 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:37:02,145 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:37:10,662 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:37:11,508 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:37:11,521 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:37:11,525 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:37:11,531 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:37:11,535 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:37:11,537 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:37:11,540 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:37:11,552 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:37:11,559 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:37:11,567 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:37:11,574 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:38:50,059 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:38:50,109 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:38:50,127 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:38:50,129 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:38:50,131 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:38:50,134 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:38:50,136 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:38:50,137 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:38:50,159 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:38:50,161 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:38:50,163 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:38:50,166 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+DEBUG - 2020-04-27 21:39:00,164 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 21:39:00,165 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 21:39:00,166 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 21:39:00,629 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+WARNING - 2020-04-27 21:46:38,642 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:46:38,711 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:46:38,748 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:46:38,752 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:46:38,755 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:46:38,760 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:46:38,765 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:46:38,767 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:46:38,770 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:46:38,784 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:46:38,787 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:46:38,823 - log_response - Not Found: /{% static 'recAssets/js/main.js
