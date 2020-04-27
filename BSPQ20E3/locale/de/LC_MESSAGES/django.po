@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 18:47+0200\n"
+"POT-Creation-Date: 2020-04-27 18:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,6 @@ msgid "Sign in"
 msgstr "Einloggen"
 
 #: panel/templates/basewithbar.html:11
-#, fuzzy
-#| msgid "Social media"
 msgid "Social login"
 msgstr "Sozialen Medien"
 
@@ -101,41 +99,55 @@ msgstr "Empfehlungen"
 msgid "Economy"
 msgstr "Wirtschaft"
 
-#: panel/templates/index.html:39
-msgid "COVID-19 cases in each country"
-msgstr "COVID-19-Fälle in jedem Land"
+#: panel/templates/index.html:32
+msgid "HEAT MAP OF CONFIRMED CASES"
+msgstr "WÄRMEKARTE BESTÄTIGTER FÄLLE"
 
-#: panel/templates/index.html:46
-msgid "Number of deaths in each country"
-msgstr "Anzahl der Todesfälle in jedem Land"
+#: panel/templates/index.html:41
+msgid "CONFIRMED CASES THROUGH TIME"
+msgstr "BESTÄTIGTE FÄLLE IM ZEITRAUM"
 
-#: panel/templates/livelogtest.html:18
-#, fuzzy
-#| msgid "Countries"
+#: panel/templates/index.html:48
+msgid "DEATH NUMBER"
+msgstr "TODESNUMMER"
+
+#: panel/templates/index.html:49
+msgid "CONFIRMED CASES"
+msgstr "BESTÄTIGTE FÄLLE"
+
+#: panel/templates/index.html:60
+msgid "NEW CONFIRMED CASES"
+msgstr "NEUE BESTÄTIGTE FÄLLE"
+
+#: panel/templates/livelogtest.html:35
 msgid "Country_Region"
 msgstr "Länder"
 
-#: panel/templates/livelogtest.html:19
+#: panel/templates/livelogtest.html:36
 msgid "Confirmed"
 msgstr "Bestätigt"
 
-#: panel/templates/livelogtest.html:20
+#: panel/templates/livelogtest.html:37
 msgid "Deaths"
 msgstr "Tot"
 
-#: panel/templates/livelogtest.html:21
+#: panel/templates/livelogtest.html:38
 msgid "Recovered"
 msgstr "Erholt"
 
-#: panel/templates/livelogtest.html:22
-#, fuzzy
-#| msgid "Last_Update"
+#: panel/templates/livelogtest.html:39
 msgid "Last update"
 msgstr "Letztes update"
 
 #: panel/templates/login.html:25 panel/templates/login.html:26
 msgid "Sign in with"
 msgstr "Melden Sie sich mit an"
+
+#~ msgid "COVID-19 cases in each country"
+#~ msgstr "COVID-19-Fälle in jedem Land"
+
+#~ msgid "Number of deaths in each country"
+#~ msgstr "Anzahl der Todesfälle in jedem Land"
 
 #~ msgid "Log in / Register"
 #~ msgstr "Anmeldung / Registrieren"

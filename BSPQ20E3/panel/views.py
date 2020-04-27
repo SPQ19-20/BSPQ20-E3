@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.http import HttpResponse
 from .models import Entry, Data
+from django.core.paginator import Paginator
 import os
 import time
 import datetime
@@ -37,6 +38,9 @@ def settings(req):
 	return render(req, 'settings.html', { })
 
 def livelog(req):
+	data = Data.objects()[:10000]
+	paginator = Paginator(data, 10)
+	
 	'''Loads the Livelog
 
         :param req: The Http Request
@@ -45,10 +49,20 @@ def livelog(req):
         :returns: Http Response
         :rtype: Http
     ''' 
-	if translation.LANGUAGE_SESSION_KEY in req.session: 
-		del req.session[translation.LANGUAGE_SESSION_KEY]
 
-	prueba = Data.objects()[:10000]
-	return render(req, 'livelogtest.html', { 'data' : prueba })
+	page = req.GET.get('page', 1)
+	index = int(page)
+	max_index = len(paginator.page_range)
+	start_index = index - 3 if index >= 3 else 0
+	end_index = index + 3 if index <= max_index - 3 else max_index
+	page_range = list(paginator.page_range)[start_index:end_index]
+
+	try: data = paginator.page(page) 
+	except PageNotAnInteger: 
+		data = paginator.page(1) 
+	except EmptyPage: 
+		data = paginator.page(paginator.num_pages)
+
+	return render(req, 'livelogtest.html', { 'data' : data, 'page_range': page_range})
 
 

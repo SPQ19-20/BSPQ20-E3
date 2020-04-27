@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   $('#dataTable').DataTable(
   {
-  	'iDisplayLength': 25
+  	"bPaginate": false,
   }
   	);
   $('.languageSelector').selectpicker({

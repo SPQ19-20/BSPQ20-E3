@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 18:45+0200\n"
+"POT-Creation-Date: 2020-04-27 18:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,6 @@ msgid "Sign in"
 msgstr "Commencer la session"
 
 #: panel/templates/basewithbar.html:11
-#, fuzzy
-#| msgid "Social media"
 msgid "Social login"
 msgstr "Informations"
 
@@ -101,41 +99,55 @@ msgstr "Recommandations"
 msgid "Economy"
 msgstr "Économie"
 
-#: panel/templates/index.html:39
-msgid "COVID-19 cases in each country"
-msgstr "Cas COVID-19 dans chaque pays"
+#: panel/templates/index.html:32
+msgid "HEAT MAP OF CONFIRMED CASES"
+msgstr "CARTE DE CHALEUR DES CAS CONFIRMÉS"
 
-#: panel/templates/index.html:46
-msgid "Number of deaths in each country"
-msgstr "Nombre de décès dans chaque pays"
+#: panel/templates/index.html:41
+msgid "CONFIRMED CASES THROUGH TIME"
+msgstr "CAS CONFIRMÉS À TRAVERS LE TEMPS"
 
-#: panel/templates/livelogtest.html:18
-#, fuzzy
-#| msgid "Countries"
+#: panel/templates/index.html:48
+msgid "DEATH NUMBER"
+msgstr "NUMÉRO DE DÉCÈS"
+
+#: panel/templates/index.html:49
+msgid "CONFIRMED CASES"
+msgstr "CAS CONFIRMÉS"
+
+#: panel/templates/index.html:60
+msgid "NEW CONFIRMED CASES"
+msgstr "NOUVEAU CAS CONFIRMÉ"
+
+#: panel/templates/livelogtest.html:35
 msgid "Country_Region"
 msgstr "Les pays"
 
-#: panel/templates/livelogtest.html:19
+#: panel/templates/livelogtest.html:36
 msgid "Confirmed"
 msgstr "Confirmé"
 
-#: panel/templates/livelogtest.html:20
+#: panel/templates/livelogtest.html:37
 msgid "Deaths"
 msgstr "Mort"
 
-#: panel/templates/livelogtest.html:21
+#: panel/templates/livelogtest.html:38
 msgid "Recovered"
 msgstr "Récupéré"
 
-#: panel/templates/livelogtest.html:22
-#, fuzzy
-#| msgid "Last_Update"
+#: panel/templates/livelogtest.html:39
 msgid "Last update"
 msgstr "Dernier actualisation"
 
 #: panel/templates/login.html:25 panel/templates/login.html:26
 msgid "Sign in with"
 msgstr "Commencez la session avec"
+
+#~ msgid "COVID-19 cases in each country"
+#~ msgstr "Cas COVID-19 dans chaque pays"
+
+#~ msgid "Number of deaths in each country"
+#~ msgstr "Nombre de décès dans chaque pays"
 
 #~ msgid "Log in / Register"
 #~ msgstr "Commencer la session / Enregistrer"

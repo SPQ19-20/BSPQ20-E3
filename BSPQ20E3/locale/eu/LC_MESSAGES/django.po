@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 18:43+0200\n"
+"POT-Creation-Date: 2020-04-27 18:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,41 +100,55 @@ msgstr "Gomendioak"
 msgid "Economy"
 msgstr "Ekonomia"
 
-#: panel/templates/index.html:39
-msgid "COVID-19 cases in each country"
-msgstr "COVID-19 kasu herrialde bakoitzean"
+#: panel/templates/index.html:32
+msgid "HEAT MAP OF CONFIRMED CASES"
+msgstr "KASU EGIAZTATUKO MAPA"
 
-#: panel/templates/index.html:46
-msgid "Number of deaths in each country"
-msgstr "Herrialde bakoitzean hildako kopurua"
+#: panel/templates/index.html:41
+msgid "CONFIRMED CASES THROUGH TIME"
+msgstr "KASU EGIAZTATUAK DENBORAN ZEHAR"
 
-#: panel/templates/livelogtest.html:18
-#, fuzzy
-#| msgid "Countries"
+#: panel/templates/index.html:48
+msgid "DEATH NUMBER"
+msgstr "HILDAKO KOPURUA"
+
+#: panel/templates/index.html:49
+msgid "CONFIRMED CASES"
+msgstr "KASU EGIAZTATUAK"
+
+#: panel/templates/index.html:60
+msgid "NEW CONFIRMED CASES"
+msgstr "KASU EGIAZTATU BERRIAK"
+
+#: panel/templates/livelogtest.html:35
 msgid "Country_Region"
 msgstr "Herrialdeak"
 
-#: panel/templates/livelogtest.html:19
+#: panel/templates/livelogtest.html:36
 msgid "Confirmed"
 msgstr "Konfirmatuak"
 
-#: panel/templates/livelogtest.html:20
+#: panel/templates/livelogtest.html:37
 msgid "Deaths"
 msgstr "Hildak"
 
-#: panel/templates/livelogtest.html:21
+#: panel/templates/livelogtest.html:38
 msgid "Recovered"
 msgstr "Zainduak"
 
-#: panel/templates/livelogtest.html:22
-#, fuzzy
-#| msgid "Last_Update"
+#: panel/templates/livelogtest.html:39
 msgid "Last update"
 msgstr "Azken aktualizaioa"
 
 #: panel/templates/login.html:25 panel/templates/login.html:26
 msgid "Sign in with"
 msgstr "Saioa hasteko modua"
+
+#~ msgid "COVID-19 cases in each country"
+#~ msgstr "COVID-19 kasu herrialde bakoitzean"
+
+#~ msgid "Number of deaths in each country"
+#~ msgstr "Herrialde bakoitzean hildako kopurua"
 
 #~ msgid "Log in / Register"
 #~ msgstr "Saioa hasi / Erregistro"

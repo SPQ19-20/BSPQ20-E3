@@ -25,117 +25,110 @@
 		<div class="panel-body">
 			<div class="tab-content">
 				<!--TAB 1-->
-				<div class="tab-pane fade show active" id="tab1default">
-
-					
+				<div class="tab-pane fade show active" id="tab1default">					
 					<div class="container-fluid">
 						<div class="row mt-4">
 							<div class="card mb-4">
-							<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>HEAT MAP OF CONFIRMED CASES</div>
-							<div id="map"></div>
-							<svg id="my_dataviz" width="1150" height="400"></svg>
+								<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>{% trans "HEAT MAP OF CONFIRMED CASES" %}</div>
+								<div id="map"></div>
+								<svg id="my_dataviz" width="1150" height="400"></svg>
 							</div>
-							
 						</div>
-							<div class="row mt-4">	
-								<div class="col-xl-6">
+
+						<div class="row mt-4">	
+							<div class="col-xl-6">
 								<div class="card mb-4">
-									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>CONFIRMED CASES THROUGH TIME</div>
+									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>{% trans "CONFIRMED CASES THROUGH TIME" %}</div>
 									<div id="my_data"></div>
-									
 								</div>
-								</div>
-								<div class="col-xl-6">
+							</div>
+							<div class="col-xl-6">
 								<div class="card mb-4">
-									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i><button onclick="update('Deaths')">DEATH NUMBER</button>
-									<button onclick="update('Confirmed')">CONFIRMED CASES</button></div>
-									
+									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>
+										<button onclick="update('Deaths')">{% trans "DEATH NUMBER" %}</button>
+										<button onclick="update('Confirmed')">{% trans "CONFIRMED CASES" %}</button>
+									</div>
+
 									<div id="my_data2"></div>
 								</div>
-								</div>
-
-								
-							
 							</div>
-
-							<div class="row mt-4">	
-								<div class="col-xl-6">
+						</div>
+						<div class="row mt-4">	
+							<div class="col-xl-6">
 								<div class="card mb-4">
-									
 									<div class="card mb-4" width="460" height="400">
-										<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>NEW CONFIRMED CASES</div>
+										<div class="card-header"><i class="fas fa-chart-bar mr-1"></i>{% trans "NEW CONFIRMED CASES" %}</div>
 										<div id="my_data3"></div>
-										
 									</div>
 								</div>
-								</div>
-								<div class="col-xl-6">
+							</div>
+							<div class="col-xl-6">
 								<div class="card mb-4">
-									<div class="card-header"><i class="fas fa-chart-bar mr-1"></i></i><button onclick="update2('Spain')">SPAIN</button>
+									<div class="card-header">
+										<i class="fas fa-chart-bar mr-1"></i>
+										<button onclick="update2('Spain')">SPAIN</button>
 										<button onclick="update2('France')">FRANCE</button><button onclick="update2('US')">USA</button>
 										<button onclick="update2('Italy')">ITALY</button><button onclick="update2('United Kingdom')">UK</button>
-										<button onclick="update2('China')">CHINA</button></div>
+										<button onclick="update2('China')">CHINA</button>
+									</div>
 									<div id="my_data4"></div>
 								</div>
-								</div>
 							</div>
-						
-						
+						</div>
 					</div>
-					</div>
-					
-
-
 				</div>
 				<!--FINAL TAB 1-->
 
-				<div class="tab-pane fade" id="tab2default">Default 2</div>
+				<div class="tab-pane fade" id="tab2default">
+					
+				</div>
 				<div class="tab-pane fade" id="tab3default">Default 3</div>
 				<div class="tab-pane fade" id="tab4default">Default 4</div>
-				<div class="tab-pane fade" id="tab5default">Default 5</div>
+				<div class="tab-pane fade" id="tab5default">
+					{% include 'recommendations.html' %}
+				</div>
+				
 				<div class="tab-pane fade" id="tab6default">
 					<div class="container-fluid">
-							<br>
-							<br>
-							<!-- TradingView Widget BEGIN -->
-							<div class="tradingview-widget-container">
-							  <div id="tradingview_69f15"></div>
-							  <div class="tradingview-widget-copyright"><a rel="noopener" target="_blank"><span class="blue-text">Dynamic Chart</span></a> by TradingView</div>
-							  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-							  <script type="text/javascript">
-								  new TradingView.widget(
-								  {
-								  "width": 980,
-								  "height": 610,
-								  "symbol": "NASDAQ:AAPL",
-								  "interval": "D",
-								  "timezone": "Etc/UTC",
-								  "theme": "light",
-								  "style": "7",
-								  "locale": "en",
-								  "toolbar_bg": "#f1f3f6",
-								  "enable_publishing": false,
-								  "withdateranges": true,
-								  "allow_symbol_change": true,
-								  "details": true,
-								  "container_id": "tradingview_69f15"
+						<br>
+						<br>
+						<!-- TradingView Widget BEGIN -->
+						<div class="tradingview-widget-container">
+							<div id="tradingview_69f15"></div>
+							<div class="tradingview-widget-copyright"><a rel="noopener" target="_blank"><span class="blue-text">Dynamic Chart</span></a> by TradingView</div>
+							<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+							<script type="text/javascript">
+								new TradingView.widget(
+								{
+									"width": 980,
+									"height": 610,
+									"symbol": "NASDAQ:AAPL",
+									"interval": "D",
+									"timezone": "Etc/UTC",
+									"theme": "light",
+									"style": "7",
+									"locale": "en",
+									"toolbar_bg": "#f1f3f6",
+									"enable_publishing": false,
+									"withdateranges": true,
+									"allow_symbol_change": true,
+									"details": true,
+									"container_id": "tradingview_69f15"
 								}
-								  );
-							  </script>
-							</div>
-							<!-- TradingView Widget END -->
-					</div>					
-
-
+								);
+							</script>
+						</div>
+						<!-- TradingView Widget END -->
+					</div>		
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<main>
-		
 
-		
+
+
 	</main>
 	<footer class="py-4 bg-light mt-auto">
 		<div class="container-fluid">

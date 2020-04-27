@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 18:42+0200\n"
+"POT-Creation-Date: 2020-04-27 18:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,8 @@ msgstr "Noticias"
 
 #: panel/templates/basewithbar.html:17
 msgid "We only allow social login due to security and simplicity reasons"
-msgstr "Permitimos el inicio de sesión social por razones de seguridad y simplicidad"
+msgstr ""
+"Permitimos el inicio de sesión social por razones de seguridad y simplicidad"
 
 #: panel/templates/basewithbar.html:40
 msgid "Main"
@@ -101,41 +102,55 @@ msgstr "Recomendaciones"
 msgid "Economy"
 msgstr "Economía"
 
-#: panel/templates/index.html:39
-msgid "COVID-19 cases in each country"
-msgstr "Casos de COVID-19 en cada país"
+#: panel/templates/index.html:32
+msgid "HEAT MAP OF CONFIRMED CASES"
+msgstr "MAPA DE CALOR CON CASOS CONFIRMADOS"
 
-#: panel/templates/index.html:46
-msgid "Number of deaths in each country"
-msgstr "Número de muertos en cada país"
+#: panel/templates/index.html:41
+msgid "CONFIRMED CASES THROUGH TIME"
+msgstr "CASOS CONFIRMADOS A LO LARGO DEL TIEMPO"
 
-#: panel/templates/livelogtest.html:18
-#, fuzzy
-#| msgid "Countries"
+#: panel/templates/index.html:48
+msgid "DEATH NUMBER"
+msgstr "NUMERO DE MUERTOS"
+
+#: panel/templates/index.html:49
+msgid "CONFIRMED CASES"
+msgstr "CASOS CONFIRMADOS"
+
+#: panel/templates/index.html:60
+msgid "NEW CONFIRMED CASES"
+msgstr "CASOS NUEVOS CONFIRMADOS"
+
+#: panel/templates/livelogtest.html:35
 msgid "Country_Region"
 msgstr "Países"
 
-#: panel/templates/livelogtest.html:19
+#: panel/templates/livelogtest.html:36
 msgid "Confirmed"
 msgstr "Confirmados"
 
-#: panel/templates/livelogtest.html:20
+#: panel/templates/livelogtest.html:37
 msgid "Deaths"
 msgstr "Muertos"
 
-#: panel/templates/livelogtest.html:21
+#: panel/templates/livelogtest.html:38
 msgid "Recovered"
 msgstr "Recuperados"
 
-#: panel/templates/livelogtest.html:22
-#, fuzzy
-#| msgid "Last_Update"
+#: panel/templates/livelogtest.html:39
 msgid "Last update"
-msgstr "Ult.Actualización"
+msgstr "Ultima actualización"
 
 #: panel/templates/login.html:25 panel/templates/login.html:26
 msgid "Sign in with"
 msgstr "Iniciar sesión con"
+
+#~ msgid "COVID-19 cases in each country"
+#~ msgstr "Casos de COVID-19 en cada país"
+
+#~ msgid "Number of deaths in each country"
+#~ msgstr "Número de muertos en cada país"
 
 #~ msgid "Log in / Register"
 #~ msgstr "Iniciar sesión / Registro"
