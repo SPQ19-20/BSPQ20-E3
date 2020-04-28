@@ -2175,3 +2175,23 @@ DEBUG - 2020-04-28 10:29:45,110 - get_csv_from_github - Default date to be used 
 DEBUG - 2020-04-28 10:29:45,112 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
 INFO - 2020-04-28 10:29:45,740 - run_with_reloader - Watching for file changes with StatReloader
 DEBUG - 2020-04-28 10:29:45,807 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 11:04:21,933 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 11:04:21,934 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 11:04:21,935 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 11:04:21,944 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 11:04:22,900 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 11:18:49,240 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 11:18:49,241 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 11:18:49,241 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 11:18:49,245 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 11:18:50,128 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 11:19:49,825 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 11:19:49,825 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 11:19:49,826 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 11:19:49,829 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 11:19:50,997 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 11:20:30,321 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 11:20:30,321 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 11:20:30,321 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 11:20:30,323 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 11:20:30,807 - get_csv_from_github - Successfully downloaded data for 27-04-2020

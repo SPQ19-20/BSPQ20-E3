@@ -13,6 +13,7 @@ BSPQ20E3.egg-info/top_level.txt
 panel/__init__.py
 panel/admin.py
 panel/apps.py
+panel/filters.py
 panel/githubcsv.py
 panel/logs.py
 panel/models.py
