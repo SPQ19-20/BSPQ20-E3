@@ -13,15 +13,15 @@
 <link href="{% static 'recAssets/css/style.css' %}" rel="stylesheet">
 {% endblock%}
 
-<main id="main">
-<!--  ======= Portfolio Section ======= -->
+<main id="main" style="background-color:#FFFFF0;">
+  <!--  ======= Portfolio Section =======
   <section id="portfolio" class="wow fadeInUp">
     <div class="container-fluid">
       <div class="row no-gutters">
 
         <div class="col-lg-3 col-md-4">
           <div class="portfolio-item wow fadeInUp">
-            <a href="{% static 'recAssets/img/portfolio/1.jpg' %}" class="venobox" data-gall="portfolioGallery">
+            <a href="#about" class="venobox" data-gall="portfolioGallery">
               <img src="{% static 'recAssets/img/portfolio/1.jpg' %}" alt="">
               <div class="portfolio-overlay">
                 <div class="portfolio-info">
@@ -34,7 +34,7 @@
 
         <div class="col-lg-3 col-md-4">
           <div class="portfolio-item wow fadeInUp">
-            <a href="{% static 'recAssets/img/portfolio/2.jpg' %}" class="venobox" data-gall="portfolioGallery">
+            <a href="#where" class="venobox" data-gall="portfolioGallery">
               <img src="{% static 'recAssets/img/portfolio/2.jpg' %}" alt="">
               <div class="portfolio-overlay">
                 <div class="portfolio-info">
@@ -60,8 +60,8 @@
 
         <div class="col-lg-3 col-md-4">
           <div class="portfolio-item wow fadeInUp">
-            <a href="{% static 'recAssets/img/portfolio/4.jpg' %}" class="venobox" data-gall="portfolioGallery">
-              <img src="{% static 'recAssets/img/portfolio/4.jpg' %}" alt="">
+            <a href="{% static 'recAssets/img/portfolio/4.png' %}" class="venobox" data-gall="portfolioGallery">
+              <img src="{% static 'recAssets/img/portfolio/4.png' %}" alt="">
               <div class="portfolio-overlay">
                 <div class="portfolio-info">
                   <h2 class="wow fadeInUp">What are the symptoms?</h2>
@@ -86,8 +86,8 @@
 
         <div class="col-lg-3 col-md-4">
           <div class="portfolio-item wow fadeInUp">
-            <a href="{% static 'recAssets/img/portfolio/6.jpg' %}" class="venobox" data-gall="portfolioGallery">
-              <img src="{% static 'recAssets/img/portfolio/6.jpg' %}" alt="">
+            <a href="{% static 'recAssets/img/portfolio/6.png' %}" class="venobox" data-gall="portfolioGallery">
+              <img src="{% static 'recAssets/img/portfolio/6.png' %}" alt="">
               <div class="portfolio-overlay">
                 <div class="portfolio-info">
                   <h2 class="wow fadeInUp">Call to action</h2>
@@ -103,7 +103,7 @@
               <img src="{% static 'recAssets/img/portfolio/7.jpg' %}" alt="">
               <div class="portfolio-overlay">
                 <div class="portfolio-info">
-                  <h2 class="wow fadeInUp">Portfolio Item 7</h2>
+                  <h2 class="wow fadeInUp">News</h2>
                 </div>
               </div>
             </a>
@@ -116,7 +116,7 @@
               <img src="{% static 'recAssets/img/portfolio/8.jpg' %}" alt="">
               <div class="portfolio-overlay">
                 <div class="portfolio-info">
-                  <h2 class="wow fadeInUp">Portfolio Item 8</h2>
+                  <h2 class="wow fadeInUp">Economy</h2>
                 </div>
               </div>
             </a>
@@ -126,10 +126,12 @@
       </div>
 
     </div>
-  </section><!-- End Portfolio Section -->
+  </section>End Portfolio Section -->
 
   <!-- ======= About Section ======= -->
-  <section id="about" class="wow fadeInUp">
+  
+
+  <section id="about" class="wow fadeInUp" >
     <div class="container">
       <div class="row">
         <div class="col-lg-6 about-img">
@@ -146,32 +148,18 @@
     </div>
   </section><!-- End About Section -->
 
-
-
-  <section id="about">
-    <div class="container">
-      <br>
-      <p class="description">{% trans "Coronaviruses are viruses that circulate among animals with some of them also known to infect humans. Bats are considered natural hosts of these viruses yet several other species of animals are also known to act as sources. For instance, Middle East Respiratory Syndrome Coronavirus (MERS-CoV) is transmitted to humans from camels, and Severe Acute Respiratory Syndrome Coronavirus-1 (SARS-CoV-1) is transmitted to humans from civet cats." %}
-      </p>
-
-    </div>
-  </section>
-
   <!-- ======= Services Section ======= -->
   <section id="services" class="wow fadeInUp">
     <div class="container">
-        <!-- <div class="section-header">
-          <h2>{% trans "Symptons" %}</h2>
-          <ul>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Fever" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Cough" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Sore throat" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "General weakness" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Fatigue and muscular pain" %}</li>
-            </ul>
-          </div> -->
+          <div id="what" class="row">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">{% trans "What are they?" %}</a></h4>
+              <p class="description">{% trans "Coronaviruses are viruses that circulate among animals with some of them also known to infect humans. Bats are considered natural hosts of these viruses yet several other species of animals are also known to act as sources. For instance, Middle East Respiratory Syndrome Coronavirus (MERS-CoV) is transmitted to humans from camels, and Severe Acute Respiratory Syndrome Coronavirus-1 (SARS-CoV-1) is transmitted to humans from civet cats." %}</p>
+            </div>
+          </div>
 
-          <div class="row">
+          <div id="where" class="row">
 
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
@@ -222,97 +210,6 @@
         </div>
       </section><!-- End Services Section -->
 
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="wow fadeInUp">
-        <div class="container">
-          <div class="section-header">
-            <h2>{% trans "Hygiene" %}</h2>
-            <p> If you are infected, the use of surgical face masks may reduce the risk of you infecting other people. On the other hand there is no evidence that face masks will effectively prevent you from becoming infected with the virus. In fact, it is possible that the use of face masks may even increase the risk of infection due to a false sense of security and increased contact between hands, mouth and eyes while wearing them. The inappropriate use of masks also may increase the risk of infection.</p>
-          </div>
-
-          <div class="owl-carousel clients-carousel">
-            <img src="{% static 'recAssets/clients/client-1.png" alt="">
-            <img src="{% static 'recAssets/clients/client-2.png" alt="">
-            <img src="{% static 'recAssets/clients/client-3.png" alt="">
-            <img src="{% static 'recAssets/clients/client-4.png" alt="">
-            <img src="{% static 'recAssets/clients/client-5.png" alt="">
-            <img src="{% static 'recAssets/clients/client-6.png" alt="">
-            <img src="{% static 'recAssets/clients/client-7.png" alt="">
-            <img src="{% static 'recAssets/clients/client-8.png" alt="">
-          </div>
-
-        </div>
-      </section><!-- End Clients Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="wow fadeInUp">
-        <div class="container">
-          <div class="section-header">
-            <h2>Testimonials</h2>
-            <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-          </div>
-          <div class="owl-carousel testimonials-carousel">
-
-            <div class="testimonial-item">
-              <p>
-                <img src="{% static 'recAssets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <img src="{% static 'recAssets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="{% static 'recAssets/img/testimonial-1.jpg' %}" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
-            </div>
-
-            <div class="testimonial-item">
-              <p>
-                <img src="{% static 'recAssets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <img src="{% static 'recAssets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="{% static 'recAssets/img/testimonial-2.jpg' %}" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-            </div>
-
-            <div class="testimonial-item">
-              <p>
-                <img src="{% static 'recAssets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <img src="{% static 'recAssets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="{% static 'recAssets/img/testimonial-3.jpg' %}" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-            </div>
-
-            <div class="testimonial-item">
-              <p>
-                <img src="{% static 'recAssets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <img src="{% static 'recAssets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="{% static 'recAssets/img/testimonial-4.jpg' %}" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-            </div>
-
-            <div class="testimonial-item">
-              <p>
-                <img src="{% static 'recAssets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <img src="{% static 'recAssets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-              </p>
-              <img src="{% static 'recAssets/img/testimonial-5.jpg' %}" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-            </div>
-
-          </div>
-
-        </div>
-      </section><!-- End Testimonials Section -->
-
       <!-- ======= Call To Action Section ======= -->
       <section id="call-to-action" class="wow fadeInUp">
         <div class="container">
@@ -330,14 +227,18 @@
       </section><!-- End Call To Action Section --> 
 
       {% block js %}
+      
+      <script src="{% static 'recAssets/vendor/jquery/jquery.min.js' %}"></script>
+      <script src="{% static 'recAssets/vendor/php-email-form/validate.js' %}"></script>
       <script src="{% static 'recAssets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
       <script src="{% static 'recAssets/vendor/wow/wow.min.js' %}"></script>
+      
       <script src="{% static 'recAssets/vendor/venobox/venobox.min.js' %}"></script>
       <script src="{% static 'recAssets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
       <script src="{% static 'recAssets/vendor/jquery-sticky/jquery.sticky.js' %}"></script>
       <script src="{% static 'recAssets/vendor/superfish/superfish.min.js' %}"></script>
       <script src="{% static 'recAssets/vendor/hoverIntent/hoverIntent.js' %}"></script>
-      <script src="{% static 'recAssets/js/main.js"></script>
+      <script src="{% static 'recAssets/js/main.js' %}"></script>
       {% endblock%}
 
 

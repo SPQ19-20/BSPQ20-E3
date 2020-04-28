@@ -2050,3 +2050,128 @@ WARNING - 2020-04-27 21:46:38,770 - log_response - Not Found: /{% static 'recAss
 WARNING - 2020-04-27 21:46:38,784 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
 WARNING - 2020-04-27 21:46:38,787 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
 WARNING - 2020-04-27 21:46:38,823 - log_response - Not Found: /{% static 'recAssets/js/main.js
+DEBUG - 2020-04-27 21:51:42,073 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 21:51:42,073 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 21:51:42,073 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 21:51:42,076 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 21:51:42,546 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+DEBUG - 2020-04-27 21:51:43,253 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-27 21:51:43,253 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-27 21:51:43,254 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-27 21:51:43,257 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-26-2020.csv
+DEBUG - 2020-04-27 21:51:43,629 - get_csv_from_github - Successfully downloaded data for 26-04-2020
+INFO - 2020-04-27 21:51:43,855 - run_with_reloader - Watching for file changes with StatReloader
+WARNING - 2020-04-27 21:51:44,473 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-27 21:51:44,533 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-27 21:51:44,540 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-27 21:51:44,545 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-27 21:51:44,549 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-27 21:51:44,553 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-27 21:51:44,566 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-27 21:51:44,571 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-27 21:51:44,575 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-27 21:51:44,580 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-27 21:51:44,587 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-27 21:51:44,603 - log_response - Not Found: /{% static 'recAssets/js/main.js
+DEBUG - 2020-04-28 08:54:06,493 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 08:54:06,494 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 08:54:06,494 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 08:54:06,908 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 08:54:07,689 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 08:54:07,689 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 08:54:07,689 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 08:54:07,968 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+WARNING - 2020-04-28 09:51:21,869 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 09:51:21,928 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-28 09:51:21,954 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 09:51:21,957 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-28 09:51:21,960 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-28 09:51:21,964 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-28 09:51:21,967 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-28 09:51:21,969 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-28 09:51:21,983 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-28 09:51:21,994 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-28 09:51:21,997 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-28 09:51:21,999 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-28 09:55:35,434 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-28 09:55:35,451 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-28 09:55:35,452 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-28 09:55:35,456 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-28 09:55:35,458 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 09:55:35,459 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-28 09:55:35,465 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-28 09:55:35,479 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-28 09:55:35,483 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-28 09:55:35,486 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-28 09:55:35,490 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-28 10:05:12,571 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:05:12,615 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-28 10:05:12,616 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-28 10:05:12,620 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-28 10:05:12,624 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-28 10:05:12,629 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-28 10:05:12,645 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-28 10:05:12,648 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-28 10:05:12,652 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-left.png
+WARNING - 2020-04-28 10:05:12,654 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-28 10:05:12,658 - log_response - Not Found: /{% static 'recAssets/img/quote-sign-right.png
+WARNING - 2020-04-28 10:05:12,683 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:07:51,216 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:07:51,255 - log_response - Not Found: /{% static 'recAssets/clients/client-2.png
+WARNING - 2020-04-28 10:07:51,257 - log_response - Not Found: /{% static 'recAssets/clients/client-1.png
+WARNING - 2020-04-28 10:07:51,260 - log_response - Not Found: /{% static 'recAssets/clients/client-3.png
+WARNING - 2020-04-28 10:07:51,270 - log_response - Not Found: /{% static 'recAssets/clients/client-4.png
+WARNING - 2020-04-28 10:07:51,274 - log_response - Not Found: /{% static 'recAssets/clients/client-5.png
+WARNING - 2020-04-28 10:07:51,277 - log_response - Not Found: /{% static 'recAssets/clients/client-6.png
+WARNING - 2020-04-28 10:07:51,284 - log_response - Not Found: /{% static 'recAssets/clients/client-7.png
+WARNING - 2020-04-28 10:07:51,290 - log_response - Not Found: /{% static 'recAssets/clients/client-8.png
+WARNING - 2020-04-28 10:07:51,294 - log_response - Not Found: /{% static 'recAssets/js/main.js
+DEBUG - 2020-04-28 10:09:41,056 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 10:09:41,056 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 10:09:41,056 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 10:09:41,059 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 10:09:42,113 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 10:09:42,443 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 10:09:42,444 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 10:09:42,444 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 10:09:42,447 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+INFO - 2020-04-28 10:09:43,246 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-04-28 10:09:43,318 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+WARNING - 2020-04-28 10:09:46,415 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:09:46,546 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:11:15,583 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:11:15,654 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:11:28,901 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:11:29,420 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:13:42,545 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:13:42,584 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:16:56,683 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:16:56,742 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:17:51,057 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:17:51,097 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:17:52,691 - log_response - Not Found: /assets/img/intro-carousel/1.jpg
+WARNING - 2020-04-28 10:17:52,694 - log_response - Not Found: /assets/img/intro-carousel/4.jpg
+WARNING - 2020-04-28 10:17:52,697 - log_response - Not Found: /assets/img/intro-carousel/3.jpg
+WARNING - 2020-04-28 10:17:52,703 - log_response - Not Found: /assets/img/intro-carousel/2.jpg
+WARNING - 2020-04-28 10:17:52,705 - log_response - Not Found: /assets/img/intro-carousel/5.jpg
+WARNING - 2020-04-28 10:18:18,554 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:18:18,593 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:19:17,302 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:19:17,331 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:19:57,557 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:19:57,605 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:20:43,145 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:20:45,938 - log_response - Not Found: /recAssets/img/intro-carousel/1.jpg
+WARNING - 2020-04-28 10:22:09,699 - log_response - Not Found: /{% static 'recAssets/js/main.js
+WARNING - 2020-04-28 10:22:09,774 - log_response - Not Found: /{% static 'recAssets/js/main.js
+DEBUG - 2020-04-28 10:29:44,041 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 10:29:44,041 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 10:29:44,041 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 10:29:44,044 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 10:29:44,446 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 10:29:45,109 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 10:29:45,110 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 10:29:45,110 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 10:29:45,112 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+INFO - 2020-04-28 10:29:45,740 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-04-28 10:29:45,807 - get_csv_from_github - Successfully downloaded data for 27-04-2020
