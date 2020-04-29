@@ -2195,3 +2195,126 @@ DEBUG - 2020-04-28 11:20:30,321 - <module> - Csv-getter thread started.
 DEBUG - 2020-04-28 11:20:30,321 - get_csv_from_github - Default date to be used for csv extraction
 DEBUG - 2020-04-28 11:20:30,323 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
 DEBUG - 2020-04-28 11:20:30,807 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 15:51:28,977 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 15:51:28,977 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 15:51:28,977 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 15:51:28,981 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 15:51:29,486 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 15:56:33,586 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 15:56:33,586 - <module> - Csv-getter thread started.
+DEBUG - 2020-04-28 15:56:33,587 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 15:56:33,590 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 15:56:34,835 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 16:01:55,324 - _new_conn - Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG - 2020-04-28 16:01:55,477 - _make_request - https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG - 2020-04-28 16:01:55,484 - _new_conn - Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG - 2020-04-28 16:01:55,612 - _make_request - https://www.googleapis.com:443 "GET /oauth2/v3/userinfo HTTP/1.1" 200 None
+DEBUG - 2020-04-28 17:01:42,667 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 17:01:42,668 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 17:01:42,668 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 17:01:44,026 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 18:01:42,575 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 18:01:42,578 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 18:01:42,579 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 18:01:44,094 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 19:01:42,478 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 19:01:42,480 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 19:01:42,480 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 19:01:43,262 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-28 20:01:42,384 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-28 20:01:42,386 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-28 20:01:42,387 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv
+DEBUG - 2020-04-28 20:01:43,706 - get_csv_from_github - Successfully downloaded data for 27-04-2020
+DEBUG - 2020-04-29 09:56:40,536 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-29 09:56:40,544 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-29 09:56:40,546 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-28-2020.csv
+DEBUG - 2020-04-29 09:56:41,617 - get_csv_from_github - Successfully downloaded data for 28-04-2020
+DEBUG - 2020-04-29 10:56:40,467 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-29 10:56:40,467 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-29 10:56:40,468 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-28-2020.csv
+DEBUG - 2020-04-29 10:56:41,990 - get_csv_from_github - Successfully downloaded data for 28-04-2020
+DEBUG - 2020-04-29 11:56:40,368 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-29 11:56:40,370 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-29 11:56:40,370 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-28-2020.csv
+DEBUG - 2020-04-29 11:56:41,862 - get_csv_from_github - Successfully downloaded data for 28-04-2020
+DEBUG - 2020-04-29 12:56:40,274 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-29 12:56:40,275 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-29 12:56:40,275 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-28-2020.csv
+DEBUG - 2020-04-29 12:56:41,089 - get_csv_from_github - Successfully downloaded data for 28-04-2020
+ERROR - 2020-04-29 13:45:59,216 - log_response - Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 33, in index
+    return render(req, 'index.html', {'data' : prueba})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'trans'. Did you forget to register or load this tag?
+WARNING - 2020-04-29 13:49:01,750 - log_response - Not Found: /accounts
+WARNING - 2020-04-29 13:54:32,727 - log_response - Forbidden (CSRF token missing or incorrect.): /
+DEBUG - 2020-04-29 14:02:19,350 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-04-29 14:02:19,350 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-04-29 14:02:19,351 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-28-2020.csv
+DEBUG - 2020-04-29 14:02:20,502 - get_csv_from_github - Successfully downloaded data for 28-04-2020
+WARNING - 2020-04-29 15:42:33,248 - log_response - Forbidden (CSRF token missing or incorrect.): /

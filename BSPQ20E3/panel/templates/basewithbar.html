@@ -5,30 +5,52 @@
 {% block base %}
 <!-- Modal -->
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-center" id="loginModalLabel">{% trans "Social login" %}</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-      </button>
-  </div>
-  <div class="modal-body">
-    <p class="mb-4">{% trans "We only allow social login due to security and simplicity reasons" %}.</p>
-    
-    <div class="text-center ml-3 mr-3">
-        <a href="{% url 'social:begin' 'google-oauth2' %}" class="btn btn-danger btn-block"><i class="fab fa-google mr-3"></i><b>Google</b></a>
-        <a href="{% url 'social:begin' 'facebook' %}" class="btn btn-primary btn-block"><i class="fab fa-facebook-f mr-3"></i><b>Facebook</b></a>
-        <!--<a href="{% url 'social:begin' 'twitter' %}" class="btn btn-info btn-block"><i class="fab fa-twitter mr-3"></i><b>Twitter</b></a>-->
-
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title text-center" id="loginModalLabel">{% trans "Social login" %}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="mb-4">{% trans "We only allow social login due to security and simplicity reasons" %}.</p>
+                
+                <div class="text-center ml-3 mr-3">
+                    <a href="{% url 'social:begin' 'google-oauth2' %}" class="btn btn-danger btn-block"><i class="fab fa-google mr-3"></i><b>Google</b></a>
+                    <a href="{% url 'social:begin' 'facebook' %}" class="btn btn-primary btn-block"><i class="fab fa-facebook-f mr-3"></i><b>Facebook</b></a>
+                    <!--<a href="{% url 'social:begin' 'twitter' %}" class="btn btn-info btn-block"><i class="fab fa-twitter mr-3"></i><b>Twitter</b></a>-->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary center-block" data-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+        </div>
     </div>
 </div>
-<div class="modal-footer">
-    <button type="button" class="btn btn-secondary center-block" data-dismiss="modal">Close</button>
-    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
-</div>
-</div>
-</div>
+
+<!-- Profile Modal -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title text-center" id="profileModalLabel">{% trans "Your account" %}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                {% include 'profile.html' %}
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button type="button" class="btn btn-alert center-block text-danger" data-dismiss="modal">Delete account</button>
+                <button type="button" class="btn btn-primary center-block" data-dismiss="modal">Save changes</button>
+                <button type="button" class="btn btn-secondary center-block" data-dismiss="modal">Close without saving</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="layoutSidenav">
@@ -50,8 +72,8 @@
                     <div class="sb-sidenav-menu-heading">{% trans "User" %}</div>
                     {% if user.is_authenticated %}
 
-                    <a class="nav-link" href="/accounts">
-                        <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
+                        <a class="nav-link" data-toggle="modal" data-target="#profileModal">
+                            <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
                         <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
                     {% trans "My account" %}</a>
 
@@ -77,18 +99,18 @@
                         {% csrf_token %}
                         <input name="next" type="hidden" value="{{ redirect_to }}">
 
-                            <div class="col">
-                              <select class="selectpicker" id="languageSelector" name="language" data-live-search="true" onchange="this.form.submit()"> 
-                                {% get_current_language as LANGUAGE_CODE %} {% get_available_languages as LANGUAGES %} {% get_language_info_list for LANGUAGES as languages %}
+                        <div class="col">
+                          <select class="selectpicker" id="languageSelector" name="language" data-live-search="true" onchange="this.form.submit()"> 
+                            {% get_current_language as LANGUAGE_CODE %} {% get_available_languages as LANGUAGES %} {% get_language_info_list for LANGUAGES as languages %}
 
-                                {% for language in languages %}
-                                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
-                                selected{% endif %}> {{ language.name_local }} ({{ language.code }})
-                            </option>
-                            {% endfor %}
+                            {% for language in languages %}
+                            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
+                            selected{% endif %}> {{ language.name_local }} ({{ language.code }})
+                        </option>
+                        {% endfor %}
 
-                        </select>
-                    </div>
+                    </select>
+                </div>
             </form>
 
 
