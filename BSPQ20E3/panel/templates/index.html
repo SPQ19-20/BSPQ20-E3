@@ -16,7 +16,7 @@
 					<a class="nav-link active" href="#tab1default" data-toggle="tab">{% trans 'Overall' %}</a>
 					<a class="nav-link" href="#tab2default" data-toggle="tab">{% trans "Countries" %}<span class="badge badge-pill bg-light align-text-bottom">27</span> </a>
 					<a class="nav-link" href="#tab3default" data-toggle="tab">{% trans "Evolution" %}</a>
-					<a class="nav-link" href="#tab4default" data-toggle="tab">{% trans "Social media" %}</a>
+					<a class="nav-link" href="#tab4default" data-toggle="tab">{% trans "Social Media" %}</a>
 					<a class="nav-link" href="#tab5default" data-toggle="tab">{% trans "Recommendations" %}</a>
 					<a class="nav-link" href="#tab6default" data-toggle="tab">{% trans "Economy" %}</a>
 				</nav>
@@ -83,8 +83,19 @@
 					
 				</div>
 				<div class="tab-pane fade" id="tab3default">Default 3</div>
-				<div class="tab-pane fade" id="tab4default">Default 4</div>
-				<div class="tab-pane fade" id="tab5default">
+				<div class="tab-pane fade" id="tab4default">
+					
+					<div class="row mt-4">	
+						<div class="col-xl-6">
+						<a class="twitter-timeline"  href="https://twitter.com/CoronavirusESP?ref_src=twsrc%5Etfw">Tweets by CoronavirusESP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+						<div class="col-xl-6">
+						<a class="twitter-timeline" href="https://twitter.com/Covid_19Time?ref_src=twsrc%5Etfw">Tweets by Covid_19Time</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>	
+						</div>
+					</div>
+						
+			
+					<div class="tab-pane fade" id="tab5default">
 					{% include 'recommendations.html' %}
 				</div>
 				
