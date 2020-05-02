@@ -78,7 +78,7 @@ def get_csv_from_github(url="default", date=None):
     try:
         csv_file_from_url = pd.read_csv(url_to_file)
         csv_file_from_url.to_csv("file.csv", index=False)
-        os.system("mongoimport -d SoftwareP -c data --type csv --file ../file.csv --headerline")
+        os.system("mongoimport -d SoftwareP -c data --type csv --file file.csv --headerline")
         get_logger().debug(f"Successfully downloaded data for {date}")
     except urllib.error.HTTPError as error:
         get_logger().info(f"CSV file not found for this date yet: {date} -> {error}")
