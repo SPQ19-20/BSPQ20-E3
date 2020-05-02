@@ -19,3 +19,14 @@ script:
 branches:
   only:
     - master
+
+notifications:
+  email:
+    recipients:
+      - asierfdln@opendeusto.es
+      - imanolgonzalezestepa@opendeusto.es
+      - badiolajulen@opendeusto.es
+      - rulegua@opendeusto.es
+      - marta.madariaga99@opendeusto.es
+    on_success: always
+    on_failure: always
