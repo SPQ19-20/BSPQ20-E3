@@ -5,6 +5,5 @@ app_name = 'panel'
 
 urlpatterns = [
     path('', views.index, name="index"),
-    path('settings', views.settings),
     path('livelog', views.livelog, name="livelog"),
 ]

@@ -3,7 +3,8 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.http import HttpResponse
 from .models import Entry, Data
-from django.core.paginator import Paginator
+from .cache import Cache
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from .filters import DataFilter
 import os
 import time
@@ -32,17 +33,11 @@ def index(req):
 
 	return render(req, 'index.html', {'data' : prueba})
 
-def settings(req):
-	if translation.LANGUAGE_SESSION_KEY in req.session: 
-		del req.session[translation.LANGUAGE_SESSION_KEY]
-
-	return render(req, 'settings.html', { })
-
 def livelog(req):
-	data = Data.objects()[:10000]
-	paginator = Paginator(data, 25)
-	dataFilter = DataFilter(req.GET, queryset=data)
+	dataFilter = DataFilter(req.GET, queryset=Data.objects())
 	#dataFilter = ""
+	#print(Cache().COUNTRIES)
+	paginator = Paginator(dataFilter.qs[:10000], 25)
 	
 	'''Loads the Livelog
 
@@ -66,6 +61,6 @@ def livelog(req):
 	except EmptyPage: 
 		data = paginator.page(paginator.num_pages)
 
-	return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range})
+	return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
 
 

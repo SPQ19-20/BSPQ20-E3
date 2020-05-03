@@ -8,6 +8,7 @@ var svg = d3.select("svg")
 .attr("width", width + margin.left + margin.right)
 .attr("height", height + margin.top + margin.bottom)
 
+
 // Here we set the scale, center and position of the map.
 var path = d3.geoPath();
 var projection = d3.geoMercator()

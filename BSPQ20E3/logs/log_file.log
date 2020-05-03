@@ -2318,3 +2318,1177 @@ DEBUG - 2020-04-29 14:02:19,350 - get_csv_from_github - Default date to be used 
 DEBUG - 2020-04-29 14:02:19,351 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-28-2020.csv
 DEBUG - 2020-04-29 14:02:20,502 - get_csv_from_github - Successfully downloaded data for 28-04-2020
 WARNING - 2020-04-29 15:42:33,248 - log_response - Forbidden (CSRF token missing or incorrect.): /
+DEBUG - 2020-05-03 15:04:49,126 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 15:04:49,126 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 15:04:49,126 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 15:04:49,173 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 15:04:50,583 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+DEBUG - 2020-05-03 15:04:57,788 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 15:04:57,788 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 15:04:57,789 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 15:04:57,792 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 15:04:58,372 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 15:04:58,514 - run_with_reloader - Watching for file changes with StatReloader
+WARNING - 2020-05-03 15:06:45,753 - log_response - Not Found: /favicon.ico
+INFO - 2020-05-03 16:12:17,165 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:12:17,854 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:12:17,854 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:12:17,854 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:12:17,857 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:12:18,359 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:12:18,502 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:16:17,729 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:16:18,432 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:16:18,432 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:16:18,432 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:16:18,436 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:16:18,905 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:16:19,144 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:16:34,820 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/urls.py changed, reloading.
+DEBUG - 2020-05-03 16:16:35,446 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:16:35,446 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:16:35,446 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:16:35,449 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:16:35,920 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:16:36,110 - run_with_reloader - Watching for file changes with StatReloader
+ERROR - 2020-05-03 16:16:43,298 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range})
+NameError: name 'dataFilter' is not defined
+INFO - 2020-05-03 16:16:56,289 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:16:56,945 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:16:56,945 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:16:56,946 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:16:56,949 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:16:57,435 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:16:57,657 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:17:02,445 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:17:03,448 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:17:03,448 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:17:03,449 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:17:03,451 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:17:03,899 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:17:04,089 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:29:56,875 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:29:57,627 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:29:57,628 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:29:57,628 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:29:57,631 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 16:29:58,327 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 16:29:58,633 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:30:11,860 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:30:12,530 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:30:12,530 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:30:12,530 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:30:12,533 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:30:12,933 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:30:13,151 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:30:14,698 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:30:15,364 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:30:15,364 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:30:15,365 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:30:15,368 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:30:15,788 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:30:15,993 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:31:54,032 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:31:54,669 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:31:54,670 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:31:54,670 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:31:54,672 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:31:55,097 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:31:55,385 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 16:33:48,124 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:33:48,124 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:33:48,124 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:33:48,128 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:33:48,589 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+DEBUG - 2020-05-03 16:33:49,218 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:33:49,218 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:33:49,218 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:33:49,221 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:33:49,640 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:33:49,867 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:35:00,446 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:35:01,398 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:35:01,398 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:35:01,398 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:35:01,401 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 16:35:02,061 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 16:35:02,256 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:35:17,317 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:35:18,936 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:35:18,937 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:35:18,937 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:35:18,941 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:35:19,339 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:35:19,597 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:36:50,605 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:36:51,240 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:36:51,240 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:36:51,241 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:36:51,243 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:36:51,649 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:36:51,874 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 16:37:57,562 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 16:37:58,484 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:37:58,484 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:37:58,484 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:37:58,487 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 16:37:59,152 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 16:38:00,177 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+ERROR - 2020-05-03 16:38:02,243 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 39, in livelog
+    paginator = Paginator(DataFilter.qs[:10000], 25)
+TypeError: 'property' object is not subscriptable
+INFO - 2020-05-03 16:38:14,972 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+ERROR - 2020-05-03 16:38:15,274 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 39, in livelog
+    paginator = Paginator(dataFilter.qs[:10000], 25)
+TypeError: 'property' object is not subscriptable
+DEBUG - 2020-05-03 16:38:15,882 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 16:38:15,882 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 16:38:15,882 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 16:38:15,886 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 16:38:16,315 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 16:38:16,592 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:00:02,577 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:00:03,415 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:00:03,415 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:00:03,415 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:00:03,419 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:00:03,920 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:00:04,043 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:03:30,517 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:03:31,313 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:03:31,313 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:03:31,313 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:03:31,316 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:03:31,792 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:03:32,116 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:04:17,441 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:04:18,430 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:04:18,430 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:04:18,430 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:04:18,433 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:04:18,978 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:04:19,084 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:04:21,701 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:04:22,247 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:04:22,247 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:04:22,247 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:04:22,249 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:04:22,848 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:04:22,886 - run_with_reloader - Watching for file changes with StatReloader
+WARNING - 2020-05-03 17:09:09,101 - log_response - Not Found: /livelog&page=2
+WARNING - 2020-05-03 17:09:23,941 - log_response - Not Found: /livelog&page=2
+WARNING - 2020-05-03 17:09:26,690 - log_response - Not Found: /livelog&page=2
+INFO - 2020-05-03 17:14:54,785 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:14:55,750 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:14:55,751 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:14:55,751 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:14:55,754 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:14:56,241 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:14:56,419 - run_with_reloader - Watching for file changes with StatReloader
+ERROR - 2020-05-03 17:15:34,177 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 57, in livelog
+    try: data = paginator.page(page)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/paginator.py", line 52, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: Esa página no contiene resultados
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 58, in livelog
+    except PageNotAnInteger:
+NameError: name 'PageNotAnInteger' is not defined
+ERROR - 2020-05-03 17:16:02,183 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 57, in livelog
+    try: data = paginator.page(page)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/paginator.py", line 52, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: Esa página no contiene resultados
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 58, in livelog
+    except PageNotAnInteger:
+NameError: name 'PageNotAnInteger' is not defined
+INFO - 2020-05-03 17:16:19,357 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:16:20,071 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:16:20,072 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:16:20,072 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:16:20,075 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:16:20,558 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:16:20,711 - run_with_reloader - Watching for file changes with StatReloader
+ERROR - 2020-05-03 17:16:21,597 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 57, in livelog
+    try: data = paginator.page(page)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/paginator.py", line 52, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: Esa página no contiene resultados
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 60, in livelog
+    except EmptyPage:
+NameError: name 'EmptyPage' is not defined
+INFO - 2020-05-03 17:16:27,676 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:16:28,560 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:16:28,560 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:16:28,560 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:16:28,563 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:16:28,947 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:16:29,194 - run_with_reloader - Watching for file changes with StatReloader
+ERROR - 2020-05-03 17:38:16,723 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_crispy_forms-1.9.0-py3.7.egg/crispy_forms/templatetags/crispy_forms_filters.py", line 63, in as_crispy_form
+    return template.render(c)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_crispy_forms-1.9.0-py3.7.egg/crispy_forms/templatetags/crispy_forms_utils.py", line 21, in render
+    return remove_spaces(self.nodelist.render(context).strip())
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 188, in render
+    return template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 173, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 302, in render
+    match = condition.eval(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 876, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_crispy_forms-1.9.0-py3.7.egg/crispy_forms/templatetags/crispy_forms_field.py", line 32, in is_checkboxselectmultiple
+    return isinstance(field.field.widget, forms.CheckboxSelectMultiple)
+AttributeError: 'str' object has no attribute 'field'
+ERROR - 2020-05-03 17:38:34,472 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_crispy_forms-1.9.0-py3.7.egg/crispy_forms/templatetags/crispy_forms_filters.py", line 63, in as_crispy_form
+    return template.render(c)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_crispy_forms-1.9.0-py3.7.egg/crispy_forms/templatetags/crispy_forms_utils.py", line 21, in render
+    return remove_spaces(self.nodelist.render(context).strip())
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 188, in render
+    return template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 173, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 302, in render
+    match = condition.eval(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 876, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_crispy_forms-1.9.0-py3.7.egg/crispy_forms/templatetags/crispy_forms_field.py", line 32, in is_checkboxselectmultiple
+    return isinstance(field.field.widget, forms.CheckboxSelectMultiple)
+AttributeError: 'Data' object has no attribute 'field'
+ERROR - 2020-05-03 17:40:45,973 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'bootstrap_form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 18: 'bootstrap_form', expected 'endblock'. Did you forget to register or load this tag?
+ERROR - 2020-05-03 17:41:27,021 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'crispy'
+ERROR - 2020-05-03 17:41:39,997 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/templatetags/bootstrap3.py", line 352, in bootstrap_form
+    return render_form(*args, **kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/forms.py", line 62, in render_form
+    return renderer_cls(form, **kwargs).render()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/renderers.py", line 171, in __init__
+    raise BootstrapError('Parameter "form" should contain a valid Django Form.')
+bootstrap3.exceptions.BootstrapError: Parameter "form" should contain a valid Django Form.
+ERROR - 2020-05-03 17:41:55,175 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/templatetags/bootstrap3.py", line 352, in bootstrap_form
+    return render_form(*args, **kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/forms.py", line 62, in render_form
+    return renderer_cls(form, **kwargs).render()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/renderers.py", line 171, in __init__
+    raise BootstrapError('Parameter "form" should contain a valid Django Form.')
+bootstrap3.exceptions.BootstrapError: Parameter "form" should contain a valid Django Form.
+ERROR - 2020-05-03 17:41:58,191 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/templatetags/bootstrap3.py", line 352, in bootstrap_form
+    return render_form(*args, **kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/forms.py", line 62, in render_form
+    return renderer_cls(form, **kwargs).render()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/renderers.py", line 171, in __init__
+    raise BootstrapError('Parameter "form" should contain a valid Django Form.')
+bootstrap3.exceptions.BootstrapError: Parameter "form" should contain a valid Django Form.
+DEBUG - 2020-05-03 17:42:00,493 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:42:00,494 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:42:00,494 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:42:01,015 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+ERROR - 2020-05-03 17:42:07,548 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/templatetags/bootstrap3.py", line 352, in bootstrap_form
+    return render_form(*args, **kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/forms.py", line 62, in render_form
+    return renderer_cls(form, **kwargs).render()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/renderers.py", line 171, in __init__
+    raise BootstrapError('Parameter "form" should contain a valid Django Form.')
+bootstrap3.exceptions.BootstrapError: Parameter "form" should contain a valid Django Form.
+ERROR - 2020-05-03 17:43:13,430 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/templatetags/bootstrap3.py", line 352, in bootstrap_form
+    return render_form(*args, **kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/forms.py", line 62, in render_form
+    return renderer_cls(form, **kwargs).render()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/renderers.py", line 171, in __init__
+    raise BootstrapError('Parameter "form" should contain a valid Django Form.')
+bootstrap3.exceptions.BootstrapError: Parameter "form" should contain a valid Django Form.
+ERROR - 2020-05-03 17:43:29,226 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 63, in livelog
+    return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/templatetags/bootstrap3.py", line 517, in bootstrap_field
+    return render_field(*args, **kwargs)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/forms.py", line 78, in render_field
+    return renderer_cls(field, **kwargs).render()
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/django_bootstrap3-11.1.0-py3.7.egg/bootstrap3/renderers.py", line 254, in __init__
+    'Parameter "field" should contain a valid Django BoundField.'
+bootstrap3.exceptions.BootstrapError: Parameter "field" should contain a valid Django BoundField.
+INFO - 2020-05-03 17:46:55,602 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:46:56,530 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:46:56,530 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:46:56,530 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:46:56,533 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:46:57,238 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:46:57,546 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:47:07,581 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:47:08,406 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:47:08,406 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:47:08,407 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:47:08,410 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:47:08,817 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:47:09,055 - run_with_reloader - Watching for file changes with StatReloader
+ERROR - 2020-05-03 17:47:10,749 - log_response - Internal Server Error: /livelog
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 36, in livelog
+    print(Data.objects.order_by().values_list('Country_Region').distinct())
+TypeError: distinct() missing 1 required positional argument: 'field'
+INFO - 2020-05-03 17:48:46,927 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:48:47,832 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:48:47,833 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:48:47,833 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:48:47,836 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:48:48,273 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:48:48,503 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:48:59,714 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:49:00,736 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:49:00,736 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:49:00,736 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:49:00,739 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:49:01,158 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:49:01,414 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:49:41,422 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:49:42,290 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:49:42,291 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:49:42,291 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:49:42,295 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:49:42,710 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:49:42,964 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:50:00,848 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:50:01,742 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:50:01,742 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:50:01,743 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:50:01,745 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:50:02,159 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:50:02,417 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:52:49,519 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:52:50,489 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:52:50,489 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:52:50,489 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:52:50,492 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:52:50,961 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:52:51,124 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 17:54:14,630 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 17:54:15,585 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:54:15,585 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:54:15,586 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:54:15,588 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:54:15,868 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:54:16,001 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:55:47,032 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 17:55:47,934 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:55:47,934 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:55:47,934 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:55:47,937 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:55:48,193 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:55:48,422 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:58:11,581 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 17:58:12,680 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:58:12,681 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:58:12,681 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:58:12,684 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:58:12,961 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:58:14,069 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+DEBUG - 2020-05-03 17:58:28,694 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:58:28,694 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:58:28,694 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:58:28,697 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:58:29,050 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+DEBUG - 2020-05-03 17:58:29,706 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:58:29,706 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:58:29,706 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:58:29,709 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:58:29,957 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:58:31,071 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:58:59,785 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 17:59:00,715 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:59:00,715 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:59:00,716 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:59:00,718 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:59:01,032 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:59:01,110 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+DEBUG - 2020-05-03 17:59:19,189 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:59:19,189 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:59:19,189 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:59:19,192 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 17:59:19,537 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+DEBUG - 2020-05-03 17:59:20,178 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:59:20,178 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:59:20,178 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:59:20,181 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:59:20,489 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:59:20,503 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:59:49,118 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:59:50,161 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:59:50,161 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:59:50,161 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:59:50,164 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:59:50,487 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:59:50,565 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 17:59:53,146 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 17:59:54,029 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 17:59:54,029 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 17:59:54,029 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 17:59:54,032 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 17:59:54,355 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 17:59:54,407 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:00:37,728 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 18:00:38,619 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:00:38,620 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:00:38,620 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:00:38,623 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:00:38,879 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:00:39,171 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:05:10,535 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 18:05:11,473 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:05:11,473 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:05:11,474 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:05:11,476 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:05:11,732 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:05:12,885 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:05:41,486 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 18:05:42,514 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:05:42,514 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:05:42,514 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:05:42,517 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:05:42,805 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:05:43,010 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:06:51,972 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 18:06:53,271 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:06:53,272 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:06:53,272 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:06:53,274 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:06:53,548 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:06:53,810 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:06:58,397 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 18:06:59,585 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:06:59,585 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:06:59,585 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:06:59,588 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 18:06:59,879 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:06:59,893 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-03 18:08:38,188 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 18:08:39,478 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:08:39,478 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:08:39,478 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:08:39,481 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:08:39,734 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:08:39,905 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:11:05,307 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/cache.py changed, reloading.
+DEBUG - 2020-05-03 18:13:35,394 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:13:35,394 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:13:35,395 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:13:35,398 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+DEBUG - 2020-05-03 18:13:35,888 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+DEBUG - 2020-05-03 18:13:36,420 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:13:36,420 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:13:36,420 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:13:36,423 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:13:36,718 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:13:36,843 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:15:13,365 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/githubcsv.py changed, reloading.
+DEBUG - 2020-05-03 18:15:14,458 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:15:14,458 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:15:14,458 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:15:14,461 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:15:14,732 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:15:15,099 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:15:44,577 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 18:15:45,469 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:15:45,469 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:15:45,469 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:15:45,471 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:15:45,724 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:15:45,865 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:15:55,979 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 18:15:56,881 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:15:56,881 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:15:56,881 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:15:56,884 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:15:57,191 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:15:57,246 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:16:58,732 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/cache.py changed, reloading.
+DEBUG - 2020-05-03 18:16:59,622 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:16:59,622 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:16:59,622 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:16:59,625 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:16:59,879 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:17:00,099 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+INFO - 2020-05-03 18:17:30,919 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-03 18:17:32,147 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-03 18:17:32,147 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-03 18:17:32,147 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-03 18:17:32,149 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
+INFO - 2020-05-03 18:17:32,466 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-03 18:17:32,476 - get_csv_from_github - Successfully downloaded data for 02-05-2020

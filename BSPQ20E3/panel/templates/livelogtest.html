@@ -1,6 +1,7 @@
 {% extends 'basewithbar.html'%}
 {% load i18n %}
 {% load l10n %}
+{% load crispy_forms_tags %}
 
 {% block title %}
 <title>Live log</title>
@@ -12,7 +13,7 @@
 		<div class="container-fluid mt-3">
 			<div class="table-responsive mb-10 table-hover">
 				<form method="get">
-					{{ filter.form.as_p }}
+					{{ filter.form|crispy }}
 					<input type="submit" />
 				</form>
 				<table class="table table-bordered table-striped table-sm" id="dataTable" width="100%" cellspacing="0">
@@ -72,7 +73,20 @@
 							{% if data.number == i %}
 							<li class="page-item active"><a class="page-link">{{ i }}<span class="sr-only">(current)</span></a></li>
 							{% else %}
-							<li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+							<li class="page-item"><a class="page-link" href="
+								javascript: 
+								var url = window.location.toString(); 
+								if (url.includes('page=')){
+									url.replace('page={{data.number}}', 'page={{i}}');
+								}else{
+									if(url.indexOf('?') > -1){
+										url += '&page={{ i }}'
+									}else{
+										url += '?page={{ i }}'
+									}
+								}
+								alert(url);
+							window.location.href = url;">{{ i }}</a></li>
 							{% endif %}
 							{% endfor %}
 							<li class="page-item">
@@ -85,6 +99,7 @@
 						</ul>
 					</nav>
 					{% endif %}
+					({{max_index}} pages)
 				</div>
 			</div>
 		</main>
