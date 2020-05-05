@@ -30,5 +30,8 @@ urlpatterns = [
     name='logout'
     ),
 
+    #APPS
+
     path('', include('panel.urls', namespace='panel')),
+    path('', include('API.urls', namespace='API')),
 ]

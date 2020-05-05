@@ -16,12 +16,12 @@ from django.utils import translation
 def index(req):
 	'''Loads the Main Page
 
-        :param req: The Http Request
-        :type amount: Http Request
+	:param req: The Http Request
+	:type amount: Http Request
 
-        :returns: Http Response
-        :rtype: Http
-    '''
+	:returns: Http Response
+	:rtype: Http
+	'''
 	if translation.LANGUAGE_SESSION_KEY in req.session: 
 		del req.session[translation.LANGUAGE_SESSION_KEY]
 	#Test para ver si inserta bien los datos
@@ -41,12 +41,12 @@ def livelog(req):
 	
 	'''Loads the Livelog
 
-        :param req: The Http Request
-        :type amount: Http Request
+	:param req: The Http Request
+	:type amount: Http Request
 
-        :returns: Http Response
-        :rtype: Http
-    ''' 
+	:returns: Http Response
+	:rtype: Http
+	''' 
 
 	page = req.GET.get('page', 1)
 	index = int(page)
@@ -62,5 +62,3 @@ def livelog(req):
 		data = paginator.page(paginator.num_pages)
 
 	return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})
-
-

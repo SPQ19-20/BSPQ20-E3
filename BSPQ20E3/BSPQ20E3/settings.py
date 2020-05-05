@@ -45,7 +45,18 @@ INSTALLED_APPS = [
     'crispy_forms',
     'panel',
     'social_django',
+    'rest_framework',
+    'API'
 ]
+
+REST_FRAMEWORK = {
+    'PAGE_SIZE': 10,
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.IsAdminUser',
+    ]
+}
+
 
 # social auth configuration
 
@@ -111,7 +122,6 @@ DATABASES = {
         'NAME': 'SoftwareP',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
