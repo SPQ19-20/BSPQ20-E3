@@ -3492,3 +3492,268 @@ DEBUG - 2020-05-03 18:17:32,147 - get_csv_from_github - Default date to be used 
 DEBUG - 2020-05-03 18:17:32,149 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv
 INFO - 2020-05-03 18:17:32,466 - run_with_reloader - Watching for file changes with StatReloader
 DEBUG - 2020-05-03 18:17:32,476 - get_csv_from_github - Successfully downloaded data for 02-05-2020
+DEBUG - 2020-05-05 19:16:00,715 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:16:00,715 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:16:00,715 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:16:00,720 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+DEBUG - 2020-05-05 19:16:01,129 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:16:49,996 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:16:49,996 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:16:49,996 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:16:49,999 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+DEBUG - 2020-05-05 19:16:50,407 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:16:51,636 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:16:51,637 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:16:51,637 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:16:51,640 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+DEBUG - 2020-05-05 19:16:52,001 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+INFO - 2020-05-05 19:16:52,159 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:16:52,397 - connect - New MongoClient connection
+DEBUG - 2020-05-05 19:16:52,398 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:17:34,295 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:17:34,295 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:17:34,295 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:17:34,298 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+INFO - 2020-05-05 19:17:34,647 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:17:34,691 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:17:34,836 - connect - New MongoClient connection
+INFO - 2020-05-05 19:18:32,734 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/settings.py changed, reloading.
+DEBUG - 2020-05-05 19:18:33,937 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:18:33,937 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:18:33,937 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:18:33,940 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+INFO - 2020-05-05 19:18:34,243 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:18:34,314 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:18:34,356 - connect - New MongoClient connection
+INFO - 2020-05-05 19:21:52,608 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/settings.py changed, reloading.
+DEBUG - 2020-05-05 19:21:53,787 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:21:53,787 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:21:53,787 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:21:53,790 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+INFO - 2020-05-05 19:21:54,116 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:21:54,178 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:21:54,228 - connect - New MongoClient connection
+DEBUG - 2020-05-05 19:23:19,771 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:23:19,771 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:23:19,771 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:23:19,774 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+DEBUG - 2020-05-05 19:23:20,170 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:23:20,739 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:23:20,739 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:23:20,739 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:23:20,742 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+DEBUG - 2020-05-05 19:23:21,055 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+INFO - 2020-05-05 19:23:21,062 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:23:21,152 - connect - New MongoClient connection
+INFO - 2020-05-05 19:23:42,056 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/settings.py changed, reloading.
+DEBUG - 2020-05-05 19:23:43,186 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:23:43,186 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:23:43,186 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:23:43,189 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+INFO - 2020-05-05 19:23:43,513 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:23:43,553 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:23:43,620 - connect - New MongoClient connection
+INFO - 2020-05-05 19:24:19,954 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/settings.py changed, reloading.
+DEBUG - 2020-05-05 19:24:21,208 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:24:21,208 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:24:21,208 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:24:21,211 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+DEBUG - 2020-05-05 19:24:27,905 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:24:27,905 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:24:27,905 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:24:27,908 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+DEBUG - 2020-05-05 19:24:28,262 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:24:28,903 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:24:28,903 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:24:28,903 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:24:28,906 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+INFO - 2020-05-05 19:24:29,219 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:24:29,269 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:24:29,327 - connect - New MongoClient connection
+DEBUG - 2020-05-05 19:24:29,328 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:24:59,999 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:24:59,999 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:24:59,999 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:25:00,003 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+DEBUG - 2020-05-05 19:25:00,352 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:25:01,014 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:25:01,014 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:25:01,015 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:25:01,017 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+INFO - 2020-05-05 19:25:01,330 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:25:01,378 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:25:01,441 - connect - New MongoClient connection
+DEBUG - 2020-05-05 19:25:01,442 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:25:01,452 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-05 19:25:01,454 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-05 19:25:01,455 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-05 19:25:01,456 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-05 19:25:01,456 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-05 19:25:01,456 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-05 19:25:01,456 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-05 19:25:01,456 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-05 19:25:01,457 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-05 19:25:01,457 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-05 19:25:01,457 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-05 19:25:01,457 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-05 19:25:01,458 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-05 19:25:01,458 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-05 19:25:01,458 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-05 19:25:01,458 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-05 19:25:01,458 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-05 19:25:01,459 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-05 19:25:01,459 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-05 19:25:01,459 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-05 19:25:01,459 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-05 19:25:01,460 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-05 19:25:01,460 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-05 19:25:01,460 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-05 19:25:01,460 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-05 19:25:01,460 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-05 19:25:01,461 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-05 19:25:01,461 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-05 19:25:01,461 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-05 19:25:01,461 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-05 19:25:01,461 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-05 19:25:01,462 - __next__ - Result: ('social_django', '0002_add_related_name')
+DEBUG - 2020-05-05 19:25:01,462 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-05 19:25:01,462 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-05 19:25:01,462 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-05 19:25:01,462 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+INFO - 2020-05-05 19:25:20,178 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/BSPQ20E3/settings.py changed, reloading.
+DEBUG - 2020-05-05 19:25:21,423 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-05 19:25:21,423 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-05 19:25:21,423 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-05 19:25:21,426 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv
+INFO - 2020-05-05 19:25:21,690 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-05 19:25:21,781 - connect - New MongoClient connection
+DEBUG - 2020-05-05 19:25:21,782 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:25:21,791 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-05 19:25:21,792 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-05 19:25:21,794 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-05 19:25:21,794 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-05 19:25:21,794 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-05 19:25:21,795 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-05 19:25:21,795 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-05 19:25:21,795 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-05 19:25:21,795 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-05 19:25:21,795 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-05 19:25:21,796 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-05 19:25:21,796 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-05 19:25:21,796 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-05 19:25:21,796 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-05 19:25:21,797 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-05 19:25:21,797 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-05 19:25:21,797 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-05 19:25:21,797 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-05 19:25:21,797 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-05 19:25:21,797 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-05 19:25:21,798 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-05 19:25:21,798 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-05 19:25:21,798 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-05 19:25:21,799 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-05 19:25:21,799 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-05 19:25:21,799 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-05 19:25:21,799 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-05 19:25:21,799 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-05 19:25:21,800 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-05 19:25:21,800 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-05 19:25:21,800 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-05 19:25:21,800 - __next__ - Result: ('social_django', '0002_add_related_name')
+DEBUG - 2020-05-05 19:25:21,800 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-05 19:25:21,800 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-05 19:25:21,801 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-05 19:25:21,801 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-05 19:25:22,014 - get_csv_from_github - Successfully downloaded data for 04-05-2020
+DEBUG - 2020-05-05 19:26:00,427 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:26:00,428 - parse - sql_command: SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = %(0)s
+params: ('root',)
+DEBUG - 2020-05-05 19:26:00,432 - _get_cursor - Find query: {'filter': {'username': {'$eq': 'root'}}, 'projection': ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined']}
+DEBUG - 2020-05-05 19:26:00,544 - _close - MongoClient connection closed
+DEBUG - 2020-05-05 19:26:03,939 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-05 19:26:03,939 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:26:03,939 - parse - sql_command: SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = %(0)s
+params: ('root',)
+DEBUG - 2020-05-05 19:26:03,943 - _get_cursor - Find query: {'filter': {'username': {'$eq': 'root'}}, 'projection': ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined']}
+DEBUG - 2020-05-05 19:26:04,056 - _close - MongoClient connection closed
+DEBUG - 2020-05-05 19:26:09,443 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-05 19:26:09,443 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:26:09,443 - parse - sql_command: SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = %(0)s  LIMIT 1
+params: ('1mtdhqzljb3kmf9e6kjad6zxn0vydt1z',)
+DEBUG - 2020-05-05 19:26:09,453 - _get_cursor - Aggregation query: [{'$match': {'session_key': {'$eq': '1mtdhqzljb3kmf9e6kjad6zxn0vydt1z'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+DEBUG - 2020-05-05 19:26:09,453 - parse - sql_command: INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (%(0)s, %(1)s, %(2)s)
+params: ('1mtdhqzljb3kmf9e6kjad6zxn0vydt1z', 'NDM1ZWQ0NjZjZTM1YzQ4ODI5YjdmOGE1ZGNhYzg4YTdhYjYwYjI0MTp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJUNkVBbUQ0UEdiU1FpU0dHS1I2ME5LRWZGdjIxMk9lciJ9', datetime.datetime(2020, 5, 19, 17, 26, 9, 453516))
+DEBUG - 2020-05-05 19:26:09,459 - execute - inserted ids [ObjectId('5eb1a1b1b186b8916789d576')]
+DEBUG - 2020-05-05 19:26:09,460 - _close - MongoClient connection closed
+DEBUG - 2020-05-05 19:26:13,236 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-05 19:26:13,236 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:26:13,237 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 5, 17, 26, 13, 235111), '1mtdhqzljb3kmf9e6kjad6zxn0vydt1z')
+DEBUG - 2020-05-05 19:26:13,241 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 5, 17, 26, 13, 235111)}}, {'session_key': {'$eq': '1mtdhqzljb3kmf9e6kjad6zxn0vydt1z'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-05 19:26:13,248 - __next__ - Result: ('1mtdhqzljb3kmf9e6kjad6zxn0vydt1z', 'NDM1ZWQ0NjZjZTM1YzQ4ODI5YjdmOGE1ZGNhYzg4YTdhYjYwYjI0MTp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJUNkVBbUQ0UEdiU1FpU0dHS1I2ME5LRWZGdjIxMk9lciJ9', datetime.datetime(2020, 5, 19, 17, 26, 9, 453000))
+DEBUG - 2020-05-05 19:26:13,252 - _new_conn - Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG - 2020-05-05 19:26:13,400 - _make_request - https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG - 2020-05-05 19:26:13,408 - _new_conn - Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG - 2020-05-05 19:26:13,533 - _make_request - https://www.googleapis.com:443 "GET /oauth2/v3/userinfo HTTP/1.1" 200 None
+DEBUG - 2020-05-05 19:26:13,540 - parse - sql_command: SELECT "social_auth_usersocialauth"."id", "social_auth_usersocialauth"."user_id", "social_auth_usersocialauth"."provider", "social_auth_usersocialauth"."uid", "social_auth_usersocialauth"."extra_data", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "social_auth_usersocialauth" INNER JOIN "auth_user" ON ("social_auth_usersocialauth"."user_id" = "auth_user"."id") WHERE ("social_auth_usersocialauth"."provider" = %(0)s AND "social_auth_usersocialauth"."uid" = %(1)s)
+params: ('google-oauth2', 'badiolajulen@opendeusto.es')
+DEBUG - 2020-05-05 19:26:13,551 - _get_cursor - Aggregation query: [{'$match': {'user_id': {'$ne': None, '$exists': True}}}, {'$lookup': {'from': 'auth_user', 'localField': 'user_id', 'foreignField': 'id', 'as': 'auth_user'}}, {'$unwind': '$auth_user'}, {'$match': {'$and': [{'provider': {'$eq': 'google-oauth2'}}, {'uid': {'$eq': 'badiolajulen@opendeusto.es'}}]}}, {'$project': {'id': True, 'user_id': True, 'provider': True, 'uid': True, 'extra_data': True, 'auth_user.id': True, 'auth_user.password': True, 'auth_user.last_login': True, 'auth_user.is_superuser': True, 'auth_user.username': True, 'auth_user.first_name': True, 'auth_user.last_name': True, 'auth_user.email': True, 'auth_user.is_staff': True, 'auth_user.is_active': True, 'auth_user.date_joined': True}}]
+DEBUG - 2020-05-05 19:26:13,556 - parse - sql_command: SELECT COUNT(*) AS "__count" FROM "auth_user" WHERE "auth_user"."username" = %(0)s
+params: ('badiolajulen',)
+DEBUG - 2020-05-05 19:26:13,559 - _get_cursor - Aggregation query: [{'$match': {'username': {'$eq': 'badiolajulen'}}}, {'$group': {'_id': None, '__count': {'$sum': 1}}}, {'$project': {'_id': False, '__count': True}}]
+DEBUG - 2020-05-05 19:26:13,560 - parse - sql_command: INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES (%(0)s, %(1)s, %(2)s, %(3)s, %(4)s, %(5)s, %(6)s, %(7)s, %(8)s, %(9)s)
+params: ['!wvpW5vroCPt35Kly8rfy5VI0KCwrXf6PObehUkh4', None, False, 'badiolajulen', '', '', 'badiolajulen@opendeusto.es', False, True, datetime.datetime(2020, 5, 5, 17, 26, 13, 559951)]
+DEBUG - 2020-05-05 19:26:13,567 - execute - inserted ids [ObjectId('5eb1a1b5b186b8916789d577')]
+DEBUG - 2020-05-05 19:26:13,568 - parse - sql_command: INSERT INTO "social_auth_usersocialauth" ("user_id", "provider", "uid", "extra_data") VALUES (%(0)s, %(1)s, %(2)s, %(3)s)
+params: [1, 'google-oauth2', 'badiolajulen@opendeusto.es', '{}']
+DEBUG - 2020-05-05 19:26:13,573 - execute - inserted ids [ObjectId('5eb1a1b5b186b8916789d578')]
+DEBUG - 2020-05-05 19:26:13,574 - parse - sql_command: UPDATE "social_auth_usersocialauth" SET "user_id" = %(0)s, "provider" = %(1)s, "uid" = %(2)s, "extra_data" = %(3)s WHERE "social_auth_usersocialauth"."id" = %(4)s
+params: (1, 'google-oauth2', 'badiolajulen@opendeusto.es', '{"auth_time": 1588699573, "expires": 3599, "token_type": "Bearer", "access_token": "ya29.a0Ae4lvC3SUPJWBkKu9a0B3hgJv4F2mhqZCeSxAxqfaF-HsRWKX3tqb6OVxrDEE7zpkPlVSnCTachuSLqypsF9ogmpjO8iazRFu3QJJaHEyuLs_go_xb2wa5LTNwjqZwtKt32yr8wzrnCZ-Qc0GlqYzzgIXVA-Mviv2Bh1"}', 1)
+DEBUG - 2020-05-05 19:26:13,577 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-05 19:26:13,578 - parse - sql_command: UPDATE "auth_user" SET "password" = %(0)s, "last_login" = NULL, "is_superuser" = %(1)s, "username" = %(2)s, "first_name" = %(3)s, "last_name" = %(4)s, "email" = %(5)s, "is_staff" = %(6)s, "is_active" = %(7)s, "date_joined" = %(8)s WHERE "auth_user"."id" = %(9)s
+params: ('!wvpW5vroCPt35Kly8rfy5VI0KCwrXf6PObehUkh4', False, 'badiolajulen', 'Julen', 'Badiola Martínez', 'badiolajulen@opendeusto.es', False, True, datetime.datetime(2020, 5, 5, 17, 26, 13, 559951), 1)
+DEBUG - 2020-05-05 19:26:13,583 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-05 19:26:13,585 - parse - sql_command: SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = %(0)s  LIMIT 1
+params: ('vchi8c36ygtmz35rih8r5twwq6me0m6u',)
+DEBUG - 2020-05-05 19:26:13,588 - _get_cursor - Aggregation query: [{'$match': {'session_key': {'$eq': 'vchi8c36ygtmz35rih8r5twwq6me0m6u'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+DEBUG - 2020-05-05 19:26:13,588 - parse - sql_command: INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (%(0)s, %(1)s, %(2)s)
+params: ('vchi8c36ygtmz35rih8r5twwq6me0m6u', 'NDM1ZWQ0NjZjZTM1YzQ4ODI5YjdmOGE1ZGNhYzg4YTdhYjYwYjI0MTp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJUNkVBbUQ0UEdiU1FpU0dHS1I2ME5LRWZGdjIxMk9lciJ9', datetime.datetime(2020, 5, 19, 17, 26, 13, 588600))
+DEBUG - 2020-05-05 19:26:13,591 - execute - inserted ids [ObjectId('5eb1a1b5b186b8916789d579')]
+DEBUG - 2020-05-05 19:26:13,592 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = %(0)s
+params: ('1mtdhqzljb3kmf9e6kjad6zxn0vydt1z',)
+DEBUG - 2020-05-05 19:26:13,594 - _get_cursor - Find query: {'filter': {'session_key': {'$eq': '1mtdhqzljb3kmf9e6kjad6zxn0vydt1z'}}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-05 19:26:13,595 - __next__ - Result: ('1mtdhqzljb3kmf9e6kjad6zxn0vydt1z', 'NDM1ZWQ0NjZjZTM1YzQ4ODI5YjdmOGE1ZGNhYzg4YTdhYjYwYjI0MTp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJUNkVBbUQ0UEdiU1FpU0dHS1I2ME5LRWZGdjIxMk9lciJ9', datetime.datetime(2020, 5, 19, 17, 26, 9, 453000))
+DEBUG - 2020-05-05 19:26:13,596 - parse - sql_command: DELETE FROM "django_session" WHERE "django_session"."session_key" IN (%(0)s)
+params: ('1mtdhqzljb3kmf9e6kjad6zxn0vydt1z',)
+DEBUG - 2020-05-05 19:26:13,598 - execute - delete_many: 1
+DEBUG - 2020-05-05 19:26:13,599 - parse - sql_command: UPDATE "auth_user" SET "last_login" = %(0)s WHERE "auth_user"."id" = %(1)s
+params: (datetime.datetime(2020, 5, 5, 17, 26, 13, 599468), 1)
+DEBUG - 2020-05-05 19:26:13,602 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-05 19:26:13,604 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('NDFlZWMwZGVjMzk4ZGVkY2FhMWZlMjI0MjYzNmVhMGNjOTIwNjFjYzp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJUNkVBbUQ0UEdiU1FpU0dHS1I2ME5LRWZGdjIxMk9lciIsIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoic29jaWFsX2NvcmUuYmFja2VuZHMuZ29vZ2xlLkdvb2dsZU9BdXRoMiIsIl9hdXRoX3VzZXJfaGFzaCI6IjlmMjY5NDdlNmMyYmE4ZmJkMWVlNWI5NTY3MTU2YzMwZGJjNTVmMjYiLCJzb2NpYWxfYXV0aF9sYXN0X2xvZ2luX2JhY2tlbmQiOiJnb29nbGUtb2F1dGgyIn0=', datetime.datetime(2020, 5, 19, 17, 26, 13, 604248), 'vchi8c36ygtmz35rih8r5twwq6me0m6u')
+DEBUG - 2020-05-05 19:26:13,607 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-05 19:26:13,609 - _close - MongoClient connection closed
+DEBUG - 2020-05-05 19:26:13,613 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-05 19:26:13,613 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:26:13,613 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 5, 17, 26, 13, 612561), 'vchi8c36ygtmz35rih8r5twwq6me0m6u')
+DEBUG - 2020-05-05 19:26:13,616 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 5, 17, 26, 13, 612561)}}, {'session_key': {'$eq': 'vchi8c36ygtmz35rih8r5twwq6me0m6u'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-05 19:26:13,754 - __next__ - Result: ('vchi8c36ygtmz35rih8r5twwq6me0m6u', 'NDFlZWMwZGVjMzk4ZGVkY2FhMWZlMjI0MjYzNmVhMGNjOTIwNjFjYzp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJUNkVBbUQ0UEdiU1FpU0dHS1I2ME5LRWZGdjIxMk9lciIsIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoic29jaWFsX2NvcmUuYmFja2VuZHMuZ29vZ2xlLkdvb2dsZU9BdXRoMiIsIl9hdXRoX3VzZXJfaGFzaCI6IjlmMjY5NDdlNmMyYmE4ZmJkMWVlNWI5NTY3MTU2YzMwZGJjNTVmMjYiLCJzb2NpYWxfYXV0aF9sYXN0X2xvZ2luX2JhY2tlbmQiOiJnb29nbGUtb2F1dGgyIn0=', datetime.datetime(2020, 5, 19, 17, 26, 13, 604000))
+DEBUG - 2020-05-05 19:26:13,760 - parse - sql_command: SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = %(0)s
+params: (1,)
+DEBUG - 2020-05-05 19:26:13,764 - _get_cursor - Find query: {'filter': {'id': {'$eq': 1}}, 'projection': ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined']}
+DEBUG - 2020-05-05 19:26:13,765 - __next__ - Result: (1, '!wvpW5vroCPt35Kly8rfy5VI0KCwrXf6PObehUkh4', datetime.datetime(2020, 5, 5, 17, 26, 13, 599000), False, 'badiolajulen', 'Julen', 'Badiola Martínez', 'badiolajulen@opendeusto.es', False, True, datetime.datetime(2020, 5, 5, 17, 26, 13, 559000))
+DEBUG - 2020-05-05 19:26:13,775 - _close - MongoClient connection closed
+DEBUG - 2020-05-05 19:28:28,724 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-05 19:28:28,725 - get_new_connection - New Database connection
+DEBUG - 2020-05-05 19:28:28,725 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 5, 17, 28, 28, 724154), 'vchi8c36ygtmz35rih8r5twwq6me0m6u')
+DEBUG - 2020-05-05 19:28:28,728 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 5, 17, 28, 28, 724154)}}, {'session_key': {'$eq': 'vchi8c36ygtmz35rih8r5twwq6me0m6u'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-05 19:28:28,735 - __next__ - Result: ('vchi8c36ygtmz35rih8r5twwq6me0m6u', 'NDFlZWMwZGVjMzk4ZGVkY2FhMWZlMjI0MjYzNmVhMGNjOTIwNjFjYzp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJUNkVBbUQ0UEdiU1FpU0dHS1I2ME5LRWZGdjIxMk9lciIsIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoic29jaWFsX2NvcmUuYmFja2VuZHMuZ29vZ2xlLkdvb2dsZU9BdXRoMiIsIl9hdXRoX3VzZXJfaGFzaCI6IjlmMjY5NDdlNmMyYmE4ZmJkMWVlNWI5NTY3MTU2YzMwZGJjNTVmMjYiLCJzb2NpYWxfYXV0aF9sYXN0X2xvZ2luX2JhY2tlbmQiOiJnb29nbGUtb2F1dGgyIn0=', datetime.datetime(2020, 5, 19, 17, 26, 13, 604000))
+DEBUG - 2020-05-05 19:28:30,389 - parse - sql_command: SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = %(0)s
+params: (1,)
+DEBUG - 2020-05-05 19:28:30,393 - _get_cursor - Find query: {'filter': {'id': {'$eq': 1}}, 'projection': ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined']}
+DEBUG - 2020-05-05 19:28:30,395 - __next__ - Result: (1, '!wvpW5vroCPt35Kly8rfy5VI0KCwrXf6PObehUkh4', datetime.datetime(2020, 5, 5, 17, 26, 13, 599000), False, 'badiolajulen', 'Julen', 'Badiola Martínez', 'badiolajulen@opendeusto.es', False, True, datetime.datetime(2020, 5, 5, 17, 26, 13, 559000))
+DEBUG - 2020-05-05 19:28:30,421 - _close - MongoClient connection closed

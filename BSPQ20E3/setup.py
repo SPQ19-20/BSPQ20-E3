@@ -43,6 +43,7 @@ setup(
 	'social-auth-app-django==3.1.0',
 	'social-auth-core==3.3.3',
 	'django-mongoengine-filter==0.3.5'
+	'djongo==1.3.2'
 
    ], #external packages as dependencies
 )
