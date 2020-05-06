@@ -3,9 +3,18 @@
 import os, urllib, datetime, threading, time
 import pandas as pd
 from .logs import get_logger
-from .models import Data
+from .models import Data, Auth_user
 from .cache import Cache
+from .sender import send
+from mongoengine import *
+connect('SoftwareP', host='127.0.0.1', port=27017)
 
+def sendEmails():
+    prueba = Auth_user.objects()
+    recipients = []
+    for a in prueba:
+        recipients.append(a.email)
+    send(recipients, "Hey")
 def get_csv_from_github(url="default", date=None):
 
     """
@@ -137,6 +146,6 @@ def get_updated_csvs(seconds=3600, url="default"):
         Cache().DATES = list(set(DATES))
 
         print("COUNTRIES and DATES cached.")
-
+        sendEmails()
         wait_time = seconds - (time.perf_counter() % seconds)
         time.sleep(wait_time)

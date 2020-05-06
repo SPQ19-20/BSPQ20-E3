@@ -68,3 +68,17 @@ class Data(Document):
 	Recovered = IntField(localize=True)
 	Active = IntField(localize=True)
 	Combined_Key = StringField()
+
+
+class Auth_user(Document):
+    #id = IntField()
+    password = StringField()
+    last_login = StringField()
+    is_superuser = StringField()
+    username = StringField()
+    first_name = StringField()
+    last_name = StringField()
+    email = StringField()
+    is_staff = StringField()
+    is_active = StringField()
+    date_joined = StringField()

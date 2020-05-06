@@ -3,6 +3,13 @@
 import os, urllib, datetime, threading, time
 import pandas as pd
 from .logs import get_logger
+from .models import Data
+from .cache import Cache
+from mongoengine import *
+connect('SoftwareP', host='127.0.0.1', port=27017)
+
+def sendEmails():
+    prueba = Data.objects()
 
 
 def get_csv_from_github(url="default", date=None):
@@ -124,5 +131,18 @@ def get_updated_csvs(seconds=3600, url="default"):
 
     while True:
         get_csv_from_github(url=url, date=None)
+
+        # Get distinct countries and dates from the data model entries
+        # Purpose: filtering in the client side
+        # Why: to not make a query every time a client enters livelog, this data remains constant until wait_time
+
+        Cache().COUNTRIES = Data.objects.distinct(field="Country_Region")
+        # Get only first part of the string, day month and year
+        DATES = [i.split(" ")[0] for i in Data.objects.distinct(field="Last_Update")]
+        # Get only want distinct elements
+        Cache().DATES = list(set(DATES))
+
+        print("COUNTRIES and DATES cached.")
+
         wait_time = seconds - (time.perf_counter() % seconds)
         time.sleep(wait_time)
