@@ -21,3 +21,24 @@
     });
 })(jQuery);
 
+
+
+const toggle = document.querySelector('[id="switch"]'),
+      root = document.documentElement;
+
+let lightsOn = false;
+
+function nightClick(){
+  let checked = toggle.getAttribute('aria-checked') === 'true';
+  lightsOn = !checked;
+  toggle.setAttribute('aria-checked', !checked);
+  lightsOn ? darkOn() : darkOff();
+}
+
+function darkOn() {
+  root.dataset.theme = 'dark';
+}
+
+function darkOff() {
+  delete root.dataset.theme;
+}

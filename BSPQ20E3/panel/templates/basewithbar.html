@@ -59,34 +59,38 @@
             <div class="sb-sidenav-menu">
 
                 <div class="nav">
-                    <div class="sb-sidenav-menu-heading">{% trans "Main" %}</div>
-                    <a class="nav-link" href="/">
-                        <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div> fa-spin-->
-                        <div class="sb-nav-link-icon"><i class="fas fa-bars "></i></div>
-                    {% trans "Dashboard" %}</a>
-                    <a class="nav-link" href="/livelog">
-                        <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div><i class="ml-3 fas fa-exclamation-triangle"></i>-->
-                        <div class="sb-nav-link-icon"><i class="fas fa-circle-notch fa-spin "></i></div>
-                    {% trans "Live log" %}</a>
 
-                    <div class="sb-sidenav-menu-heading">{% trans "User" %}</div>
-                    {% if user.is_authenticated %}
+                <div class="sb-sidenav-menu-heading">{% trans "Main" %}</div>
+                <a class="nav-link" href="/">
+                    <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div> fa-spin-->
+                    <div class="sb-nav-link-icon"><i class="fas fa-bars "></i></div>
+                {% trans "Dashboard" %}</a>
+                <a class="nav-link" href="/livelog">
+                    <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div><i class="ml-3 fas fa-exclamation-triangle"></i>-->
+                    <div class="sb-nav-link-icon"><i class="fas fa-circle-notch fa-spin "></i></div>
+                {% trans "Live log" %}</a>
 
-                        <a class="nav-link" data-toggle="modal" data-target="#profileModal">
-                            <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
-                        <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
-                    {% trans "My account" %}</a>
+                <div class="sb-sidenav-menu-heading">{% trans "User" %}</div>
+                {% if user.is_authenticated %}
 
-                    {% else %}
+                <a class="nav-link" data-toggle="modal" data-target="#profileModal">
                     <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary mx-3" data-toggle="modal" data-target="#loginModal">
-                        {% trans "Sign in" %}
-                    </button>
-                    {% endif %}
+                    <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
+                {% trans "My account" %}</a>
+
+                {% else %}
+                <!--<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>-->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary mx-3" data-toggle="modal" data-target="#loginModal">
+                    {% trans "Sign in" %}
+                </button>
+                {% endif %}
+                <button id="switch" type="button" class="btn btn-secondary mx-3 mt-3" onclick="nightClick();">
+                    <span>☀️Dark mode🌙</span>
+                </button>
 
 
-                    
+
                     <!--
 
                     <div class="sb-sidenav-menu-heading">{% trans "Configuration" %}</div>
@@ -112,6 +116,7 @@
                     </select>
                 </div>
             </form>
+
 
 
 
