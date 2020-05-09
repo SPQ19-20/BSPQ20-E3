@@ -5408,6 +5408,7 @@ DEBUG - 2020-05-06 15:56:45,155 - get_csv_from_github - Default url to be used f
 DEBUG - 2020-05-06 15:56:45,155 - <module> - Csv-getter thread started.
 DEBUG - 2020-05-06 15:56:45,155 - get_csv_from_github - Default date to be used for csv extraction
 DEBUG - 2020-05-06 15:56:45,158 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-05-2020.csv
+<<<<<<< HEAD
 DEBUG - 2020-05-06 15:56:45,988 - connect - New MongoClient connection
 DEBUG - 2020-05-06 15:56:45,989 - get_new_connection - New Database connection
 DEBUG - 2020-05-06 15:56:46,004 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
@@ -5560,3 +5561,6 @@ params: ('cae1zm9u4r03rads22sno9drstvmjsk1',)
 DEBUG - 2020-05-06 15:58:40,932 - execute - delete_many: 1
 DEBUG - 2020-05-06 15:58:40,936 - _close - MongoClient connection closed
 DEBUG - 2020-05-06 16:13:01,255 - _close - MongoClient connection closed
+File handler changed
+File handler changed
+

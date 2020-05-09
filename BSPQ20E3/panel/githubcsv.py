@@ -7,6 +7,11 @@ from .models import Data, Auth_user
 from .cache import Cache
 from .sender import send
 from mongoengine import *
+
+
+# variable to avoid multiple operations on the same url
+previous_url = None
+
 connect('SoftwareP', host='127.0.0.1', port=27017)
 
 def sendEmails():
@@ -15,6 +20,8 @@ def sendEmails():
     for a in prueba:
         recipients.append(a.email)
     send(recipients, "Hey")
+
+
 def get_csv_from_github(url="default", date=None):
 
     """
@@ -36,6 +43,8 @@ def get_csv_from_github(url="default", date=None):
     return: leaves a "file.csv" with updated data from the date given
 
     """
+
+    global previous_url
 
     # default values for "url" and "date" parameters
 
@@ -86,10 +95,13 @@ def get_csv_from_github(url="default", date=None):
     # get the .csv from the internets
 
     try:
-        csv_file_from_url = pd.read_csv(url_to_file)
-        csv_file_from_url.to_csv("file.csv", index=False)
-        os.system("mongoimport -d SoftwareP -c data --type csv --file file.csv --headerline")
-        get_logger().debug(f"Successfully downloaded data for {date}")
+        if (previous_url != url_to_file):
+            csv_file_from_url = pd.read_csv(url_to_file)
+            previous_url = url_to_file
+            csv_file_from_url.to_csv("file.csv", index=False)
+            os.system("mongoimport -d SoftwareP -c data --type csv --file file.csv --headerline")
+            get_logger().debug(f"Successfully downloaded data for {date}")
+            sendEmails()
     except urllib.error.HTTPError as error:
         get_logger().info(f"CSV file not found for this date yet: {date} -> {error}")
     except Exception as questionable_error:
@@ -133,6 +145,7 @@ def get_updated_csvs(seconds=3600, url="default"):
         raise ValueError(f"url \"{url}\" cannot be empty")
 
     while True:
+
         get_csv_from_github(url=url, date=None)
 
         # Get distinct countries and dates from the data model entries
@@ -145,7 +158,7 @@ def get_updated_csvs(seconds=3600, url="default"):
         # Get only want distinct elements
         Cache().DATES = list(set(DATES))
 
-        print("COUNTRIES and DATES cached.")
+        get_logger().info("COUNTRIES and DATES cached.")
         sendEmails()
         wait_time = seconds - (time.perf_counter() % seconds)
         time.sleep(wait_time)
