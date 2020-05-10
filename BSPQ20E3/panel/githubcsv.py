@@ -151,14 +151,41 @@ def get_updated_csvs(seconds=3600, url="default"):
         # Get distinct countries and dates from the data model entries
         # Purpose: filtering in the client side
         # Why: to not make a query every time a client enters livelog, this data remains constant until wait_time
-
-        Cache().COUNTRIES = Data.objects.distinct(field="Country_Region")
+        
+        list1 = Data.objects.distinct(field="Country_Region")
+        saveCountries(list1)
+        Cache().COUNTRIES = list1
+        
         # Get only first part of the string, day month and year
         DATES = [i.split(" ")[0] for i in Data.objects.distinct(field="Last_Update")]
         # Get only want distinct elements
-        Cache().DATES = list(set(DATES))
+        Cache().DATES = tuple(list(set(DATES)))
+
+        """STATUS_CHOICES = [ (0, 'Euu'), (1, 'Approved'), (2, 'Deleted'), ]
+        for i in range(len(Cache().COUNTRIES)):
+            STATUS_CHOICES.insert(i, (i, Cache().COUNTRIES[i]+""))
+        """
 
         get_logger().info("COUNTRIES and DATES cached.")
-        sendEmails()
+
+        #sendEmails()
         wait_time = seconds - (time.perf_counter() % seconds)
         time.sleep(wait_time)
+
+def loadCountries():
+    try:
+        file = open("countries.txt", "r")
+        FILELIST = file.read().split(":")
+        LIST = [ ]
+        for i in range(len(FILELIST)): 
+            LIST.insert(i, (FILELIST[i], FILELIST[i]))
+        LIST.insert(i, ("", "All"))
+        Cache().COUNTRY_CHOICES = LIST
+
+    except Exception as e:
+        print(e)
+
+def saveCountries(COUNTRIES):
+    with open('countries.txt', 'w') as f:
+        for item in COUNTRIES:
+            f.write("%s:" % item)

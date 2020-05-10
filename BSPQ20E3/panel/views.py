@@ -60,5 +60,5 @@ def livelog(req):
 		data = paginator.page(1) 
 	except EmptyPage: 
 		data = paginator.page(paginator.num_pages)
-
+		
 	return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})

@@ -2,10 +2,13 @@
 class Cache(object):
     class __Cache:
         def __init__(self):
-            self.COUNTRIES = None
+            self.COUNTRIES = ()
+            self.CountriesTuple = ()
             self.DAYS = None
             self.MONTHS = None
             self.YEARS = None
+            self.DATES = ()
+            self.COUNTRY_CHOICES = []
 
     instance = None
 

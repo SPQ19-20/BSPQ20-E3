@@ -1,5 +1,7 @@
 from django.db import models
 from mongoengine import *
+from .cache import Cache
+
 """
 MongoDB "Schema".
 """

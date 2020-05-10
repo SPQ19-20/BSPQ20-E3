@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os, sys, threading
-from panel.githubcsv import get_updated_csvs
+from panel.githubcsv import get_updated_csvs, loadCountries
 from panel.logs import get_logger, change_logger
-
+from panel.cache import Cache
 
 def main():
+    loadCountries()
+    #print(Cache().STATUS_CHOICES)
+
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BSPQ20E3.settings')
     try:
         from django.core.management import execute_from_command_line
@@ -23,12 +26,12 @@ if __name__ == "__main__":
     # start a thread for regular updates on csv info
 
     if ("runserver" in sys.argv):
-
         # logger set up to display even debug messages
         change_logger(nlevel=10)
 
         timerThread = threading.Thread(name="csv-getter", target=get_updated_csvs, daemon=True)
         timerThread.start()
         get_logger().debug("Csv-getter thread started.")
+    
 
     main()
