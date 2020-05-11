@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os, sys, threading
-from panel.githubcsv import get_updated_csvs, loadCountries
+from panel.githubcsv import get_updated_csvs, loadSerializedCache
 from panel.logs import get_logger, change_logger
 from panel.cache import Cache
 
 def main():
-    loadCountries()
+    loadSerializedCache()
     #print(Cache().STATUS_CHOICES)
 
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BSPQ20E3.settings')

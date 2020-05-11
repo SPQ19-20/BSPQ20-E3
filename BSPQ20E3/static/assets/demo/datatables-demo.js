@@ -3,9 +3,10 @@ $(document).ready(function() {
 
   $('#dataTable').DataTable(
   {
+  	bFilter: false,
   	"bPaginate": false,
   	"paging": false,
-	"info": false
+	"info": false,
   }
   	);
   $('.languageSelector').selectpicker({
