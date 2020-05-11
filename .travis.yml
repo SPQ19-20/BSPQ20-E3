@@ -15,7 +15,7 @@ script:
   - cd BSPQ20E3
   - python manage.py test
 
-# will only build master branch
+# build only master branch
 branches:
   only:
     - master
