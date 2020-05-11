@@ -152,13 +152,13 @@ def get_updated_csvs(seconds=3600, url="default"):
         # Purpose: filtering in the client side
         # Why: to not make a query every time a client enters livelog, this data remains constant until wait_time
         
-        saveToFile("countries.txt", Data.objects.distinct(field="Country_Region"))
+        saveToFile("countries.txt", Data.objects.distinct(field="Country_Region"), ":")
         
         # Get only first part of the string, day month and year
-        DATES = [i.split(" ")[0] for i in Data.objects.distinct(field="Last_Update")]
-        #Remove duplicates
+        DATES = Data.objects.distinct(field="Last_Update")
+        #Remove
         DATES = list(dict.fromkeys(DATES))
-        saveToFile("dates.txt", DATES)
+        saveToFile("dates.txt", DATES, "&")
 
         """STATUS_CHOICES = [ (0, 'Euu'), (1, 'Approved'), (2, 'Deleted'), ]
         for i in range(len(Cache().COUNTRIES)):
@@ -181,7 +181,7 @@ def loadSerializedCache():
 
         Cache().COUNTRY_CHOICES = LIST
 
-        FILELIST = open("dates.txt", "r").read().split(":")
+        FILELIST = open("dates.txt", "r").read().split("&")
         LIST = [ ]
         for i in range(len(FILELIST)): 
             LIST.insert(i, (FILELIST[i], FILELIST[i]))
@@ -192,7 +192,7 @@ def loadSerializedCache():
     except Exception as e:
         print(e)
 
-def saveToFile(FILENAME, LIST):
+def saveToFile(FILENAME, LIST, SEPARATOR):
     with open(FILENAME, 'w') as f:
         for item in LIST:
-            f.write("%s:" % item)
+            f.write("%s%s" % (item, SEPARATOR))

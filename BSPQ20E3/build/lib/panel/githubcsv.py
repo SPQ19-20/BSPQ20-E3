@@ -3,13 +3,23 @@
 import os, urllib, datetime, threading, time
 import pandas as pd
 from .logs import get_logger
-from .models import Data
+from .models import Data, Auth_user
 from .cache import Cache
+from .sender import send
 from mongoengine import *
+
+
+# variable to avoid multiple operations on the same url
+previous_url = None
+
 connect('SoftwareP', host='127.0.0.1', port=27017)
 
 def sendEmails():
-    prueba = Data.objects()
+    prueba = Auth_user.objects()
+    recipients = []
+    for a in prueba:
+        recipients.append(a.email)
+    send(recipients, "Hey")
 
 
 def get_csv_from_github(url="default", date=None):
@@ -33,6 +43,8 @@ def get_csv_from_github(url="default", date=None):
     return: leaves a "file.csv" with updated data from the date given
 
     """
+
+    global previous_url
 
     # default values for "url" and "date" parameters
 
@@ -83,10 +95,13 @@ def get_csv_from_github(url="default", date=None):
     # get the .csv from the internets
 
     try:
-        csv_file_from_url = pd.read_csv(url_to_file)
-        csv_file_from_url.to_csv("file.csv", index=False)
-        os.system("mongoimport -d SoftwareP -c data --type csv --file file.csv --headerline")
-        get_logger().debug(f"Successfully downloaded data for {date}")
+        if (previous_url != url_to_file):
+            csv_file_from_url = pd.read_csv(url_to_file)
+            previous_url = url_to_file
+            csv_file_from_url.to_csv("file.csv", index=False)
+            os.system("mongoimport -d SoftwareP -c data --type csv --file file.csv --headerline")
+            get_logger().debug(f"Successfully downloaded data for {date}")
+            sendEmails()
     except urllib.error.HTTPError as error:
         get_logger().info(f"CSV file not found for this date yet: {date} -> {error}")
     except Exception as questionable_error:
@@ -130,19 +145,54 @@ def get_updated_csvs(seconds=3600, url="default"):
         raise ValueError(f"url \"{url}\" cannot be empty")
 
     while True:
+
         get_csv_from_github(url=url, date=None)
 
         # Get distinct countries and dates from the data model entries
         # Purpose: filtering in the client side
         # Why: to not make a query every time a client enters livelog, this data remains constant until wait_time
-
-        Cache().COUNTRIES = Data.objects.distinct(field="Country_Region")
+        
+        saveToFile("countries.txt", Data.objects.distinct(field="Country_Region"))
+        
         # Get only first part of the string, day month and year
         DATES = [i.split(" ")[0] for i in Data.objects.distinct(field="Last_Update")]
-        # Get only want distinct elements
-        Cache().DATES = list(set(DATES))
+        #Remove
+        DATES = list(dict.fromkeys(DATES))
+        saveToFile("dates.txt", DATES)
 
-        print("COUNTRIES and DATES cached.")
+        """STATUS_CHOICES = [ (0, 'Euu'), (1, 'Approved'), (2, 'Deleted'), ]
+        for i in range(len(Cache().COUNTRIES)):
+            STATUS_CHOICES.insert(i, (i, Cache().COUNTRIES[i]+""))
+        """
 
+        get_logger().info("COUNTRIES and DATES cached.")
+
+        #sendEmails()
         wait_time = seconds - (time.perf_counter() % seconds)
         time.sleep(wait_time)
+
+def loadSerializedCache():
+    try:
+        FILELIST = open("countries.txt", "r").read().split(":")
+        LIST = [ ]
+        for i in range(len(FILELIST)): 
+            LIST.insert(i, (FILELIST[i], FILELIST[i]))
+        LIST.insert(i, ("", "All"))
+
+        Cache().COUNTRY_CHOICES = LIST
+
+        FILELIST = open("dates.txt", "r").read().split(":")
+        LIST = [ ]
+        for i in range(len(FILELIST)): 
+            LIST.insert(i, (FILELIST[i], FILELIST[i]))
+        LIST.insert(i, ("", "All"))
+
+        Cache().DATE_CHOICES = LIST
+
+    except Exception as e:
+        print(e)
+
+def saveToFile(FILENAME, LIST):
+    with open(FILENAME, 'w') as f:
+        for item in LIST:
+            f.write("%s:" % item)

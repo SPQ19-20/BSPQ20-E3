@@ -4,7 +4,7 @@ from django.urls import reverse
 from .models import Data
 from .githubcsv import get_csv_from_github, get_updated_csvs
 from .logs import change_logger
-
+from .sender import send
 class DataTestCase(TestCase):
     def setUp(self):
         dummy = Data(FIPS=0,Admin2="Test")
@@ -126,6 +126,21 @@ class GithubRepoCSVFuncs(TestCase):
         self.assertRaises(ValueError, get_updated_csvs, url="")
         self.assertRaises(ValueError, get_updated_csvs, url=[""])
         self.assertRaises(ValueError, get_updated_csvs, url=(""))
+
+
+class SenderTest(TestCase):
+	def setUp(self):
+		change_logger(nlevel=50)
+
+	def testSend(self):
+		rec = ["test@test.test"]
+		with self.assertLogs(level='INFO') as contextmanager:
+			send(recipients=rec, body="Test")
+		self.assertEqual(contextmanager.output, [f"INFO:root:Email sent!"])		
+
+
+
+
 
 
 class LoggerFuncs(TestCase):

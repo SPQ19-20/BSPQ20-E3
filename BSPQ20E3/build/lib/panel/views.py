@@ -3,7 +3,8 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.http import HttpResponse
 from .models import Entry, Data
-from django.core.paginator import Paginator
+from .cache import Cache
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from .filters import DataFilter
 import os
 import time
@@ -15,12 +16,12 @@ from django.utils import translation
 def index(req):
 	'''Loads the Main Page
 
-        :param req: The Http Request
-        :type amount: Http Request
+	:param req: The Http Request
+	:type amount: Http Request
 
-        :returns: Http Response
-        :rtype: Http
-    '''
+	:returns: Http Response
+	:rtype: Http
+	'''
 	if translation.LANGUAGE_SESSION_KEY in req.session: 
 		del req.session[translation.LANGUAGE_SESSION_KEY]
 	#Test para ver si inserta bien los datos
@@ -32,26 +33,20 @@ def index(req):
 
 	return render(req, 'index.html', {'data' : prueba})
 
-def settings(req):
-	if translation.LANGUAGE_SESSION_KEY in req.session: 
-		del req.session[translation.LANGUAGE_SESSION_KEY]
-
-	return render(req, 'settings.html', { })
-
 def livelog(req):
-	data = Data.objects()[:10000]
-	paginator = Paginator(data, 25)
-	dataFilter = DataFilter(req.GET, queryset=data)
+	dataFilter = DataFilter(req.GET, queryset=Data.objects())
 	#dataFilter = ""
+	#print(Cache().COUNTRIES)
+	paginator = Paginator(dataFilter.qs[:10000], 25)
 	
 	'''Loads the Livelog
 
-        :param req: The Http Request
-        :type amount: Http Request
+	:param req: The Http Request
+	:type amount: Http Request
 
-        :returns: Http Response
-        :rtype: Http
-    ''' 
+	:returns: Http Response
+	:rtype: Http
+	''' 
 
 	page = req.GET.get('page', 1)
 	index = int(page)
@@ -65,7 +60,5 @@ def livelog(req):
 		data = paginator.page(1) 
 	except EmptyPage: 
 		data = paginator.page(paginator.num_pages)
-
-	return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range})
-
-
+		
+	return render(req, 'livelogtest.html', { 'filter' : dataFilter, 'data' : data, 'page_range': page_range, 'max_index': max_index})

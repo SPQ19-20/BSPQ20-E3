@@ -27,6 +27,7 @@ panel/filters.py
 panel/githubcsv.py
 panel/logs.py
 panel/models.py
+panel/sender.py
 panel/tests.py
 panel/urls.py
 panel/views.py

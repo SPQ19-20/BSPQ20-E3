@@ -4,6 +4,8 @@ import os, sys, threading
 from panel.githubcsv import get_updated_csvs, loadSerializedCache
 from panel.logs import get_logger, change_logger
 from panel.cache import Cache
+from django.db import models
+
 
 def main():
     loadSerializedCache()
