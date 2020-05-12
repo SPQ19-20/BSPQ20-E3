@@ -85,9 +85,20 @@
                     {% trans "Sign in" %}
                 </button>
                 {% endif %}
+
+                <form action = "" method = "POST"> 
+                    {% csrf_token %}  
+
+                   {{formDark}}
+                    
+
+                </form> 
+                
                 <button id="switch" type="button" class="btn btn-secondary mx-3 mt-3" onclick="nightClick();">
                     <span>☀️Dark mode🌙</span>
+
                 </button>
+                
 
 
 

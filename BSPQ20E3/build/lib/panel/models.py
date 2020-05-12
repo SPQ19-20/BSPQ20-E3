@@ -82,5 +82,5 @@ class Auth_user(Document):
     last_name = StringField()
     email = StringField()
     is_staff = StringField()
-    is_active = StringField()
+    is_active = BooleanField()
     date_joined = StringField()

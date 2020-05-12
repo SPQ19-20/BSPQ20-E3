@@ -155,18 +155,11 @@ def get_updated_csvs(seconds=3600, url="default"):
         # Purpose: filtering in the client side
         # Why: to not make a query every time a client enters livelog, this data remains constant until wait_time
         
+        #Save countries and dates into text file in order to make possible the filtering
         saveToFile("countries.txt", Data.objects.distinct(field="Country_Region"), ":")
-        
-        # Get only first part of the string, day month and year
         DATES = Data.objects.distinct(field="Last_Update")
-        #Remove
         DATES = list(dict.fromkeys(DATES))
         saveToFile("dates.txt", DATES, "&")
-
-        """STATUS_CHOICES = [ (0, 'Euu'), (1, 'Approved'), (2, 'Deleted'), ]
-        for i in range(len(Cache().COUNTRIES)):
-            STATUS_CHOICES.insert(i, (i, Cache().COUNTRIES[i]+""))
-        """
 
         get_logger().info("COUNTRIES and DATES cached.")
 

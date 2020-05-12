@@ -2,7 +2,7 @@ from django.shortcuts import render, render_to_response
 from django.http import HttpResponse
 from django.template import RequestContext
 from django.http import HttpResponse
-from .models import Entry, Data
+from .models import Entry, Data, Auth_user
 from .cache import Cache
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from .filters import DataFilter
@@ -11,8 +11,40 @@ import time
 import datetime
 # i18n
 from django.utils import translation
-
+from .forms import NotificationsForm, DarkmodeForm
 # Create your views here.
+
+def checkDarkMode(req):
+	if req.method == 'POST':
+		form = NotificationsForm(req.POST)
+		if form.is_valid():
+			print("HAY DARK")
+			print("HAY DARK")
+			print("HAY DARK")
+			print("HAY DARK")
+			if form.cleaned_data["active"] == "on":
+				req.session['darkmode'] = "True"
+			else:
+				req.session['darkmode'] = "False"
+			print(form.cleaned_data, "///////", req.session['darkmode'])
+	if not 'darkmode' in req.session:
+		req.session['darkmode'] = "False"
+
+def checkPOST(req):
+	"""
+	hypothetically, the user's choice regarding receiving emails is returned in the form. 
+	Instead, the library fails and does not perform the update correctly.
+
+	if req.method == 'POST':
+		form = NotificationsForm(req.POST) 
+		if form.is_valid() and req.user.is_authenticated: 
+			user = Auth_user.objects.filter(username=req.user.username).first()
+			user.is_active = "true"
+			user.save()
+			return True 
+	"""
+	return False
+
 def index(req):
 	'''Loads the Main Page
 
@@ -22,8 +54,16 @@ def index(req):
 	:returns: Http Response
 	:rtype: Http
 	'''
+	#checkPOST(req)
+	form = NotificationsForm();
+
+	#Darkmode in session
+	checkDarkMode(req)
+	formDark = DarkmodeForm(req.session['darkmode']);
+
 	if translation.LANGUAGE_SESSION_KEY in req.session: 
 		del req.session[translation.LANGUAGE_SESSION_KEY]
+
 	#Test para ver si inserta bien los datos
 	#entry = Entry(CCAA="ComPrueba",Confirmados=999, Fecha= "1-1-1991")
 	#entry.save()
@@ -31,7 +71,7 @@ def index(req):
 	#dummy.save()
 	prueba = Data.objects()
 
-	return render(req, 'index.html', {'data' : prueba})
+	return render(req, 'index.html', {'data' : prueba, 'form' : form, 'formDark' : formDark, 'darkmode' : req.session['darkmode']})
 
 def livelog(req):
 	dataFilter = DataFilter(req.GET, queryset=Data.objects())
