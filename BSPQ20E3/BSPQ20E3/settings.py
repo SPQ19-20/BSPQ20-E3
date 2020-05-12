@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'panel',
     'social_django',
     'rest_framework',
-    'API'
+    'API',
 ]
 
 REST_FRAMEWORK = {

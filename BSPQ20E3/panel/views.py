@@ -1,4 +1,4 @@
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render, render_to_response, redirect
 from django.http import HttpResponse
 from django.template import RequestContext
 from django.http import HttpResponse
@@ -11,12 +11,24 @@ import time
 import datetime
 # i18n
 from django.utils import translation
-from .forms import NotificationsForm, DarkmodeForm
+from .forms import NotificationsForm
 # Create your views here.
+
+def toggle(request):
+	print("HAY POST")
+	print("HAY DARK")
+	print("HAY DARK")
+	print("HAY DARK", request.POST['darkmode'])
+	request.session['darkmode'] = request.POST['darkmode']
+	return redirect("/")
 
 def checkDarkMode(req):
 	if req.method == 'POST':
 		form = NotificationsForm(req.POST)
+		print("HAY POST")
+		print("HAY DARK")
+		print("HAY DARK")
+		print("HAY DARK")
 		if form.is_valid():
 			print("HAY DARK")
 			print("HAY DARK")
@@ -27,6 +39,13 @@ def checkDarkMode(req):
 			else:
 				req.session['darkmode'] = "False"
 			print(form.cleaned_data, "///////", req.session['darkmode'])
+		else:
+			print("ERROR")
+			print("HAY DARK")
+			print("HAY DARK")
+			print("HAY DARK")
+
+
 	if not 'darkmode' in req.session:
 		req.session['darkmode'] = "False"
 
@@ -57,10 +76,6 @@ def index(req):
 	#checkPOST(req)
 	form = NotificationsForm();
 
-	#Darkmode in session
-	checkDarkMode(req)
-	formDark = DarkmodeForm(req.session['darkmode']);
-
 	if translation.LANGUAGE_SESSION_KEY in req.session: 
 		del req.session[translation.LANGUAGE_SESSION_KEY]
 
@@ -71,7 +86,7 @@ def index(req):
 	#dummy.save()
 	prueba = Data.objects()
 
-	return render(req, 'index.html', {'data' : prueba, 'form' : form, 'formDark' : formDark, 'darkmode' : req.session['darkmode']})
+	return render(req, 'index.html', {'data' : prueba, 'form' : form, 'darkmode' : req.session['darkmode']})
 
 def livelog(req):
 	dataFilter = DataFilter(req.GET, queryset=Data.objects())

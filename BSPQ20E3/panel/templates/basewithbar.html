@@ -85,14 +85,23 @@
                     {% trans "Sign in" %}
                 </button>
                 {% endif %}
-
-                <form action = "" method = "POST"> 
-                    {% csrf_token %}  
-
-                   {{formDark}}
-                    
-
-                </form> 
+                <label class="switch">
+                    <input type="checkbox" id="darkmode" value="{{darkmode}}">{{darkmode}}
+                    <span class="slider round"></span>
+                </label>
+                <script src="https://code.jquery.com/jquery-3.3.1.js"></script> <!-- Import Jquery Here-->
+<script type="text/javascript">
+$(document).ready(function() {
+    var chbox = document.getElementById("darkmode");
+    chbox.checked = "{{darkmode}}";
+    $('#darkmode').change(function() {
+        $.post("/toggle/", {
+            darkmode: this.checked, 
+            csrfmiddlewaretoken: '{{ csrf_token }}' 
+        });
+    });
+}); 
+</script>
                 
                 <button id="switch" type="button" class="btn btn-secondary mx-3 mt-3" onclick="nightClick();">
                     <span>☀️Dark mode🌙</span>
