@@ -15,11 +15,14 @@ previous_url = None
 connect('SoftwareP', host='127.0.0.1', port=27017)
 
 def sendEmails():
-    prueba = Auth_user.objects()
+    users = Auth_user.objects()
     recipients = []
-    for a in prueba:
-        recipients.append(a.email)
-    send(recipients, "Hey")
+    if users.count()!= 0:
+        for u in users:
+            if u.is_active == True:
+                recipients.append(u.email)
+        if len(recipients)!=0 :
+            send(recipients)
 
 
 def get_csv_from_github(url="default", date=None):
