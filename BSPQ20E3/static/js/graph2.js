@@ -1,6 +1,6 @@
 
 var margin = {top: 50, right: 30, bottom: 90, left:70},
-width = 460 - margin.left - margin.right,
+width = 700 - margin.left - margin.right,
 height = 320
 
 //append the svg object to the body of the page
