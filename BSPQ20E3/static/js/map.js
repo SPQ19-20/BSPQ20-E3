@@ -1,7 +1,7 @@
 
 var margin = {top: 50, right: 30, bottom: 30, left: 60},
-    width = 1150 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 1600 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
 
 // svg stands for Scalable Vector Graphics, the svg is going to be what we draw 
 var svg = d3.select("svg")
@@ -13,7 +13,7 @@ var svg = d3.select("svg")
 var path = d3.geoPath();
 var projection = d3.geoMercator()
   .scale(125)
-  .center([0,40])
+  .center([0,50])
   .translate([width / 2-50, height / 2]);
 
 // Data and color scale
