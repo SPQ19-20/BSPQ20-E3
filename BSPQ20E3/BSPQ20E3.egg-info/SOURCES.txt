@@ -24,6 +24,7 @@ panel/admin.py
 panel/apps.py
 panel/cache.py
 panel/filters.py
+panel/forms.py
 panel/githubcsv.py
 panel/logs.py
 panel/models.py

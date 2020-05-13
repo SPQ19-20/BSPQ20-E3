@@ -15,25 +15,13 @@ from .forms import NotificationsForm
 # Create your views here.
 
 def toggle(request):
-	print("HAY POST")
-	print("HAY DARK")
-	print("HAY DARK")
-	print("HAY DARK", request.POST['darkmode'])
 	request.session['darkmode'] = request.POST['darkmode']
 	return redirect("/")
 
 def checkDarkMode(req):
 	if req.method == 'POST':
 		form = NotificationsForm(req.POST)
-		print("HAY POST")
-		print("HAY DARK")
-		print("HAY DARK")
-		print("HAY DARK")
 		if form.is_valid():
-			print("HAY DARK")
-			print("HAY DARK")
-			print("HAY DARK")
-			print("HAY DARK")
 			if form.cleaned_data["active"] == "on":
 				req.session['darkmode'] = "True"
 			else:
@@ -41,9 +29,6 @@ def checkDarkMode(req):
 			print(form.cleaned_data, "///////", req.session['darkmode'])
 		else:
 			print("ERROR")
-			print("HAY DARK")
-			print("HAY DARK")
-			print("HAY DARK")
 
 
 	if not 'darkmode' in req.session:
@@ -86,7 +71,11 @@ def index(req):
 	#dummy.save()
 	prueba = Data.objects()
 
-	return render(req, 'index.html', {'data' : prueba, 'form' : form, 'darkmode' : req.session['darkmode']})
+	darkmode = "false"
+	if 'darkmode' in req.session:
+		darkmode = req.session['darkmode']
+
+	return render(req, 'index.html', {'data' : prueba, 'form' : form, 'darkmode' : darkmode})
 
 def livelog(req):
 	dataFilter = DataFilter(req.GET, queryset=Data.objects())
