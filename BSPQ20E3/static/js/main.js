@@ -46,18 +46,34 @@ $(document).ready(function() {
     }
 }); 
 
-function setDarkmode(){
-    button = document.getElementById("darkButton");
-    button.classList.remove("btn-primary");
-    button.classList.add("btn-secondary");
-    darktext = document.getElementById("darkButtonText").textContent="Light mode ☀️";
+function replaceClassList(ids, remove, add){
+    for (var i = 0; i < ids.length; i++){
+        replaceClassObject(ids[i], remove, add);
+    }    
+}
+
+function replaceClassObject(id, remove, add){
+    try {
+        if(remove.length>0){
+            document.getElementById(id).classList.remove(remove);
+        }
+        if(add.length>0){
+            document.getElementById(id).classList.add(add);
+        }
+    } catch (error) {
+    }
 }
 
 function setLightmode(){
-    button = document.getElementById("darkButton");
-    button.classList.remove("btn-secondary");
-    button.classList.add("btn-primary");
-    darktext = document.getElementById("darkButtonText").textContent="Dark mode 🌙";
-    
-    
+    replaceClassObject("darkButton", "btn-secondary", "btn-primary");
+    document.getElementById("darkButtonText").textContent="Dark mode 🌙";
+    replaceClassObject("dataTable", "table-dark", "");
+    replaceClassList(["indexContent", "mainTable"], "bg-dark", "bg-light");    
+}
+
+function setDarkmode(){
+    replaceClassObject("darkButton", "btn-primary", "btn-secondary");
+    document.getElementById("darkButtonText").textContent="Light mode ☀️";
+    replaceClassObject("dataTable", "", "table-dark");
+    replaceClassList(["indexContent", "mainTable"], "bg-light", "bg-dark")
 }
