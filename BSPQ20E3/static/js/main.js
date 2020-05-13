@@ -54,26 +54,35 @@ function replaceClassList(ids, remove, add){
 
 function replaceClassObject(id, remove, add){
     try {
-        if(remove.length>0){
-            document.getElementById(id).classList.remove(remove);
-        }
-        if(add.length>0){
-            document.getElementById(id).classList.add(add);
-        }
-    } catch (error) {
-    }
+        try {
+            if(remove.length>0){
+                document.getElementById(id).classList.remove(remove);
+            }
+        }catch (error) {}
+        try {
+            if(add.length>0){
+                document.getElementById(id).classList.add(add);
+            }
+        }catch (error) {}        
+    } catch (error) {}
 }
 
 function setLightmode(){
-    replaceClassObject("darkButton", "btn-secondary", "btn-primary");
+    replaceClassList(["darkButton", "filtersButton", "loginButton"], "btn-secondary", "btn-primary");
+    replaceClassList(["indexContent", "mainTable"], "bg-dark", "bg-light"); 
+
     document.getElementById("darkButtonText").textContent="Dark mode 🌙";
     replaceClassObject("dataTable", "table-dark", "");
-    replaceClassList(["indexContent", "mainTable"], "bg-dark", "bg-light");    
+    replaceClassObject("mainTable", "text-light", "text-dark"); 
 }
 
 function setDarkmode(){
-    replaceClassObject("darkButton", "btn-primary", "btn-secondary");
+    replaceClassList(["darkButton", "filtersButton", "loginButton"], "btn-primary", "btn-secondary");
+    replaceClassList(["indexContent", "mainTable"], "bg-light", "bg-dark")
+
     document.getElementById("darkButtonText").textContent="Light mode ☀️";
     replaceClassObject("dataTable", "", "table-dark");
-    replaceClassList(["indexContent", "mainTable"], "bg-light", "bg-dark")
+    replaceClassObject("mainTable", "text-dark", "text-light");
+    
+
 }
