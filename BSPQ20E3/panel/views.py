@@ -14,26 +14,6 @@ from django.utils import translation
 from .forms import NotificationsForm
 # Create your views here.
 
-def toggle(request):
-	request.session['darkmode'] = request.POST['darkmode']
-	return redirect("/")
-
-def checkDarkMode(req):
-	if req.method == 'POST':
-		form = NotificationsForm(req.POST)
-		if form.is_valid():
-			if form.cleaned_data["active"] == "on":
-				req.session['darkmode'] = "True"
-			else:
-				req.session['darkmode'] = "False"
-			print(form.cleaned_data, "///////", req.session['darkmode'])
-		else:
-			print("ERROR")
-
-
-	if not 'darkmode' in req.session:
-		req.session['darkmode'] = "False"
-
 def checkPOST(req):
 	"""
 	hypothetically, the user's choice regarding receiving emails is returned in the form. 
@@ -71,11 +51,7 @@ def index(req):
 	#dummy.save()
 	prueba = Data.objects()
 
-	darkmode = "false"
-	if 'darkmode' in req.session:
-		darkmode = req.session['darkmode']
-
-	return render(req, 'index.html', {'data' : prueba, 'form' : form, 'darkmode' : darkmode})
+	return render(req, 'index.html', {'data' : prueba, 'form' : form})
 
 def livelog(req):
 	dataFilter = DataFilter(req.GET, queryset=Data.objects())

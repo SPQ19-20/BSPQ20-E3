@@ -30805,3 +30805,853 @@ DEBUG - 2020-05-13 12:01:00,693 - __next__ - Result: ('social_django', '0001_ini
 DEBUG - 2020-05-13 12:01:00,693 - __next__ - Result: ('social_django', '0002_add_related_name')
 INFO - 2020-05-13 12:01:07,453 - send - Email sent!
 INFO - 2020-05-13 12:01:07,878 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 12:24:05,499 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:24:05,499 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:24:05,499 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:24:05,501 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 12:24:06,356 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+DEBUG - 2020-05-13 12:24:06,582 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:24:06,582 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:24:06,583 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:24:06,586 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 12:24:06,917 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+INFO - 2020-05-13 12:24:06,962 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-13 12:24:07,344 - connect - New MongoClient connection
+DEBUG - 2020-05-13 12:24:07,345 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:24:07,361 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 12:24:07,364 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 12:24:07,366 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-13 12:24:07,367 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-13 12:24:07,367 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-13 12:24:07,368 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-13 12:24:07,368 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-13 12:24:07,368 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-13 12:24:07,368 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-13 12:24:07,369 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-13 12:24:07,369 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-13 12:24:07,369 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-13 12:24:07,369 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-13 12:24:07,370 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-13 12:24:07,370 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-13 12:24:07,371 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-13 12:24:07,371 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-13 12:24:07,372 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-13 12:24:07,372 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-13 12:24:07,373 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-13 12:24:07,374 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-13 12:24:07,374 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-13 12:24:07,375 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-13 12:24:07,375 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:24:07,375 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:24:07,376 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:24:07,376 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:24:07,376 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:24:07,377 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-13 12:24:07,377 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-13 12:24:07,378 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-13 12:24:07,378 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:24:07,379 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:24:07,381 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:24:07,381 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-13 12:24:07,382 - __next__ - Result: ('social_django', '0002_add_related_name')
+INFO - 2020-05-13 12:24:12,806 - send - Email sent!
+INFO - 2020-05-13 12:24:13,369 - get_updated_csvs - COUNTRIES and DATES cached.
+INFO - 2020-05-13 12:24:13,652 - send - Email sent!
+INFO - 2020-05-13 12:24:14,148 - get_updated_csvs - COUNTRIES and DATES cached.
+WARNING - 2020-05-13 12:24:38,268 - log_response - Forbidden: /API/users/
+WARNING - 2020-05-13 12:24:48,013 - log_response - Forbidden: /API/users/
+DEBUG - 2020-05-13 12:26:42,451 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:42,452 - parse - sql_command: SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = %(0)s  LIMIT 1
+params: ('akycq1b3gzbqayphbhyk9fwe48vb8heh',)
+DEBUG - 2020-05-13 12:26:42,455 - _get_cursor - Aggregation query: [{'$match': {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+DEBUG - 2020-05-13 12:26:42,456 - parse - sql_command: INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (%(0)s, %(1)s, %(2)s)
+params: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 42, 456025))
+DEBUG - 2020-05-13 12:26:42,460 - execute - inserted ids [ObjectId('5ebbcb62451983c24af7e516')]
+DEBUG - 2020-05-13 12:26:42,461 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:42,466 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:42,466 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:42,466 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 42, 465556), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:42,469 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 42, 465556)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:42,967 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 42, 456000))
+DEBUG - 2020-05-13 12:26:42,983 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:45,156 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:45,156 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:45,156 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 45, 155312), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:45,159 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 45, 155312)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:45,167 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 42, 456000))
+DEBUG - 2020-05-13 12:26:45,169 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 45, 168678), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:45,171 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:26:45,172 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:45,175 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:45,175 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:45,175 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 45, 174918), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:45,178 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 45, 174918)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:45,675 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 45, 168000))
+DEBUG - 2020-05-13 12:26:45,690 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:47,275 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:47,276 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:47,276 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 47, 274897), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:47,279 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 47, 274897)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:47,286 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 45, 168000))
+DEBUG - 2020-05-13 12:26:47,288 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 47, 287635), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:47,290 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:26:47,291 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:47,294 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:47,294 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:47,294 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 47, 293711), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:47,298 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 47, 293711)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:47,795 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 47, 287000))
+DEBUG - 2020-05-13 12:26:47,809 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:50,078 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:50,078 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:50,078 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 50, 77502), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:50,082 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 50, 77502)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:50,088 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 47, 287000))
+DEBUG - 2020-05-13 12:26:50,090 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 50, 90143), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:50,093 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:26:50,094 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:50,098 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:50,098 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:50,098 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 50, 96852), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:50,101 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 50, 96852)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:50,594 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 50, 90000))
+DEBUG - 2020-05-13 12:26:50,610 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:57,730 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:57,731 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:57,731 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 57, 729807), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:57,735 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 57, 729807)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:57,741 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 50, 90000))
+DEBUG - 2020-05-13 12:26:57,742 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 57, 742413), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:57,745 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:26:57,746 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:57,751 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:57,752 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:57,752 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 57, 751125), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:57,755 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 57, 751125)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:58,031 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:58,032 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 58, 30441), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:58,035 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 58, 30441)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:58,255 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 57, 742000))
+DEBUG - 2020-05-13 12:26:58,256 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 26, 57, 742000))
+DEBUG - 2020-05-13 12:26:58,264 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 58, 263421), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:58,267 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:26:58,276 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:58,277 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:26:58,279 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:26:58,280 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:26:58,280 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 26, 58, 279215), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:26:58,283 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 26, 58, 279215)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:26:58,759 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 58, 263000))
+DEBUG - 2020-05-13 12:26:58,775 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:27:04,896 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:27:04,896 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:27:04,897 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 27, 4, 895773), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:27:04,900 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 27, 4, 895773)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:27:04,907 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 26, 58, 263000))
+DEBUG - 2020-05-13 12:27:04,909 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909029), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:27:04,912 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:27:04,913 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:27:04,916 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:27:04,916 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:27:04,917 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 27, 4, 915851), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:27:04,920 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 27, 4, 915851)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:27:05,417 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:27:05,431 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:28:42,637 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:28:42,637 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:28:42,638 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 28, 42, 636397), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:28:42,641 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 28, 42, 636397)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:28:42,648 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:28:42,666 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:38:17,825 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:38:17,828 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 38, 17, 824983), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:38:17,832 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 38, 17, 824983)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:38:17,840 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:38:17,858 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:39:13,466 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:39:13,467 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 39, 13, 465585), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:39:13,470 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 39, 13, 465585)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:39:13,478 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:39:13,495 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:39:20,168 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:39:20,169 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:39:20,169 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 39, 20, 167809), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:39:20,172 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 39, 20, 167809)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:39:20,179 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:39:20,195 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:39:39,478 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:39:39,478 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:39:39,479 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 39, 39, 477441), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:39:39,482 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 39, 39, 477441)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:39:39,489 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:39:39,505 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:40:34,610 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:40:34,610 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:40:34,611 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 40, 34, 609659), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:40:34,614 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 40, 34, 609659)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:40:34,621 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:40:34,638 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:41:09,870 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:41:09,870 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:41:09,870 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 41, 9, 869295), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:41:09,874 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 41, 9, 869295)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:41:09,881 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:41:09,897 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:42:07,522 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:42:07,522 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:42:07,523 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 42, 7, 521828), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:42:07,526 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 42, 7, 521828)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:42:07,535 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:42:07,551 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:42:11,391 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:42:11,391 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:42:11,391 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 42, 11, 390391), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:42:11,394 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 42, 11, 390391)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:42:11,401 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 27, 4, 909000))
+DEBUG - 2020-05-13 12:42:11,403 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 42, 11, 402864), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:42:11,406 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:42:11,407 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:42:11,409 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:42:11,410 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:42:11,410 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 42, 11, 409208), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:42:11,413 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 42, 11, 409208)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:42:11,906 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 42, 11, 402000))
+DEBUG - 2020-05-13 12:42:11,922 - _close - MongoClient connection closed
+INFO - 2020-05-13 12:42:56,133 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-13 12:42:57,563 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:42:57,564 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:42:57,564 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:42:57,565 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+INFO - 2020-05-13 12:42:57,859 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-13 12:42:58,175 - connect - New MongoClient connection
+DEBUG - 2020-05-13 12:42:58,176 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:42:58,185 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 12:42:58,187 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 12:42:58,189 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-13 12:42:58,189 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-13 12:42:58,189 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-13 12:42:58,190 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-13 12:42:58,190 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-13 12:42:58,190 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-13 12:42:58,191 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-13 12:42:58,191 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-13 12:42:58,191 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-13 12:42:58,192 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-13 12:42:58,192 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-13 12:42:58,192 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-13 12:42:58,192 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-13 12:42:58,193 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-13 12:42:58,193 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-13 12:42:58,193 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-13 12:42:58,194 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-13 12:42:58,194 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-13 12:42:58,194 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-13 12:42:58,195 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-13 12:42:58,195 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-13 12:42:58,195 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:42:58,195 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:42:58,196 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:42:58,196 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:42:58,196 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:42:58,196 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-13 12:42:58,196 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-13 12:42:58,196 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-13 12:42:58,197 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:42:58,197 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:42:58,197 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:42:58,197 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-13 12:42:58,197 - __next__ - Result: ('social_django', '0002_add_related_name')
+DEBUG - 2020-05-13 12:42:58,249 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+DEBUG - 2020-05-13 12:42:59,030 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:42:59,030 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 42, 59, 28500), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:42:59,034 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 42, 59, 28500)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:42:59,035 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 42, 11, 402000))
+DEBUG - 2020-05-13 12:42:59,063 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:43:02,188 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:43:02,188 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 43, 2, 186873), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:43:02,194 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 43, 2, 186873)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:43:02,203 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 42, 11, 402000))
+DEBUG - 2020-05-13 12:43:02,208 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 43, 2, 207374), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:43:02,212 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:43:02,214 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:43:02,279 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:43:02,280 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:43:02,280 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 43, 2, 278026), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:43:02,286 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 43, 2, 278026)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:43:02,709 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 43, 2, 207000))
+DEBUG - 2020-05-13 12:43:02,730 - _close - MongoClient connection closed
+INFO - 2020-05-13 12:43:04,728 - send - Email sent!
+INFO - 2020-05-13 12:43:05,154 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 12:43:09,744 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:43:09,744 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:43:09,744 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 43, 9, 743268), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:43:09,747 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 43, 9, 743268)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:43:09,753 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MzkxZmJjNTNmOTBiMjUzMTk1NDZhZjg1ODY5MzA2M2U0MzU2YTdkYzp7ImRhcmttb2RlIjoidHJ1ZSJ9', datetime.datetime(2020, 5, 27, 10, 43, 2, 207000))
+DEBUG - 2020-05-13 12:43:09,755 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755128), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:43:09,758 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:43:09,759 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:43:09,762 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:43:09,762 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:43:09,762 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 43, 9, 761874), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:43:09,765 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 43, 9, 761874)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:43:10,263 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755000))
+DEBUG - 2020-05-13 12:43:10,282 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:43:13,017 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:43:13,018 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:43:13,018 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 43, 13, 16621), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:43:13,022 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 43, 13, 16621)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:43:13,029 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755000))
+DEBUG - 2020-05-13 12:43:13,044 - _close - MongoClient connection closed
+INFO - 2020-05-13 12:44:53,214 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-13 12:44:54,491 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:44:54,491 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:44:54,491 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:44:54,493 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+INFO - 2020-05-13 12:44:54,780 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-13 12:44:54,948 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+DEBUG - 2020-05-13 12:44:55,134 - connect - New MongoClient connection
+DEBUG - 2020-05-13 12:44:55,135 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:44:55,143 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 12:44:55,144 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 12:44:55,145 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-13 12:44:55,146 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-13 12:44:55,146 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-13 12:44:55,146 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-13 12:44:55,146 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-13 12:44:55,146 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-13 12:44:55,147 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-13 12:44:55,147 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-13 12:44:55,147 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-13 12:44:55,147 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-13 12:44:55,147 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-13 12:44:55,148 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-13 12:44:55,148 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-13 12:44:55,148 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-13 12:44:55,148 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-13 12:44:55,148 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-13 12:44:55,148 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-13 12:44:55,149 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-13 12:44:55,149 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-13 12:44:55,149 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-13 12:44:55,149 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-13 12:44:55,149 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:44:55,150 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:44:55,150 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:44:55,150 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:44:55,150 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:44:55,151 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-13 12:44:55,151 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-13 12:44:55,151 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-13 12:44:55,151 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:44:55,151 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:44:55,152 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:44:55,152 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-13 12:44:55,152 - __next__ - Result: ('social_django', '0002_add_related_name')
+INFO - 2020-05-13 12:45:02,253 - send - Email sent!
+INFO - 2020-05-13 12:45:02,670 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 12:47:50,510 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:47:50,510 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 47, 50, 509361), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:47:50,513 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 47, 50, 509361)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:47:50,514 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755000))
+DEBUG - 2020-05-13 12:47:50,543 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:47:53,509 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:47:53,509 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:47:53,509 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 47, 53, 508021), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:47:53,514 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 47, 53, 508021)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:47:53,523 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755000))
+WARNING - 2020-05-13 12:47:53,529 - log_response - Forbidden (CSRF token missing or incorrect.): /toggle/
+DEBUG - 2020-05-13 12:47:53,531 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:48:15,853 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:48:15,854 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:48:15,854 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 48, 15, 852332), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:48:15,857 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 48, 15, 852332)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:48:15,863 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755000))
+DEBUG - 2020-05-13 12:48:15,881 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:48:18,580 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:48:18,580 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 48, 18, 579476), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:48:18,584 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 48, 18, 579476)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:48:18,594 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755000))
+ERROR - 2020-05-13 12:48:18,696 - log_response - Internal Server Error: /toggle/
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/utils/datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'darkmode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 23, in toggle
+    request.session['darkmode'] = request.POST['darkmode']
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/utils/datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'darkmode'
+DEBUG - 2020-05-13 12:48:18,699 - _close - MongoClient connection closed
+INFO - 2020-05-13 12:49:43,021 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-13 12:49:44,355 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:49:44,355 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:49:44,356 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:49:44,358 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+INFO - 2020-05-13 12:49:44,716 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-13 12:49:44,970 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+DEBUG - 2020-05-13 12:49:45,116 - connect - New MongoClient connection
+DEBUG - 2020-05-13 12:49:45,116 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:49:45,125 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 12:49:45,126 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 12:49:45,127 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-13 12:49:45,127 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-13 12:49:45,128 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-13 12:49:45,128 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-13 12:49:45,128 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-13 12:49:45,128 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-13 12:49:45,128 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-13 12:49:45,128 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-13 12:49:45,129 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-13 12:49:45,129 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-13 12:49:45,129 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-13 12:49:45,129 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-13 12:49:45,129 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-13 12:49:45,130 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-13 12:49:45,130 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-13 12:49:45,130 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-13 12:49:45,130 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-13 12:49:45,130 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-13 12:49:45,130 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-13 12:49:45,130 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-13 12:49:45,131 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-13 12:49:45,131 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:49:45,131 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:49:45,131 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:49:45,131 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:49:45,131 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:49:45,132 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-13 12:49:45,132 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-13 12:49:45,132 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-13 12:49:45,132 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:49:45,132 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:49:45,132 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:49:45,133 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-13 12:49:45,133 - __next__ - Result: ('social_django', '0002_add_related_name')
+DEBUG - 2020-05-13 12:49:45,831 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:49:45,831 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 49, 45, 830322), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:49:45,835 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 49, 45, 830322)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:49:45,837 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755000))
+DEBUG - 2020-05-13 12:49:45,864 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:49:48,827 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:49:48,827 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:49:48,827 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 49, 48, 826407), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:49:48,833 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 49, 48, 826407)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:49:48,843 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'MTUwYTNlYTA5MWNiYjczMTI5YTQwZmY4NGVmMjRjZGU5M2JlNjVhYTp7ImRhcmttb2RlIjoiZmFsc2UifQ==', datetime.datetime(2020, 5, 27, 10, 43, 9, 755000))
+DEBUG - 2020-05-13 12:49:48,846 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845307), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:49:48,850 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 12:49:48,851 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:49:48,856 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 12:49:48,856 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:49:48,856 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 49, 48, 855452), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:49:48,862 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 49, 48, 855452)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:49:49,349 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+WARNING - 2020-05-13 12:49:49,357 - log_response - Not Found: /loco
+DEBUG - 2020-05-13 12:49:49,358 - _close - MongoClient connection closed
+INFO - 2020-05-13 12:49:51,239 - send - Email sent!
+INFO - 2020-05-13 12:49:51,646 - get_updated_csvs - COUNTRIES and DATES cached.
+INFO - 2020-05-13 12:51:00,615 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-13 12:51:01,588 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:51:01,588 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:51:01,589 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:51:01,590 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+INFO - 2020-05-13 12:51:01,945 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-13 12:51:01,964 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+DEBUG - 2020-05-13 12:51:02,220 - connect - New MongoClient connection
+DEBUG - 2020-05-13 12:51:02,221 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:51:02,230 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 12:51:02,231 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 12:51:02,232 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-13 12:51:02,232 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-13 12:51:02,233 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-13 12:51:02,233 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-13 12:51:02,233 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-13 12:51:02,233 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-13 12:51:02,233 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-13 12:51:02,233 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-13 12:51:02,234 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-13 12:51:02,234 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-13 12:51:02,234 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-13 12:51:02,234 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-13 12:51:02,234 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-13 12:51:02,235 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-13 12:51:02,235 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-13 12:51:02,235 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-13 12:51:02,235 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-13 12:51:02,235 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-13 12:51:02,235 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-13 12:51:02,236 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-13 12:51:02,236 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-13 12:51:02,236 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:51:02,236 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:51:02,237 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:51:02,237 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:51:02,237 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:51:02,238 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-13 12:51:02,238 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-13 12:51:02,238 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-13 12:51:02,238 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:51:02,238 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:51:02,238 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:51:02,239 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-13 12:51:02,239 - __next__ - Result: ('social_django', '0002_add_related_name')
+INFO - 2020-05-13 12:51:08,648 - send - Email sent!
+INFO - 2020-05-13 12:51:09,050 - get_updated_csvs - COUNTRIES and DATES cached.
+INFO - 2020-05-13 12:53:57,421 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-13 12:53:59,030 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:53:59,030 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:53:59,030 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:53:59,032 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+INFO - 2020-05-13 12:53:59,364 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-13 12:53:59,573 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+DEBUG - 2020-05-13 12:53:59,733 - connect - New MongoClient connection
+DEBUG - 2020-05-13 12:53:59,734 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:53:59,746 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 12:53:59,747 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 12:53:59,749 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-13 12:53:59,749 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-13 12:53:59,749 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-13 12:53:59,749 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-13 12:53:59,750 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-13 12:53:59,750 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-13 12:53:59,750 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-13 12:53:59,750 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-13 12:53:59,750 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-13 12:53:59,751 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-13 12:53:59,751 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-13 12:53:59,751 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-13 12:53:59,751 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-13 12:53:59,751 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-13 12:53:59,751 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-13 12:53:59,752 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-13 12:53:59,752 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-13 12:53:59,752 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-13 12:53:59,752 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-13 12:53:59,752 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-13 12:53:59,753 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-13 12:53:59,753 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:53:59,753 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:53:59,753 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:53:59,754 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:53:59,754 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:53:59,754 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-13 12:53:59,754 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-13 12:53:59,755 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-13 12:53:59,755 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:53:59,755 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:53:59,755 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:53:59,756 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-13 12:53:59,756 - __next__ - Result: ('social_django', '0002_add_related_name')
+DEBUG - 2020-05-13 12:54:01,359 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:54:01,360 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 54, 1, 358497), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:54:01,363 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 54, 1, 358497)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:54:01,364 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 12:54:01,403 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 12:54:05,614 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:54:05,615 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 54, 5, 614112), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:54:05,618 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 54, 5, 614112)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:54:05,627 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+ERROR - 2020-05-13 12:54:05,706 - log_response - Internal Server Error: /toggle/
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/utils/datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'darkmode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py", line 23, in toggle
+    request.COOKIES['darkmode'] = request.POST['darkmode']
+  File "/Users/julen/procesoftware/venv/lib/python3.7/site-packages/Django-2.2.7-py3.7.egg/django/utils/datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'darkmode'
+DEBUG - 2020-05-13 12:54:05,708 - _close - MongoClient connection closed
+INFO - 2020-05-13 12:54:05,817 - send - Email sent!
+INFO - 2020-05-13 12:54:06,302 - get_updated_csvs - COUNTRIES and DATES cached.
+INFO - 2020-05-13 12:58:16,286 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/views.py changed, reloading.
+DEBUG - 2020-05-13 12:58:17,670 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:58:17,670 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:58:17,670 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:58:17,672 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+INFO - 2020-05-13 12:58:18,007 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-13 12:58:18,089 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+INFO - 2020-05-13 12:58:25,304 - send - Email sent!
+INFO - 2020-05-13 12:58:25,731 - get_updated_csvs - COUNTRIES and DATES cached.
+INFO - 2020-05-13 12:58:30,578 - trigger_reload - /Users/julen/procesoftware/BSPQ20-E3/BSPQ20E3/panel/urls.py changed, reloading.
+DEBUG - 2020-05-13 12:58:31,500 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 12:58:31,500 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 12:58:31,500 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 12:58:31,502 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+INFO - 2020-05-13 12:58:31,775 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-13 12:58:32,099 - connect - New MongoClient connection
+DEBUG - 2020-05-13 12:58:32,100 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:58:32,111 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 12:58:32,112 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 12:58:32,113 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-13 12:58:32,114 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-13 12:58:32,114 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-13 12:58:32,114 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-13 12:58:32,114 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-13 12:58:32,114 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-13 12:58:32,115 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-13 12:58:32,115 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-13 12:58:32,115 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-13 12:58:32,115 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-13 12:58:32,115 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-13 12:58:32,116 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-13 12:58:32,116 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-13 12:58:32,116 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-13 12:58:32,116 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-13 12:58:32,116 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-13 12:58:32,116 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-13 12:58:32,117 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-13 12:58:32,117 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-13 12:58:32,117 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-13 12:58:32,117 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-13 12:58:32,118 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:58:32,118 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:58:32,118 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:58:32,118 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:58:32,119 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:58:32,119 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-13 12:58:32,119 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-13 12:58:32,119 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-13 12:58:32,119 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-13 12:58:32,120 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-13 12:58:32,120 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-13 12:58:32,120 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-13 12:58:32,120 - __next__ - Result: ('social_django', '0002_add_related_name')
+DEBUG - 2020-05-13 12:58:32,167 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+INFO - 2020-05-13 12:58:38,393 - send - Email sent!
+INFO - 2020-05-13 12:58:38,943 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 12:58:40,902 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 12:58:40,903 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 10, 58, 40, 900673), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 12:58:40,908 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 10, 58, 40, 900673)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 12:58:40,909 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 12:58:40,945 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:01:35,427 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:01:35,428 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:01:35,428 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 1, 35, 426668), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:01:35,432 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 1, 35, 426668)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:01:35,438 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:01:35,454 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:05:11,163 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:05:11,163 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 5, 11, 162593), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:05:11,166 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 5, 11, 162593)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:05:11,173 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:05:11,190 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:05:55,019 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:05:55,021 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:05:55,022 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 5, 55, 18615), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:05:55,025 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 5, 55, 18615)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:05:55,033 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:05:55,052 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:06:34,305 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:06:34,306 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:06:34,306 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 6, 34, 304873), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:06:34,309 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 6, 34, 304873)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:06:34,318 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:06:34,336 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:06:58,757 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:06:58,757 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:06:58,757 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 6, 58, 755911), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:06:58,760 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 6, 58, 755911)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:06:58,769 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:06:58,786 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:07:16,997 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:07:16,999 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:07:16,999 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 7, 16, 996450), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:07:17,002 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 7, 16, 996450)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:07:17,010 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:07:17,028 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:07:24,348 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:07:24,349 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:07:24,349 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 7, 24, 347814), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:07:24,352 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 7, 24, 347814)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:07:24,360 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:07:24,390 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:07:40,432 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:07:40,432 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:07:40,433 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 7, 40, 431489), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:07:40,437 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 7, 40, 431489)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:07:40,445 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:07:40,487 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:07:52,544 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:07:52,544 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:07:52,544 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 7, 52, 543197), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:07:52,547 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 7, 52, 543197)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:07:52,554 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:07:52,570 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:08:01,450 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:08:01,452 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:08:01,452 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 8, 1, 449615), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:08:01,456 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 8, 1, 449615)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:08:01,463 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:08:01,478 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:11:31,631 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:11:31,632 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:11:31,632 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 11, 31, 630515), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:11:31,635 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 11, 31, 630515)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:11:31,641 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:11:31,658 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:11:59,451 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:11:59,451 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 11, 59, 450233), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:11:59,454 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 11, 59, 450233)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:11:59,461 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:11:59,479 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:12:17,238 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:12:17,238 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:12:17,238 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 12, 17, 237087), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:12:17,242 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 12, 17, 237087)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:12:17,249 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:12:17,265 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:14:10,538 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:14:10,538 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:14:10,538 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 14, 10, 537625), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:14:10,541 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 14, 10, 537625)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:14:10,547 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:14:10,567 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:17:58,684 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:17:58,684 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:17:58,684 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 17, 58, 682933), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:17:58,687 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 17, 58, 682933)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:17:58,693 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:17:58,710 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:21:06,190 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:21:06,190 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:21:06,190 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 21, 6, 189727), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:21:06,195 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 21, 6, 189727)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:21:06,201 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:21:06,219 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:21:45,975 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:21:45,975 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 21, 45, 974246), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:21:45,978 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 21, 45, 974246)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:21:45,987 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:21:46,004 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:23:17,758 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:23:17,758 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:23:17,758 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 23, 17, 756987), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:23:17,762 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 23, 17, 756987)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:23:17,768 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:23:17,785 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:24:04,615 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 13:24:04,615 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 13:24:04,616 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+INFO - 2020-05-13 13:24:05,070 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 13:25:17,562 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:25:17,562 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:25:17,562 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 25, 17, 560997), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:25:17,565 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 25, 17, 560997)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:25:17,571 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:25:17,590 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:25:52,770 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:25:52,771 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:25:52,771 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 25, 52, 769792), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:25:52,775 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 25, 52, 769792)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:25:52,786 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:25:52,804 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:26:14,214 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:26:14,214 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:26:14,214 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 26, 14, 213212), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:26:14,218 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 26, 14, 213212)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:26:14,226 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:26:14,242 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 13:26:24,829 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 13:26:24,830 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 13:26:24,830 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 11, 26, 24, 828985), 'akycq1b3gzbqayphbhyk9fwe48vb8heh')
+DEBUG - 2020-05-13 13:26:24,833 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 11, 26, 24, 828985)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 13:26:24,841 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
+DEBUG - 2020-05-13 13:26:24,866 - _close - MongoClient connection closed
