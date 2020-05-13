@@ -14,7 +14,7 @@
 		<div class="container-fluid mt-3">
 			<div class="table-responsive mb-10">
 				<button class="btn btn-primary btn-md btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    					Filters
+    					{% trans 'Filters' %}
   					</button>
   					<div class="collapse" id="collapseExample">
 
@@ -75,10 +75,10 @@
 					<ul class="pagination justify-content-end">
 						{% if data.has_previous %}
 						<li class="page-item">
-							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">{% trans "Previous" %}</a>
 							{% else %}
 							<li class="page-item disabled">
-								<a class="page-link" href="#" tabindex="-1">Previous</a>
+								<a class="page-link" href="#" tabindex="-1">{% trans "Previous" %}</a>
 								{% endif %}    
 							</li>
 							{% for i in page_range %}
@@ -91,9 +91,9 @@
 							{% endfor %}
 							<li class="page-item">
 								{% if data.has_next %}
-								<a class="page-link" href="?page={{ data.next_page_number }}">Next</a>
+								<a class="page-link" href="?page={{ data.next_page_number }}">{% trans "Next" %}</a>
 								{% else %}
-								<a class="page-link disabled">Next</a>
+								<a class="page-link disabled">{% trans "Next" %}</a>
 								{% endif %}
 							</li>
 						</ul>

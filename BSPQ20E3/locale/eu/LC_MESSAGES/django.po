@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 18:17+0200\n"
+"POT-Creation-Date: 2020-05-13 16:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,20 +21,19 @@ msgstr ""
 msgid "Title"
 msgstr "Titulua"
 
-#: panel/templates/base.html:34
+#: panel/templates/base.html:33
 msgid "Search for"
 msgstr "Bilatu"
 
-#: panel/templates/base.html:49 panel/templates/basewithbar.html:56
+#: panel/templates/base.html:48 panel/templates/basewithbar.html:79
 msgid "My account"
 msgstr "Nire kontua"
 
-#: panel/templates/base.html:50
+#: panel/templates/base.html:49
 msgid "Log out"
 msgstr "Saioa amaitu"
 
-#: panel/templates/base.html:55 panel/templates/basewithbar.html:62
-#: panel/templates/login.html:23
+#: panel/templates/base.html:54 panel/templates/basewithbar.html:85
 msgid "Sign in"
 msgstr "Saioa hasi"
 
@@ -48,31 +47,55 @@ msgstr "Berriak"
 msgid "We only allow social login due to security and simplicity reasons"
 msgstr "Segurtasun eta sinpletasun arrazoiengatik onartzen dugu social logina."
 
-#: panel/templates/basewithbar.html:40
+#: panel/templates/basewithbar.html:26
+msgid "Close"
+msgstr "Itxi"
+
+#: panel/templates/basewithbar.html:38
+#, fuzzy
+#| msgid "My account"
+msgid "Your account"
+msgstr "Nire kontua"
+
+#: panel/templates/basewithbar.html:47
+#, fuzzy
+#| msgid "My account"
+msgid "Delete account"
+msgstr "Nire kontua"
+
+#: panel/templates/basewithbar.html:48
+msgid "Save changes"
+msgstr "Gorde aldaketak"
+
+#: panel/templates/basewithbar.html:49
+msgid "Close without saving"
+msgstr "Itxi gorde gabe"
+
+#: panel/templates/basewithbar.html:63
 msgid "Main"
 msgstr "Orokorra"
 
-#: panel/templates/basewithbar.html:44
+#: panel/templates/basewithbar.html:67
 msgid "Dashboard"
 msgstr "Taula"
 
-#: panel/templates/basewithbar.html:48
+#: panel/templates/basewithbar.html:71
 msgid "Live log"
 msgstr "Zuzeneko log"
 
-#: panel/templates/basewithbar.html:50
+#: panel/templates/basewithbar.html:73
 msgid "User"
 msgstr "Erabiltzaile"
 
-#: panel/templates/basewithbar.html:70
+#: panel/templates/basewithbar.html:98
 msgid "Configuration"
 msgstr "Konfigurazioa"
 
-#: panel/templates/basewithbar.html:73
+#: panel/templates/basewithbar.html:101
 msgid "Settings"
 msgstr "Doikuntzak"
 
-#: panel/templates/basewithbar.html:75
+#: panel/templates/basewithbar.html:103
 msgid "Language"
 msgstr "Hizkuntza"
 
@@ -89,7 +112,9 @@ msgid "Evolution"
 msgstr "Eboluzioa"
 
 #: panel/templates/index.html:19
-msgid "Social media"
+#, fuzzy
+#| msgid "Social media"
+msgid "Social Media"
 msgstr "Berriak"
 
 #: panel/templates/index.html:20
@@ -120,29 +145,207 @@ msgstr "KASU EGIAZTATUAK"
 msgid "NEW CONFIRMED CASES"
 msgstr "KASU EGIAZTATU BERRIAK"
 
-#: panel/templates/livelogtest.html:35
+#: panel/templates/index.html:92
+msgid "Tweets by CoronavirusESP"
+msgstr ""
+
+#: panel/templates/index.html:95
+msgid "Tweets by Covid_19Time"
+msgstr ""
+
+#: panel/templates/index.html:111
+msgid "Dynamic Chart"
+msgstr "Taula dinamikoa"
+
+#: panel/templates/index.html:111
+msgid "by TradingView"
+msgstr "TradingView-en arabera"
+
+#: panel/templates/livelogtest.html:17
+msgid "Filters"
+msgstr "Iragazkiak"
+
+#: panel/templates/livelogtest.html:28
+msgid "Remove all filters"
+msgstr "Iragazkiak kendu"
+
+#: panel/templates/livelogtest.html:34
 msgid "Country_Region"
 msgstr "Herrialdeak"
 
-#: panel/templates/livelogtest.html:36
+#: panel/templates/livelogtest.html:35
 msgid "Confirmed"
 msgstr "Konfirmatuak"
 
-#: panel/templates/livelogtest.html:37
+#: panel/templates/livelogtest.html:36
 msgid "Deaths"
 msgstr "Hildak"
 
-#: panel/templates/livelogtest.html:38
+#: panel/templates/livelogtest.html:37
 msgid "Recovered"
 msgstr "Zainduak"
 
-#: panel/templates/livelogtest.html:39
+#: panel/templates/livelogtest.html:38
 msgid "Last update"
 msgstr "Azken aktualizaioa"
 
-#: panel/templates/login.html:25 panel/templates/login.html:26
-msgid "Sign in with"
-msgstr "Saioa hasteko modua"
+#: panel/templates/livelogtest.html:78 panel/templates/livelogtest.html:81
+msgid "Previous"
+msgstr "Aurrekoa"
+
+#: panel/templates/livelogtest.html:94 panel/templates/livelogtest.html:96
+msgid "Next"
+msgstr "Hurrengoa"
+
+#: panel/templates/profile.html:15
+msgid "Last login: "
+msgstr "Azken saioa"
+
+#: panel/templates/profile.html:23
+msgid "About"
+msgstr "-i buruz"
+
+#: panel/templates/profile.html:26
+msgid "Timeline"
+msgstr "Kronograma"
+
+#: panel/templates/profile.html:36
+#, fuzzy
+#| msgid "Email address"
+msgid "Email: "
+msgstr "Posta elektronikoa"
+
+#: panel/templates/profile.html:40
+msgid "Name: "
+msgstr "Izena: "
+
+#: panel/templates/recommendations.html:21
+msgid "COVID-19 is the name given to the disease associated with the virus."
+msgstr "COVID-19 birusarekin lotutako gaixotasunari ematen zaion izena da."
+
+#: panel/templates/recommendations.html:22
+msgid ""
+"SARS-CoV-2 is a new strain of coronavirus that has not been previously "
+"identified in humans."
+msgstr "SARS-CoV-2 gizakien artean aurretik identifikatu ez den koronavirus-mota berria da."
+
+#: panel/templates/recommendations.html:35
+msgid "What are they?"
+msgstr "Zer dira?"
+
+#: panel/templates/recommendations.html:36
+msgid ""
+"Coronaviruses are viruses that circulate among animals with some of them "
+"also known to infect humans. Bats are considered natural hosts of these "
+"viruses yet several other species of animals are also known to act as "
+"sources. For instance, Middle East Respiratory Syndrome Coronavirus (MERS-"
+"CoV) is transmitted to humans from camels, and Severe Acute Respiratory "
+"Syndrome Coronavirus-1 (SARS-CoV-1) is transmitted to humans from civet cats."
+msgstr "Koronavirusak animalien artean zirkulatzen duten birusak dira, eta horietako batzuk gizakiak kutsatzen dituztela ere ezagutzen da. Saguzarrak birus horientzako ostalari naturaltzat hartzen dira, nahiz eta beste animalia espezie batzuk iturri gisa jokatzen duten. Adibidez, Ekialde Hurbileko arnas sindrome koronavirusa (MERS-CoV) gizakiei transmititzen zaie gameluetatik, eta arnas sindrome akutua larria coronavirus-1 (SARS-CoV-1) gizakiei transmititzen zaie katuetatik."
+
+#: panel/templates/recommendations.html:44
+msgid "Where does the virus come from?"
+msgstr "Zein da bere jatorria?"
+
+#: panel/templates/recommendations.html:45
+msgid ""
+"While animals are believed to be the original source, the virus spread is "
+"now from person to person (human-to-human transmission). There is not enough "
+"epidemiological information at this time to determine how easily this virus "
+"spreads between people, but it is currently estimated that, on average, one "
+"infected person will infect between two and three other people. "
+msgstr "Animaliak jatorrizko iturria direla uste den bitartean, birusaren hedapena pertsona-pertsonazkoa da (pertsona-pertsonen transmisioa). Oraingoz ez dago informazio epidemiologiko nahikorik birus hori pertsonen artean nola zabaltzen den zehazteko, baina gaur egun, kutsatuta dagoen pertsona batek bi edo hiru pertsona gehiago kutsatuko duela kalkulatzen da."
+
+#: panel/templates/recommendations.html:51
+msgid "How is the virus transmitted?"
+msgstr "Nola transmititzen da birusa?"
+
+#: panel/templates/recommendations.html:52
+msgid ""
+"The virus seems to be transmitted mainly via small respiratory droplets "
+"through sneezing, coughing, or when people interact with each other for some "
+"time in close proximity (usually less than one metre). These droplets can "
+"then be inhaled, or they can land on surfaces that others may come into "
+"contact with, who can then get infected when they touch their nose, mouth or "
+"eyes. The virus can survive on different surfaces from several hours "
+"(copper, cardboard) up to a few days (plastic and stainless steel). However, "
+"the amount of viable virus declines over time and may not always be present "
+"in sufficient numbers to cause infection."
+msgstr "Badirudi birusa batez ere arnas tanta txikien bidez transmititzen dela estutu, eztul eginez edo jendeak denbora batez hurbiltzen direnean (normalean metro bat baino gutxiago). Tanta hauek arnastu edo beste batzuekin harremanetan egon daitezkeen gainazaletan lurreratu daitezke, sudurra, ahoa edo begiak ukitzen dituzunean kutsatu daitezkeenak. Birusak gainazal desberdinetan iraun dezake hainbat ordutan (kobrea, kartoia) egun batzuetara (plastikoa eta altzairu herdoilgaitza). Hala ere, birus bideragarriaren kopurua murriztu egiten da denboran zehar eta baliteke infekzioa eragin dezaketen kantitate nahikorik ez izatea beti."
+
+#: panel/templates/recommendations.html:59
+msgid "When does the transmission occur?"
+msgstr "Noiz gertatzen da transmizioa?"
+
+#: panel/templates/recommendations.html:60
+msgid ""
+"The incubation period for COVID-19 (i.e. the time between exposure to the "
+"virus and onset of symptoms) is currently estimated to be between one and 14 "
+"days."
+msgstr "COVID-19rako inkubazio aldia (hau da, birusaren esposizioaren eta sintomak agertzearen arteko denbora) egun eta 14 egun artekoa dela kalkulatzen da."
+
+#: panel/templates/recommendations.html:62
+msgid ""
+"We know that the virus can be transmitted when people who are infected show "
+"symptoms such as coughing. There is also some evidence suggesting that "
+"transmission can occur from a person that is infected even two days before "
+"showing symptoms; however, uncertainties remain about the effect of "
+"transmission by asymptomatic persons."
+msgstr "Badakigu birusa transmititu daitekeela kutsatutako pertsonek eztula bezalako sintomak erakusten dituztenean. Sintomak erakutsi baino bi egun lehenago kutsatutako pertsonaren transmisioa gerta daitekeela iradokitzen duten froga batzuk ere badaude; hala ere, pertsona asintomatikoek transmisioaren eraginari buruzko zalantzak jarraitzen dituzte."
+
+#: panel/templates/recommendations.html:69
+msgid "What are the symptoms?"
+msgstr "Zeintzuk dira sintomak?"
+
+#: panel/templates/recommendations.html:72
+msgid "Fever"
+msgstr "Sukarra"
+
+#: panel/templates/recommendations.html:73
+msgid "Cough"
+msgstr "Estula"
+
+#: panel/templates/recommendations.html:74
+msgid "Sore throat"
+msgstr "Eztarriko mina"
+
+#: panel/templates/recommendations.html:75
+msgid "General weakness"
+msgstr "Ahaltasun orokorra"
+
+#: panel/templates/recommendations.html:76
+msgid "Fatigue and muscular pain"
+msgstr "Nekea eta gihar mina"
+
+#: panel/templates/recommendations.html:77
+msgid "Severe pneumonia"
+msgstr "Pneumonia larria"
+
+#: panel/templates/recommendations.html:78
+msgid "Acute respiratory distress syndrome"
+msgstr "Arnasketa larria sindromea"
+
+#: panel/templates/recommendations.html:80
+msgid ""
+"Symptoms of COVID-19 vary in severity from having no symptoms at all (being "
+"asymptomatic) to having fever, cough, sore throat, general weakness and "
+"fatigue and muscular pain and in the most severe cases, severe pneumonia, "
+"acute respiratory distress syndrome, sepsis and septic shock, all "
+"potentially leading to death. Reports show that clinical deterioration can "
+"occur rapidly, often during the second week of disease."
+msgstr "COVID-19ren sintomak larritasunean daude: sintomarik ez izateak (asintomatikoak izateak) sukarra, eztula, eztarriko mina, ahultasun orokorra eta nekea eta gihar mina izatea eta kasu larriagoetan pneumonia larria, arnas atsekabearen sindromea. akutua, sepsia eta shock septikoa, eta horrek guztiak heriotza ekar dezake. Txostenek narriadura klinikoa azkar gertatu daitekeela erakusten dute, askotan gaixotasunaren bigarren astean."
+
+#: panel/templates/recommendations.html:83
+msgid ""
+"Recently, anosmia – loss of the sense of smell – (and in some cases the loss "
+"of the sense of taste) have been reported as a symptom of a COVID-19 "
+"infection. There is already evidence from South Korea, China and Italy that "
+"patients with confirmed SARS-CoV-2 infection have developed anosmia/"
+"hyposmia, in some cases in the absence of any other symptoms."
+msgstr "Anosmia (usaimen sentsazioa galtzea) (eta zenbait kasutan zaporea galtzea) COVID-19 infekzioaren sintoma dela jakinarazi dute duela gutxi. Hego Korea, Txina eta Italiatik dagoeneko frogatuta dago SARS-CoV-2 infekzioa duten gaixoek anosmia / hiposmia garatu dutela, zenbait kasutan beste sintomarik ezean."
+
+#~ msgid "Sign in with"
+#~ msgstr "Saioa hasteko modua"
 
 #~ msgid "COVID-19 cases in each country"
 #~ msgstr "COVID-19 kasu herrialde bakoitzean"
@@ -158,9 +361,6 @@ msgstr "Saioa hasteko modua"
 
 #~ msgid "Register"
 #~ msgstr "Erregistro"
-
-#~ msgid "Email address"
-#~ msgstr "Posta elektronikoa"
 
 #~ msgid "Password"
 #~ msgstr "Pasahitza"

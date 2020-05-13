@@ -31834,3 +31834,370 @@ params: (datetime.datetime(2020, 5, 13, 14, 10, 6, 219801), 'akycq1b3gzbqayphbhy
 DEBUG - 2020-05-13 16:10:06,223 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 14, 10, 6, 219801)}}, {'session_key': {'$eq': 'akycq1b3gzbqayphbhyk9fwe48vb8heh'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
 DEBUG - 2020-05-13 16:10:06,233 - __next__ - Result: ('akycq1b3gzbqayphbhyk9fwe48vb8heh', 'NGRmYWI4NzY1NmM3YzYxNDEwNGE1MDY3MTBkOGNlYTlhZjE4NTY2Yzp7ImRhcmttb2RlIjoicmVxdWVzdC5QT1NUWydkYXJrbW9kZSddIn0=', datetime.datetime(2020, 5, 27, 10, 49, 48, 845000))
 DEBUG - 2020-05-13 16:10:08,175 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:36:21,429 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 17:36:21,430 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 17:36:21,430 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 17:36:21,432 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 17:36:22,031 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+INFO - 2020-05-13 17:36:22,054 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 17:36:22,510 - connect - New MongoClient connection
+DEBUG - 2020-05-13 17:36:22,511 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:36:22,517 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 17:36:22,518 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 17:36:34,452 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:36:34,453 - parse - sql_command: SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = %(0)s  LIMIT 1
+params: ('rc8myt9j62ld5x5x3zno2x6x1xi3q0qo',)
+DEBUG - 2020-05-13 17:36:34,456 - _get_cursor - Aggregation query: [{'$match': {'session_key': {'$eq': 'rc8myt9j62ld5x5x3zno2x6x1xi3q0qo'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+DEBUG - 2020-05-13 17:36:34,458 - parse - sql_command: INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (%(0)s, %(1)s, %(2)s)
+params: ('rc8myt9j62ld5x5x3zno2x6x1xi3q0qo', 'NTE3YmEyMmVmMDEwMWY2MzJlYTE1NzNiNDk5OWQzOGQwODk5NGY4NDp7Il9sYW5ndWFnZSI6ImVuIn0=', datetime.datetime(2020, 5, 27, 15, 36, 34, 457328))
+DEBUG - 2020-05-13 17:36:34,463 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:36:34,463 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:36:34,463 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:36:34,483 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session"  LIMIT 21
+params: ()
+DEBUG - 2020-05-13 17:36:34,485 - _get_cursor - Find query: {'projection': ['session_key', 'session_data', 'expire_date'], 'limit': 21}
+ERROR - 2020-05-13 17:36:34,671 - log_response - Internal Server Error: /i18n/setlang/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 842, in parse
+    return handler(self, statement)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 907, in _insert
+    query = InsertQuery(self, self.db, self.connection_properties, sm, self._params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 339, in __init__
+    super().__init__(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 61, in __init__
+    self.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 409, in parse
+    self._fill_values(statement)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 367, in _fill_values
+    raise SQLDecodeError
+djongo.exceptions.SQLDecodeError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 56, in execute
+    params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 769, in __init__
+    self._query = self.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 864, in parse
+    raise exe from e
+djongo.exceptions.SQLDecodeError: FAILED SQL: INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (%(0)s, %(1)s, %(2)s)
+Params: ('rc8myt9j62ld5x5x3zno2x6x1xi3q0qo', 'NTE3YmEyMmVmMDEwMWY2MzJlYTE1NzNiNDk5OWQzOGQwODk5NGY4NDp7Il9sYW5ndWFnZSI6ImVuIn0=', datetime.datetime(2020, 5, 27, 15, 36, 34, 457328))
+Version: 1.3.2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 59, in execute
+    raise db_exe from e
+djongo.database.DatabaseError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/sessions/middleware.py", line 58, in process_response
+    request.session.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 81, in save
+    return self.create()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 59, in execute
+    raise db_exe from e
+django.db.utils.DatabaseError
+DEBUG - 2020-05-13 17:36:34,678 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:37:55,940 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:38:51,913 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 17:38:51,913 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 17:38:51,913 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 17:38:51,917 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 17:38:52,446 - connect - New MongoClient connection
+DEBUG - 2020-05-13 17:38:52,446 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:38:52,451 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 17:38:52,452 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 17:38:52,600 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+INFO - 2020-05-13 17:38:52,612 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 17:39:04,462 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:39:04,462 - parse - sql_command: SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = %(0)s  LIMIT 1
+params: ('1ox43x1v3abyj21n61h54h3mbez146fe',)
+DEBUG - 2020-05-13 17:39:04,465 - _get_cursor - Aggregation query: [{'$match': {'session_key': {'$eq': '1ox43x1v3abyj21n61h54h3mbez146fe'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+DEBUG - 2020-05-13 17:39:04,465 - parse - sql_command: INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (%(0)s, %(1)s, %(2)s)
+params: ('1ox43x1v3abyj21n61h54h3mbez146fe', 'NTE3YmEyMmVmMDEwMWY2MzJlYTE1NzNiNDk5OWQzOGQwODk5NGY4NDp7Il9sYW5ndWFnZSI6ImVuIn0=', datetime.datetime(2020, 5, 27, 15, 39, 4, 465430))
+DEBUG - 2020-05-13 17:39:04,470 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:39:04,470 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:39:04,470 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:39:04,491 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session"  LIMIT 21
+params: ()
+DEBUG - 2020-05-13 17:39:04,493 - _get_cursor - Find query: {'projection': ['session_key', 'session_data', 'expire_date'], 'limit': 21}
+ERROR - 2020-05-13 17:39:04,631 - log_response - Internal Server Error: /i18n/setlang/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 842, in parse
+    return handler(self, statement)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 907, in _insert
+    query = InsertQuery(self, self.db, self.connection_properties, sm, self._params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 339, in __init__
+    super().__init__(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 61, in __init__
+    self.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 409, in parse
+    self._fill_values(statement)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 367, in _fill_values
+    raise SQLDecodeError
+djongo.exceptions.SQLDecodeError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 56, in execute
+    params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 769, in __init__
+    self._query = self.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 864, in parse
+    raise exe from e
+djongo.exceptions.SQLDecodeError: FAILED SQL: INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (%(0)s, %(1)s, %(2)s)
+Params: ('1ox43x1v3abyj21n61h54h3mbez146fe', 'NTE3YmEyMmVmMDEwMWY2MzJlYTE1NzNiNDk5OWQzOGQwODk5NGY4NDp7Il9sYW5ndWFnZSI6ImVuIn0=', datetime.datetime(2020, 5, 27, 15, 39, 4, 465430))
+Version: 1.3.2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 59, in execute
+    raise db_exe from e
+djongo.database.DatabaseError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/sessions/middleware.py", line 58, in process_response
+    request.session.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 81, in save
+    return self.create()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 59, in execute
+    raise db_exe from e
+django.db.utils.DatabaseError
+DEBUG - 2020-05-13 17:39:04,643 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:41:07,219 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:42:44,638 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 17:42:44,638 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 17:42:44,639 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 17:42:44,641 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 17:44:14,581 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 17:44:14,582 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 17:44:14,582 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 17:44:14,584 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 17:50:29,220 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 17:50:29,220 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 17:50:29,221 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 17:50:29,223 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 17:50:29,963 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+INFO - 2020-05-13 17:50:30,004 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 17:50:30,231 - connect - New MongoClient connection
+DEBUG - 2020-05-13 17:50:30,232 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:50:30,237 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 17:50:30,238 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 17:50:38,205 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:50:38,205 - parse - sql_command: SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = %(0)s  LIMIT 1
+params: ('1cru830o04pyoothfj1g5h6g5nkvl58c',)
+DEBUG - 2020-05-13 17:50:38,208 - _get_cursor - Aggregation query: [{'$match': {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+DEBUG - 2020-05-13 17:50:38,209 - parse - sql_command: INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (%(0)s, %(1)s, %(2)s)
+params: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'NTE3YmEyMmVmMDEwMWY2MzJlYTE1NzNiNDk5OWQzOGQwODk5NGY4NDp7Il9sYW5ndWFnZSI6ImVuIn0=', datetime.datetime(2020, 5, 27, 15, 50, 38, 209090))
+DEBUG - 2020-05-13 17:50:38,241 - execute - inserted ids [ObjectId('5ebc174ef7f76bf6b7ff70fd')]
+DEBUG - 2020-05-13 17:50:38,252 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:50:38,254 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:50:38,254 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:50:38,255 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 50, 38, 253623), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:50:38,257 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 50, 38, 253623)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:50:38,281 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'NTE3YmEyMmVmMDEwMWY2MzJlYTE1NzNiNDk5OWQzOGQwODk5NGY4NDp7Il9sYW5ndWFnZSI6ImVuIn0=', datetime.datetime(2020, 5, 27, 15, 50, 38, 209000))
+DEBUG - 2020-05-13 17:50:38,298 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 50, 38, 297513), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:50:38,301 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:50:38,304 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:51:13,551 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:14,740 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 17:52:14,741 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 17:52:14,741 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 17:52:14,743 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 17:52:15,909 - connect - New MongoClient connection
+DEBUG - 2020-05-13 17:52:15,910 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:15,919 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 17:52:15,920 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 17:52:16,315 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+INFO - 2020-05-13 17:52:16,336 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 17:52:19,076 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:19,076 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 19, 75734), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:19,080 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 19, 75734)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:19,081 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 50, 38, 297000))
+DEBUG - 2020-05-13 17:52:19,146 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:25,149 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:25,151 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 25, 148412), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:25,154 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 25, 148412)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:25,159 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 50, 38, 297000))
+DEBUG - 2020-05-13 17:52:25,169 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('YWI1MmU4OTZjNGRmMGQ2ZDkxYTgyYzllMTg5YjEwZGMwMjc4YTE2Njp7Il9sYW5ndWFnZSI6ImVzIn0=', datetime.datetime(2020, 5, 27, 15, 52, 25, 168501), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:25,171 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:52:25,173 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:25,180 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:52:25,180 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:25,180 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 25, 179090), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:25,186 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 25, 179090)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:25,661 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'YWI1MmU4OTZjNGRmMGQ2ZDkxYTgyYzllMTg5YjEwZGMwMjc4YTE2Njp7Il9sYW5ndWFnZSI6ImVzIn0=', datetime.datetime(2020, 5, 27, 15, 52, 25, 168000))
+DEBUG - 2020-05-13 17:52:25,675 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 25, 675186), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:25,678 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:52:25,679 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:30,936 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:52:30,937 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:30,937 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 30, 935963), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:30,942 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 30, 935963)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:30,947 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 25, 675000))
+DEBUG - 2020-05-13 17:52:30,975 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('ZDdkM2VjMDllZWNiMzA2ZTM4NDA1MWE1ZDM0ZGJiNGRkMTFjODg5MTp7Il9sYW5ndWFnZSI6ImZyIn0=', datetime.datetime(2020, 5, 27, 15, 52, 30, 975167), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:30,979 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:52:30,984 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:30,989 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:52:30,990 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:30,990 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 30, 988587), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:30,995 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 30, 988587)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:31,453 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'ZDdkM2VjMDllZWNiMzA2ZTM4NDA1MWE1ZDM0ZGJiNGRkMTFjODg5MTp7Il9sYW5ndWFnZSI6ImZyIn0=', datetime.datetime(2020, 5, 27, 15, 52, 30, 975000))
+DEBUG - 2020-05-13 17:52:31,471 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 31, 471400), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:31,474 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:52:31,477 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:47,102 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:52:47,106 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:47,107 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 47, 102042), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:47,112 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 47, 102042)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:47,117 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 31, 471000))
+DEBUG - 2020-05-13 17:52:47,147 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('OGQxODcyMzcxNjM5ZDljYjg0MWYyZDJhZjFlYmEzMWRjZWY4ZGE4NTp7Il9sYW5ndWFnZSI6ImV1In0=', datetime.datetime(2020, 5, 27, 15, 52, 47, 146945), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:47,153 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:52:47,159 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:47,161 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:52:47,161 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:47,161 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 47, 160666), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:47,164 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 47, 160666)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:47,628 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'OGQxODcyMzcxNjM5ZDljYjg0MWYyZDJhZjFlYmEzMWRjZWY4ZGE4NTp7Il9sYW5ndWFnZSI6ImV1In0=', datetime.datetime(2020, 5, 27, 15, 52, 47, 146000))
+DEBUG - 2020-05-13 17:52:47,645 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 47, 645308), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:47,648 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:52:47,650 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:52,095 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:52:52,096 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:52,096 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 52, 94182), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:52,100 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 52, 94182)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:52,106 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 47, 645000))
+DEBUG - 2020-05-13 17:52:52,108 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('YWI1MmU4OTZjNGRmMGQ2ZDkxYTgyYzllMTg5YjEwZGMwMjc4YTE2Njp7Il9sYW5ndWFnZSI6ImVzIn0=', datetime.datetime(2020, 5, 27, 15, 52, 52, 108270), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:52,111 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:52:52,113 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:52:52,116 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-13 17:52:52,116 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:52:52,116 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 52, 52, 115560), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:52,122 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 52, 52, 115560)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:52:52,608 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'YWI1MmU4OTZjNGRmMGQ2ZDkxYTgyYzllMTg5YjEwZGMwMjc4YTE2Njp7Il9sYW5ndWFnZSI6ImVzIn0=', datetime.datetime(2020, 5, 27, 15, 52, 52, 108000))
+DEBUG - 2020-05-13 17:52:52,627 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 52, 626727), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:52:52,629 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-13 17:52:52,630 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:53:10,665 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:55:18,522 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-13 17:55:18,522 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-13 17:55:18,522 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-13 17:55:18,525 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-12-2020.csv
+DEBUG - 2020-05-13 17:55:19,638 - get_csv_from_github - Successfully downloaded data for 12-05-2020
+INFO - 2020-05-13 17:55:19,692 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-13 17:55:20,059 - connect - New MongoClient connection
+DEBUG - 2020-05-13 17:55:20,063 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:55:20,077 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-13 17:55:20,078 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-13 17:55:20,979 - get_new_connection - New Database connection
+DEBUG - 2020-05-13 17:55:20,979 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 13, 15, 55, 20, 977497), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-13 17:55:20,984 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 13, 15, 55, 20, 977497)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-13 17:55:20,986 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 52, 626000))
+DEBUG - 2020-05-13 17:55:21,067 - _close - MongoClient connection closed
+DEBUG - 2020-05-13 17:56:00,345 - _close - MongoClient connection closed

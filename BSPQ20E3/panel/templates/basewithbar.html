@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary center-block" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary center-block" data-dismiss="modal">{% trans "Close" %}</button>
                 <!--<button type="button" class="btn btn-primary">Save changes</button>-->
             </div>
         </div>
@@ -44,9 +44,9 @@
                 {% include 'profile.html' %}
             </div>
             <div class="modal-footer d-flex justify-content-center">
-                <button type="button" class="btn btn-alert center-block text-danger" data-dismiss="modal">Delete account</button>
-                <button type="button" class="btn btn-primary center-block" data-dismiss="modal">Save changes</button>
-                <button type="button" class="btn btn-secondary center-block" data-dismiss="modal">Close without saving</button>
+                <button type="button" class="btn btn-alert center-block text-danger" data-dismiss="modal">{% trans "Delete account" %}</button>
+                <button type="button" class="btn btn-primary center-block" data-dismiss="modal">{% trans "Save changes" %}</button>
+                <button type="button" class="btn btn-secondary center-block" data-dismiss="modal">{% trans "Close without saving" %}</button>
                 <!--<button type="button" class="btn btn-primary">Save changes</button>-->
             </div>
         </div>

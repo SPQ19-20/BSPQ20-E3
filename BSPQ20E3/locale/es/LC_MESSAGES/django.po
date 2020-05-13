@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 11:08+0200\n"
+"POT-Creation-Date: 2020-05-13 16:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,152 +18,226 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: BSPQ20E3/panel/templates/base.html:13
+#: panel/templates/base.html:13
 msgid "Title"
 msgstr "Título"
 
-#: BSPQ20E3/panel/templates/base.html:34
+#: panel/templates/base.html:33
 msgid "Search for"
 msgstr "Buscar"
 
-#: BSPQ20E3/panel/templates/base.html:49
-#: BSPQ20E3/panel/templates/basewithbar.html:56
+#: panel/templates/base.html:48 panel/templates/basewithbar.html:79
 msgid "My account"
 msgstr "Mi cuenta"
 
-#: BSPQ20E3/panel/templates/base.html:50
+#: panel/templates/base.html:49
 msgid "Log out"
 msgstr "Cerrar sesión"
 
-#: BSPQ20E3/panel/templates/base.html:55
-#: BSPQ20E3/panel/templates/basewithbar.html:62
-#: BSPQ20E3/panel/templates/login.html:23
+#: panel/templates/base.html:54 panel/templates/basewithbar.html:85
 msgid "Sign in"
 msgstr "Iniciar sesión"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:11
+#: panel/templates/basewithbar.html:11
 #, fuzzy
 #| msgid "Social media"
 msgid "Social login"
 msgstr "Noticias"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:17
+#: panel/templates/basewithbar.html:17
 msgid "We only allow social login due to security and simplicity reasons"
 msgstr ""
 "Permitimos el inicio de sesión social por razones de seguridad y simplicidad"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:40
+#: panel/templates/basewithbar.html:26
+msgid "Close"
+msgstr "Cerrar"
+
+#: panel/templates/basewithbar.html:38
+#, fuzzy
+#| msgid "My account"
+msgid "Your account"
+msgstr "Mi cuenta"
+
+#: panel/templates/basewithbar.html:47
+#, fuzzy
+#| msgid "My account"
+msgid "Delete account"
+msgstr "Mi cuenta"
+
+#: panel/templates/basewithbar.html:48
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: panel/templates/basewithbar.html:49
+msgid "Close without saving"
+msgstr "Cerrar sin guardar"
+
+#: panel/templates/basewithbar.html:63
 msgid "Main"
 msgstr "General"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:44
+#: panel/templates/basewithbar.html:67
 msgid "Dashboard"
 msgstr "Tablero"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:48
+#: panel/templates/basewithbar.html:71
 msgid "Live log"
 msgstr "Log en vivo"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:50
+#: panel/templates/basewithbar.html:73
 msgid "User"
 msgstr "Usuario"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:70
+#: panel/templates/basewithbar.html:98
 msgid "Configuration"
 msgstr "Configuración"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:73
+#: panel/templates/basewithbar.html:101
 msgid "Settings"
 msgstr "Ajustes"
 
-#: BSPQ20E3/panel/templates/basewithbar.html:75
+#: panel/templates/basewithbar.html:103
 msgid "Language"
 msgstr "Idioma"
 
-#: BSPQ20E3/panel/templates/index.html:16
+#: panel/templates/index.html:16
 msgid "Overall"
 msgstr "Resumen"
 
-#: BSPQ20E3/panel/templates/index.html:17
+#: panel/templates/index.html:17
 msgid "Countries"
 msgstr "Países"
 
-#: BSPQ20E3/panel/templates/index.html:18
+#: panel/templates/index.html:18
 msgid "Evolution"
 msgstr "Evolución"
 
-#: BSPQ20E3/panel/templates/index.html:19
-msgid "Social media"
+#: panel/templates/index.html:19
+#, fuzzy
+#| msgid "Social media"
+msgid "Social Media"
 msgstr "Noticias"
 
-#: BSPQ20E3/panel/templates/index.html:20
+#: panel/templates/index.html:20
 msgid "Recommendations"
 msgstr "Recomendaciones"
 
-#: BSPQ20E3/panel/templates/index.html:21
+#: panel/templates/index.html:21
 msgid "Economy"
 msgstr "Economía"
 
-#: BSPQ20E3/panel/templates/index.html:32
+#: panel/templates/index.html:32
 msgid "HEAT MAP OF CONFIRMED CASES"
 msgstr "MAPA DE CALOR CON CASOS CONFIRMADOS"
 
-#: BSPQ20E3/panel/templates/index.html:41
+#: panel/templates/index.html:41
 msgid "CONFIRMED CASES THROUGH TIME"
 msgstr "CASOS CONFIRMADOS A LO LARGO DEL TIEMPO"
 
-#: BSPQ20E3/panel/templates/index.html:48
+#: panel/templates/index.html:48
 msgid "DEATH NUMBER"
 msgstr "NUMERO DE MUERTOS"
 
-#: BSPQ20E3/panel/templates/index.html:49
+#: panel/templates/index.html:49
 msgid "CONFIRMED CASES"
 msgstr "CASOS CONFIRMADOS"
 
-#: BSPQ20E3/panel/templates/index.html:60
+#: panel/templates/index.html:60
 msgid "NEW CONFIRMED CASES"
 msgstr "CASOS NUEVOS CONFIRMADOS"
 
-#: BSPQ20E3/panel/templates/livelogtest.html:39
+#: panel/templates/index.html:92
+msgid "Tweets by CoronavirusESP"
+msgstr "Tweets por CoronavirusESP"
+
+#: panel/templates/index.html:95
+msgid "Tweets by Covid_19Time"
+msgstr "Tweets por Covid_19Time"
+
+#: panel/templates/index.html:111
+msgid "Dynamic Chart"
+msgstr "Tabla dinamica"
+
+#: panel/templates/index.html:111
+msgid "by TradingView"
+msgstr "por TradingView"
+
+#: panel/templates/livelogtest.html:17
+msgid "Filters"
+msgstr "Filtros"
+
+#: panel/templates/livelogtest.html:28
+msgid "Remove all filters"
+msgstr "Borrar filtros"
+
+#: panel/templates/livelogtest.html:34
 msgid "Country_Region"
 msgstr "Países"
 
-#: BSPQ20E3/panel/templates/livelogtest.html:40
+#: panel/templates/livelogtest.html:35
 msgid "Confirmed"
 msgstr "Confirmados"
 
-#: BSPQ20E3/panel/templates/livelogtest.html:41
+#: panel/templates/livelogtest.html:36
 msgid "Deaths"
 msgstr "Muertos"
 
-#: BSPQ20E3/panel/templates/livelogtest.html:42
+#: panel/templates/livelogtest.html:37
 msgid "Recovered"
 msgstr "Recuperados"
 
-#: BSPQ20E3/panel/templates/livelogtest.html:43
+#: panel/templates/livelogtest.html:38
 msgid "Last update"
 msgstr "Ultima actualización"
 
-#: BSPQ20E3/panel/templates/login.html:25
-#: BSPQ20E3/panel/templates/login.html:26
-msgid "Sign in with"
-msgstr "Iniciar sesión con"
+#: panel/templates/livelogtest.html:78 panel/templates/livelogtest.html:81
+msgid "Previous"
+msgstr "Anterior"
 
-#: BSPQ20E3/panel/templates/recommendations.html:143
+#: panel/templates/livelogtest.html:94 panel/templates/livelogtest.html:96
+msgid "Next"
+msgstr "Siguiente"
+
+#: panel/templates/profile.html:15
+msgid "Last login: "
+msgstr "Ultimo inicio de sesion: "
+
+#: panel/templates/profile.html:23
+msgid "About"
+msgstr "Acerca de"
+
+#: panel/templates/profile.html:26
+msgid "Timeline"
+msgstr "Cronograma"
+
+#: panel/templates/profile.html:36
+#, fuzzy
+#| msgid "Email address"
+msgid "Email: "
+msgstr "Correo electrónico: "
+
+#: panel/templates/profile.html:40
+msgid "Name: "
+msgstr "Nombre: "
+
+#: panel/templates/recommendations.html:21
 msgid "COVID-19 is the name given to the disease associated with the virus."
 msgstr "COVID-19 es el nombre dado a la enfermedad asociada con el virus."
 
-#: BSPQ20E3/panel/templates/recommendations.html:144
+#: panel/templates/recommendations.html:22
 msgid ""
 "SARS-CoV-2 is a new strain of coronavirus that has not been previously "
 "identified in humans."
-msgstr "El SARS-CoV-2 es una nueva cepa de coronavirus que no se ha identificado previamente en humanos."
+msgstr ""
+"El SARS-CoV-2 es una nueva cepa de coronavirus que no se ha identificado "
+"previamente en humanos."
 
-#: BSPQ20E3/panel/templates/recommendations.html:157
+#: panel/templates/recommendations.html:35
 msgid "What are they?"
 msgstr "¿Qué son?"
 
-#: BSPQ20E3/panel/templates/recommendations.html:158
+#: panel/templates/recommendations.html:36
 msgid ""
 "Coronaviruses are viruses that circulate among animals with some of them "
 "also known to infect humans. Bats are considered natural hosts of these "
@@ -171,26 +245,39 @@ msgid ""
 "sources. For instance, Middle East Respiratory Syndrome Coronavirus (MERS-"
 "CoV) is transmitted to humans from camels, and Severe Acute Respiratory "
 "Syndrome Coronavirus-1 (SARS-CoV-1) is transmitted to humans from civet cats."
-msgstr "Los coronavirus son virus que circulan entre los animales y algunos de ellos también se sabe que infectan a los humanos. Los murciélagos se consideran anfitriones naturales de estos virus, aunque también se sabe que otras especies de animales actúan como fuentes. Por ejemplo, el coronavirus del síndrome respiratorio de Oriente Medio (MERS-CoV) se transmite a los humanos desde los camellos, y el coronavirus-1 del síndrome respiratorio agudo severo (SARS-CoV-1) se transmite a los humanos desde los gatos de civeta."
+msgstr ""
+"Los coronavirus son virus que circulan entre los animales y algunos de ellos "
+"también se sabe que infectan a los humanos. Los murciélagos se consideran "
+"anfitriones naturales de estos virus, aunque también se sabe que otras "
+"especies de animales actúan como fuentes. Por ejemplo, el coronavirus del "
+"síndrome respiratorio de Oriente Medio (MERS-CoV) se transmite a los humanos "
+"desde los camellos, y el coronavirus-1 del síndrome respiratorio agudo "
+"severo (SARS-CoV-1) se transmite a los humanos desde los gatos de civeta."
 
-#: BSPQ20E3/panel/templates/recommendations.html:166
+#: panel/templates/recommendations.html:44
 msgid "Where does the virus come from?"
 msgstr "¿De dónde viene el virus?"
 
-#: BSPQ20E3/panel/templates/recommendations.html:167
+#: panel/templates/recommendations.html:45
 msgid ""
 "While animals are believed to be the original source, the virus spread is "
 "now from person to person (human-to-human transmission). There is not enough "
 "epidemiological information at this time to determine how easily this virus "
 "spreads between people, but it is currently estimated that, on average, one "
 "infected person will infect between two and three other people. "
-msgstr "Si bien se cree que los animales son la fuente original, la propagación del virus ahora es de persona a persona (transmisión de persona a persona). No hay suficiente información epidemiológica en este momento para determinar con qué facilidad este virus se propaga entre las personas, pero actualmente se estima que, en promedio, una persona infectada infectará entre dos y tres personas más."
+msgstr ""
+"Si bien se cree que los animales son la fuente original, la propagación del "
+"virus ahora es de persona a persona (transmisión de persona a persona). No "
+"hay suficiente información epidemiológica en este momento para determinar "
+"con qué facilidad este virus se propaga entre las personas, pero actualmente "
+"se estima que, en promedio, una persona infectada infectará entre dos y tres "
+"personas más."
 
-#: BSPQ20E3/panel/templates/recommendations.html:173
+#: panel/templates/recommendations.html:51
 msgid "How is the virus transmitted?"
 msgstr "¿Cómo se transmite el virus?"
 
-#: BSPQ20E3/panel/templates/recommendations.html:174
+#: panel/templates/recommendations.html:52
 msgid ""
 "The virus seems to be transmitted mainly via small respiratory droplets "
 "through sneezing, coughing, or when people interact with each other for some "
@@ -201,61 +288,79 @@ msgid ""
 "(copper, cardboard) up to a few days (plastic and stainless steel). However, "
 "the amount of viable virus declines over time and may not always be present "
 "in sufficient numbers to cause infection."
-msgstr "El virus parece transmitirse principalmente a través de pequeñas gotas respiratorias a través de estornudos, tos o cuando las personas interactúan entre sí durante algún tiempo muy cerca (generalmente menos de un metro). Estas gotitas se pueden inhalar o pueden aterrizar en superficies con las que otros pueden entrar en contacto, que luego pueden infectarse cuando se tocan la nariz, la boca o los ojos. El virus puede sobrevivir en diferentes superficies desde varias horas (cobre, cartón) hasta unos pocos días (plástico y acero inoxidable). Sin embargo, la cantidad de virus viable disminuye con el tiempo y puede no estar siempre presente en cantidades suficientes para causar infección."
+msgstr ""
+"El virus parece transmitirse principalmente a través de pequeñas gotas "
+"respiratorias a través de estornudos, tos o cuando las personas interactúan "
+"entre sí durante algún tiempo muy cerca (generalmente menos de un metro). "
+"Estas gotitas se pueden inhalar o pueden aterrizar en superficies con las "
+"que otros pueden entrar en contacto, que luego pueden infectarse cuando se "
+"tocan la nariz, la boca o los ojos. El virus puede sobrevivir en diferentes "
+"superficies desde varias horas (cobre, cartón) hasta unos pocos días "
+"(plástico y acero inoxidable). Sin embargo, la cantidad de virus viable "
+"disminuye con el tiempo y puede no estar siempre presente en cantidades "
+"suficientes para causar infección."
 
-#: BSPQ20E3/panel/templates/recommendations.html:181
+#: panel/templates/recommendations.html:59
 msgid "When does the transmission occur?"
 msgstr "¿Cuándo se produce la transmisión?"
 
-#: BSPQ20E3/panel/templates/recommendations.html:182
+#: panel/templates/recommendations.html:60
 msgid ""
 "The incubation period for COVID-19 (i.e. the time between exposure to the "
 "virus and onset of symptoms) is currently estimated to be between one and 14 "
 "days."
-msgstr "El período de incubación de COVID-19 (es decir, el tiempo entre la exposición al virus y el inicio de los síntomas) se estima actualmente entre uno y 14 días. "
+msgstr ""
+"El período de incubación de COVID-19 (es decir, el tiempo entre la "
+"exposición al virus y el inicio de los síntomas) se estima actualmente entre "
+"uno y 14 días. "
 
-#: BSPQ20E3/panel/templates/recommendations.html:184
+#: panel/templates/recommendations.html:62
 msgid ""
 "We know that the virus can be transmitted when people who are infected show "
 "symptoms such as coughing. There is also some evidence suggesting that "
 "transmission can occur from a person that is infected even two days before "
 "showing symptoms; however, uncertainties remain about the effect of "
 "transmission by asymptomatic persons."
-msgstr "Sabemos que el virus puede transmitirse cuando las personas infectadas muestran síntomas como tos. También hay alguna evidencia que sugiere que la transmisión puede ocurrir de una persona infectada incluso dos días antes de mostrar síntomas; sin embargo, persisten incertidumbres sobre el efecto de la transmisión por personas asintomáticas."
+msgstr ""
+"Sabemos que el virus puede transmitirse cuando las personas infectadas "
+"muestran síntomas como tos. También hay alguna evidencia que sugiere que la "
+"transmisión puede ocurrir de una persona infectada incluso dos días antes de "
+"mostrar síntomas; sin embargo, persisten incertidumbres sobre el efecto de "
+"la transmisión por personas asintomáticas."
 
-#: BSPQ20E3/panel/templates/recommendations.html:191
+#: panel/templates/recommendations.html:69
 msgid "What are the symptoms?"
 msgstr "¿Cuáles son los síntomas?"
 
-#: BSPQ20E3/panel/templates/recommendations.html:194
+#: panel/templates/recommendations.html:72
 msgid "Fever"
 msgstr "Fiebre"
 
-#: BSPQ20E3/panel/templates/recommendations.html:195
+#: panel/templates/recommendations.html:73
 msgid "Cough"
 msgstr "Tos"
 
-#: BSPQ20E3/panel/templates/recommendations.html:196
+#: panel/templates/recommendations.html:74
 msgid "Sore throat"
 msgstr "Dolor de garganta"
 
-#: BSPQ20E3/panel/templates/recommendations.html:197
+#: panel/templates/recommendations.html:75
 msgid "General weakness"
 msgstr "Malestar general"
 
-#: BSPQ20E3/panel/templates/recommendations.html:198
+#: panel/templates/recommendations.html:76
 msgid "Fatigue and muscular pain"
 msgstr "Fatiga y dolor muscular"
 
-#: BSPQ20E3/panel/templates/recommendations.html:199
+#: panel/templates/recommendations.html:77
 msgid "Severe pneumonia"
 msgstr "Neumonía grave"
 
-#: BSPQ20E3/panel/templates/recommendations.html:200
+#: panel/templates/recommendations.html:78
 msgid "Acute respiratory distress syndrome"
 msgstr "Sindrome de dificultad respiratoria aguda"
 
-#: BSPQ20E3/panel/templates/recommendations.html:202
+#: panel/templates/recommendations.html:80
 msgid ""
 "Symptoms of COVID-19 vary in severity from having no symptoms at all (being "
 "asymptomatic) to having fever, cough, sore throat, general weakness and "
@@ -263,16 +368,32 @@ msgid ""
 "acute respiratory distress syndrome, sepsis and septic shock, all "
 "potentially leading to death. Reports show that clinical deterioration can "
 "occur rapidly, often during the second week of disease."
-msgstr "Los síntomas de COVID-19 varían en severidad desde no tener ningún síntoma (estar asintomático) hasta tener fiebre, tos, dolor de garganta, debilidad general y fatiga y dolor muscular y, en los casos más graves, neumonía grave, síndrome de dificultad respiratoria aguda, sepsis y shock séptico, todo lo cual puede conducir a la muerte. Los informes muestran que el deterioro clínico puede ocurrir rápidamente, a menudo durante la segunda semana de la enfermedad"
+msgstr ""
+"Los síntomas de COVID-19 varían en severidad desde no tener ningún síntoma "
+"(estar asintomático) hasta tener fiebre, tos, dolor de garganta, debilidad "
+"general y fatiga y dolor muscular y, en los casos más graves, neumonía "
+"grave, síndrome de dificultad respiratoria aguda, sepsis y shock séptico, "
+"todo lo cual puede conducir a la muerte. Los informes muestran que el "
+"deterioro clínico puede ocurrir rápidamente, a menudo durante la segunda "
+"semana de la enfermedad."
 
-#: BSPQ20E3/panel/templates/recommendations.html:205
+#: panel/templates/recommendations.html:83
 msgid ""
 "Recently, anosmia – loss of the sense of smell – (and in some cases the loss "
 "of the sense of taste) have been reported as a symptom of a COVID-19 "
 "infection. There is already evidence from South Korea, China and Italy that "
 "patients with confirmed SARS-CoV-2 infection have developed anosmia/"
 "hyposmia, in some cases in the absence of any other symptoms."
-msgstr "Recientemente, se ha informado que la anosmia (pérdida del sentido del olfato) (y en algunos casos la pérdida del sentido del gusto) es un síntoma de una infección por COVID-19. Ya existe evidencia de Corea del Sur, China e Italia de que los pacientes con infección confirmada por SARS-CoV-2 han desarrollado anosmia / hiposmia, en algunos casos en ausencia de otros síntomas."
+msgstr ""
+"Recientemente, se ha informado que la anosmia (pérdida del sentido del "
+"olfato) (y en algunos casos la pérdida del sentido del gusto) es un síntoma "
+"de una infección por COVID-19. Ya existe evidencia de Corea del Sur, China e "
+"Italia de que los pacientes con infección confirmada por SARS-CoV-2 han "
+"desarrollado anosmia / hiposmia, en algunos casos en ausencia de otros "
+"síntomas."
+
+#~ msgid "Sign in with"
+#~ msgstr "Iniciar sesión con"
 
 #~ msgid "COVID-19 cases in each country"
 #~ msgstr "Casos de COVID-19 en cada país"
@@ -288,9 +409,6 @@ msgstr "Recientemente, se ha informado que la anosmia (pérdida del sentido del 
 
 #~ msgid "Register"
 #~ msgstr "Registro"
-
-#~ msgid "Email address"
-#~ msgstr "Correo electrónico"
 
 #~ msgid "Password"
 #~ msgstr "Contraseña"
