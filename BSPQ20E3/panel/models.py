@@ -73,6 +73,35 @@ class Data(Document):
 
 
 class Auth_user(Document):
+    """"
+    A class used to represent each user
+
+    ...
+
+    Attributes
+    ----------
+    password : str
+        a formatted string to store the user's password
+    last_login : str
+        a formatted string to store the date of the users last login
+    is_superuser : str
+        a formatted string to differ superusers
+    username : str
+        a formatted string to store the user's username
+    first_name : str
+        a formatted string to store the user's first name
+    last_name : str()
+        a formatted string to store the user's last name
+    email : str
+        a formatted string to store the user's email
+    is_staff : str
+       a formatted string to store if the user is staff
+    is_active : bool
+       a formatted boolean to help us know if the user is active
+    date_joined : str
+       a formatted string to store the dete the user joined 
+    """
+
     #id = IntField()
     password = StringField()
     last_login = StringField()
