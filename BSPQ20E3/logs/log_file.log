@@ -32340,3 +32340,318 @@ params: (datetime.datetime(2020, 5, 14, 16, 44, 19, 928055), 't2uio5t98l9rl27qb1
 DEBUG - 2020-05-14 18:44:19,932 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 16, 44, 19, 928055)}}, {'session_key': {'$eq': 't2uio5t98l9rl27qb102t2xdqevion7k'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
 DEBUG - 2020-05-14 18:44:19,938 - __next__ - Result: ('t2uio5t98l9rl27qb102t2xdqevion7k', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 28, 16, 38, 59, 777000))
 DEBUG - 2020-05-14 18:44:19,954 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 18:46:13,287 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-14 18:46:13,287 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-14 18:46:13,288 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-14 18:46:13,289 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-13-2020.csv
+DEBUG - 2020-05-14 18:46:14,413 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-14 18:46:14,414 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-14 18:46:14,414 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-14 18:46:14,418 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-13-2020.csv
+DEBUG - 2020-05-14 18:46:14,442 - get_csv_from_github - Successfully downloaded data for 13-05-2020
+INFO - 2020-05-14 18:46:14,497 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-14 18:46:14,772 - get_csv_from_github - Successfully downloaded data for 13-05-2020
+INFO - 2020-05-14 18:46:14,837 - get_updated_csvs - COUNTRIES and DATES cached.
+INFO - 2020-05-14 18:46:14,852 - run_with_reloader - Watching for file changes with StatReloader
+DEBUG - 2020-05-14 18:46:15,151 - connect - New MongoClient connection
+DEBUG - 2020-05-14 18:46:15,152 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 18:46:15,161 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-14 18:46:15,163 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-14 18:46:15,164 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-14 18:46:15,164 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-14 18:46:15,165 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-14 18:46:15,165 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-14 18:46:15,165 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-14 18:46:15,165 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-14 18:46:15,165 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-14 18:46:15,166 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-14 18:46:15,166 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-14 18:46:15,166 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-14 18:46:15,166 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-14 18:46:15,166 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-14 18:46:15,167 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-14 18:46:15,167 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-14 18:46:15,167 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-14 18:46:15,167 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-14 18:46:15,167 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-14 18:46:15,168 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-14 18:46:15,168 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-14 18:46:15,168 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-14 18:46:15,168 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-14 18:46:15,168 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-14 18:46:15,168 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-14 18:46:15,169 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-14 18:46:15,169 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-14 18:46:15,169 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-14 18:46:15,169 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-14 18:46:15,169 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-14 18:46:15,170 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-14 18:46:15,170 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-14 18:46:15,170 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-14 18:46:15,170 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-14 18:46:15,170 - __next__ - Result: ('social_django', '0002_add_related_name')
+DEBUG - 2020-05-14 18:46:15,171 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-14 18:48:32,371 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 18:48:32,371 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 14, 16, 48, 32, 370423), 't2uio5t98l9rl27qb102t2xdqevion7k')
+DEBUG - 2020-05-14 18:48:32,374 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 16, 48, 32, 370423)}}, {'session_key': {'$eq': 't2uio5t98l9rl27qb102t2xdqevion7k'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-14 18:48:32,376 - __next__ - Result: ('t2uio5t98l9rl27qb102t2xdqevion7k', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 28, 16, 38, 59, 777000))
+DEBUG - 2020-05-14 18:48:32,410 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 18:52:13,441 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-14 18:52:13,442 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-14 18:52:13,442 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-14 18:52:13,444 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-13-2020.csv
+DEBUG - 2020-05-14 18:52:13,939 - get_csv_from_github - Successfully downloaded data for 13-05-2020
+INFO - 2020-05-14 18:52:13,994 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-14 18:52:14,543 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-14 18:52:14,543 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-14 18:52:14,543 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-14 18:52:14,545 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-13-2020.csv
+DEBUG - 2020-05-14 18:52:14,856 - get_csv_from_github - Successfully downloaded data for 13-05-2020
+INFO - 2020-05-14 18:52:14,901 - run_with_reloader - Watching for file changes with StatReloader
+INFO - 2020-05-14 18:52:14,915 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-14 18:52:15,191 - connect - New MongoClient connection
+DEBUG - 2020-05-14 18:52:15,192 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 18:52:15,200 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-14 18:52:15,202 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-14 18:52:15,203 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-14 18:52:15,203 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-14 18:52:15,203 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-14 18:52:15,203 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-14 18:52:15,204 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-14 18:52:15,204 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-14 18:52:15,204 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-14 18:52:15,205 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-14 18:52:15,205 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-14 18:52:15,205 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-14 18:52:15,205 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-14 18:52:15,205 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-14 18:52:15,205 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-14 18:52:15,206 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-14 18:52:15,206 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-14 18:52:15,206 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-14 18:52:15,206 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-14 18:52:15,206 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-14 18:52:15,207 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-14 18:52:15,207 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-14 18:52:15,207 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-14 18:52:15,207 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-14 18:52:15,207 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-14 18:52:15,208 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-14 18:52:15,208 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-14 18:52:15,208 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-14 18:52:15,208 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-14 18:52:15,208 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-14 18:52:15,208 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-14 18:52:15,209 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-14 18:52:15,209 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-14 18:52:15,209 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-14 18:52:15,209 - __next__ - Result: ('social_django', '0002_add_related_name')
+DEBUG - 2020-05-14 18:52:15,209 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-14 19:35:27,136 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-14 19:35:27,136 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-14 19:35:27,136 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-14 19:35:27,139 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-13-2020.csv
+DEBUG - 2020-05-14 19:35:28,565 - connect - New MongoClient connection
+DEBUG - 2020-05-14 19:35:28,566 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:35:28,572 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-14 19:35:28,573 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-14 19:35:28,780 - get_csv_from_github - Successfully downloaded data for 13-05-2020
+INFO - 2020-05-14 19:35:28,818 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-14 19:35:35,189 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:35:35,191 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 14, 17, 35, 35, 188138), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:35:35,198 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 17, 35, 35, 188138)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-14 19:35:35,200 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 52, 626000))
+DEBUG - 2020-05-14 19:35:35,279 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 19:35:46,242 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-14 19:35:46,243 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:35:46,243 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 14, 17, 35, 46, 242034), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:35:46,248 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 17, 35, 46, 242034)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-14 19:35:46,256 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 27, 15, 52, 52, 626000))
+DEBUG - 2020-05-14 19:35:46,287 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('NTE3YmEyMmVmMDEwMWY2MzJlYTE1NzNiNDk5OWQzOGQwODk5NGY4NDp7Il9sYW5ndWFnZSI6ImVuIn0=', datetime.datetime(2020, 5, 28, 17, 35, 46, 287280), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:35:46,290 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-14 19:35:46,291 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 19:35:46,294 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-14 19:35:46,294 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:35:46,294 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 14, 17, 35, 46, 293620), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:35:46,299 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 17, 35, 46, 293620)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-14 19:35:46,766 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'NTE3YmEyMmVmMDEwMWY2MzJlYTE1NzNiNDk5OWQzOGQwODk5NGY4NDp7Il9sYW5ndWFnZSI6ImVuIn0=', datetime.datetime(2020, 5, 28, 17, 35, 46, 287000))
+DEBUG - 2020-05-14 19:35:46,779 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 28, 17, 35, 46, 778595), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:35:46,782 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-14 19:35:46,783 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 19:36:00,208 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-14 19:36:00,210 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:36:00,210 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 14, 17, 36, 0, 207142), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:36:00,214 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 17, 36, 0, 207142)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-14 19:36:00,218 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 28, 17, 35, 46, 778000))
+DEBUG - 2020-05-14 19:36:00,238 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 19:36:15,718 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-14 19:36:15,718 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:36:15,719 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 14, 17, 36, 15, 718056), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:36:15,721 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 17, 36, 15, 718056)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-14 19:36:15,728 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'M2IyMTc5ZmFmYTVjNGE1ZmY4ODkwYmYwNWZhYzE5OWYxODI0ZThhNDp7fQ==', datetime.datetime(2020, 5, 28, 17, 35, 46, 778000))
+DEBUG - 2020-05-14 19:36:15,913 - parse - sql_command: UPDATE "django_session" SET "session_data" = %(0)s, "expire_date" = %(1)s WHERE "django_session"."session_key" = %(2)s
+params: ('NDFlNWMwMmZkMzg4MmExNjI2ZTcyODljYzMzYTI3YjQ3OGJiMGFmMTp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJHUXBkZHlnYVNYVWNuWFpFUnlSN0RUWDNrMVYwbHIwayJ9', datetime.datetime(2020, 5, 28, 17, 36, 15, 913126), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:36:15,916 - execute - update_many: 1, matched: 1
+DEBUG - 2020-05-14 19:36:15,917 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 19:36:18,732 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-14 19:36:18,733 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:36:18,733 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 14, 17, 36, 18, 732024), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:36:18,736 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 17, 36, 18, 732024)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-14 19:36:18,745 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'NDFlNWMwMmZkMzg4MmExNjI2ZTcyODljYzMzYTI3YjQ3OGJiMGFmMTp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJHUXBkZHlnYVNYVWNuWFpFUnlSN0RUWDNrMVYwbHIwayJ9', datetime.datetime(2020, 5, 28, 17, 36, 15, 913000))
+DEBUG - 2020-05-14 19:36:18,752 - _new_conn - Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG - 2020-05-14 19:36:22,032 - _make_request - https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG - 2020-05-14 19:36:22,041 - _new_conn - Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG - 2020-05-14 19:36:22,223 - _make_request - https://www.googleapis.com:443 "GET /oauth2/v3/userinfo HTTP/1.1" 200 None
+DEBUG - 2020-05-14 19:36:22,232 - parse - sql_command: SELECT "social_auth_usersocialauth"."id", "social_auth_usersocialauth"."user_id", "social_auth_usersocialauth"."provider", "social_auth_usersocialauth"."uid", "social_auth_usersocialauth"."extra_data", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "social_auth_usersocialauth" INNER JOIN "auth_user" ON ("social_auth_usersocialauth"."user_id" = "auth_user"."id") WHERE ("social_auth_usersocialauth"."provider" = %(0)s AND "social_auth_usersocialauth"."uid" = %(1)s)
+params: ('google-oauth2', 'rulegua@opendeusto.es')
+DEBUG - 2020-05-14 19:36:22,243 - _get_cursor - Aggregation query: [{'$match': {'user_id': {'$ne': None, '$exists': True}}}, {'$lookup': {'from': 'auth_user', 'localField': 'user_id', 'foreignField': 'id', 'as': 'auth_user'}}, {'$unwind': '$auth_user'}, {'$match': {'$and': [{'provider': {'$eq': 'google-oauth2'}}, {'uid': {'$eq': 'rulegua@opendeusto.es'}}]}}, {'$project': {'id': True, 'user_id': True, 'provider': True, 'uid': True, 'extra_data': True, 'auth_user.id': True, 'auth_user.password': True, 'auth_user.last_login': True, 'auth_user.is_superuser': True, 'auth_user.username': True, 'auth_user.first_name': True, 'auth_user.last_name': True, 'auth_user.email': True, 'auth_user.is_staff': True, 'auth_user.is_active': True, 'auth_user.date_joined': True}}]
+DEBUG - 2020-05-14 19:36:22,246 - parse - sql_command: SELECT COUNT(*) AS "__count" FROM "auth_user" WHERE "auth_user"."username" = %(0)s
+params: ('rulegua',)
+DEBUG - 2020-05-14 19:36:22,249 - _get_cursor - Aggregation query: [{'$match': {'username': {'$eq': 'rulegua'}}}, {'$group': {'_id': None, '__count': {'$sum': 1}}}, {'$project': {'_id': False, '__count': True}}]
+DEBUG - 2020-05-14 19:36:22,250 - parse - sql_command: INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES (%(0)s, %(1)s, %(2)s, %(3)s, %(4)s, %(5)s, %(6)s, %(7)s, %(8)s, %(9)s)
+params: ['!WpiiE8kKamfCKy248UoOU53YfHzJRam6AGtvl4Ai', None, False, 'rulegua', '', '', 'rulegua@opendeusto.es', False, True, datetime.datetime(2020, 5, 14, 17, 36, 22, 249540)]
+DEBUG - 2020-05-14 19:36:22,255 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 19:36:22,255 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-14 19:36:22,255 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:36:22,322 - parse - sql_command: SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"  LIMIT 21
+params: ()
+DEBUG - 2020-05-14 19:36:22,330 - _get_cursor - Find query: {'projection': ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined'], 'limit': 21}
+ERROR - 2020-05-14 19:36:22,454 - log_response - Internal Server Error: /complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 842, in parse
+    return handler(self, statement)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 907, in _insert
+    query = InsertQuery(self, self.db, self.connection_properties, sm, self._params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 339, in __init__
+    super().__init__(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 61, in __init__
+    self.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 409, in parse
+    self._fill_values(statement)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 367, in _fill_values
+    raise SQLDecodeError
+djongo.exceptions.SQLDecodeError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 56, in execute
+    params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 769, in __init__
+    self._query = self.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/sql2mongo/query.py", line 864, in parse
+    raise exe from e
+djongo.exceptions.SQLDecodeError: FAILED SQL: INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES (%(0)s, %(1)s, %(2)s, %(3)s, %(4)s, %(5)s, %(6)s, %(7)s, %(8)s, %(9)s)
+Params: ['!WpiiE8kKamfCKy248UoOU53YfHzJRam6AGtvl4Ai', None, False, 'rulegua', '', '', 'rulegua@opendeusto.es', False, True, datetime.datetime(2020, 5, 14, 17, 36, 22, 249540)]
+Version: 1.3.2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 59, in execute
+    raise db_exe from e
+djongo.database.DatabaseError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_app_django-3.1.0-py3.7.egg/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_app_django-3.1.0-py3.7.egg/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/actions.py", line 45, in do_complete
+    user = backend.complete(user=user, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/backends/base.py", line 40, in complete
+    return self.auth_complete(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/utils.py", line 251, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/backends/oauth.py", line 405, in auth_complete
+    *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/utils.py", line 251, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/backends/oauth.py", line 416, in do_auth
+    return self.strategy.authenticate(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_app_django-3.1.0-py3.7.egg/social_django/strategy.py", line 107, in authenticate
+    return authenticate(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/backends/base.py", line 80, in authenticate
+    return self.pipeline(pipeline, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/backends/base.py", line 83, in pipeline
+    out = self.run_pipeline(pipeline, pipeline_index, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/backends/base.py", line 113, in run_pipeline
+    result = func(*args, **out) or {}
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/pipeline/user.py", line 75, in create_user
+    'user': strategy.create_user(**fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_core-3.3.3-py3.7.egg/social_core/strategy.py", line 53, in create_user
+    return self.storage.user.create_user(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/social_auth_app_django-3.1.0-py3.7.egg/social_django/storage.py", line 79, in create_user
+    user = cls.user_model().objects.create_user(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/auth/models.py", line 151, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/auth/models.py", line 145, in _create_user
+    user.save(using=self._db)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/auth/base_user.py", line 66, in save
+    super().save(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/djongo-1.3.2-py3.7.egg/djongo/cursor.py", line 59, in execute
+    raise db_exe from e
+django.db.utils.DatabaseError
+DEBUG - 2020-05-14 19:36:22,462 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 19:36:26,737 - get_new_connection - Existing MongoClient connection closed
+DEBUG - 2020-05-14 19:36:26,737 - get_new_connection - New Database connection
+DEBUG - 2020-05-14 19:36:26,737 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 14, 17, 36, 26, 736749), '1cru830o04pyoothfj1g5h6g5nkvl58c')
+DEBUG - 2020-05-14 19:36:26,742 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 14, 17, 36, 26, 736749)}}, {'session_key': {'$eq': '1cru830o04pyoothfj1g5h6g5nkvl58c'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-14 19:36:26,749 - __next__ - Result: ('1cru830o04pyoothfj1g5h6g5nkvl58c', 'NDFlNWMwMmZkMzg4MmExNjI2ZTcyODljYzMzYTI3YjQ3OGJiMGFmMTp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiJHUXBkZHlnYVNYVWNuWFpFUnlSN0RUWDNrMVYwbHIwayJ9', datetime.datetime(2020, 5, 28, 17, 36, 15, 913000))
+DEBUG - 2020-05-14 19:36:26,765 - _close - MongoClient connection closed
+DEBUG - 2020-05-14 19:36:37,839 - _close - MongoClient connection closed

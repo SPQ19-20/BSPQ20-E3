@@ -66,6 +66,7 @@ function replaceClassObject(id, remove, add){
         }catch (error) {}        
     } catch (error) {}
 }
+root = document.documentElement;
 
 function setLightmode(){
     replaceClassList(["darkButton", "filtersButton", "loginButton"], "btn-secondary", "btn-primary");
@@ -74,6 +75,10 @@ function setLightmode(){
     document.getElementById("darkButtonText").textContent="Dark mode 🌙";
     replaceClassObject("dataTable", "table-dark", "");
     replaceClassObject("mainTable", "text-light", "text-dark"); 
+    replaceClassObject("superiorNav", "bg-dark", "bg-dark-md");
+    replaceClassObject("footer", "bg-dark", "bg-light");
+    replaceClassObject("main", "", "bg-light");
+    delete root.dataset.theme;
 }
 
 function setDarkmode(){
@@ -83,6 +88,8 @@ function setDarkmode(){
     document.getElementById("darkButtonText").textContent="Light mode ☀️";
     replaceClassObject("dataTable", "", "table-dark");
     replaceClassObject("mainTable", "text-dark", "text-light");
-    
-
+    replaceClassObject("superiorNav", "bg-dark-md", "bg-dark");
+    replaceClassObject("footer", "bg-light", "bg-dark");
+    replaceClassObject("main", "bg-light", "");
+    root.dataset.theme = 'dark';
 }

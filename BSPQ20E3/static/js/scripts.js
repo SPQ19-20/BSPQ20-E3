@@ -4,41 +4,19 @@
     * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/master/LICENSE)
     */
     (function($) {
-    "use strict";
+      "use strict";
 
     // Add active state to sidbar nav links
     var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
-        $("#layoutSidenav_nav .sb-sidenav a.nav-link").each(function() {
-            if (this.href === path) {
-                $(this).addClass("active");
-            }
-        });
+    $("#layoutSidenav_nav .sb-sidenav a.nav-link").each(function() {
+      if (this.href === path) {
+        $(this).addClass("active");
+      }
+    });
 
     // Toggle the side navigation
     $("#sidebarToggle").on("click", function(e) {
-        e.preventDefault();
-        $("body").toggleClass("sb-sidenav-toggled");
+      e.preventDefault();
+      $("body").toggleClass("sb-sidenav-toggled");
     });
-})(jQuery);
-
-
-
-const toggle = document.querySelector('[id="switch"]'),
-      root = document.documentElement;
-
-let lightsOn = false;
-
-function nightClick(){
-  let checked = toggle.getAttribute('aria-checked') === 'true';
-  lightsOn = !checked;
-  toggle.setAttribute('aria-checked', !checked);
-  lightsOn ? darkOn() : darkOff();
-}
-
-function darkOn() {
-  root.dataset.theme = 'dark';
-}
-
-function darkOff() {
-  delete root.dataset.theme;
-}
+  })(jQuery);
