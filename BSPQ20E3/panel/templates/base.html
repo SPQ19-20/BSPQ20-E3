@@ -25,17 +25,28 @@
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <a class="navbar-brand" href="/">BSPQ20-E3</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle"><i class="fas fa-bars"></i></button >
 
-        
 
-        <!-- Navbar Search-->
-        <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-            <div class="input-group">
-                <input class="form-control" type="text" placeholder="{% trans 'Search for' %}..." aria-label="Search" aria-describedby="basic-addon2" />
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+        <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                    <form action="{% url 'set_language' %}" method="post">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="{{ redirect_to }}">
+
+                        <div class="col">
+                          <select class="selectpicker" id="languageSelector" name="language" data-live-search="true" onchange="this.form.submit()"> 
+                            {% get_current_language as LANGUAGE_CODE %} {% get_available_languages as LANGUAGES %} {% get_language_info_list for LANGUAGES as languages %}
+
+                            {% for language in languages %}
+                            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
+                            selected{% endif %}> {{ language.name_local }} ({{ language.code }})
+                        </option>
+                        {% endfor %}
+
+                    </select>
                 </div>
-            </div>
-        </form>
+            </form>
+
+
+        </div>
         <!-- Navbar-->
         <ul class="navbar-nav ml-auto ml-md-0">
 
