@@ -68,6 +68,14 @@ function replaceClassObject(id, remove, add){
 }
 root = document.documentElement;
 
+function setMeta(content){
+    var link = document.createElement('meta');
+    link.setAttribute('name', 'twitter:widgets:theme');
+    link.setAttribute('content', content);
+    
+    document.getElementById('twitterDiv').appendChild(link);
+
+}
 function setLightmode(){
     replaceClassList(["darkButton", "filtersButton", "loginButton"], "btn-secondary", "btn-primary");
     replaceClassList(["indexContent", "mainTable"], "bg-dark", "bg-light"); 
@@ -78,6 +86,7 @@ function setLightmode(){
     replaceClassObject("superiorNav", "bg-dark", "bg-dark-md");
     replaceClassObject("footer", "bg-dark", "bg-light");
     replaceClassObject("main", "", "bg-light");
+    setMeta("");
     delete root.dataset.theme;
 }
 
@@ -91,5 +100,6 @@ function setDarkmode(){
     replaceClassObject("superiorNav", "bg-dark-md", "bg-dark");
     replaceClassObject("footer", "bg-light", "bg-dark");
     replaceClassObject("main", "bg-light", "");
+    setMeta("dark");
     root.dataset.theme = 'dark';
 }

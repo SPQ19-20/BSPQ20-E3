@@ -74,11 +74,13 @@
 }
  [data-theme="dark"] {
      --bg: #323232;
-     --c: #FFFFFF;
+     --c: #e6e6e6;
      --navactive: #FFFFFF;
      --superiornav: #212529;
      --navnormal: #b9b8b8;
      --bgcards: #343a40;
+     --titleRec: #e4e4e4;
+     --descRec: #c5c5c5;
 }
  button {
      all: initial;
@@ -8616,13 +8618,13 @@
     }
 }
  #about .content h2 {
-     color: #0c2e8a;
+     color: var(--titleRec, #007bff);
      font-weight: 700;
      font-size: 36px;
      font-family: "Raleway", sans-serif;
 }
  #about .content h3 {
-     color: #555;
+     color: var(--descRec, #555);
      font-weight: 300;
      font-size: 18px;
      line-height: 26px;
@@ -8654,7 +8656,7 @@
      padding: 40px;
      margin-bottom: 40px;
      box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
-     background: #fff;
+     background: var(--bgcards, #fff);
      transition: 0.4s;
 }
  #services .box:hover {
@@ -8687,7 +8689,7 @@
      font-size: 22px;
 }
  #services .box h4 a {
-     color: #444;
+     color: var(--titleRec, #444);
 }
  #services .box p {
      font-size: 14px;

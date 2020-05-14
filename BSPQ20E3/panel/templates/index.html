@@ -81,67 +81,68 @@
 				<div class="tab-pane fade" id="tab2default">
 					
 					<div class="row mt-4">	
-						<div class="col-xl-6">
-						<a class="twitter-timeline"  href="https://twitter.com/CoronavirusESP?ref_src=twsrc%5Etfw">{% trans "Tweets by CoronavirusESP" %}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<div id="twitterDiv" class="col-xl-6">
+
+							<a class="twitter-timeline"  href="https://twitter.com/CoronavirusESP?ref_src=twsrc%5Etfw">{% trans "Tweets by CoronavirusESP" %} </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</div>
+							<div class="col-xl-6">
+								<a class="twitter-timeline" href="https://twitter.com/Covid_19Time?ref_src=twsrc%5Etfw">{% trans "Tweets by Covid_19Time" %}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>	
+							</div>
 						</div>
-						<div class="col-xl-6">
-						<a class="twitter-timeline" href="https://twitter.com/Covid_19Time?ref_src=twsrc%5Etfw">{% trans "Tweets by Covid_19Time" %}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>	
-						</div>
-					</div>
 						
-				</div>
+					</div>
 					<div class="tab-pane fade" id="tab3default">
-					{% include 'recommendations.html' %}
-				</div>
-				
-				<div class="tab-pane fade" id="tab4default">
-					<div class="container-fluid">
-						<br>
-						<br>
-						<!-- TradingView Widget BEGIN -->
-						<div class="tradingview-widget-container">
-							<div id="tradingview_69f15"></div>
-							<div class="tradingview-widget-copyright"><a rel="noopener" target="_blank"><span class="blue-text">{% trans "Dynamic Chart" %}</span></a>{% trans "by TradingView" %}</div>
-							<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-							<script type="text/javascript">
-								new TradingView.widget(
-								{
-									"width": 980,
-									"height": 610,
-									"symbol": "NASDAQ:AAPL",
-									"interval": "D",
-									"timezone": "Etc/UTC",
-									"theme": "light",
-									"style": "7",
-									"locale": "en",
-									"toolbar_bg": "#f1f3f6",
-									"enable_publishing": false,
-									"withdateranges": true,
-									"allow_symbol_change": true,
-									"details": true,
-									"container_id": "tradingview_69f15"
-								}
-								);
-							</script>
-						</div>
-						<!-- TradingView Widget END -->
-					</div>		
+						{% include 'recommendations.html' %}
+					</div>
+
+					<div class="tab-pane fade" id="tab4default">
+						<div class="container-fluid">
+							<br>
+							<br>
+							<!-- TradingView Widget BEGIN -->
+							<div class="tradingview-widget-container">
+								<div id="tradingview_69f15"></div>
+								<div class="tradingview-widget-copyright"><a rel="noopener" target="_blank"><span class="blue-text">{% trans "Dynamic Chart" %}</span></a>{% trans "by TradingView" %}</div>
+								<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+								<script type="text/javascript">
+									new TradingView.widget(
+									{
+										"width": 980,
+										"height": 610,
+										"symbol": "NASDAQ:AAPL",
+										"interval": "D",
+										"timezone": "Etc/UTC",
+										"theme": "light",
+										"style": "7",
+										"locale": "en",
+										"toolbar_bg": "#f1f3f6",
+										"enable_publishing": false,
+										"withdateranges": true,
+										"allow_symbol_change": true,
+										"details": true,
+										"container_id": "tradingview_69f15"
+									}
+									);
+								</script>
+							</div>
+							<!-- TradingView Widget END -->
+						</div>		
+					</div>
 				</div>
 			</div>
 		</div>
+
+		<main>
+
+
+
+		</main>
+		<footer id="footer" class="py-4 bg-light mt-auto">
+			<div class="container-fluid">
+				<div class="d-flex align-items-center justify-content-between small">
+					<div class="text-muted">Copyright &copy; BSPQ20-E3 2020</div>
+				</div>
+			</div>
+		</footer>
 	</div>
-
-	<main>
-
-
-
-	</main>
-	<footer id="footer" class="py-4 bg-light mt-auto">
-		<div class="container-fluid">
-			<div class="d-flex align-items-center justify-content-between small">
-				<div class="text-muted">Copyright &copy; BSPQ20-E3 2020</div>
-			</div>
-		</div>
-	</footer>
-</div>
-{% endblock%}
+	{% endblock%}

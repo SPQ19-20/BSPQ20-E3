@@ -157,38 +157,73 @@ def get_updated_csvs(seconds=3600, url="default"):
         
         #Save countries and dates into text file in order to make possible the filtering
         saveToFile("countries.txt", Data.objects.distinct(field="Country_Region"), ":")
-        DATES = Data.objects.distinct(field="Last_Update")
-        DATES = list(dict.fromkeys(DATES))
-        saveToFile("dates.txt", DATES, "&")
+        dates = []
+        for i in Data.objects.distinct(field="Last_Update"):
+            yearMonthDay = i.split(" ")[0]
+            print(yearMonthDay)
+            dates.append(yearMonthDay)
 
+        saveToFile("dates.txt", dates, "&")
         get_logger().info("COUNTRIES and DATES cached.")
 
         #sendEmails()
         wait_time = seconds - (time.perf_counter() % seconds)
         time.sleep(wait_time)
 
+
 def loadSerializedCache():
+    """
+    Description
+    -----------
+    Gets the data stored in the specified files and store it in the Cache object
+
+    """
+    Cache().COUNTRY_CHOICES = loadSerialFile("countries.txt", ":")
+    Cache().DATE_CHOICES = loadSerialFile("dates.txt", "&")
+
+def loadSerialFile(FILENAME, DELIM):
+    """
+    Description
+    -----------
+    Gets the data stored in a certain file and returns it as a list
+
+    Parameters
+    ----------
+    file: str
+      file path to read
+
+    delim: str
+      delimitator of the elements present in the file
+    """
     try:
-        FILELIST = open("countries.txt", "r").read().split(":")
+        FILELIST = open(FILENAME, "r").read().split(DELIM)
         LIST = [ ]
         for i in range(len(FILELIST)): 
             LIST.insert(i, (FILELIST[i], FILELIST[i]))
         LIST.insert(i, ("", "All"))
-
-        Cache().COUNTRY_CHOICES = LIST
-
-        FILELIST = open("dates.txt", "r").read().split("&")
-        LIST = [ ]
-        for i in range(len(FILELIST)): 
-            LIST.insert(i, (FILELIST[i], FILELIST[i]))
-        LIST.insert(i, ("", "All"))
-
-        Cache().DATE_CHOICES = LIST
+        return LIST
 
     except Exception as e:
         print(e)
 
-def saveToFile(FILENAME, LIST, SEPARATOR):
+def saveToFile(FILENAME, LIST, DELIM):
+    """
+    Description
+    -----------
+    Stores the data received as parameter in a text file
+
+    Parameters
+    ----------
+    filename: str
+      file path to write
+    
+    list: list
+      list of strings to write
+
+    delim: str
+      delimitator for the elements
+    """
+
     with open(FILENAME, 'w') as f:
         for item in LIST:
-            f.write("%s%s" % (item, SEPARATOR))
+            f.write("%s%s" % (item, DELIM))
