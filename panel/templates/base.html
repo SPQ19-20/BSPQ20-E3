@@ -1,0 +1,100 @@
+{% load static %}
+{% load bootstrap3 %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    {% block title %}
+    <title>{% trans "Title" %}</title>
+    {% endblock %}
+
+    {% block css %}
+    {% endblock%}
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'assets/select/css/bootstrap-select.css' %}" rel="stylesheet" type="text/css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav id="superiorNav" class="sb-topnav navbar navbar-expand navbar-dark bg-dark-md">
+        <a class="navbar-brand" href="/">BSPQ20-E3</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle"><i class="fas fa-bars"></i></button >
+
+
+        <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                    <form action="{% url 'set_language' %}" method="post">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="{{ redirect_to }}">
+
+                        <div class="col">
+                          <select class="selectpicker" id="languageSelector" name="language" data-live-search="true" onchange="this.form.submit()"> 
+                            {% get_current_language as LANGUAGE_CODE %} {% get_available_languages as LANGUAGES %} {% get_language_info_list for LANGUAGES as languages %}
+
+                            {% for language in languages %}
+                            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
+                            selected{% endif %}> {{ language.name_local }} ({{ language.code }})
+                        </option>
+                        {% endfor %}
+
+                    </select>
+                </div>
+            </form>
+
+
+        </div>
+        <!-- Navbar-->
+        <ul class="navbar-nav ml-auto ml-md-0">
+
+            {% if user.is_authenticated %}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"> </i> 
+                {{ user.username }}
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                    <a class="dropdown-item" data-toggle="modal" data-target="#profileModal">{% trans "My account" %}</a>
+                    <a class="dropdown-item" href="{% url 'logout' %}">{% trans "Log out" %}</a>
+                </div>
+            </li>
+
+            {% else %}
+            <a class="nav-link" id="userDropdown" data-toggle="modal" data-target="#loginModal"><i class="fas fa-user fa-fw"> </i>  {% trans "Sign in" %}</a>
+            {% endif %}
+        </ul>
+    </nav>
+
+
+
+    <!-- Here goes the lateral navbar if wanted, content if not-->
+    {% block base %}
+
+    {% endblock %}
+     <!--<script src="{% static 'd3.js' %}"></script>
+    <script src="{% static 'd3.min.js' %}"></script>-->
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+    <script src="{% static 'js/map.js' %}"></script>
+    <script src="{% static 'js/graph1.js' %}"></script>
+    <script src="{% static 'js/graph2.js' %}"></script>
+    <script src="{% static 'js/graph3.js' %}"></script>
+    <script src="{% static 'js/graph4.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="{% static 'assets/demo/chart-area-demo.js' %}"></script>
+    <script src="{% static 'assets/demo/chart-bar-demo.js' %}"></script>
+    <script src="{% static 'assets/select/js/bootstrap-select.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    {% block js %}
+    {% endblock%}
+
+</body>
+</html>
