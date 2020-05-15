@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>API package &#8212; BSPQ20E3 v3.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="api-package">
+<h1>API package<a class="headerlink" href="#api-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="API.migrations.html">API.migrations package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="API.migrations.html#module-API.migrations">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-API.admin">
+<span id="api-admin-module"></span><h2>API.admin module<a class="headerlink" href="#module-API.admin" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-API.apps">
+<span id="api-apps-module"></span><h2>API.apps module<a class="headerlink" href="#module-API.apps" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="API.apps.ApiConfig">
+<em class="property">class </em><code class="sig-prename descclassname">API.apps.</code><code class="sig-name descname">ApiConfig</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">app_name</span></em>, <em class="sig-param"><span class="n">app_module</span></em><span class="sig-paren">)</span><a class="headerlink" href="#API.apps.ApiConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.apps.config.AppConfig</span></code></p>
+<dl class="py attribute">
+<dt id="API.apps.ApiConfig.name">
+<code class="sig-name descname">name</code><em class="property"> = 'API'</em><a class="headerlink" href="#API.apps.ApiConfig.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-API.models">
+<span id="api-models-module"></span><h2>API.models module<a class="headerlink" href="#module-API.models" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-API.serializers">
+<span id="api-serializers-module"></span><h2>API.serializers module<a class="headerlink" href="#module-API.serializers" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="API.serializers.UserSerializer">
+<em class="property">class </em><code class="sig-prename descclassname">API.serializers.</code><code class="sig-name descname">UserSerializer</code><span class="sig-paren">(</span><em class="sig-param">instance=None</em>, <em class="sig-param">data=&lt;class 'rest_framework.fields.empty'&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#API.serializers.UserSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.serializers.ModelSerializer</span></code></p>
+<dl class="py class">
+<dt id="API.serializers.UserSerializer.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#API.serializers.UserSerializer.Meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="API.serializers.UserSerializer.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ('id', 'username', 'email', 'last_login')</em><a class="headerlink" href="#API.serializers.UserSerializer.Meta.fields" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="API.serializers.UserSerializer.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#API.serializers.UserSerializer.Meta.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">django.contrib.auth.models.User</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-API.tests">
+<span id="api-tests-module"></span><h2>API.tests module<a class="headerlink" href="#module-API.tests" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-API.urls">
+<span id="api-urls-module"></span><h2>API.urls module<a class="headerlink" href="#module-API.urls" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-API.views">
+<span id="api-views-module"></span><h2>API.views module<a class="headerlink" href="#module-API.views" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="API.views.UserViewSet">
+<em class="property">class </em><code class="sig-prename descclassname">API.views.</code><code class="sig-name descname">UserViewSet</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#API.views.UserViewSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.viewsets.ModelViewSet</span></code></p>
+<p>API endpoint that allows users to be viewed or edited.</p>
+<dl class="py attribute">
+<dt id="API.views.UserViewSet.basename">
+<code class="sig-name descname">basename</code><em class="property"> = None</em><a class="headerlink" href="#API.views.UserViewSet.basename" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="API.views.UserViewSet.description">
+<code class="sig-name descname">description</code><em class="property"> = None</em><a class="headerlink" href="#API.views.UserViewSet.description" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="API.views.UserViewSet.detail">
+<code class="sig-name descname">detail</code><em class="property"> = None</em><a class="headerlink" href="#API.views.UserViewSet.detail" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="API.views.UserViewSet.name">
+<code class="sig-name descname">name</code><em class="property"> = None</em><a class="headerlink" href="#API.views.UserViewSet.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="API.views.UserViewSet.permission_classes">
+<code class="sig-name descname">permission_classes</code><em class="property"> = [&lt;class 'rest_framework.permissions.IsAdminUser'&gt;]</em><a class="headerlink" href="#API.views.UserViewSet.permission_classes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="API.views.UserViewSet.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet [&lt;User: iger.11.90&gt;]&gt;</em><a class="headerlink" href="#API.views.UserViewSet.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="API.views.UserViewSet.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#API.views.UserViewSet.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#API.serializers.UserSerializer" title="API.serializers.UserSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">API.serializers.UserSerializer</span></code></a></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="API.views.UserViewSet.suffix">
+<code class="sig-name descname">suffix</code><em class="property"> = None</em><a class="headerlink" href="#API.views.UserViewSet.suffix" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-API">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-API" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">BSPQ20E3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Team 3.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/API.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

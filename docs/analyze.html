@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>analyze module &#8212; BSPQ20E3 v3.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-analyze">
+<span id="analyze-module"></span><h1>analyze module<a class="headerlink" href="#module-analyze" title="Permalink to this headline">¶</a></h1>
+<p>Simple module for performance testing</p>
+<dl class="py function">
+<dt id="analyze.test_dat_performance">
+<code class="sig-prename descclassname">analyze.</code><code class="sig-name descname">test_dat_performance</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">file_name</span><span class="o">=</span><span class="default_value">'perf_file'</span></em>, <em class="sig-param"><span class="n">func</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">test_type</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#analyze.test_dat_performance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple function to do basic profiling tasks on functions and dump statistics into a .txt file</p>
+<dl>
+<dt>file_name: str</dt><dd><p>name of the file t dump the profiling stats to
+default value: ‘perf_file’ + ‘_{n}’, where n is some static constant of the script</p>
+</dd>
+<dt>func: Callable</dt><dd><p>function to be profiled
+default value: None</p>
+</dd>
+<dt>test_type: int</dt><dd><p>type of profiling test to perform on the function passed</p>
+<p>1 -&gt; cumulative (monitor cumulative time of execution)
+2 -&gt; time (monitor time spent within each function)
+3 -&gt; calls (monitor number of calls)</p>
+<p>default value: 1</p>
+</dd>
+<dt><a href="#id1"><span class="problematic" id="id2">*</span></a>args and <a href="#id3"><span class="problematic" id="id4">**</span></a>kwargs</dt><dd><p>parameters of the funciton to be profiled, you can pass them as keyword parameters or old-school</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">BSPQ20E3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Team 3.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/analyze.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
