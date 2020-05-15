@@ -82,6 +82,12 @@
      --titleRec: #e4e4e4;
      --descRec: #c5c5c5;
 }
+
+.recommendations-image {
+  max-width: 10%;
+  height: auto;
+}
+
  button {
      all: initial;
      cursor: pointer;
@@ -8683,7 +8689,6 @@
      -webkit-text-fill-color: transparent;
 }
  #services .box h4 {
-     margin-left: 100px;
      font-weight: 700;
      margin-bottom: 15px;
      font-size: 22px;
@@ -8693,7 +8698,6 @@
 }
  #services .box p {
      font-size: 14px;
-     margin-left: 100px;
      margin-bottom: 0;
      line-height: 24px;
 }
