@@ -18,7 +18,7 @@ class Cache(object):
     """
     class __Cache:
         def __init__(self):
-            self.DATA = []
+            self.DATA = ["test"]
             self.DATE_CHOICES = []
             self.COUNTRY_CHOICES = []
 
