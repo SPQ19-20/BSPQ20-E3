@@ -49,16 +49,10 @@ def index(req):
 	#entry.save()
 	#dummy = Data(FIPS=0,Admin2="prueba")
 	#dummy.save()
-	prueba = Data.objects()
 
-	return render(req, 'index.html', {'data' : prueba, 'form' : form})
+	return render(req, 'index.html', {'data' : Cache().DATA, 'form' : form})
 
 def livelog(req):
-	dataFilter = DataFilter(req.GET, queryset=Data.objects())
-	#dataFilter = ""
-	#print(Cache().COUNTRIES)
-	paginator = Paginator(dataFilter.qs[:10000], 25)
-	
 	'''Loads the Livelog
 
 	:param req: The Http Request
@@ -67,6 +61,8 @@ def livelog(req):
 	:returns: Http Response
 	:rtype: Http
 	''' 
+	dataFilter = DataFilter(req.GET, queryset=Data.objects())
+	paginator = Paginator(dataFilter.qs[:10000], 25)
 
 	page = req.GET.get('page', 1)
 	index = int(page)

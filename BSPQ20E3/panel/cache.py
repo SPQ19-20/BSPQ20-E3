@@ -1,8 +1,24 @@
 
 class Cache(object):
+    """
+    -----------
+    Description
+    ----------- 
+    Singleton patterned object that stores data that is used repeatedly, in order to avoid the time penalty for accessing the database 
+
+    Attributes
+    ----------
+    DATA: queryset
+        Data objects queryset, updated every time data capture is done from githubcsv.py
+    DATE_CHOICES: str list
+        Stores the different dates of all data objects to enable filtering
+    COUNTRY_CHOICES: str list
+        Stores the different countries of all data objects to enable filtering
+
+    """
     class __Cache:
         def __init__(self):
-            self.COUNTRIES = ()
+            self.DATA = []
             self.DATE_CHOICES = []
             self.COUNTRY_CHOICES = []
 

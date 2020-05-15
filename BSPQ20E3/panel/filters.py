@@ -6,6 +6,15 @@ from mongoengine import *
 
 
 class DataFilter(django_mongoengine_filter.FilterSet):
+	'''Create the filter form and filter according to its selection
+
+	:param req: The Http Request
+	:type amount: Http Request
+
+	:returns: Data Queryset
+	:rtype: Data Queryset
+	''' 
+
 	#https://pypi.org/project/django-mongoengine-filter/
 
 	Country_Region = django_mongoengine_filter.ChoiceFilter(choices=Cache().COUNTRY_CHOICES, widget=forms.Select(attrs={'onchange': 'this.form.submit();', 'class': 'selectpicker', 'data-live-search': 'true'}))

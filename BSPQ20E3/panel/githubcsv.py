@@ -152,7 +152,7 @@ def get_updated_csvs(seconds=3600, url="default"):
     while True:
 
         get_csv_from_github(url=url, date=None)
-
+        Cache().DATA = Data.objects()
         # Get distinct countries and dates from the data model entries
         # Purpose: filtering in the client side
         # Why: to not make a query every time a client enters livelog, this data remains constant until wait_time
@@ -177,7 +177,7 @@ def loadSerializedCache():
     """
     Description
     -----------
-    Gets the data stored in the specified files and store it in the Cache object
+    Gets the data stored in the specified files and stores it in the Cache object
 
     """
     Cache().COUNTRY_CHOICES = loadSerialFile("countries.txt", ":")
