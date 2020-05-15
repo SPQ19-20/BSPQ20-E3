@@ -34391,3 +34391,59 @@ DEBUG - 2020-05-15 13:28:07,164 - __next__ - Result: (1, '!W76zLtBDNgzaI6rMTU9qH
 DEBUG - 2020-05-15 13:28:07,168 - _close - MongoClient connection closed
 DEBUG - 2020-05-15 13:28:07,232 - _close - MongoClient connection closed
 DEBUG - 2020-05-15 13:28:15,208 - _close - MongoClient connection closed
+DEBUG - 2020-05-15 14:14:33,571 - get_csv_from_github - Default url to be used for csv extraction
+DEBUG - 2020-05-15 14:14:33,571 - <module> - Csv-getter thread started.
+DEBUG - 2020-05-15 14:14:33,571 - get_csv_from_github - Default date to be used for csv extraction
+DEBUG - 2020-05-15 14:14:33,575 - get_csv_from_github - Date formatted and url created: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-14-2020.csv
+DEBUG - 2020-05-15 14:14:34,918 - get_csv_from_github - Successfully downloaded data for 14-05-2020
+DEBUG - 2020-05-15 14:14:35,058 - connect - New MongoClient connection
+DEBUG - 2020-05-15 14:14:35,059 - get_new_connection - New Database connection
+DEBUG - 2020-05-15 14:14:35,066 - parse - sql_command: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+params: ()
+DEBUG - 2020-05-15 14:14:35,068 - _get_cursor - Find query: {'projection': ['app', 'name']}
+DEBUG - 2020-05-15 14:14:35,071 - __next__ - Result: ('contenttypes', '0001_initial')
+DEBUG - 2020-05-15 14:14:35,072 - __next__ - Result: ('auth', '0001_initial')
+DEBUG - 2020-05-15 14:14:35,074 - __next__ - Result: ('admin', '0001_initial')
+DEBUG - 2020-05-15 14:14:35,075 - __next__ - Result: ('admin', '0002_logentry_remove_auto_add')
+DEBUG - 2020-05-15 14:14:35,077 - __next__ - Result: ('admin', '0003_logentry_add_action_flag_choices')
+DEBUG - 2020-05-15 14:14:35,080 - __next__ - Result: ('contenttypes', '0002_remove_content_type_name')
+DEBUG - 2020-05-15 14:14:35,080 - __next__ - Result: ('auth', '0002_alter_permission_name_max_length')
+DEBUG - 2020-05-15 14:14:35,081 - __next__ - Result: ('auth', '0003_alter_user_email_max_length')
+DEBUG - 2020-05-15 14:14:35,082 - __next__ - Result: ('auth', '0004_alter_user_username_opts')
+DEBUG - 2020-05-15 14:14:35,084 - __next__ - Result: ('auth', '0005_alter_user_last_login_null')
+DEBUG - 2020-05-15 14:14:35,084 - __next__ - Result: ('auth', '0006_require_contenttypes_0002')
+DEBUG - 2020-05-15 14:14:35,089 - __next__ - Result: ('auth', '0007_alter_validators_add_error_messages')
+DEBUG - 2020-05-15 14:14:35,090 - __next__ - Result: ('auth', '0008_alter_user_username_max_length')
+DEBUG - 2020-05-15 14:14:35,091 - __next__ - Result: ('auth', '0009_alter_user_last_name_max_length')
+DEBUG - 2020-05-15 14:14:35,092 - __next__ - Result: ('auth', '0010_alter_group_name_max_length')
+DEBUG - 2020-05-15 14:14:35,092 - __next__ - Result: ('auth', '0011_update_proxy_permissions')
+DEBUG - 2020-05-15 14:14:35,093 - __next__ - Result: ('sessions', '0001_initial')
+DEBUG - 2020-05-15 14:14:35,093 - __next__ - Result: ('default', '0001_initial')
+DEBUG - 2020-05-15 14:14:35,094 - __next__ - Result: ('social_auth', '0001_initial')
+DEBUG - 2020-05-15 14:14:35,094 - __next__ - Result: ('default', '0002_add_related_name')
+DEBUG - 2020-05-15 14:14:35,095 - __next__ - Result: ('social_auth', '0002_add_related_name')
+DEBUG - 2020-05-15 14:14:35,095 - __next__ - Result: ('default', '0003_alter_email_max_length')
+DEBUG - 2020-05-15 14:14:35,096 - __next__ - Result: ('social_auth', '0003_alter_email_max_length')
+DEBUG - 2020-05-15 14:14:35,096 - __next__ - Result: ('default', '0004_auto_20160423_0400')
+DEBUG - 2020-05-15 14:14:35,097 - __next__ - Result: ('social_auth', '0004_auto_20160423_0400')
+DEBUG - 2020-05-15 14:14:35,097 - __next__ - Result: ('social_auth', '0005_auto_20160727_2333')
+DEBUG - 2020-05-15 14:14:35,098 - __next__ - Result: ('social_django', '0006_partial')
+DEBUG - 2020-05-15 14:14:35,099 - __next__ - Result: ('social_django', '0007_code_timestamp')
+DEBUG - 2020-05-15 14:14:35,100 - __next__ - Result: ('social_django', '0008_partial_timestamp')
+DEBUG - 2020-05-15 14:14:35,100 - __next__ - Result: ('social_django', '0001_initial')
+DEBUG - 2020-05-15 14:14:35,101 - __next__ - Result: ('social_django', '0005_auto_20160727_2333')
+DEBUG - 2020-05-15 14:14:35,101 - __next__ - Result: ('social_django', '0003_alter_email_max_length')
+DEBUG - 2020-05-15 14:14:35,102 - __next__ - Result: ('social_django', '0004_auto_20160423_0400')
+DEBUG - 2020-05-15 14:14:35,102 - __next__ - Result: ('social_django', '0002_add_related_name')
+INFO - 2020-05-15 14:14:36,461 - send - Email sent!
+INFO - 2020-05-15 14:14:36,513 - get_updated_csvs - COUNTRIES and DATES cached.
+DEBUG - 2020-05-15 14:14:41,832 - get_new_connection - New Database connection
+DEBUG - 2020-05-15 14:14:41,833 - parse - sql_command: SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > %(0)s AND "django_session"."session_key" = %(1)s)
+params: (datetime.datetime(2020, 5, 15, 12, 14, 41, 831601), 'fl1zwdga510c4mfje3o0x042fsbb6p1p')
+DEBUG - 2020-05-15 14:14:41,840 - _get_cursor - Find query: {'filter': {'$and': [{'expire_date': {'$gt': datetime.datetime(2020, 5, 15, 12, 14, 41, 831601)}}, {'session_key': {'$eq': 'fl1zwdga510c4mfje3o0x042fsbb6p1p'}}]}, 'projection': ['session_key', 'session_data', 'expire_date']}
+DEBUG - 2020-05-15 14:14:41,842 - __next__ - Result: ('fl1zwdga510c4mfje3o0x042fsbb6p1p', 'YTZkN2VhMjgwMTQyMmRmZjUyODE1OWExMjAxNmNmODFlN2M0ZTc5Njp7Imdvb2dsZS1vYXV0aDJfc3RhdGUiOiI5M1p6SUZ0MVl0d0hON0ZkVTN5SlJWSG1tdVppOHdCMCIsIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoic29jaWFsX2NvcmUuYmFja2VuZHMuZ29vZ2xlLkdvb2dsZU9BdXRoMiIsIl9hdXRoX3VzZXJfaGFzaCI6ImM4Zjc3ZDBkZDQ3NmM2ZGE3ZGY3NTc5MmIzNWNmM2I2ZjQyNDdiNjEiLCJzb2NpYWxfYXV0aF9sYXN0X2xvZ2luX2JhY2tlbmQiOiJnb29nbGUtb2F1dGgyIn0=', datetime.datetime(2020, 5, 29, 10, 56, 54, 475000))
+DEBUG - 2020-05-15 14:14:42,035 - parse - sql_command: SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = %(0)s
+params: (1,)
+DEBUG - 2020-05-15 14:14:42,045 - _get_cursor - Find query: {'filter': {'id': {'$eq': 1}}, 'projection': ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined']}
+DEBUG - 2020-05-15 14:14:42,048 - __next__ - Result: (1, '!W76zLtBDNgzaI6rMTU9qHWqh5UWvAnl71acojHki', datetime.datetime(2020, 5, 15, 10, 56, 54, 469000), False, 'iger.11.90', 'Step', 'Crow', 'iger.11.90@gmail.com', False, True, datetime.datetime(2020, 5, 12, 12, 17, 23, 900000))
+DEBUG - 2020-05-15 14:14:42,250 - _close - MongoClient connection closed
