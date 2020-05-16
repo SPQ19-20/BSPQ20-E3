@@ -317,7 +317,6 @@ default value: %(levelname)s - %(message)s</p>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mongoengine.document.Document</span></code></p>
 <p>”
 A class used to represent each user</p>
-<p>…</p>
 <p>Attributes:</p>
 <blockquote>
 <div><ul class="simple">
@@ -465,73 +464,6 @@ A class used to represent each user</p>
 <dt id="panel.models.Data">
 <em class="property">class </em><code class="sig-prename descclassname">panel.models.</code><code class="sig-name descname">Data</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">values</span></em><span class="sig-paren">)</span><a class="headerlink" href="#panel.models.Data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mongoengine.document.Document</span></code></p>
-<p>A class used to represent each data entry (with more information)</p>
-<p>…</p>
-<p>Attributes:</p>
-<blockquote>
-<div><ul class="simple">
-<li><dl class="simple">
-<dt>FIPS<span class="classifier">int</span></dt><dd><p>a formatted integer to store the Federal Information Processing Standard</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Admin2<span class="classifier">str</span></dt><dd><p>a formatted string to store the county</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Province_State<span class="classifier">str</span></dt><dd><p>a formatted string to store the Province/State</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>CountryRegion<span class="classifier">str</span></dt><dd><p>a formatted string to store the CountryRegion</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Last_Update<span class="classifier">str</span></dt><dd><p>a formatted string to store the Date</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Lat<span class="classifier">float</span></dt><dd><p>a formatted float to store the Latitude</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt><a href="#id1"><span class="problematic" id="id2">Long_</span></a><span class="classifier">float</span></dt><dd><p>a formatted float to store the Longitude</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Confirmed<span class="classifier">int</span></dt><dd><p>a formatted integer to store the number of confirmed cases</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Deaths<span class="classifier">int</span></dt><dd><p>a formatted integer to store the number of deaths</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Recovered<span class="classifier">int</span></dt><dd><p>a formatted integer to store the number of recovered cases</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Active: int</dt><dd><p>a formatted integer to store the status of the entry</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Combined_Key: str</dt><dd><p>a formatted string that helps grouping the information</p>
-</dd>
-</dl>
-</li>
-</ul>
-</div></blockquote>
 <dl class="py attribute">
 <dt id="panel.models.Data.Active">
 <code class="sig-name descname">Active</code><a class="headerlink" href="#panel.models.Data.Active" title="Permalink to this definition">¶</a></dt>
@@ -634,7 +566,6 @@ A class used to represent each user</p>
 <em class="property">class </em><code class="sig-prename descclassname">panel.models.</code><code class="sig-name descname">Entry</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">values</span></em><span class="sig-paren">)</span><a class="headerlink" href="#panel.models.Entry" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mongoengine.document.Document</span></code></p>
 <p>A class used to represent an Entry</p>
-<p>…</p>
 <p>Attributes:</p>
 <blockquote>
 <div><ul class="simple">

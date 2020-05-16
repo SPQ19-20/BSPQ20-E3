@@ -10,8 +10,6 @@ class Entry(Document):
     """
     A class used to represent an Entry
 
-    ...
-
     Attributes:
     
        - CCAA : str
@@ -26,38 +24,7 @@ class Entry(Document):
     Fecha = StringField() #Lo cambiaré a DataTimeField una vez tengamos los datos
 
 class Data(Document):
-	"""
-    A class used to represent each data entry (with more information)
 
-    ...
-
-    Attributes:
-    
-       - FIPS : int
-            a formatted integer to store the Federal Information Processing Standard
-       - Admin2 : str
-            a formatted string to store the county
-       - Province_State : str
-            a formatted string to store the Province/State
-       - CountryRegion : str
-            a formatted string to store the CountryRegion
-       - Last_Update : str
-            a formatted string to store the Date
-       - Lat : float
-            a formatted float to store the Latitude
-       - Long_ : float
-            a formatted float to store the Longitude
-       - Confirmed : int
-            a formatted integer to store the number of confirmed cases
-       - Deaths : int
-            a formatted integer to store the number of deaths
-       - Recovered : int
-            a formatted integer to store the number of recovered cases
-       - Active: int
-        	a formatted integer to store the status of the entry
-       - Combined_Key: str
-        	a formatted string that helps grouping the information
-    """
 	FIPS = IntField(localize=True)
 	Admin2 = StringField()
 	Province_State = StringField()
@@ -75,8 +42,6 @@ class Data(Document):
 class Auth_user(Document):
     """"
     A class used to represent each user
-
-    ...
 
     Attributes:
     
@@ -101,8 +66,6 @@ class Auth_user(Document):
        - date_joined : str
            a formatted string to store the dete the user joined 
     """
-
-    #id = IntField()
     password = StringField()
     last_login = StringField()
     is_superuser = StringField()
