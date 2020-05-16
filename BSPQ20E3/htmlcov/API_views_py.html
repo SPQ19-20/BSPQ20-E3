@@ -58,18 +58,25 @@
     <p id="t5" class="run"><span class="n"><a href="#t5">5</a></span><span class="t"><span class="key">from</span> <span class="nam">rest_framework</span><span class="op">.</span><span class="nam">permissions</span> <span class="key">import</span> <span class="nam">IsAuthenticated</span><span class="op">,</span> <span class="nam">IsAdminUser</span>&nbsp;</span><span class="r"></span></p>
     <p id="t6" class="run"><span class="n"><a href="#t6">6</a></span><span class="t"><span class="key">from</span> <span class="nam">rest_framework</span><span class="op">.</span><span class="nam">response</span> <span class="key">import</span> <span class="nam">Response</span>&nbsp;</span><span class="r"></span></p>
     <p id="t7" class="pln"><span class="n"><a href="#t7">7</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p id="t8" class="pln"><span class="n"><a href="#t8">8</a></span><span class="t"><span class="com">#https://www.django-rest-framework.org/api-guide/permissions/</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t9" class="run"><span class="n"><a href="#t9">9</a></span><span class="t"><span class="op">@</span><span class="nam">permission_classes</span><span class="op">(</span><span class="op">[</span><span class="nam">IsAdminUser</span><span class="op">]</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t10" class="run"><span class="n"><a href="#t10">10</a></span><span class="t"><span class="key">class</span> <span class="nam">UserViewSet</span><span class="op">(</span><span class="nam">viewsets</span><span class="op">.</span><span class="nam">ModelViewSet</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t11" class="pln"><span class="n"><a href="#t11">11</a></span><span class="t">        <span class="str">""" API endpoint that allows users to be viewed or edited."""</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t12" class="run"><span class="n"><a href="#t12">12</a></span><span class="t">        <span class="nam">queryset</span> <span class="op">=</span> <span class="nam">User</span><span class="op">.</span><span class="nam">objects</span><span class="op">.</span><span class="nam">all</span><span class="op">(</span><span class="op">)</span><span class="op">.</span><span class="nam">order_by</span><span class="op">(</span><span class="str">'-date_joined'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t13" class="run"><span class="n"><a href="#t13">13</a></span><span class="t">        <span class="nam">serializer_class</span> <span class="op">=</span> <span class="nam">UserSerializer</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t8" class="run"><span class="n"><a href="#t8">8</a></span><span class="t"><span class="op">@</span><span class="nam">permission_classes</span><span class="op">(</span><span class="op">[</span><span class="nam">IsAdminUser</span><span class="op">]</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t9" class="run"><span class="n"><a href="#t9">9</a></span><span class="t"><span class="key">class</span> <span class="nam">UserViewSet</span><span class="op">(</span><span class="nam">viewsets</span><span class="op">.</span><span class="nam">ModelViewSet</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t10" class="pln"><span class="n"><a href="#t10">10</a></span><span class="t">        <span class="str">'''API endpoint that allows users to be viewed or edited.</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t11" class="pln"><span class="n"><a href="#t11">11</a></span><span class="t"><span class="str">        Only accesible by admins</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t12" class="pln"><span class="n"><a href="#t12">12</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p id="t13" class="pln"><span class="n"><a href="#t13">13</a></span><span class="t"><span class="str">        :param req: The Http Request</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t14" class="pln"><span class="n"><a href="#t14">14</a></span><span class="t"><span class="str">        :type amount: Http Request</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t15" class="pln"><span class="n"><a href="#t15">15</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p id="t16" class="pln"><span class="n"><a href="#t16">16</a></span><span class="t"><span class="str">        :returns: Http Response</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t17" class="pln"><span class="n"><a href="#t17">17</a></span><span class="t"><span class="str">        :rtype: Http</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t18" class="pln"><span class="n"><a href="#t18">18</a></span><span class="t"><span class="str">        '''</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t19" class="run"><span class="n"><a href="#t19">19</a></span><span class="t">        <span class="nam">queryset</span> <span class="op">=</span> <span class="nam">User</span><span class="op">.</span><span class="nam">objects</span><span class="op">.</span><span class="nam">all</span><span class="op">(</span><span class="op">)</span><span class="op">.</span><span class="nam">order_by</span><span class="op">(</span><span class="str">'-date_joined'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t20" class="run"><span class="n"><a href="#t20">20</a></span><span class="t">        <span class="nam">serializer_class</span> <span class="op">=</span> <span class="nam">UserSerializer</span>&nbsp;</span><span class="r"></span></p>
 </div>
 <div id="footer">
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.1</a>,
-            created at 2020-05-08 11:07
+            created at 2020-05-16 21:43
         </p>
     </div>
 </div>

@@ -13,7 +13,7 @@ import datetime
 from django.utils import translation
 from .forms import NotificationsForm
 # Create your views here.
-
+"""Django views list"""
 def checkPOST(req):
 	"""
 	hypothetically, the user's choice regarding receiving emails is returned in the form. 
@@ -44,11 +44,6 @@ def index(req):
 	if translation.LANGUAGE_SESSION_KEY in req.session: 
 		del req.session[translation.LANGUAGE_SESSION_KEY]
 
-	#Test para ver si inserta bien los datos
-	#entry = Entry(CCAA="ComPrueba",Confirmados=999, Fecha= "1-1-1991")
-	#entry.save()
-	#dummy = Data(FIPS=0,Admin2="prueba")
-	#dummy.save()
 
 	return render(req, 'index.html', {'data' : Cache().DATA, 'form' : form})
 

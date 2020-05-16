@@ -256,7 +256,8 @@ default value: see <a class="reference external" href="https://github.com/CSSEGI
 <dl class="py function">
 <dt id="panel.githubcsv.sendEmails">
 <code class="sig-prename descclassname">panel.githubcsv.</code><code class="sig-name descname">sendEmails</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#panel.githubcsv.sendEmails" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Gets the recipients from the database and sends the notification emails</p>
+</dd></dl>
 
 </div>
 <div class="section" id="module-panel.logs">
@@ -317,61 +318,6 @@ default value: %(levelname)s - %(message)s</p>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mongoengine.document.Document</span></code></p>
 <p>”
 A class used to represent each user</p>
-<p>Attributes:</p>
-<blockquote>
-<div><ul class="simple">
-<li><dl class="simple">
-<dt>password<span class="classifier">str</span></dt><dd><p>a formatted string to store the user’s password</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>last_login<span class="classifier">str</span></dt><dd><p>a formatted string to store the date of the users last login</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>is_superuser<span class="classifier">str</span></dt><dd><p>a formatted string to differ superusers</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>username<span class="classifier">str</span></dt><dd><p>a formatted string to store the user’s username</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>first_name<span class="classifier">str</span></dt><dd><p>a formatted string to store the user’s first name</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>last_name<span class="classifier">str()</span></dt><dd><p>a formatted string to store the user’s last name</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>email<span class="classifier">str</span></dt><dd><p>a formatted string to store the user’s email</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>is_staff<span class="classifier">str</span></dt><dd><p>a formatted string to store if the user is staff</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>is_active<span class="classifier">bool</span></dt><dd><p>a formatted boolean to help us know if the user is active</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>date_joined<span class="classifier">str</span></dt><dd><p>a formatted string to store the dete the user joined</p>
-</dd>
-</dl>
-</li>
-</ul>
-</div></blockquote>
 <dl class="py exception">
 <dt id="panel.models.Auth_user.DoesNotExist">
 <em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#panel.models.Auth_user.DoesNotExist" title="Permalink to this definition">¶</a></dt>
@@ -464,6 +410,7 @@ A class used to represent each user</p>
 <dt id="panel.models.Data">
 <em class="property">class </em><code class="sig-prename descclassname">panel.models.</code><code class="sig-name descname">Data</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">values</span></em><span class="sig-paren">)</span><a class="headerlink" href="#panel.models.Data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mongoengine.document.Document</span></code></p>
+<p>A class used to represent each data entry (with more information)</p>
 <dl class="py attribute">
 <dt id="panel.models.Data.Active">
 <code class="sig-name descname">Active</code><a class="headerlink" href="#panel.models.Data.Active" title="Permalink to this definition">¶</a></dt>
@@ -566,26 +513,6 @@ A class used to represent each user</p>
 <em class="property">class </em><code class="sig-prename descclassname">panel.models.</code><code class="sig-name descname">Entry</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">values</span></em><span class="sig-paren">)</span><a class="headerlink" href="#panel.models.Entry" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mongoengine.document.Document</span></code></p>
 <p>A class used to represent an Entry</p>
-<p>Attributes:</p>
-<blockquote>
-<div><ul class="simple">
-<li><dl class="simple">
-<dt>CCAA<span class="classifier">str</span></dt><dd><p>a formatted string to store the CCAA</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Confirmados<span class="classifier">int</span></dt><dd><p>a formatted integer to store the number of confirmed cases</p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Fecha<span class="classifier">str</span></dt><dd><p>a formatted string to store the Date</p>
-</dd>
-</dl>
-</li>
-</ul>
-</div></blockquote>
 <dl class="py attribute">
 <dt id="panel.models.Entry.CCAA">
 <code class="sig-name descname">CCAA</code><a class="headerlink" href="#panel.models.Entry.CCAA" title="Permalink to this definition">¶</a></dt>

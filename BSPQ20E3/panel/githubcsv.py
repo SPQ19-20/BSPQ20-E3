@@ -15,6 +15,13 @@ previous_url = None
 connect('SoftwareP', host='127.0.0.1', port=27017)
 
 def sendEmails():
+    """
+    -----------
+    Description
+    -----------
+    Gets the recipients from the database and sends the notification emails
+
+    """    
     users = Auth_user.objects()
     recipients = []
     if users.count()!= 0:
@@ -23,6 +30,7 @@ def sendEmails():
                 recipients.append(u.email)
         if len(recipients)!=0 :
             send(recipients)
+    get_logger().info(f"Function Complete!")
 
 
 def get_csv_from_github(url="default", date=None):

@@ -5,7 +5,7 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from .logs import get_logger
-
+"""Simple module for email sending"""
 def send(recipients, body="New Information available on the website!!!"):
 	"""
     Description
