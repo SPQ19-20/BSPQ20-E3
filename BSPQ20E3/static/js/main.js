@@ -78,7 +78,7 @@ function setMeta(content){
 }
 function setLightmode(){
     replaceClassList(["darkButton", "filtersButton", "loginButton"], "btn-secondary", "btn-primary");
-    replaceClassList(["indexContent", "mainTable"], "bg-dark", "bg-light"); 
+    replaceClassList(["indexContent", "mainTable"], "bg-dark", "bg-light");
 
     document.getElementById("darkButtonText").textContent="Dark mode 🌙";
     replaceClassObject("dataTable", "table-dark", "");
@@ -100,6 +100,7 @@ function setDarkmode(){
     replaceClassObject("superiorNav", "bg-dark-md", "bg-dark");
     replaceClassObject("footer", "bg-light", "bg-dark");
     replaceClassObject("main", "bg-light", "");
+
     setMeta("dark");
     root.dataset.theme = 'dark';
 }

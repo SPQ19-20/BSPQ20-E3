@@ -63,7 +63,7 @@
      overflow-x: hidden;
      padding-top: 56px;
      background: var(--bg, #FFFFFF);
-     color: var(--c, #323232);
+     color: var(--c, #212529);
      transition: .5s background, .1s color;
 }
  h1, h2, h3, h4, h5, h6 {
@@ -73,7 +73,7 @@
      padding: 0;
 }
  [data-theme="dark"] {
-     --bg: #323232;
+     --bg: #212529;
      --c: #e6e6e6;
      --navactive: #FFFFFF;
      --superiornav: #212529;
