@@ -10,6 +10,6 @@ class UserSerializer(serializers.ModelSerializer):
 	:returns: Users list
 	:rtype: Json
 	'''
-    class Meta:
-        model = User
-        fields = ('id', 'username', 'email', 'last_login')
+	class Meta:
+		model = User
+		fields = ('id', 'username', 'email', 'last_login')
