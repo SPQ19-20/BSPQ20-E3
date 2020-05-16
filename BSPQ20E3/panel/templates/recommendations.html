@@ -29,7 +29,9 @@
         <div class="box wow fadeInLeft">
           <div class="row">
             <div class="col-4">
-              <img src="{% static 'assets/img/whatis.jpg' %}" class="img-fluid">
+              <video autoplay loop muted playsinline width="100%" height="100%">
+                <source src="{% static 'assets/img/whatis.webm' %}" type="video/webm">
+              </video>
             </div>
             <div class="col-8">
               <h4 class="title"><a >{% trans "What are they?" %}</a></h4>
@@ -43,77 +45,90 @@
       <div id="where" class="row">
         <div class="box wow fadeInLeft">
           <div class="row">
-            <div class="col-2">
-              <img src="{% static 'assets/img/from.gif' %}" style="height: 150px; width: auto;">
+            <div class="col-4">
+              <video autoplay loop muted playsinline width="100%" height="100%">
+                <source src="{% static 'assets/img/from.webm' %}" type="video/webm">
+              </video>
             </div>
-            <div class="col-10">
+
+            <div class="col-8">
               <h4 class="title"><a >{% trans "Where does the virus come from?" %}</a></h4>
               <p class="description">{% trans "While animals are believed to be the original source, the virus spread is now from person to person (human-to-human transmission). There is not enough epidemiological information at this time to determine how easily this virus spreads between people, but it is currently estimated that, on average, one infected person will infect between two and three other people. " %}</p>
             </div>
-
           </div>
         </div>
       </div>
-      <div id="how" class="row">
-        <div class="box wow fadeInRight">
-          <div class="row">
 
-            <div class="col-4">
-              <img src="{% static 'assets/img/whatis.jpg' %}" class="img-fluid" height="100">
-            </div>
-            <div class="col-8">
-              <h4 class="title"><a >{% trans "How is the virus transmitted?" %}</a></h4>
-              <p class="description">{% trans "The virus seems to be transmitted mainly via small respiratory droplets through sneezing, coughing, or when people interact with each other for some time in close proximity (usually less than one metre). These droplets can then be inhaled, or they can land on surfaces that others may come into contact with, who can then get infected when they touch their nose, mouth or eyes. The virus can survive on different surfaces from several hours (copper, cardboard) up to a few days (plastic and stainless steel). However, the amount of viable virus declines over time and may not always be present in sufficient numbers to cause infection." %} </p></div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="box wow fadeInLeft">
+        <div id="how" class="row">
+          <div class="box wow fadeInRight">
             <div class="row">
 
               <div class="col-4">
-                <img src="{% static 'assets/img/whatis.jpg' %}" class="img-fluid">
+                <video autoplay loop muted playsinline width="100%" height="100%">
+                <source src="{% static 'assets/img/how.webm' %}" type="video/webm">
+              </video>
               </div>
               <div class="col-8">
-                <h4 class="title"><a >{% trans "When does the transmission occur?" %}</a></h4>
-                <p class="description">{% trans "The incubation period for COVID-19 (i.e. the time between exposure to the virus and onset of symptoms) is currently estimated to be between one and 14 days." %}</p>
-                <br>
-                <p class="description">{% trans "We know that the virus can be transmitted when people who are infected show symptoms such as coughing. There is also some evidence suggesting that transmission can occur from a person that is infected even two days before showing symptoms; however, uncertainties remain about the effect of transmission by asymptomatic persons." %}</p>
-              </div>
+                <h4 class="title"><a >{% trans "How is the virus transmitted?" %}</a></h4>
+                <p class="description">{% trans "The virus seems to be transmitted mainly via small respiratory droplets through sneezing, coughing, or when people interact with each other for some time in close proximity (usually less than one metre). These droplets can then be inhaled, or they can land on surfaces that others may come into contact with, who can then get infected when they touch their nose, mouth or eyes. The virus can survive on different surfaces from several hours (copper, cardboard) up to a few days (plastic and stainless steel). However, the amount of viable virus declines over time and may not always be present in sufficient numbers to cause infection." %} </p></div>
 
+              </div>
             </div>
           </div>
-        </div>
 
+          <div class="row">
+            <div class="box wow fadeInLeft">
+              <div class="row">
 
+                <div class="col-4">
+                  <video autoplay loop muted playsinline width="100%" height="100%">
+                    <source src="{% static 'assets/img/when.webm' %}" type="video/webm">
+                  </video>
+                </div>
+                <div class="col-8">
+                  <h4 class="title"><a >{% trans "When does the transmission occur?" %}</a></h4>
+                  <p class="description">{% trans "The incubation period for COVID-19 (i.e. the time between exposure to the virus and onset of symptoms) is currently estimated to be between one and 14 days." %}</p>
+                  <br>
+                  <p class="description">{% trans "We know that the virus can be transmitted when people who are infected show symptoms such as coughing. There is also some evidence suggesting that transmission can occur from a person that is infected even two days before showing symptoms; however, uncertainties remain about the effect of transmission by asymptomatic persons." %}</p>
+                </div>
 
+              </div>
+            </div>
+          </div>
 
-        <div class="row">
-          <div class="box wow fadeInRight" data-wow-delay="0.2s">
-            <div class="icon"><i class="fa fa-map"></i></div>
-            <h4 class="title"><a >{% trans "What are the symptoms?" %}</a></h4>
+          <div class="row">
+            <div class="box wow fadeInRight">
+              <div class="row">
 
-            <ul>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Fever" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Cough" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Sore throat" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "General weakness" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Fatigue and muscular pain" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Severe pneumonia" %}</li>
-              <li><i class="ion-android-checkmark-circle"></i> {% trans "Acute respiratory distress syndrome" %}</li>
-            </ul>
+                <div class="col-4">
+                  <video autoplay loop muted playsinline width="100%" height="100%">
+                    <source src="{% static 'assets/img/synt.webm' %}" type="video/webm">
+                  </video>
+                </div>
+                <div class="col-8">
+                  <h4 class="title"><a >{% trans "What are the symptoms?" %}</a></h4>
+
+                  <ul>
+                    <li><i class="ion-android-checkmark-circle"></i> {% trans "Fever" %}</li>
+                    <li><i class="ion-android-checkmark-circle"></i> {% trans "Cough" %}</li>
+                    <li><i class="ion-android-checkmark-circle"></i> {% trans "Sore throat" %}</li>
+                    <li><i class="ion-android-checkmark-circle"></i> {% trans "General weakness" %}</li>
+                    <li><i class="ion-android-checkmark-circle"></i> {% trans "Fatigue and muscular pain" %}</li>
+                    <li><i class="ion-android-checkmark-circle"></i> {% trans "Severe pneumonia" %}</li>
+                    <li><i class="ion-android-checkmark-circle"></i> {% trans "Acute respiratory distress syndrome" %}</li>
+                  </ul>
               <!-- <p class="description">{% trans "Symptoms of COVID-19 vary in severity from having no symptoms at all (being asymptomatic) to having fever, cough, sore throat, general weakness and fatigue and muscular pain and in the most severe cases, severe pneumonia, acute respiratory distress syndrome, sepsis and septic shock, all potentially leading to death. Reports show that clinical deterioration can occur rapidly, often during the second week of disease." %}
               </p> -->
-              <br>
-              <p class="description">{% trans "Recently, anosmia – loss of the sense of smell – (and in some cases the loss of the sense of taste) have been reported as a symptom of a COVID-19 infection. There is already evidence from South Korea, China and Italy that patients with confirmed SARS-CoV-2 infection have developed anosmia/hyposmia, in some cases in the absence of any other symptoms." %}
-              </p>
             </div>
-          </div>
+            <br>
+            <p class="description">{% trans "Recently, anosmia – loss of the sense of smell – (and in some cases the loss of the sense of taste) have been reported as a symptom of a COVID-19 infection. There is already evidence from South Korea, China and Italy that patients with confirmed SARS-CoV-2 infection have developed anosmia/hyposmia, in some cases in the absence of any other symptoms." %}
+            </p>
 
+          </div>
         </div>
-      </section><!-- End Services Section -->
+
+      </div>
+    </section><!-- End Services Section -->
 
 
 
