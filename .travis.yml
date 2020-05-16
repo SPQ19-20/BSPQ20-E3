@@ -13,7 +13,6 @@ services:
 
 # test stuff
 script:
-  - cd BSPQ20E3
   - python manage.py test
 
 # build master branch
