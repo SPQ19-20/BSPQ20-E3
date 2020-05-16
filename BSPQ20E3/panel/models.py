@@ -12,14 +12,14 @@ class Entry(Document):
 
     ...
 
-    Attributes
-    ----------
-    CCAA : str
-        a formatted string to store the CCAA
-    Confirmados : int
-        a formatted integer to store the number of confirmed cases
-    Fecha : str
-        a formatted string to store the Date
+    Attributes:
+    
+       - CCAA : str
+            a formatted string to store the CCAA
+       - Confirmados : int
+            a formatted integer to store the number of confirmed cases
+       - Fecha : str
+            a formatted string to store the Date
     """
     CCAA = StringField()
     Confirmados = IntField(localize=True)
@@ -31,32 +31,32 @@ class Data(Document):
 
     ...
 
-    Attributes
-    ----------
-    FIPS : int
-        a formatted integer to store the Federal Information Processing Standard
-    Admin2 : str
-        a formatted string to store the county
-    Province_State : str
-        a formatted string to store the Province/State
-    CountryRegion : str
-        a formatted string to store the CountryRegion
-    Last_Update : str
-        a formatted string to store the Date
-    Lat : float
-        a formatted float to store the Latitude
-    Long_ : float
-        a formatted float to store the Longitude
-    Confirmed : int
-        a formatted integer to store the number of confirmed cases
-    Deaths : int
-        a formatted integer to store the number of deaths
-    Recovered : int
-        a formatted integer to store the number of recovered cases
-    Active: int
-    	a formatted integer to store the status of the entry
-    Combined_Key: str
-    	a formatted string that helps grouping the information
+    Attributes:
+    
+       - FIPS : int
+            a formatted integer to store the Federal Information Processing Standard
+       - Admin2 : str
+            a formatted string to store the county
+       - Province_State : str
+            a formatted string to store the Province/State
+       - CountryRegion : str
+            a formatted string to store the CountryRegion
+       - Last_Update : str
+            a formatted string to store the Date
+       - Lat : float
+            a formatted float to store the Latitude
+       - Long_ : float
+            a formatted float to store the Longitude
+       - Confirmed : int
+            a formatted integer to store the number of confirmed cases
+       - Deaths : int
+            a formatted integer to store the number of deaths
+       - Recovered : int
+            a formatted integer to store the number of recovered cases
+       - Active: int
+        	a formatted integer to store the status of the entry
+       - Combined_Key: str
+        	a formatted string that helps grouping the information
     """
 	FIPS = IntField(localize=True)
 	Admin2 = StringField()
@@ -78,28 +78,28 @@ class Auth_user(Document):
 
     ...
 
-    Attributes
-    ----------
-    password : str
-        a formatted string to store the user's password
-    last_login : str
-        a formatted string to store the date of the users last login
-    is_superuser : str
-        a formatted string to differ superusers
-    username : str
-        a formatted string to store the user's username
-    first_name : str
-        a formatted string to store the user's first name
-    last_name : str()
-        a formatted string to store the user's last name
-    email : str
-        a formatted string to store the user's email
-    is_staff : str
-       a formatted string to store if the user is staff
-    is_active : bool
-       a formatted boolean to help us know if the user is active
-    date_joined : str
-       a formatted string to store the dete the user joined 
+    Attributes:
+    
+       - password : str
+            a formatted string to store the user's password
+       - last_login : str
+            a formatted string to store the date of the users last login
+       - is_superuser : str
+            a formatted string to differ superusers
+       - username : str
+            a formatted string to store the user's username
+       - first_name : str
+            a formatted string to store the user's first name
+       - last_name : str()
+            a formatted string to store the user's last name
+       - email : str
+            a formatted string to store the user's email
+       - is_staff : str
+           a formatted string to store if the user is staff
+       - is_active : bool
+           a formatted boolean to help us know if the user is active
+       - date_joined : str
+           a formatted string to store the dete the user joined 
     """
 
     #id = IntField()

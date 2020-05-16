@@ -8,6 +8,7 @@ from django.db import models
 
 
 def main():
+    """Django's startup function"""
     loadSerializedCache()
     #print(Cache().STATUS_CHOICES)
 

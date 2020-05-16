@@ -69,6 +69,15 @@
 <dt id="panel.cache.Cache">
 <em class="property">class </em><code class="sig-prename descclassname">panel.cache.</code><code class="sig-name descname">Cache</code><a class="headerlink" href="#panel.cache.Cache" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Singleton patterned object that stores data that is used repeatedly, in order to avoid the time penalty for accessing the database</p>
+<dl class="simple">
+<dt>DATA: queryset</dt><dd><p>Data objects queryset, updated every time data capture is done from githubcsv.py</p>
+</dd>
+<dt>DATE_CHOICES: str list</dt><dd><p>Stores the different dates of all data objects to enable filtering</p>
+</dd>
+<dt>COUNTRY_CHOICES: str list</dt><dd><p>Stores the different countries of all data objects to enable filtering</p>
+</dd>
+</dl>
 <dl class="py attribute">
 <dt id="panel.cache.Cache.instance">
 <code class="sig-name descname">instance</code><em class="property"> = &lt;panel.cache.Cache.__Cache object&gt;</em><a class="headerlink" href="#panel.cache.Cache.instance" title="Permalink to this definition">¶</a></dt>
@@ -83,6 +92,18 @@
 <dt id="panel.filters.DataFilter">
 <em class="property">class </em><code class="sig-prename descclassname">panel.filters.</code><code class="sig-name descname">DataFilter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">queryset</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">prefix</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">strict</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#panel.filters.DataFilter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django_mongoengine_filter.filterset.FilterSet</span></code></p>
+<p>Create the filter form and filter according to its selection</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>req</strong> – The Http Request</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Data Queryset</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Data Queryset</p>
+</dd>
+</dl>
 <dl class="py class">
 <dt id="panel.filters.DataFilter.Meta">
 <em class="property">class </em><code class="sig-name descname">Meta</code><a class="headerlink" href="#panel.filters.DataFilter.Meta" title="Permalink to this definition">¶</a></dt>
@@ -134,6 +155,20 @@
 <dt id="panel.forms.NotificationsForm">
 <em class="property">class </em><code class="sig-prename descclassname">panel.forms.</code><code class="sig-name descname">NotificationsForm</code><span class="sig-paren">(</span><em class="sig-param">data=None</em>, <em class="sig-param">files=None</em>, <em class="sig-param">auto_id='id_%s'</em>, <em class="sig-param">prefix=None</em>, <em class="sig-param">initial=None</em>, <em class="sig-param">error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em class="sig-param">label_suffix=None</em>, <em class="sig-param">empty_permitted=False</em>, <em class="sig-param">field_order=None</em>, <em class="sig-param">use_required_attribute=None</em>, <em class="sig-param">renderer=None</em><span class="sig-paren">)</span><a class="headerlink" href="#panel.forms.NotificationsForm" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Creates the form</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>req</strong> – Serialized JSON</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Defined by forms.Form</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Defined by forms.Form</p>
+</dd>
+</dl>
+<p>This class is not used due to the existing problems 
+for editing data in the database (obsolete or unsupported libraries)</p>
 <dl class="py attribute">
 <dt id="panel.forms.NotificationsForm.base_fields">
 <code class="sig-name descname">base_fields</code><em class="property"> = {'active': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#panel.forms.NotificationsForm.base_fields" title="Permalink to this definition">¶</a></dt>
@@ -201,7 +236,7 @@ default value: see <a class="reference external" href="https://github.com/CSSEGI
 <dl class="py function">
 <dt id="panel.githubcsv.loadSerializedCache">
 <code class="sig-prename descclassname">panel.githubcsv.</code><code class="sig-name descname">loadSerializedCache</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#panel.githubcsv.loadSerializedCache" title="Permalink to this definition">¶</a></dt>
-<dd><p>Gets the data stored in the specified files and store it in the Cache object</p>
+<dd><p>Gets the data stored in the specified files and stores it in the Cache object</p>
 </dd></dl>
 
 <dl class="py function">
@@ -283,28 +318,61 @@ default value: %(levelname)s - %(message)s</p>
 <p>”
 A class used to represent each user</p>
 <p>…</p>
-<dl class="simple">
+<p>Attributes:</p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="simple">
 <dt>password<span class="classifier">str</span></dt><dd><p>a formatted string to store the user’s password</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>last_login<span class="classifier">str</span></dt><dd><p>a formatted string to store the date of the users last login</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>is_superuser<span class="classifier">str</span></dt><dd><p>a formatted string to differ superusers</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>username<span class="classifier">str</span></dt><dd><p>a formatted string to store the user’s username</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>first_name<span class="classifier">str</span></dt><dd><p>a formatted string to store the user’s first name</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>last_name<span class="classifier">str()</span></dt><dd><p>a formatted string to store the user’s last name</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>email<span class="classifier">str</span></dt><dd><p>a formatted string to store the user’s email</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>is_staff<span class="classifier">str</span></dt><dd><p>a formatted string to store if the user is staff</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>is_active<span class="classifier">bool</span></dt><dd><p>a formatted boolean to help us know if the user is active</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>date_joined<span class="classifier">str</span></dt><dd><p>a formatted string to store the dete the user joined</p>
 </dd>
 </dl>
+</li>
+</ul>
+</div></blockquote>
 <dl class="py exception">
 <dt id="panel.models.Auth_user.DoesNotExist">
 <em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#panel.models.Auth_user.DoesNotExist" title="Permalink to this definition">¶</a></dt>
@@ -399,32 +467,71 @@ A class used to represent each user</p>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mongoengine.document.Document</span></code></p>
 <p>A class used to represent each data entry (with more information)</p>
 <p>…</p>
-<dl class="simple">
+<p>Attributes:</p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="simple">
 <dt>FIPS<span class="classifier">int</span></dt><dd><p>a formatted integer to store the Federal Information Processing Standard</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Admin2<span class="classifier">str</span></dt><dd><p>a formatted string to store the county</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Province_State<span class="classifier">str</span></dt><dd><p>a formatted string to store the Province/State</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>CountryRegion<span class="classifier">str</span></dt><dd><p>a formatted string to store the CountryRegion</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Last_Update<span class="classifier">str</span></dt><dd><p>a formatted string to store the Date</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Lat<span class="classifier">float</span></dt><dd><p>a formatted float to store the Latitude</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt><a href="#id1"><span class="problematic" id="id2">Long_</span></a><span class="classifier">float</span></dt><dd><p>a formatted float to store the Longitude</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Confirmed<span class="classifier">int</span></dt><dd><p>a formatted integer to store the number of confirmed cases</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Deaths<span class="classifier">int</span></dt><dd><p>a formatted integer to store the number of deaths</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Recovered<span class="classifier">int</span></dt><dd><p>a formatted integer to store the number of recovered cases</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Active: int</dt><dd><p>a formatted integer to store the status of the entry</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Combined_Key: str</dt><dd><p>a formatted string that helps grouping the information</p>
 </dd>
 </dl>
+</li>
+</ul>
+</div></blockquote>
 <dl class="py attribute">
 <dt id="panel.models.Data.Active">
 <code class="sig-name descname">Active</code><a class="headerlink" href="#panel.models.Data.Active" title="Permalink to this definition">¶</a></dt>
@@ -528,14 +635,26 @@ A class used to represent each user</p>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mongoengine.document.Document</span></code></p>
 <p>A class used to represent an Entry</p>
 <p>…</p>
-<dl class="simple">
+<p>Attributes:</p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="simple">
 <dt>CCAA<span class="classifier">str</span></dt><dd><p>a formatted string to store the CCAA</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Confirmados<span class="classifier">int</span></dt><dd><p>a formatted integer to store the number of confirmed cases</p>
 </dd>
+</dl>
+</li>
+<li><dl class="simple">
 <dt>Fecha<span class="classifier">str</span></dt><dd><p>a formatted string to store the Date</p>
 </dd>
 </dl>
+</li>
+</ul>
+</div></blockquote>
 <dl class="py attribute">
 <dt id="panel.models.Entry.CCAA">
 <code class="sig-name descname">CCAA</code><a class="headerlink" href="#panel.models.Entry.CCAA" title="Permalink to this definition">¶</a></dt>
@@ -798,7 +917,19 @@ return True</p>
 <dl class="py function">
 <dt id="panel.views.livelog">
 <code class="sig-prename descclassname">panel.views.</code><code class="sig-name descname">livelog</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">req</span></em><span class="sig-paren">)</span><a class="headerlink" href="#panel.views.livelog" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Loads the Livelog</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>req</strong> – The Http Request</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Http Response</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Http</p>
+</dd>
+</dl>
+</dd></dl>
 
 </div>
 <div class="section" id="module-panel">

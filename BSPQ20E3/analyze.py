@@ -11,11 +11,11 @@ def test_dat_performance(file_name='perf_file', func=None, test_type=1, *args, *
 
     """
     Description
-    -----------
+    
     Simple function to do basic profiling tasks on functions and dump statistics into a .txt file
 
     Attributes
-    ----------
+    
     file_name: str
       name of the file t dump the profiling stats to
       default value: 'perf_file' + '_{n}', where n is some static constant of the script
