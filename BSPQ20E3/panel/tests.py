@@ -136,8 +136,7 @@ class SenderTest(TestCase):
         rec = ["test@test.test"]
         with self.assertLogs(level='INFO') as contextmanager:
             send(recipients=rec, body="Test")
-            sendEmails()
-        self.assertEqual(contextmanager.output, [f"INFO:root:Email sent!",f"INFO:root:Email sent!",f"INFO:root:Function Complete!"])
+        self.assertEqual(contextmanager.output, [f"INFO:root:Email sent!"])
 
 
 
