@@ -68,39 +68,29 @@ function replaceClassObject(id, remove, add){
 }
 root = document.documentElement;
 
-function setMeta(content){
-    var link = document.createElement('meta');
-    link.setAttribute('name', 'twitter:widgets:theme');
-    link.setAttribute('content', content);
-    
-    document.getElementById('twitterDiv').appendChild(link);
-
-}
 function setLightmode(){
     replaceClassList(["darkButton", "filtersButton", "loginButton"], "btn-secondary", "btn-primary");
-    replaceClassList(["indexContent", "mainTable"], "bg-dark", "bg-light");
+    replaceClassList(["indexContent", "mainTable", "footer"], "bg-dark", "bg-light");
+    replaceClassList(["modalLoginContent", "modalProfileContent"], "bg-dark", "") 
 
     document.getElementById("darkButtonText").textContent="Dark mode 🌙";
     replaceClassObject("dataTable", "table-dark", "");
     replaceClassObject("mainTable", "text-light", "text-dark"); 
     replaceClassObject("superiorNav", "bg-dark", "bg-dark-md");
-    replaceClassObject("footer", "bg-dark", "bg-light");
     replaceClassObject("main", "", "bg-light");
-    setMeta("");
     delete root.dataset.theme;
 }
 
 function setDarkmode(){
     replaceClassList(["darkButton", "filtersButton", "loginButton"], "btn-primary", "btn-secondary");
-    replaceClassList(["indexContent", "mainTable"], "bg-light", "bg-dark")
+    replaceClassList(["indexContent", "mainTable", "footer"], "bg-light", "bg-dark")
+    replaceClassList(["modalLoginContent", "modalProfileContent"], "", "bg-dark")
 
     document.getElementById("darkButtonText").textContent="Light mode ☀️";
     replaceClassObject("dataTable", "", "table-dark");
     replaceClassObject("mainTable", "text-dark", "text-light");
     replaceClassObject("superiorNav", "bg-dark-md", "bg-dark");
-    replaceClassObject("footer", "bg-light", "bg-dark");
     replaceClassObject("main", "bg-light", "");
-
-    setMeta("dark");
+    
     root.dataset.theme = 'dark';
 }

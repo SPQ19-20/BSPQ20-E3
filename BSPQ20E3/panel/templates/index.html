@@ -83,59 +83,59 @@
 					<div class="row mt-4">	
 						<rssapp-wall id="QYzNxIF7L5ejHNEq"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 					</div>
-						
+					
 				</div>
 				<div class="tab-pane fade" id="tab3default">
-						{% include 'recommendations.html' %}
+					{% include 'recommendations.html' %}
 				</div>
 
 				<div class="tab-pane fade" id="tab4default">
-						{% include 'tradingbar.html' %}
-						<div class="container-fluid">
-							<!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div id="tradingview_625c3" style="height: 700px"></div>
-  <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Gráfico</span></a> por TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.widget(
-  {
-  "autosize": true,
-  "symbol": "NASDAQ:AAPL",
-  "interval": "D",
-  "timezone": "Etc/UTC",
-  "theme": "light",
-  "style": "1",
-  "locale": "es",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": false,
-  "allow_symbol_change": true,
-  "container_id": "tradingview_625c3"
-}
-  );
-  </script>
-</div>
-<!-- TradingView Widget END -->
-							
-							
-							<!-- TradingView Widget END -->
-						</div>		
-					</div>
+					{% include 'tradingbar.html' %}
+					<div class="container-fluid">
+						<!-- TradingView Widget BEGIN -->
+						<div class="tradingview-widget-container">
+							<div id="tradingview_625c3" style="height: 700px"></div>
+							<div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Gráfico</span></a> por TradingView</div>
+							<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+							<script type="text/javascript">
+								new TradingView.widget(
+								{
+									"autosize": true,
+									"symbol": "NASDAQ:AAPL",
+									"interval": "D",
+									"timezone": "Etc/UTC",
+									"theme": "light",
+									"style": "1",
+									"locale": "es",
+									"toolbar_bg": "#f1f3f6",
+									"enable_publishing": false,
+									"allow_symbol_change": true,
+									"container_id": "tradingview_625c3"
+								}
+								);
+							</script>
+						</div>
+						<!-- TradingView Widget END -->
+						
+						
+						<!-- TradingView Widget END -->
+					</div>		
 				</div>
 			</div>
 		</div>
-
-		<main>
-
-
-
-		</main>
-		<footer id="footer" class="py-4 bg-light mt-auto">
-			<div class="container-fluid">
-				<div class="d-flex align-items-center justify-content-between small">
-					<div class="text-muted">Copyright &copy; BSPQ20-E3 2020</div>
-				</div>
-			</div>
-		</footer>
 	</div>
-	{% endblock%}
+
+	<main>
+
+
+
+	</main>
+	<footer id="footer" class="py-4 bg-light mt-auto">
+		<div class="container-fluid">
+			<div class="d-flex align-items-center justify-content-between small">
+				<div class="text-muted">Copyright &copy; BSPQ20-E3 2020</div>
+			</div>
+		</div>
+	</footer>
+</div>
+{% endblock%}
