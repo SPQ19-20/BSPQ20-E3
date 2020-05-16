@@ -4,7 +4,8 @@ python:
 
 # install dependencies
 install:
-  - pip install -r requiredlibs.txt
+  - cd BSPQ20E3
+  - python setup.py install
 
 # need mongo first
 services:
@@ -12,7 +13,6 @@ services:
 
 # test stuff
 script:
-  - cd BSPQ20E3
   - python manage.py test
 
 # build master branch
