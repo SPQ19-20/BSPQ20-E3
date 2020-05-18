@@ -25,6 +25,11 @@ python setup.py install
 1.  Start a MongoDB server using mongod command on the cmd
     
 2.  Create a new Database called SoftwareP using any mongo client (or the cmd)
+
+3. Finally you need to migrate the initial tables. For that, you just need to run:
+```
+python manage.py migrate
+```
     
 
 NOTE: There’s no need to create any schema, Django will create a suitable
@@ -39,6 +44,17 @@ Navigate to BSPQ20-E3 folder (the one with manage.py) and enter the following co
 ```
 python manage.py runserver --noreload
 ```
+
+### Testing and coverage
+```
+git clone https://github.com/SPQ19-20/BSPQ20-E3
+```
+Navigate to BSPQ20-E3 folder (the one with manage.py) and enter the following command:
+```
+coverage run --source='.' python manage.py test
+coverage html
+```
+The last command will create an html output with the coverage report of the project.
 
 ## Built With
 * [Django](https://www.djangoproject.com/) - The web framework used
@@ -96,6 +112,24 @@ python manage.py runserver --noreload
    -   tweepy
    
    -   urllib3
+   
+   -   djongo
+   
+   -   locust
+   
+   -   locustio
+   
+   -   coverage
+   
+   -   social-auth-app-django
+   
+   -   social-auth-core
+   
+   -   djangorestframework
+   
+   -   sphinx
+   
+   -   django-mongoengine-filter
 
 ## Authors
 
