@@ -2,12 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
    name='BSPQ20E3',
-   version='2.0',
+   version='3.0',
    description='Software Proccess Project',
-   author='Team 05',
-   #author_email='foomail@foo.com',
+   author='Team 03',
    packages=find_packages(), 
-   #scripts= ['manage.py'], #same as name
    install_requires=[
    	'locust==0.0',
    	'locustio==0.14.5',

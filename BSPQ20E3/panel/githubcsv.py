@@ -170,7 +170,6 @@ def get_updated_csvs(seconds=3600, url="default"):
         dates = []
         for i in Data.objects.distinct(field="Last_Update"):
             yearMonthDay = i.split(" ")[0]
-            print(yearMonthDay)
             dates.append(yearMonthDay)
 
         saveToFile("dates.txt", dates, "&")

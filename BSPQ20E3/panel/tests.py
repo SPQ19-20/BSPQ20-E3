@@ -22,7 +22,6 @@ class DataTestCase(TestCase):
 class IndexViewTest(TestCase):
     @classmethod
     def setUpTestData(cls):
-        # Create 13 authors for pagination tests
         dummy = Data(FIPS=0,Admin2="Test")
         dummy.save()
 
@@ -40,8 +39,7 @@ class IndexViewTest(TestCase):
         self.assertTemplateUsed(response, 'index.html')
         self.assertTemplateUsed(response, 'basewithbar.html')
         self.assertTemplateUsed(response, 'base.html')
-    def test_lists_all_authors(self):
-        # Get second page and confirm it has (exactly) remaining 3 items
+    def test_lists_all_data(self):
         response = self.client.get(reverse('panel:index'))
         self.assertTrue(len(response.context['data']) != 0)
     def tearDown(self):
@@ -51,7 +49,6 @@ class IndexViewTest(TestCase):
 class LivelogViewTest(TestCase):
     @classmethod
     def setUpTestData(cls):
-        # Create 13 authors for pagination tests
         dummy = Data(FIPS=0,Admin2="Test")
         dummy.save()
 
@@ -69,8 +66,7 @@ class LivelogViewTest(TestCase):
         self.assertTemplateUsed(response, 'livelogtest.html')
         self.assertTemplateUsed(response, 'basewithbar.html')
         self.assertTemplateUsed(response, 'base.html')
-    def test_lists_all_authors(self):
-        # Get second page and confirm it has (exactly) remaining 3 items
+    def test_lists_all_data(self):
         response = self.client.get(reverse('panel:livelog'))
         self.assertTrue(len(response.context['data']) != 0)
     def tearDown(self):
