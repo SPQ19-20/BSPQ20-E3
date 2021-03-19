@@ -20,7 +20,7 @@ setup(
 	'Django==2.2.7',
 	'django-bootstrap3==11.1.0',
 	'django-crispy-forms==1.9.0',
-	'djangorestframework==3.11.0',
+	'djangorestframework==3.11.2',
 	'idna==2.9',
 	'mongoengine==0.19.1',
 	'numpy==1.18.2',
