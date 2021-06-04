@@ -17,7 +17,7 @@ setup(
 	'certifi==2019.11.28',
 	'chardet==3.0.4',
 	'dataclasses==0.6',
-	'Django==2.2.7',
+	'Django==2.2.21',
 	'django-bootstrap3==11.1.0',
 	'django-crispy-forms==1.9.0',
 	'djangorestframework==3.11.0',
