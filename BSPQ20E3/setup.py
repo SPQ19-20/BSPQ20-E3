@@ -26,7 +26,7 @@ setup(
 	'numpy==1.18.2',
 	'oauthlib==3.1.0',
 	'pandas==1.0.3',
-	'Pillow==7.0.0',
+	'Pillow==8.3.2',
 	'pymongo==3.10.1',
 	'PySocks==1.7.1',
 	'python-dateutil==2.8.1',
