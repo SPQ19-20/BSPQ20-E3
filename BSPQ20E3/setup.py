@@ -23,7 +23,7 @@ setup(
 	'djangorestframework==3.11.0',
 	'idna==2.9',
 	'mongoengine==0.19.1',
-	'numpy==1.18.2',
+	'numpy==1.22.0',
 	'oauthlib==3.1.0',
 	'pandas==1.0.3',
 	'Pillow==7.0.0',
