@@ -14,7 +14,7 @@ setup(
    	'asgiref==3.2.5',
 	'beautifulsoup4==4.8.2',
 	'bson==0.5.8',
-	'certifi==2019.11.28',
+	'certifi==2022.12.7',
 	'chardet==3.0.4',
 	'dataclasses==0.6',
 	'Django==2.2.7',
